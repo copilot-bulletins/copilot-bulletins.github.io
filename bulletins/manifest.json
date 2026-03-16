@@ -1,0 +1,92 @@
+[
+  {
+    "number": 360,
+    "title": "Copilot Bulletin Biweekly #1 — Du 2 au 16 mars 2026 · Decision-Makers Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/french/biweekly/decision-makers/360.html",
+    "createdAt": "2026-03-16T12:07:21Z",
+    "description": "Ces deux semaines confirment l'ambition de GitHub de transformer Copilot en plateforme d'exécution agentique complète. Le cap des 60 millions de revues de code, le lancement du SDK pour intégrer Copilot dans vos propres applications et le renforcement de l'architecture de sécurité démontrent une maturité qui accélère le retour sur investissement pour les organisations adoptant l'IA à grande échelle."
+  },
+  {
+    "number": 359,
+    "title": "Copilot Bulletin Biweekly #1 — March 2 to March 16, 2026 · Decision-Makers Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/english/biweekly/decision-makers/359.html",
+    "createdAt": "2026-03-16T12:07:14Z",
+    "description": "Over the past two weeks, GitHub Copilot has crossed a clear threshold: from developer productivity tool to enterprise platform. With 60 million code reviews completed, a new SDK for embedding agentic execution into applications, and enterprise-grade security architecture for agentic workflows, the signal is that Copilot is becoming foundational infrastructure — not just an assistant."
+  },
+  {
+    "number": 358,
+    "title": "Copilot Bulletin Biweekly #1 — Del 2 al 16 de marzo de 2026 · Decision-Makers Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/spanish/biweekly/decision-makers/358.html",
+    "createdAt": "2026-03-16T12:07:10Z",
+    "description": "Las últimas dos semanas consolidan la transición de GitHub Copilot de herramienta de asistencia de código a plataforma estratégica de IA. Con 60 millones de revisiones de código realizadas, un SDK para integrar capacidades agénticas en aplicaciones propias y una arquitectura de seguridad diseñada para empresas, GitHub refuerza su posición como infraestructura de IA para el desarrollo de software."
+  },
+  {
+    "number": 357,
+    "title": "Copilot Bulletin Biweekly #1 — Del 2 al 16 de marzo de 2026 · Admins Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/spanish/biweekly/admins/357.html",
+    "createdAt": "2026-03-16T12:06:54Z",
+    "description": "Las últimas dos semanas refuerzan la gobernanza de los agentes de IA. GitHub ha lanzado herramientas para monitorizar sesiones agénticas con filtros avanzados, controlar la aprobación de workflows de Actions, aplicar políticas mediante hooks de agente y gestionar el acceso a nuevos modelos como GPT-5.4. El hilo común: más autonomía para los agentes, más control para el administrador."
+  },
+  {
+    "number": 356,
+    "title": "Copilot Bulletin Biweekly #1 — Del 2 al 16 de marzo de 2026 · Devs Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/spanish/biweekly/devs/356.html",
+    "createdAt": "2026-03-16T12:05:53Z",
+    "description": "Las últimas dos semanas consolidaron la era agéntica de GitHub Copilot. VS Code y JetBrains recibieron mejoras sustanciales en hooks, plugins y gestión de contexto para agentes. GPT-5.4 llegó como nuevo modelo de referencia, el servidor MCP de Figma conecta diseño y código bidireccionalmente, y la CLI ahora permite solicitar revisiones de Copilot sin salir de la terminal."
+  },
+  {
+    "number": 355,
+    "title": "Copilot Bulletin Biweekly #1 — March 2 to March 16, 2026 · Admins Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/english/biweekly/admins/355.html",
+    "createdAt": "2026-03-16T12:05:29Z",
+    "description": "The past two weeks focused on giving administrators stronger control over the expanding agentic ecosystem. From enterprise-wide session monitoring with new filters to repository-level workflow approval settings and agent hooks for policy enforcement, GitHub is building the governance layer admins need to manage AI agents at scale while balancing security with developer velocity."
+  },
+  {
+    "number": 354,
+    "title": "Copilot Bulletin Biweekly #1 — Du 2 au 16 mars 2026 · Admins Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/french/biweekly/admins/354.html",
+    "createdAt": "2026-03-16T12:05:14Z",
+    "description": "Ces deux dernières semaines, GitHub a renforcé le contrôle et la visibilité pour les administrateurs Copilot. Nouveaux filtres de sessions agentiques, paramètre d'approbation des workflows pour le coding agent, activation requise de GPT-5.4, et sélection automatique de modèles respectant les politiques d'entreprise : l'accent est mis sur la gouvernance des capacités IA à l'échelle."
+  },
+  {
+    "number": 353,
+    "title": "Copilot Bulletin Biweekly #1 — March 2 to March 16, 2026 · Devs Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/english/biweekly/devs/353.html",
+    "createdAt": "2026-03-16T12:04:44Z",
+    "description": "The past two weeks mark a turning point in Copilot's agentic capabilities. Both VS Code and JetBrains IDEs shipped major agent upgrades — hooks, plugins, memory sharing, custom agents — while GPT-5.4 landed with stronger multi-step reasoning. Copilot is moving from code assistant to programmable development partner."
+  },
+  {
+    "number": 352,
+    "title": "Copilot Bulletin Biweekly #1 — Du 2 au 16 mars 2026 · Devs Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/french/biweekly/devs/352.html",
+    "createdAt": "2026-03-16T12:04:11Z",
+    "description": "Ces deux dernières semaines, GitHub Copilot a considérablement renforcé ses capacités agentiques dans les IDE. VS Code et JetBrains reçoivent des mises à jour majeures qui rendent les agents plus autonomes, personnalisables et contextuellement intelligents. En parallèle, l'arrivée de GPT-5.4 et de nouvelles intégrations MCP élargissent le champ d'action de Copilot au-delà du code."
+  }
+]
