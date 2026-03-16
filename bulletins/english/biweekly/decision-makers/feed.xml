@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GitHub Copilot Bulletin — English / Biweekly / Decision makers</title>
-    <link>https://copilot-bulletins.github.io/#lang=english\&period=biweekly\&audience=decision-makers</link>
+    <link>https://copilot-bulletins.github.io/#lang=english&amp;period=biweekly&amp;audience=decision-makers</link>
     <description>Latest GitHub Copilot updates for Decision makers (Biweekly, English)</description>
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>

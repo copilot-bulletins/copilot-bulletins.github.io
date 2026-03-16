@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GitHub Copilot Bulletin — Spanish / Biweekly / Devs</title>
-    <link>https://copilot-bulletins.github.io/#lang=spanish\&period=biweekly\&audience=devs</link>
+    <link>https://copilot-bulletins.github.io/#lang=spanish&amp;period=biweekly&amp;audience=devs</link>
     <description>Latest GitHub Copilot updates for Devs (Biweekly, Spanish)</description>
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
