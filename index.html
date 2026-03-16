@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>GitHub Copilot Bulletin</title>
+  <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f6f8fa;
+      --bg-white: #ffffff;
+      --border: #d0d7de;
+      --border-light: #e8ebef;
+      --text: #1f2328;
+      --text-secondary: #656d76;
+      --text-muted: #8b949e;
+      --accent: #0969da;
+      --accent-hover: #0550ae;
+      --header-bg: #24292f;
+      --radius: 8px;
+    }
+    [data-theme="dark"] {
+      --bg: #0d1117;
+      --bg-white: #161b22;
+      --border: #30363d;
+      --border-light: #21262d;
+      --text: #e6edf3;
+      --text-secondary: #8b949e;
+      --text-muted: #6e7681;
+      --accent: #58a6ff;
+      --accent-hover: #79c0ff;
+      --header-bg: #010409;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Mona Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+    /* ── Top bar (browse view only) ────────────────────── */
+    .topbar {
+      background: var(--header-bg);
+      padding: 0 24px;
+      height: 48px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .browse-view.active ~ .topbar-trigger { display: none; }
+    .topbar.visible { display: flex; }
+    .topbar-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .topbar-logo:hover { color: #fff; text-decoration: none; }
+    .topbar-logo svg { width: 24px; height: 24px; fill: #fff; }
+    .topbar-right a {
+      color: rgba(255,255,255,0.7);
+      font-size: 13px;
+      text-decoration: none;
+    }
+    .topbar-right a:hover { color: #fff; text-decoration: underline; }
+    .topbar-right { display: flex; align-items: center; gap: 12px; }
+
+    /* Theme toggle */
+    .theme-toggle {
+      background: none; border: 1px solid rgba(255,255,255,0.2); border-radius: 6px;
+      color: #fff; cursor: pointer; padding: 5px 7px;
+      display: flex; align-items: center; justify-content: center;
+      transition: border-color 0.15s;
+    }
+    .theme-toggle:hover { border-color: rgba(255,255,255,0.5); }
+    .theme-toggle svg { width: 16px; height: 16px; fill: currentColor; }
+    .theme-toggle .icon-moon { display: none; }
+    [data-theme="dark"] .theme-toggle .icon-sun { display: none; }
+    [data-theme="dark"] .theme-toggle .icon-moon { display: block; }
+
+    /* Floating toggle for bulletin view */
+    .theme-toggle-float {
+      position: fixed; top: 12px; right: 16px; z-index: 100;
+      background: var(--bg-white); border: 1px solid var(--border); border-radius: 8px;
+      color: var(--text-secondary); cursor: pointer; padding: 7px 9px;
+      display: none; align-items: center; justify-content: center;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .theme-toggle-float:hover { border-color: var(--accent); color: var(--accent); }
+    .theme-toggle-float svg { width: 16px; height: 16px; fill: currentColor; }
+    .theme-toggle-float .icon-moon { display: none; }
+    [data-theme="dark"] .theme-toggle-float .icon-sun { display: none; }
+    [data-theme="dark"] .theme-toggle-float .icon-moon { display: block; }
+    .theme-toggle-float.visible { display: flex; }
+
+    /* ── Bulletin View (single bulletin) ─────────────────── */
+    .bulletin-view { display: none; }
+    .bulletin-view.active { display: block; }
+
+    .bulletin-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 0 24px;
+    }
+
+    .meta-tag {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 20px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+    }
+
+    .bulletin-content {
+      background: var(--bg-white);
+      position: relative;
+    }
+    .bulletin-content iframe {
+      width: 100%;
+      border: none;
+      display: block;
+      overflow: hidden;
+      opacity: 0;
+      pointer-events: none;
+      position: absolute;
+      inset: 0;
+      transition: opacity 0.16s ease;
+      background: var(--bg-white);
+    }
+    .bulletin-content iframe.active {
+      opacity: 1;
+      pointer-events: auto;
+      position: relative;
+    }
+
+    .bulletin-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 800px;
+      margin: 16px auto 14px;
+      padding: 0;
+      gap: 16px;
+    }
+    .bulletin-nav.top { margin: 18px auto 16px; }
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 9px 18px;
+      min-width: 182px;
+      border: none;
+      border-radius: var(--radius);
+      background: transparent;
+      color: var(--text-secondary);
+      font-size: 14px;
+      font-weight: 550;
+      font-family: inherit;
+      cursor: pointer;
+      transition: color 0.15s ease;
+      text-decoration: none;
+    }
+    .nav-btn:hover { background: transparent; color: #8b5cf6; text-decoration: none; }
+    .nav-btn:disabled, .nav-btn.disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+    .nav-btn svg { width: 14px; height: 14px; fill: currentColor; }
+    .nav-center {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    .nav-center a {
+      font-weight: 550;
+      color: var(--text-secondary);
+      transition: color 0.15s ease;
+    }
+    .nav-center a:hover { color: #8b5cf6; }
+
+    .nav-btn-label {
+      white-space: nowrap;
+    }
+
+    /* ── Browse View (all bulletins) ──────────────────────── */
+    .browse-view { display: none; }
+    .browse-view.active { display: block; }
+
+    .browse-container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 40px 24px 64px;
+    }
+    .browse-header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    .browse-header h1 {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 8px;
+    }
+    .browse-header p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      max-width: 480px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+
+    .browse-filters {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      background: var(--bg-white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 4px;
+    }
+    .filter-btn {
+      padding: 6px 14px;
+      border: none;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: 500;
+      font-family: inherit;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .filter-btn:hover { background: var(--bg); color: var(--text); }
+    .filter-btn.active { background: var(--accent); color: #fff; }
+    [data-theme="dark"] .filter-btn.active { color: #0d1117; }
+
+    .bulletin-list { display: flex; flex-direction: column; gap: 8px; }
+
+    .bulletin-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 20px;
+      background: var(--bg-white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.15s;
+      gap: 16px;
+    }
+    .bulletin-item:hover {
+      border-color: var(--accent);
+      box-shadow: 0 1px 4px rgba(9, 105, 218, 0.1);
+      text-decoration: none;
+    }
+    .bulletin-item-title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+    .bulletin-item-tags {
+      display: flex;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+    .bulletin-item .meta-tag { font-size: 11px; }
+
+    .no-results {
+      text-align: center;
+      padding: 48px 24px;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    /* ── Footer ──────────────────────────────────────────── */
+    .site-footer {
+      border-top: 1px solid var(--border);
+      padding: 20px 24px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-muted);
+      background: var(--bg-white);
+    }
+
+    /* ── Responsive ──────────────────────────────────────── */
+    @media (max-width: 640px) {
+      .bulletin-container { padding: 0 0 24px; }
+      .bulletin-nav { flex-direction: row; flex-wrap: wrap; gap: 8px; padding: 0; }
+      .nav-btn { flex: 1; min-width: 0; justify-content: center; }
+      .nav-center { width: 100%; text-align: center; order: 3; }
+      .browse-container { padding: 24px 12px 48px; }
+      .browse-header h1 { font-size: 22px; }
+      .browse-filters { gap: 8px; }
+      .bulletin-item { flex-direction: column; align-items: flex-start; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating theme toggle for bulletin view -->
+  <button class="theme-toggle-float" id="theme-toggle-float" aria-label="Toggle theme">
+    <svg class="icon-sun" viewBox="0 0 24 24"><path d="M12 17.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Zm0 1.5a7 7 0 1 1 0-14 7 7 0 0 1 0 14Zm0-19.5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 12-.5ZM12 21a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 12 21ZM4.22 4.22a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 0 1-1.06 1.06L4.22 5.28a.75.75 0 0 1 0-1.06Zm13.44 13.44a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 0 1-1.06 1.06l-1.06-1.06a.75.75 0 0 1 0-1.06ZM1.75 11.25a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Zm19 0a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5ZM5.28 18.72a.75.75 0 0 1 0 1.06l-1.06 1.06a.75.75 0 0 1-1.06-1.06l1.06-1.06a.75.75 0 0 1 1.06 0ZM18.72 5.28a.75.75 0 0 1 0 1.06l-1.06 1.06a.75.75 0 0 1-1.06-1.06l1.06-1.06a.75.75 0 0 1 1.06 0Z"/></svg>
+    <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21.53 15.93c-.16-.27-.61-.69-1.73-.49a8.46 8.46 0 0 1-1.88.13 8.409 8.409 0 0 1-5.91-2.82 8.068 8.068 0 0 1-1.44-8.66c.44-1.01.13-1.54-.09-1.76s-.77-.55-1.83-.11a10.318 10.318 0 0 0-6.32 10.21 10.475 10.475 0 0 0 7.04 8.99 10 10 0 0 0 2.89.55c.16.01.32.02.48.02a10.5 10.5 0 0 0 8.47-4.27c.67-.93.49-1.52.32-1.79Z"/></svg>
+  </button>
+
+  <!-- Top bar -->
+  <nav class="topbar">
+    <a class="topbar-logo" href="#" id="home-link">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.245 5.364c1.322 1.36 1.877 3.216 2.11 5.817.622 0 1.2.135 1.592.654l.73.964c.21.278.323.61.323.955v2.62c0 .339-.173.669-.453.868C20.239 19.602 16.157 21.5 12 21.5c-4.6 0-9.205-2.583-11.547-4.258-.28-.2-.452-.53-.453-.868v-2.62c0-.345.113-.679.321-.956l.73-.963c.392-.517.974-.654 1.593-.654l.029-.297c.25-2.446.81-4.213 2.082-5.52 2.461-2.54 5.71-2.851 7.146-2.864h.198c1.436.013 4.685.323 7.146 2.864zm-7.244 4.328c-.284 0-.613.016-.962.05-.123.447-.305.85-.57 1.108-1.05 1.023-2.316 1.18-2.994 1.18-.638 0-1.306-.13-1.851-.464-.516.165-1.012.403-1.044.996a65.882 65.882 0 00-.063 2.884l-.002.48c-.002.563-.005 1.126-.013 1.69.002.326.204.63.51.765 2.482 1.102 4.83 1.657 6.99 1.657 2.156 0 4.504-.555 6.985-1.657a.854.854 0 00.51-.766c.03-1.682.006-3.372-.076-5.053-.031-.596-.528-.83-1.046-.996-.546.333-1.212.464-1.85.464-.677 0-1.942-.157-2.993-1.18-.266-.258-.447-.661-.57-1.108-.32-.032-.64-.049-.96-.05zm-2.525 4.013c.539 0 .976.426.976.95v1.753c0 .525-.437.95-.976.95a.964.964 0 01-.976-.95v-1.752c0-.525.437-.951.976-.951zm5 0c.539 0 .976.426.976.95v1.753c0 .525-.437.95-.976.95a.964.964 0 01-.976-.95v-1.752c0-.525.437-.951.976-.951zM7.635 5.087c-1.05.102-1.935.438-2.385.906-.975 1.037-.765 3.668-.21 4.224.405.394 1.17.657 1.995.657h.09c.649-.013 1.785-.176 2.73-1.11.435-.41.705-1.433.675-2.47-.03-.834-.27-1.52-.63-1.813-.39-.336-1.275-.482-2.265-.394zm6.465.394c-.36.292-.6.98-.63 1.813-.03 1.037.24 2.06.675 2.47.968.957 2.136 1.104 2.776 1.11h.044c.825 0 1.59-.263 1.995-.657.555-.556.765-3.187-.21-4.224-.45-.468-1.335-.804-2.385-.906-.99-.088-1.875.058-2.265.394zM12 7.615c-.24 0-.525.015-.84.044.03.16.045.336.06.526l-.001.159a2.94 2.94 0 01-.014.25c.225-.022.425-.027.612-.028h.366c.187 0 .387.006.612.028-.015-.146-.015-.277-.015-.409.015-.19.03-.365.06-.526a9.29 9.29 0 00-.84-.044z"/></svg>
+      <span>GitHub Copilot Bulletin</span>
+    </a>
+    <span class="topbar-right">
+      <a href="#browse" id="browse-link">View all bulletins</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24"><path d="M12 17.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Zm0 1.5a7 7 0 1 1 0-14 7 7 0 0 1 0 14Zm0-19.5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 12-.5ZM12 21a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 12 21ZM4.22 4.22a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 0 1-1.06 1.06L4.22 5.28a.75.75 0 0 1 0-1.06Zm13.44 13.44a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 0 1-1.06 1.06l-1.06-1.06a.75.75 0 0 1 0-1.06ZM1.75 11.25a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Zm19 0a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5ZM5.28 18.72a.75.75 0 0 1 0 1.06l-1.06 1.06a.75.75 0 0 1-1.06-1.06l1.06-1.06a.75.75 0 0 1 1.06 0ZM18.72 5.28a.75.75 0 0 1 0 1.06l-1.06 1.06a.75.75 0 0 1-1.06-1.06l1.06-1.06a.75.75 0 0 1 1.06 0Z"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21.53 15.93c-.16-.27-.61-.69-1.73-.49a8.46 8.46 0 0 1-1.88.13 8.409 8.409 0 0 1-5.91-2.82 8.068 8.068 0 0 1-1.44-8.66c.44-1.01.13-1.54-.09-1.76s-.77-.55-1.83-.11a10.318 10.318 0 0 0-6.32 10.21 10.475 10.475 0 0 0 7.04 8.99 10 10 0 0 0 2.89.55c.16.01.32.02.48.02a10.5 10.5 0 0 0 8.47-4.27c.67-.93.49-1.52.32-1.79Z"/></svg>
+      </button>
+    </span>
+  </nav>
+
+  <!-- ═══════ BULLETIN VIEW ═══════ -->
+  <div class="bulletin-view" id="bulletin-view">
+    <div class="bulletin-nav top">
+        <a class="nav-btn disabled" id="nav-prev-top" href="#">
+          <svg viewBox="0 0 16 16"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06Z"/></svg>
+          <span class="nav-btn-label">Previous</span>
+        </a>
+        <span class="nav-center"><a href="#browse">View all bulletins</a></span>
+        <a class="nav-btn disabled" id="nav-next-top" href="#">
+          <span class="nav-btn-label">Next</span>
+          <svg viewBox="0 0 16 16"><path d="M8.22 3.47a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.53a.75.75 0 0 1 0-1.06Z"/></svg>
+        </a>
+    </div>
+
+    <div class="bulletin-container">
+      <div class="bulletin-content">
+        <iframe id="bulletin-frame-a" class="active" title="Bulletin content"></iframe>
+        <iframe id="bulletin-frame-b" title="Bulletin content"></iframe>
+      </div>
+    </div>
+
+    <div class="bulletin-nav">
+        <a class="nav-btn disabled" id="nav-prev" href="#">
+          <svg viewBox="0 0 16 16"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06Z"/></svg>
+          <span class="nav-btn-label">Previous</span>
+        </a>
+        <span class="nav-center"><a href="#browse">View all bulletins</a></span>
+        <a class="nav-btn disabled" id="nav-next" href="#">
+          <span class="nav-btn-label">Next</span>
+          <svg viewBox="0 0 16 16"><path d="M8.22 3.47a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.53a.75.75 0 0 1 0-1.06Z"/></svg>
+        </a>
+    </div>
+  </div>
+
+  <!-- ═══════ BROWSE VIEW ═══════ -->
+  <div class="browse-view" id="browse-view">
+    <div class="browse-container">
+      <div class="browse-header">
+        <h1>All bulletins</h1>
+        <p>Browse GitHub Copilot updates by language, period, and audience.</p>
+      </div>
+
+      <div class="browse-filters">
+        <div class="filter-group" id="fg-language"></div>
+        <div class="filter-group" id="fg-period"></div>
+        <div class="filter-group" id="fg-audience"></div>
+      </div>
+
+      <div class="bulletin-list" id="bulletin-list"></div>
+      <div class="no-results" id="no-results" style="display:none;">No bulletins match this selection.</div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    Powered by <a href="https://github.com/features/copilot">GitHub Copilot</a> & <a href="https://github.github.com/gh-aw/">Agentic Workflows</a> · Built by <a href="https://github.com/ghsioux">@ghsioux</a> 
+  </footer>
+
+  <script>
+    const LABELS = {
+      language: { english: 'English', french: 'Français', spanish: 'Español' },
+      period: { biweekly: 'Biweekly', monthly: 'Monthly', 'monthly-long': 'Monthly (Long)', 'on-demand': 'On-Demand' },
+      audience: { devs: 'Developers', admins: 'Admins', 'decision-makers': 'Decision-Makers' }
+    };
+
+    let manifest = [];
+    let browseFilters = { language: 'english', period: null, audience: null };
+    let activeBulletinFrameId = 'bulletin-frame-a';
+    let bulletinLoadToken = 0;
+
+    // ── Boot ──────────────────────────────────────────────
+    fetch('bulletins/manifest.json')
+      .then(r => r.json())
+      .then(data => {
+        manifest = data.sort((a, b) => b.number - a.number);
+        route();
+      })
+      .catch(() => {
+        document.getElementById('browse-view').classList.add('active');
+        document.getElementById('no-results').style.display = 'block';
+        document.getElementById('no-results').textContent = 'No bulletins available yet. Check back soon.';
+      });
+
+    window.addEventListener('hashchange', route);
+
+    function route() {
+      const hash = location.hash.slice(1); // remove #
+
+      // Hide all views
+      document.getElementById('bulletin-view').classList.remove('active');
+      document.getElementById('browse-view').classList.remove('active');
+
+      if (hash === 'browse' || hash === '') {
+        document.querySelector('.topbar').classList.add('visible');
+        document.getElementById('theme-toggle-float').classList.remove('visible');
+        showBrowse();
+      } else if (hash.startsWith('bulletins/')) {
+        document.querySelector('.topbar').classList.remove('visible');
+        document.getElementById('theme-toggle-float').classList.add('visible');
+        showBulletin(hash);
+      } else {
+        document.querySelector('.topbar').classList.add('visible');
+        document.getElementById('theme-toggle-float').classList.remove('visible');
+        showBrowse();
+      }
+    }
+
+    // Explicit theme CSS for bulletin email content inside iframe.
+    // This avoids the email HTML's own prefers-color-scheme rules overriding
+    // the public viewer on mobile browsers.
+    const LIGHT_EMAIL_CSS = `
+      html[data-theme="light"], body.light-theme { color-scheme: light !important; }
+      body.light-theme, body.light-theme > table { background-color: #ffffff !important; }
+      body.light-theme > table > tbody > tr > td > table { background-color: #ffffff !important; }
+      body.light-theme td[bgcolor="#24292f"] { background-color: #24292f !important; }
+      body.light-theme td.content,
+      body.light-theme td.content p,
+      body.light-theme td.content li,
+      body.light-theme td.content strong,
+      body.light-theme td.content td { color: #1f2328 !important; }
+      body.light-theme td[style*="border-bottom"] p { color: #24292f !important; }
+      body.light-theme h3 { color: #24292f !important; border-bottom-color: #d0d7de !important; }
+      body.light-theme h4 { color: #24292f !important; }
+      body.light-theme td[style*="border-bottom"] { border-bottom-color: #d0d7de !important; }
+      body.light-theme td.content a { color: #0969da !important; }
+      body.light-theme hr { border-top-color: #d0d7de !important; }
+      body.light-theme th { border-color: #d0d7de !important; background-color: #ffffff !important; color: #24292f !important; }
+      body.light-theme td.content td { border-color: #d0d7de !important; color: #1f2328 !important; }
+      body.light-theme code { background-color: #f6f8fa !important; color: #24292f !important; }
+    `;
+
+    // Dark mode CSS for bulletin email content inside iframe
+    const DARK_EMAIL_CSS = `
+      html[data-theme="dark"], body.dark-theme { color-scheme: dark !important; }
+      body.dark-theme, body.dark-theme > table { background-color: #0d1117 !important; }
+      body.dark-theme > table > tbody > tr > td > table { background-color: #161b22 !important; }
+      body.dark-theme td[bgcolor="#24292f"] { background-color: #010409 !important; }
+      body.dark-theme td.content,
+      body.dark-theme td.content p,
+      body.dark-theme td.content li,
+      body.dark-theme td.content strong,
+      body.dark-theme td.content td { color: #e6edf3 !important; }
+      body.dark-theme td[style*="border-bottom"] p { color: #e6edf3 !important; }
+      body.dark-theme h3 { color: #e6edf3 !important; border-bottom-color: #30363d !important; }
+      body.dark-theme h4 { color: #e6edf3 !important; }
+      body.dark-theme td[style*="border-bottom"] { border-bottom-color: #30363d !important; }
+      body.dark-theme td.content a { color: #58a6ff !important; }
+      body.dark-theme hr { border-top-color: #30363d !important; }
+      body.dark-theme th { border-color: #30363d !important; background-color: #161b22 !important; color: #e6edf3 !important; }
+      body.dark-theme td.content td { border-color: #30363d !important; color: #e6edf3 !important; }
+      body.dark-theme code { background-color: #262c36 !important; color: #e6edf3 !important; }
+    `;
+
+    function applyIframeTheme(iframe) {
+      try {
+        const doc = iframe.contentDocument;
+        if (!doc) return;
+        const theme = document.documentElement.getAttribute('data-theme');
+        doc.documentElement.setAttribute('data-theme', theme);
+        doc.documentElement.style.colorScheme = theme;
+        doc.body.style.colorScheme = theme;
+        doc.body.classList.toggle('dark-theme', theme === 'dark');
+        doc.body.classList.toggle('light-theme', theme === 'light');
+
+        const headerTitle = doc.querySelector('td[bgcolor="#24292f"] p');
+        if (headerTitle) {
+          headerTitle.style.setProperty('color', '#ffffff', 'important');
+          headerTitle.querySelectorAll('*').forEach(el => {
+            el.style.setProperty('color', '#ffffff', 'important');
+          });
+        }
+      } catch (e) {}
+    }
+
+    function getBulletinEditionNumber(entry) {
+      const match = entry && entry.title ? entry.title.match(/#(\d+)\b/) : null;
+      return match ? match[1] : null;
+    }
+
+    function getActiveBulletinFrame() {
+      return document.getElementById(activeBulletinFrameId);
+    }
+
+    function getInactiveBulletinFrame() {
+      return document.getElementById(activeBulletinFrameId === 'bulletin-frame-a' ? 'bulletin-frame-b' : 'bulletin-frame-a');
+    }
+
+    function finalizeBulletinFrameLoad(iframe) {
+      const doc = iframe.contentDocument;
+      const style = doc.createElement('style');
+      style.textContent = `
+        body { background: #fff !important; }
+        body > table { background: #fff !important; }
+        body > table > tbody > tr:first-child { display: none !important; }
+        body > table > tbody > tr > td { padding: 0 !important; }
+        table[width="720"] { border: 1px solid #a78bfa !important; border-radius: 8px !important; max-width: 100% !important; width: 100% !important; box-shadow: 0 0 12px rgba(167,139,250,0.12) !important; }
+        table[width="720"] td { border-bottom: none !important; }
+        table[width="720"] td[style*="padding"] { padding-left: 16px !important; padding-right: 16px !important; }
+        h3 { border-bottom: none !important; }
+        img { max-width: 100% !important; height: auto !important; }
+        a { word-break: break-word !important; }
+        * { max-width: 100% !important; box-sizing: border-box !important; }
+        code { word-break: break-all !important; }
+        ${LIGHT_EMAIL_CSS}
+        ${DARK_EMAIL_CSS}
+        body.dark-theme { background: #161b22 !important; }
+        body.dark-theme > table { background: #161b22 !important; }
+      `;
+      doc.head.appendChild(style);
+
+      const base = doc.createElement('base');
+      base.target = '_blank';
+      base.rel = 'noopener noreferrer';
+      doc.head.appendChild(base);
+
+      applyIframeTheme(iframe);
+
+      doc.querySelectorAll('table[width]').forEach(t => t.removeAttribute('width'));
+      doc.querySelectorAll('[style*="width:720"], [style*="width: 720"]').forEach(el => {
+        el.style.width = '100%';
+        el.style.maxWidth = '100%';
+      });
+
+      doc.body.style.overflow = 'hidden';
+      doc.documentElement.style.overflow = 'hidden';
+
+      function getIframeHeight() {
+        const body = doc.body;
+        const root = doc.documentElement;
+        return Math.max(
+          body ? body.scrollHeight : 0,
+          body ? body.offsetHeight : 0,
+          body ? body.clientHeight : 0,
+          root ? root.scrollHeight : 0,
+          root ? root.offsetHeight : 0,
+          root ? root.clientHeight : 0
+        );
+      }
+
+      function resizeIframe() {
+        iframe.style.height = '0px';
+        iframe.style.height = getIframeHeight() + 'px';
+      }
+
+      requestAnimationFrame(() => requestAnimationFrame(resizeIframe));
+      doc.querySelectorAll('img').forEach(img => {
+        if (!img.complete) img.addEventListener('load', resizeIframe);
+      });
+      if (doc.fonts && doc.fonts.ready) {
+        doc.fonts.ready.then(resizeIframe).catch(() => {});
+      }
+      setTimeout(resizeIframe, 300);
+      setTimeout(resizeIframe, 1000);
+
+      return resizeIframe;
+    }
+
+    function swapToBulletinFrame(nextFrame) {
+      const currentFrame = getActiveBulletinFrame();
+      if (currentFrame && currentFrame !== nextFrame) {
+        currentFrame.classList.remove('active');
+      }
+      nextFrame.classList.add('active');
+      activeBulletinFrameId = nextFrame.id;
+    }
+
+    // ── Bulletin View ─────────────────────────────────────
+    function showBulletin(filePath) {
+      const entry = manifest.find(b => b.file === filePath);
+      if (!entry) { showBrowse(); return; }
+
+      document.getElementById('bulletin-view').classList.add('active');
+      document.getElementById('browse-link').style.display = '';
+
+      // Load bulletin in iframe
+      const loadToken = ++bulletinLoadToken;
+      const currentFrame = getActiveBulletinFrame();
+      const nextFrame = getInactiveBulletinFrame();
+
+      if (currentFrame && currentFrame.style.height) {
+        document.querySelector('.bulletin-content').style.minHeight = currentFrame.style.height;
+      }
+
+      nextFrame.onload = () => {
+        if (loadToken !== bulletinLoadToken) return;
+        try {
+          const resizeIframe = finalizeBulletinFrameLoad(nextFrame);
+          requestAnimationFrame(() => {
+            resizeIframe();
+            swapToBulletinFrame(nextFrame);
+            document.querySelector('.bulletin-content').style.minHeight = nextFrame.style.height || '0px';
+          });
+        } catch (e) {
+          nextFrame.style.height = currentFrame && currentFrame.style.height ? currentFrame.style.height : '2000px';
+          swapToBulletinFrame(nextFrame);
+        }
+      };
+      nextFrame.src = filePath;
+
+      // Prev / Next navigation (same language + period + audience)
+      const siblings = manifest
+        .filter(b => b.language === entry.language && b.period === entry.period && b.audience === entry.audience)
+        .sort((a, b) => b.number - a.number);
+      const idx = siblings.findIndex(b => b.number === entry.number);
+
+      // Update both top and bottom nav bars
+      function updateNavBtn(id, href, disabled, text) {
+        const btn = document.getElementById(id);
+        btn.href = href;
+        if (disabled) btn.classList.add('disabled'); else btn.classList.remove('disabled');
+        btn.querySelector('.nav-btn-label').textContent = text;
+      }
+
+      if (idx < siblings.length - 1) {
+        const previous = siblings[idx + 1];
+        const href = '#' + previous.file;
+        const previousEditionNumber = getBulletinEditionNumber(previous);
+        const label = previousEditionNumber ? 'Previous (#' + previousEditionNumber + ')' : 'Previous';
+        updateNavBtn('nav-prev', href, false, label);
+        updateNavBtn('nav-prev-top', href, false, label);
+      } else {
+        updateNavBtn('nav-prev', '#', true, 'Previous');
+        updateNavBtn('nav-prev-top', '#', true, 'Previous');
+      }
+
+      if (idx > 0) {
+        const next = siblings[idx - 1];
+        const href = '#' + next.file;
+        const nextEditionNumber = getBulletinEditionNumber(next);
+        const label = nextEditionNumber ? 'Next (#' + nextEditionNumber + ')' : 'Next';
+        updateNavBtn('nav-next', href, false, label);
+        updateNavBtn('nav-next-top', href, false, label);
+      } else {
+        updateNavBtn('nav-next', '#', true, 'Next');
+        updateNavBtn('nav-next-top', '#', true, 'Next');
+      }
+
+      // Update top-right link
+      document.getElementById('browse-link').textContent = 'View all bulletins';
+      document.getElementById('browse-link').href = '#browse';
+
+      window.scrollTo(0, 0);
+    }
+
+    // ── Browse View ───────────────────────────────────────
+    function showBrowse() {
+      document.getElementById('browse-view').classList.add('active');
+      document.getElementById('browse-link').style.display = 'none';
+
+      // Build filter groups
+      buildBrowseFilters();
+      renderBulletinList();
+    }
+
+    function buildBrowseFilters() {
+      const languages = [...new Set(manifest.map(b => b.language))].sort();
+      const periods = [...new Set(manifest.map(b => b.period))].sort();
+      const audiences = [...new Set(manifest.map(b => b.audience))].sort();
+
+      if (!browseFilters.language && languages.length) browseFilters.language = languages[0];
+      if (!browseFilters.period && periods.length) browseFilters.period = periods[0];
+      if (!browseFilters.audience && audiences.length) browseFilters.audience = audiences[0];
+
+      buildFilterGroup('fg-language', 'language', languages, LABELS.language);
+      buildFilterGroup('fg-period', 'period', periods, LABELS.period);
+      buildFilterGroup('fg-audience', 'audience', audiences, LABELS.audience);
+    }
+
+    function buildFilterGroup(containerId, key, values, labels) {
+      const container = document.getElementById(containerId);
+      if (container.children.length > 0) {
+        // Already built — just update active states
+        container.querySelectorAll('.filter-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.value === browseFilters[key]);
+        });
+        return;
+      }
+      values.forEach(val => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn' + (browseFilters[key] === val ? ' active' : '');
+        btn.dataset.value = val;
+        btn.textContent = labels[val] || val;
+        btn.addEventListener('click', () => {
+          browseFilters[key] = val;
+          container.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b.dataset.value === val));
+          renderBulletinList();
+        });
+        container.appendChild(btn);
+      });
+    }
+
+    function renderBulletinList() {
+      const listEl = document.getElementById('bulletin-list');
+      const noRes = document.getElementById('no-results');
+
+      const filtered = manifest.filter(b =>
+        b.language === browseFilters.language &&
+        b.period === browseFilters.period &&
+        b.audience === browseFilters.audience
+      );
+
+      listEl.innerHTML = '';
+      noRes.style.display = filtered.length === 0 ? 'block' : 'none';
+
+      filtered.forEach(b => {
+        const a = document.createElement('a');
+        a.className = 'bulletin-item';
+        a.href = '#' + b.file;
+
+        const titleSpan = document.createElement('span');
+        titleSpan.className = 'bulletin-item-title';
+        titleSpan.textContent = b.title;
+        a.appendChild(titleSpan);
+
+        listEl.appendChild(a);
+      });
+    }
+
+    // ── Navigation links ──────────────────────────────────
+    document.getElementById('home-link').addEventListener('click', e => {
+      e.preventDefault();
+      location.hash = 'browse';
+    });
+
+    // ── Theme toggle ──────────────────────────────────────
+    (function() {
+      const root = document.documentElement;
+      const toggle = document.getElementById('theme-toggle');
+      const floatToggle = document.getElementById('theme-toggle-float');
+      const STORAGE_KEY = 'bulletin-theme';
+
+      function getSystemTheme() {
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        ['bulletin-frame-a', 'bulletin-frame-b'].forEach(id => {
+          const iframe = document.getElementById(id);
+          if (iframe && iframe.contentDocument) applyIframeTheme(iframe);
+        });
+      }
+
+      const stored = localStorage.getItem(STORAGE_KEY);
+      applyTheme(stored || getSystemTheme());
+
+      function handleToggle() {
+        const current = root.getAttribute('data-theme');
+        const next = current === 'dark' ? 'light' : 'dark';
+        applyTheme(next);
+        localStorage.setItem(STORAGE_KEY, next);
+      }
+
+      toggle.addEventListener('click', handleToggle);
+      floatToggle.addEventListener('click', handleToggle);
+
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        if (!localStorage.getItem(STORAGE_KEY)) {
+          applyTheme(e.matches ? 'dark' : 'light');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
