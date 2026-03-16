@@ -258,6 +258,21 @@
     .filter-btn:hover { background: var(--bg); color: var(--text); }
     .filter-btn.active { background: var(--accent); color: #fff; }
     [data-theme="dark"] .filter-btn.active { color: #0d1117; }
+    .rss-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--bg-white);
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+    .rss-link:hover { color: #f26522; border-color: #f26522; }
 
     .bulletin-list { display: flex; flex-direction: column; gap: 8px; }
 
@@ -390,6 +405,10 @@
         <div class="filter-group" id="fg-language"></div>
         <div class="filter-group" id="fg-period"></div>
         <div class="filter-group" id="fg-audience"></div>
+        <a class="rss-link" id="rss-link" href="#" target="_blank" rel="noopener" title="Subscribe via RSS">
+          <svg width="14" height="14" viewBox="0 0 448 512" fill="currentColor"><path d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM96 416c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm192 0c0-106-86-192-192-192V176c141.4 0 256 114.6 256 256H288zm96 0c0-158.8-129.2-288-288-288V80c194.4 0 352 157.6 352 352H384z"/></svg>
+          RSS
+        </a>
       </div>
 
       <div class="bulletin-list" id="bulletin-list"></div>
@@ -738,6 +757,12 @@
     function renderBulletinList() {
       const listEl = document.getElementById('bulletin-list');
       const noRes = document.getElementById('no-results');
+
+      // Update RSS link
+      const rssLink = document.getElementById('rss-link');
+      if (rssLink && browseFilters.language && browseFilters.period && browseFilters.audience) {
+        rssLink.href = `bulletins/${browseFilters.language}/${browseFilters.period}/${browseFilters.audience}/feed.xml`;
+      }
 
       const filtered = manifest.filter(b =>
         b.language === browseFilters.language &&
