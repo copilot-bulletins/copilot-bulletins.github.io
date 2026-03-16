@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot Bulletin — French / Biweekly / Decision makers</title>
+    <link>https://copilot-bulletins.github.io/#lang=french\&period=biweekly\&audience=decision-makers</link>
+    <description>Latest GitHub Copilot updates for Decision makers (Biweekly, French)</description>
+    <language>french</language>
+    <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Bulletin Biweekly #1 — Du 2 au 16 mars 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#bulletins/french/biweekly/decision-makers/342.html</link>
+      <description>Ces deux dernières semaines marquent une accélération stratégique de GitHub Copilot sur trois fronts : puissance des modèles avec GPT-5.4, extensibilité de la plateforme avec le SDK Copilot, et gouvernance d'entreprise renforcée. Avec 60 millions de revues de code franchies, l'adoption confirme que l'IA devient un levier opérationnel incontournable pour les organisations.</description>
+      <pubDate>Mon, 16 Mar 2026 11:00:40 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#bulletins/french/biweekly/decision-makers/342.html</guid>
+    </item>
+  </channel>
+</rss>

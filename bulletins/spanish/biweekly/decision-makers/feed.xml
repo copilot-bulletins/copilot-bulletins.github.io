@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot Bulletin — Spanish / Biweekly / Decision makers</title>
+    <link>https://copilot-bulletins.github.io/#lang=spanish\&period=biweekly\&audience=decision-makers</link>
+    <description>Latest GitHub Copilot updates for Decision makers (Biweekly, Spanish)</description>
+    <language>spanish</language>
+    <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Bulletin Biweekly #1 — Del 2 al 16 de marzo de 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#bulletins/spanish/biweekly/decision-makers/341.html</link>
+      <description>Las últimas dos semanas consolidan a GitHub Copilot como plataforma agéntica integral. Con GPT-5.4, revisión de código con arquitectura agéntica, integración con Jira y nuevos controles empresariales, los agentes de IA dejan de ser herramientas aisladas para convertirse en miembros activos del ciclo de desarrollo. La visibilidad y gobernanza acompañan esta expansión.</description>
+      <pubDate>Mon, 16 Mar 2026 10:59:06 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#bulletins/spanish/biweekly/decision-makers/341.html</guid>
+    </item>
+  </channel>
+</rss>

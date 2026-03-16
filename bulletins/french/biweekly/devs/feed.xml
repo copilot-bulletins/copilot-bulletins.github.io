@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot Bulletin — French / Biweekly / Devs</title>
+    <link>https://copilot-bulletins.github.io/#lang=french\&period=biweekly\&audience=devs</link>
+    <description>Latest GitHub Copilot updates for Devs (Biweekly, French)</description>
+    <language>french</language>
+    <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Bulletin Biweekly #1 — Du 2 au 16 mars 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#bulletins/french/biweekly/devs/335.html</link>
+      <description>Les capacités agentiques de GitHub Copilot franchissent un cap sur tous les environnements. VS Code, JetBrains, CLI et le web gagnent simultanément des hooks, des plugins d'agent, l'auto-approbation MCP et un nouveau modèle GPT-5.4. L'assistant de code se transforme en plateforme d'exécution programmable au service du développeur.</description>
+      <pubDate>Mon, 16 Mar 2026 10:56:58 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#bulletins/french/biweekly/devs/335.html</guid>
+    </item>
+  </channel>
+</rss>
