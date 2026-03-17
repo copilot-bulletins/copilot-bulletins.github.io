@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot Bulletin — French / Monthly / Devs</title>
+    <link>https://copilot-bulletins.github.io/#lang=french&amp;period=monthly&amp;audience=devs</link>
+    <description>Latest GitHub Copilot updates for Devs (Monthly, French)</description>
+    <language>french</language>
+    <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Bulletin Monthly #1 — Mars 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#bulletins/french/monthly/devs/362.html</link>
+      <description>Ce mois-ci, GitHub Copilot franchit un cap décisif : l'agent devient programmable. Avec les hooks, les plugins, la mémoire partagée et de nouvelles intégrations (Jira, Figma, CLI), les développeurs peuvent désormais orchestrer des workflows agentiques sur mesure dans VS Code, JetBrains et le web. L'ère du simple assistant de complétion cède la place à celle de l'agent autonome et extensible.</description>
+      <pubDate>Tue, 17 Mar 2026 14:15:27 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#bulletins/french/monthly/devs/362.html</guid>
+    </item>
+  </channel>
+</rss>
