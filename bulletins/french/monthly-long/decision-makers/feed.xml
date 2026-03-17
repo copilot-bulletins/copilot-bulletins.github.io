@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot Bulletin — French / Monthly long / Decision makers</title>
+    <link>https://copilot-bulletins.github.io/#lang=french&amp;period=monthly-long&amp;audience=decision-makers</link>
+    <description>Latest GitHub Copilot updates for Decision makers (Monthly long, French)</description>
+    <language>french</language>
+    <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Bulletin Monthly (Long) #1 — Mars 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#bulletins/french/monthly-long/decision-makers/378.html</link>
+      <description>Ce mois de mars marque un tournant pour GitHub Copilot : le passage de l'assistant IA à l'agent autonome. Le coding agent atteint la disponibilité générale pour tous les plans payants, les IDE intègrent des capacités agentiques avancées, et le SDK Copilot permet d'embarquer cette exécution dans vos propres applications. En parallèle, GitHub renforce la gouvernance avec de nouveaux contrôles d'entreprise et documente publiquement l'architecture de sécurité de ses workflows agentiques. Le cap des 60 millions de revues de code confirme l'adoption massive de la plateforme.</description>
+      <pubDate>Tue, 17 Mar 2026 14:34:08 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#bulletins/french/monthly-long/decision-makers/378.html</guid>
+    </item>
+  </channel>
+</rss>

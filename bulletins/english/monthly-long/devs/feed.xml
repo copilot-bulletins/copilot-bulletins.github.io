@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot Bulletin — English / Monthly long / Devs</title>
+    <link>https://copilot-bulletins.github.io/#lang=english&amp;period=monthly-long&amp;audience=devs</link>
+    <description>Latest GitHub Copilot updates for Devs (Monthly long, English)</description>
+    <language>english</language>
+    <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Bulletin Monthly (Long) #1 — March 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#bulletins/english/monthly-long/devs/371.html</link>
+      <description>This month, GitHub Copilot expanded its reach across every surface developers work on. The Copilot CLI reached general availability, bringing agentic coding to the terminal. Code review shifted to an agentic architecture with deeper repository understanding, while the coding agent gained new integrations and platform support. A wave of new models — GPT-5.4, Claude Sonnet 4.6, Gemini 3.1 Pro — gives developers more choice and capability. The theme is clear: Copilot is becoming a persistent, context-aware collaborator that works wherever you do.</description>
+      <pubDate>Tue, 17 Mar 2026 14:30:36 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#bulletins/english/monthly-long/devs/371.html</guid>
+    </item>
+  </channel>
+</rss>
