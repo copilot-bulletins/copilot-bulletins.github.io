@@ -1,5 +1,95 @@
 [
   {
+    "number": 378,
+    "title": "Copilot Bulletin Monthly (Long) #1 — Mars 2026 · Decision-Makers Edition",
+    "language": "french",
+    "period": "monthly-long",
+    "audience": "decision-makers",
+    "file": "bulletins/french/monthly-long/decision-makers/378.html",
+    "createdAt": "2026-03-17T14:34:08Z",
+    "description": "Ce mois de mars marque un tournant pour GitHub Copilot : le passage de l'assistant IA à l'agent autonome. Le coding agent atteint la disponibilité générale pour tous les plans payants, les IDE intègrent des capacités agentiques avancées, et le SDK Copilot permet d'embarquer cette exécution dans vos propres applications. En parallèle, GitHub renforce la gouvernance avec de nouveaux contrôles d'entreprise et documente publiquement l'architecture de sécurité de ses workflows agentiques. Le cap des 60 millions de revues de code confirme l'adoption massive de la plateforme."
+  },
+  {
+    "number": 377,
+    "title": "Copilot Bulletin Monthly (Long) #1 — Marzo 2026 · Decision-Makers Edition",
+    "language": "spanish",
+    "period": "monthly-long",
+    "audience": "decision-makers",
+    "file": "bulletins/spanish/monthly-long/decision-makers/377.html",
+    "createdAt": "2026-03-17T14:33:43Z",
+    "description": "Este mes marca un punto de inflexión: GitHub Copilot se consolida como una plataforma multiagente con gobernanza empresarial completa. La llegada de Claude y Codex para todos los planes de negocio, junto con los Enterprise AI Controls y Copilot Metrics en disponibilidad general, permite a las organizaciones escalar la adopción de IA con visibilidad total y control operativo. Al mismo tiempo, el SDK de Copilot y la nueva arquitectura de seguridad para flujos agénticos posicionan a GitHub como la infraestructura sobre la que se construye el desarrollo de software del futuro."
+  },
+  {
+    "number": 376,
+    "title": "Copilot Bulletin Monthly (Long) #1 — Marzo 2026 · Admins Edition",
+    "language": "spanish",
+    "period": "monthly-long",
+    "audience": "admins",
+    "file": "bulletins/spanish/monthly-long/admins/376.html",
+    "createdAt": "2026-03-17T14:32:33Z",
+    "description": "Este mes marca un punto de inflexión para la gobernanza de IA en GitHub. Enterprise AI Controls y el agent control plane alcanzaron disponibilidad general, junto con Copilot usage metrics, ofreciendo a los administradores una base sólida de visibilidad y control sobre la actividad agéntica. En paralelo, la plataforma multi-agente se expandió con Claude y Codex para todos los planes de pago, mientras que code review adoptó una arquitectura agéntica. El mensaje para los administradores es claro: las herramientas de gobernanza están listas para escalar la adopción de IA con confianza."
+  },
+  {
+    "number": 375,
+    "title": "Copilot Bulletin Monthly (Long) #1 — March 2026 · Admins Edition",
+    "language": "english",
+    "period": "monthly-long",
+    "audience": "admins",
+    "file": "bulletins/english/monthly-long/admins/375.html",
+    "createdAt": "2026-03-17T14:32:33Z",
+    "description": "March brought a clear message for Copilot administrators: governance tooling is catching up with the pace of agentic innovation. New enterprise session filters, agent hooks for policy enforcement, and a security architecture built on zero-trust principles give admins granular control over how agents operate across their organizations. Meanwhile, Copilot code review crossed 60 million reviews with 12,000+ organizations running automatic reviews — signaling that AI-assisted quality workflows are becoming standard practice. GPT-5.4 and auto model selection both landed this month, each requiring admin enablement through policy settings."
+  },
+  {
+    "number": 374,
+    "title": "Copilot Bulletin Monthly (Long) #1 — Mars 2026 · Devs Edition",
+    "language": "french",
+    "period": "monthly-long",
+    "audience": "devs",
+    "file": "bulletins/french/monthly-long/devs/374.html",
+    "createdAt": "2026-03-17T14:32:02Z",
+    "description": "Ce mois de mars marque un tournant agentique pour GitHub Copilot. L'ensemble des IDE — VS Code, JetBrains, Visual Studio — converge vers un modèle d'agent programmable, extensible via des hooks et des serveurs MCP. En parallèle, l'arrivée de GPT-5.4 et la refonte agentique du code review renforcent la qualité des interactions. Le coding agent, désormais intégré à Jira et capable d'exécuter les workflows Actions sans approbation manuelle, franchit un seuil d'autonomie notable. La tendance est claire : Copilot passe du statut d'assistant contextuel à celui de coéquipier autonome, capable de planifier, exécuter et mémoriser le contexte de vos projets."
+  },
+  {
+    "number": 373,
+    "title": "Copilot Bulletin Monthly (Long) #1 — Mars 2026 · Admins Edition",
+    "language": "french",
+    "period": "monthly-long",
+    "audience": "admins",
+    "file": "bulletins/french/monthly-long/admins/373.html",
+    "createdAt": "2026-03-17T14:31:03Z",
+    "description": "Ce mois-ci, GitHub franchit un cap décisif en matière de gouvernance de l'IA. Les Enterprise AI Controls et le plan de contrôle des agents passent en disponibilité générale, offrant aux administrateurs une visibilité sans précédent sur l'activité agentique. En parallèle, les métriques d'utilisation Copilot atteignent elles aussi la GA avec une couverture élargie. Combinées à l'arrivée de Claude et Codex sur les plans Business, et à la nouvelle architecture agentique de la revue de code, ces avancées renforcent considérablement la capacité des équipes IT à piloter le déploiement Copilot avec contrôle et confiance."
+  },
+  {
+    "number": 372,
+    "title": "Copilot Bulletin Monthly (Long) #1 — March 2026 · Decision-Makers Edition",
+    "language": "english",
+    "period": "monthly-long",
+    "audience": "decision-makers",
+    "file": "bulletins/english/monthly-long/decision-makers/372.html",
+    "createdAt": "2026-03-17T14:30:50Z",
+    "description": "This month, GitHub Copilot crossed a threshold from coding assistant to enterprise platform. The launch of GPT-5.4 and the Copilot SDK signal that agentic AI is no longer confined to the IDE — it's becoming programmable infrastructure embedded across the software lifecycle. Meanwhile, 60 million code reviews and expanded enterprise controls demonstrate that organizations are not just experimenting with AI-assisted development — they're operationalizing it at scale. For decision-makers, the question is shifting from whether to adopt Copilot to how deeply to integrate it."
+  },
+  {
+    "number": 371,
+    "title": "Copilot Bulletin Monthly (Long) #1 — March 2026 · Devs Edition",
+    "language": "english",
+    "period": "monthly-long",
+    "audience": "devs",
+    "file": "bulletins/english/monthly-long/devs/371.html",
+    "createdAt": "2026-03-17T14:30:36Z",
+    "description": "This month, GitHub Copilot expanded its reach across every surface developers work on. The Copilot CLI reached general availability, bringing agentic coding to the terminal. Code review shifted to an agentic architecture with deeper repository understanding, while the coding agent gained new integrations and platform support. A wave of new models — GPT-5.4, Claude Sonnet 4.6, Gemini 3.1 Pro — gives developers more choice and capability. The theme is clear: Copilot is becoming a persistent, context-aware collaborator that works wherever you do."
+  },
+  {
+    "number": 370,
+    "title": "Copilot Bulletin Monthly (Long) #1 — Marzo 2026 · Devs Edition",
+    "language": "spanish",
+    "period": "monthly-long",
+    "audience": "devs",
+    "file": "bulletins/spanish/monthly-long/devs/370.html",
+    "createdAt": "2026-03-17T14:30:02Z",
+    "description": "Marzo marca un punto de inflexión para los desarrolladores que usan GitHub Copilot: la era de los agentes autónomos es oficial. Con el coding agent en disponibilidad general, una nueva arquitectura agéntica en code review, y VS Code y JetBrains recibiendo mejoras masivas en capacidades de agentes, el flujo de trabajo del desarrollador se transforma. A esto se suma GPT-5.4 como nuevo modelo de referencia y Copilot Memory activada por defecto, consolidando un ecosistema donde los agentes no solo ejecutan tareas, sino que aprenden y se adaptan al contexto de cada repositorio."
+  },
+  {
     "number": 369,
     "title": "Copilot Bulletin Monthly #1 — Mars 2026 · Decision-Makers Edition",
     "language": "french",
