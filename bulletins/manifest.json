@@ -1,5 +1,95 @@
 [
   {
+    "number": 369,
+    "title": "Copilot Bulletin Monthly #1 — Mars 2026 · Decision-Makers Edition",
+    "language": "french",
+    "period": "monthly",
+    "audience": "decision-makers",
+    "file": "bulletins/french/monthly/decision-makers/369.html",
+    "createdAt": "2026-03-17T14:19:19Z",
+    "description": "Ce mois-ci, GitHub Copilot franchit un cap stratégique : l'IA ne se contente plus d'assister les développeurs, elle s'intègre comme infrastructure d'exécution à l'échelle de l'entreprise. Du SDK programmable aux 60 millions de revues de code automatisées, la plateforme démontre un passage de l'expérimentation à l'industrialisation, avec les outils de mesure d'impact pour le prouver."
+  },
+  {
+    "number": 368,
+    "title": "Copilot Bulletin Monthly #1 — Marzo 2026 · Decision-Makers Edition",
+    "language": "spanish",
+    "period": "monthly",
+    "audience": "decision-makers",
+    "file": "bulletins/spanish/monthly/decision-makers/368.html",
+    "createdAt": "2026-03-17T14:17:18Z",
+    "description": "Este mes, GitHub Copilot consolida su transición de asistente de código a plataforma de IA empresarial. Con 60 millones de revisiones de código como hito de adopción, el lanzamiento del SDK para integrar ejecución agente en aplicaciones propias, y controles de gobernanza más maduros, la propuesta de valor para las organizaciones se amplía significativamente más allá del editor."
+  },
+  {
+    "number": 367,
+    "title": "Copilot Bulletin Monthly #1 — March 2026 · Admins Edition",
+    "language": "english",
+    "period": "monthly",
+    "audience": "admins",
+    "file": "bulletins/english/monthly/admins/367.html",
+    "createdAt": "2026-03-17T14:16:34Z",
+    "description": "This month, GitHub Copilot's enterprise governance story reached a milestone. AI Controls and the agent control plane are now generally available alongside fully GA usage metrics with expanded telemetry. Combined with new multi-agent support and agentic code review, admins have a comprehensive toolkit to govern, monitor, and scale AI-assisted development across their organizations."
+  },
+  {
+    "number": 366,
+    "title": "Copilot Bulletin Monthly #1 — Mars 2026 · Admins Edition",
+    "language": "french",
+    "period": "monthly",
+    "audience": "admins",
+    "file": "bulletins/french/monthly/admins/366.html",
+    "createdAt": "2026-03-17T14:16:04Z",
+    "description": "Ce mois-ci, GitHub pose les fondations d'une gouvernance IA mature pour les entreprises. Avec la disponibilité générale de l'AI Controls, des métriques d'utilisation et de la code review agentique, les administrateurs disposent désormais d'outils complets pour superviser, mesurer et piloter l'adoption de Copilot à l'échelle de leur organisation."
+  },
+  {
+    "number": 365,
+    "title": "Copilot Bulletin Monthly #1 — Marzo 2026 · Devs Edition",
+    "language": "spanish",
+    "period": "monthly",
+    "audience": "devs",
+    "file": "bulletins/spanish/monthly/devs/365.html",
+    "createdAt": "2026-03-17T14:15:57Z",
+    "description": "Este mes, GitHub Copilot amplía sus capacidades agénticas en todos los frentes: IDE, terminal y revisión de código. Los agentes ya no solo asisten — ahora planifican, ejecutan y aprenden de forma autónoma. Con nuevos modelos, plugins y memorias compartidas, el flujo de desarrollo se transforma en una colaboración continua entre el desarrollador y la IA."
+  },
+  {
+    "number": 364,
+    "title": "Copilot Bulletin Monthly #1 — March 2026 · Decision-Makers Edition",
+    "language": "english",
+    "period": "monthly",
+    "audience": "decision-makers",
+    "file": "bulletins/english/monthly/decision-makers/364.html",
+    "createdAt": "2026-03-17T14:15:31Z",
+    "description": "GitHub Copilot is evolving from a coding assistant into a full agentic platform. This month saw GPT-5.4 go GA, agentic capabilities reach general availability across major IDEs, a new SDK for embedding Copilot into custom applications, and 60 million code reviews — underscoring the scale at which AI is reshaping how software gets built, reviewed, and shipped."
+  },
+  {
+    "number": 363,
+    "title": "Copilot Bulletin Monthly #1 — Marzo 2026 · Admins Edition",
+    "language": "spanish",
+    "period": "monthly",
+    "audience": "admins",
+    "file": "bulletins/spanish/monthly/admins/363.html",
+    "createdAt": "2026-03-17T14:15:27Z",
+    "description": "Este mes, GitHub ha consolidado su oferta de gobernanza empresarial para IA. Con la disponibilidad general de AI Controls, métricas de uso de Copilot y nuevos agentes de codificación, los administradores tienen ahora las herramientas necesarias para supervisar, medir y gobernar la adopción de IA a escala en toda la organización."
+  },
+  {
+    "number": 362,
+    "title": "Copilot Bulletin Monthly #1 — Mars 2026 · Devs Edition",
+    "language": "french",
+    "period": "monthly",
+    "audience": "devs",
+    "file": "bulletins/french/monthly/devs/362.html",
+    "createdAt": "2026-03-17T14:15:27Z",
+    "description": "Ce mois-ci, GitHub Copilot franchit un cap décisif : l'agent devient programmable. Avec les hooks, les plugins, la mémoire partagée et de nouvelles intégrations (Jira, Figma, CLI), les développeurs peuvent désormais orchestrer des workflows agentiques sur mesure dans VS Code, JetBrains et le web. L'ère du simple assistant de complétion cède la place à celle de l'agent autonome et extensible."
+  },
+  {
+    "number": 361,
+    "title": "Copilot Bulletin Monthly #1 — March 2026 · Devs Edition",
+    "language": "english",
+    "period": "monthly",
+    "audience": "devs",
+    "file": "bulletins/english/monthly/devs/361.html",
+    "createdAt": "2026-03-17T14:15:02Z",
+    "description": "This month, GitHub Copilot's agentic capabilities matured across every developer surface — IDEs, CLI, code review, and the coding agent. Agent hooks, shared memory, and a new agentic architecture for code review give developers more programmable control over AI-assisted workflows, while GPT-5.4 and bidirectional MCP integrations expand what agents can accomplish autonomously."
+  },
+  {
     "number": 360,
     "title": "Copilot Bulletin Biweekly #1 — Du 2 au 16 mars 2026 · Decision-Makers Edition",
     "language": "french",
