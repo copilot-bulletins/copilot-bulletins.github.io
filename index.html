@@ -684,8 +684,8 @@
       // Prev / Next navigation (same language + period + audience)
       const siblings = manifest
         .filter(b => b.language === entry.language && b.period === entry.period && b.audience === entry.audience)
-        .sort((a, b) => b.number - a.number);
-      const idx = siblings.findIndex(b => b.number === entry.number);
+        .sort((a, b) => b.edition - a.edition);
+      const idx = siblings.findIndex(b => b.edition === entry.edition);
 
       function updateNavBtn(id, href, disabled, text) {
         const btn = document.getElementById(id);
