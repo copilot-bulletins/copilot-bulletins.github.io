@@ -1,5 +1,93 @@
 [
   {
+    "number": 407,
+    "title": "Copilot Bulletin Biweekly #3 — Del 10 al 24 de marzo de 2026 · Devs Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/spanish/biweekly/devs/3.html",
+    "createdAt": "2026-03-24T09:37:30Z",
+    "description": "Las dos últimas semanas marcaron la maduración del ecosistema agéntico de Copilot: el agente de codificación arranca un 50% más rápido, JetBrains recibe capacidades agénticas completas en GA y la búsqueda semántica de código acelera las tareas en la nube. El catálogo de modelos se amplió con GPT-5.4 mini y Gemini 3.1 Pro, reforzando la flexibilidad del desarrollador.",
+    "edition": 3
+  },
+  {
+    "number": 406,
+    "title": "Copilot Bulletin Biweekly #3 — Du 10 au 24 mars 2026 · Devs Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/french/biweekly/devs/3.html",
+    "createdAt": "2026-03-24T09:36:56Z",
+    "description": "Les deux dernières semaines ont été marquées par une accélération notable de l'agent de codage Copilot : démarrage 50 % plus rapide, recherche sémantique de code, meilleure observabilité des sessions et outils de validation configurables. En parallèle, GPT-5.4 mini passe en disponibilité générale et Gemini 3.1 Pro s'étend à de nouveaux IDEs. L'agent avance vite, et les outils pour le maîtriser aussi.",
+    "edition": 3
+  },
+  {
+    "number": 405,
+    "title": "Copilot Bulletin Biweekly #3 — March 10 to March 24, 2026 · Admins Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/english/biweekly/admins/3.html",
+    "createdAt": "2026-03-24T09:35:28Z",
+    "description": "This fortnight, governance and auditability of AI-assisted development took center stage. GitHub introduced a long-term support (LTS) model commitment, granular admin control over coding agent validation tooling, and improved traceability of agent-authored commits — all signaling a maturing enterprise control plane around Copilot. Admins now have clearer levers to configure, audit, and comply as AI adoption scales.",
+    "edition": 3
+  },
+  {
+    "number": 404,
+    "title": "Copilot Bulletin Biweekly #3 — Du 10 mars au 24 mars 2026 · Decision-Makers Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/french/biweekly/decision-makers/3.html",
+    "createdAt": "2026-03-24T09:35:15Z",
+    "description": "Sur les deux dernières semaines, GitHub a marqué une double accélération : plus de vélocité pour l'agent de code autonome Copilot, et un premier engagement formel de stabilité des modèles IA pour les entreprises. Ces évolutions dessinent une trajectoire claire — Copilot devient un outil de productivité mesurable et un socle fiable pour les politiques internes de sécurité et de conformité.",
+    "edition": 3
+  },
+  {
+    "number": 403,
+    "title": "Copilot Bulletin Biweekly #3 — March 10 to March 24, 2026 · Decision-Makers Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/english/biweekly/decision-makers/3.html",
+    "createdAt": "2026-03-24T09:34:59Z",
+    "description": "Over the past two weeks, GitHub Copilot's autonomous coding capabilities reached a new level of enterprise readiness. The coding agent is now faster, more transparent, and better integrated into compliance workflows — while a landmark long-term support commitment signals that GitHub is building Copilot for organizations with rigorous procurement and security review processes.",
+    "edition": 3
+  },
+  {
+    "number": 402,
+    "title": "Copilot Bulletin Biweekly #3 — Del 10 al 24 de marzo de 2026 · Admins Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/spanish/biweekly/admins/3.html",
+    "createdAt": "2026-03-24T09:34:57Z",
+    "description": "Esta quincena ha estado marcada por una doble tendencia: mayor control y visibilidad para los administradores, y un refuerzo de la estabilidad a largo plazo en la gestión de modelos. GitHub ha publicado novedades que van desde métricas de uso más granulares hasta herramientas de auditoría para el agente de programación, consolidando la gobernanza como eje central de Copilot para organizaciones. ---",
+    "edition": 3
+  },
+  {
+    "number": 401,
+    "title": "Copilot Bulletin Biweekly #3 — Del 10 de marzo al 24 de marzo de 2026 · Decision-Makers Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/spanish/biweekly/decision-makers/3.html",
+    "createdAt": "2026-03-24T09:34:21Z",
+    "description": "Esta quincena marca un punto de inflexión en la madurez del agente de codificación de Copilot. Las actualizaciones combinan velocidad, observabilidad y trazabilidad: el agente arranca un 50% más rápido, cada commit vincula a sus registros de sesión, y las métricas de uso revelan ahora los modelos reales. GitHub amplía además su portafolio de modelos con Gemini 3.1 Pro en todos los entornos principales.",
+    "edition": 3
+  },
+  {
+    "number": 400,
+    "title": "Copilot Bulletin Biweekly #3 — March 10 to March 24, 2026 · Devs Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/english/biweekly/devs/3.html",
+    "createdAt": "2026-03-24T09:33:25Z",
+    "description": "Two themes define this edition: the Copilot coding agent is maturing fast — with 50% quicker startup, semantic code search, and richer session observability — while the model catalog keeps expanding, adding GPT-5.4 mini and extending Gemini 3.1 Pro to more IDEs. The result is a tighter feedback loop whether you're delegating work to the agent or picking the right model for the job.",
+    "edition": 3
+  },
+  {
     "number": 398,
     "title": "Copilot Bulletin Biweekly #2 — Du 10 au 24 mars 2026 · Admins Edition",
     "language": "french",
