@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #1 — Del 2 al 16 de marzo de 2026 · Devs Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body,
+body > table {
+    background-color: #0d1117 !important;
+  }
+
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+
+  p,
+li,
+td.content,
+td.content td {
+    color: #e6edf3 !important;
+  }
+
+  h3,
+h4,
+strong {
+    color: #e6edf3 !important;
+  }
+
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+
+  a {
+    color: #58a6ff !important;
+  }
+
+  hr {
+    border-top-color: #30363d !important;
+  }
+
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #1 · Del 2 al 16 de marzo de 2026 · Devs Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-el-hilo-de-esta-edición" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 El hilo de esta edición</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Las últimas dos semanas consolidaron la era agéntica de GitHub Copilot. VS Code y JetBrains recibieron mejoras sustanciales en hooks, plugins y gestión de contexto para agentes. GPT-5.4 llegó como nuevo modelo de referencia, el servidor MCP de Figma conecta diseño y código bidireccionalmente, y la CLI ahora permite solicitar revisiones de Copilot sin salir de la terminal.</p>
+              <h3 id="-pasa-a-la-acción" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Pasa a la acción</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Selecciona GPT-5.4 en el <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/ai-models/supported-models" style="color: #0969da; text-decoration: underline;">selector de modelos de Copilot</a> y pruébalo en tus flujos de trabajo agénticos.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Instala el <a href="https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/#vs-code" style="color: #0969da; text-decoration: underline;">servidor MCP de Figma</a> para conectar diseño y código directamente en VS Code.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Actualiza GitHub CLI a <a href="https://github.com/cli/cli/releases/tag/v2.88.0" style="color: #0969da; text-decoration: underline;">v2.88.0</a> y solicita revisiones de Copilot con <code>gh pr edit --add-reviewer </code>@copilot``.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Configura <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/coding-agent/use-hooks" style="color: #0969da; text-decoration: underline;">hooks de agente</a> para automatizar pasos clave en tus sesiones agénticas.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">¿Preguntas o necesitas ayuda? Contacta a tu equipo de GitHub, estamos aquí para ayudarte.</li>
+              </ul>
+              <h3 id="-top-5-de-actualizaciones" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 de actualizaciones</h3>
+              <h4 id="1-vs-code-v1110-agentes-más-potentes-con-hooks-plugins-y-memoria-compartida" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. VS Code v1.110: agentes más potentes con hooks, plugins y memoria compartida</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">El release de febrero transforma los agentes en herramientas prácticas para tareas complejas. Incluye hooks para automatizar en puntos clave, plugins de agente, herramientas de navegador agéntico, bifurcación de conversaciones y memoria compartida entre Copilot CLI y el coding agent.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-03-06-github-copilot-in-visual-studio-code-v1-110-february-release" style="color: #0969da; text-decoration: underline;">Changelog: GitHub Copilot in Visual Studio Code v1.110 – February release</a></p>
+              <h4 id="2-gpt-54-llega-a-github-copilot" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. GPT-5.4 llega a GitHub Copilot</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">El último modelo agéntico de OpenAI ya está disponible en todos los IDEs, GitHub.com, CLI y Mobile. GPT-5.4 demuestra mejoras consistentes en razonamiento lógico y ejecución de tareas multi-paso, ideal para flujos de trabajo complejos.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-03-05-gpt-5-4-is-generally-available-in-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: GPT-5.4 is generally available in GitHub Copilot</a></p>
+              <h4 id="3-jetbrains-agentes-personalizados-hooks-y-mcp-auto-approve-en-ga" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. JetBrains: agentes personalizados, hooks y MCP auto-approve en GA</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Los agentes personalizados, sub-agentes y el agente de plan son ahora GA en JetBrains. Llegan además hooks de agente en preview, auto-approve para MCP, soporte para archivos AGENTS.md y CLAUDE.md, y un panel de razonamiento para modelos extendidos.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides" style="color: #0969da; text-decoration: underline;">Changelog: Major agentic capabilities improvements in GitHub Copilot for JetBrains IDEs</a></p>
+              <h4 id="4-figma-mcp-genera-capas-de-diseño-desde-vs-code" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. Figma MCP: genera capas de diseño desde VS Code</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">El servidor MCP de Figma ahora permite enviar UI renderizada como frames editables en Figma, además de importar contexto de diseño al código. Un flujo bidireccional que conecta diseño e implementación sin salir del editor.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code" style="color: #0969da; text-decoration: underline;">Changelog: Figma MCP server can now generate design layers from VS Code</a></p>
+              <h4 id="5-revisiones-de-código-con-copilot-desde-github-cli" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Revisiones de código con Copilot desde GitHub CLI</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Ya puedes solicitar revisiones de Copilot directamente desde la terminal con <code>gh pr edit --add-reviewer </code>@copilot`` o durante <code>gh pr create</code>. La selección de revisores ahora usa búsqueda en tiempo real, optimizada para organizaciones grandes.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-03-11-request-copilot-code-review-from-github-cli" style="color: #0969da; text-decoration: underline;">Changelog: Request Copilot code review from GitHub CLI</a></p>
+              <h3 id="-también-en-esta-edición" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 También en esta edición</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web" style="color: #0969da; text-decoration: underline;">Explore a repository using Copilot on the web</a> — Navega el árbol de archivos de un repositorio mientras chateas con Copilot en github.com.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows" style="color: #0969da; text-decoration: underline;">Optionally skip approval for Copilot coding agent Actions workflows</a> — Nueva configuración para ejecutar workflows automáticamente en PRs del coding agent.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-03-13-updates-to-github-copilot-for-students" style="color: #0969da; text-decoration: underline;">Updates to GitHub Copilot for students</a> — Nuevo plan Copilot Student con cambios en los modelos disponibles.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-03-05-discover-and-manage-agent-activity-with-new-session-filters" style="color: #0969da; text-decoration: underline;">Discover and manage agent activity with new session filters</a> — Nuevos filtros de estado, repositorio y usuario para sesiones agénticas en Enterprise.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">¿Quieres ver más? Explora el <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">changelog completo de GitHub Copilot</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

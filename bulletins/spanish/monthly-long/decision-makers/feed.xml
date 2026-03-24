@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot Bulletin — Spanish / Monthly long / Decision makers</title>
+    <link>https://copilot-bulletins.github.io/#es/monthly-long/decision-makers</link>
+    <description>Latest GitHub Copilot updates for Decision makers (Monthly long, Spanish)</description>
+    <language>spanish</language>
+    <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Bulletin Monthly (Long) #1 — Marzo 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/decision-makers/1</link>
+      <description>Este mes marca un punto de inflexión: GitHub Copilot se consolida como una plataforma multiagente con gobernanza empresarial completa. La llegada de Claude y Codex para todos los planes de negocio, junto con los Enterprise AI Controls y Copilot Metrics en disponibilidad general, permite a las organizaciones escalar la adopción de IA con visibilidad total y control operativo. Al mismo tiempo, el SDK de Copilot y la nueva arquitectura de seguridad para flujos agénticos posicionan a GitHub como la infraestructura sobre la que se construye el desarrollo de software del futuro.</description>
+      <pubDate>Tue, 17 Mar 2026 14:33:43 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/decision-makers/1</guid>
+    </item>
+  </channel>
+</rss>

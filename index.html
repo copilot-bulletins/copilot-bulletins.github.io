@@ -428,16 +428,42 @@
       audience: { devs: 'Developers', admins: 'Admins', 'decision-makers': 'Decision-Makers' }
     };
 
+    // Language code ↔ full name mapping
+    const LANG_TO_CODE = { english: 'en', french: 'fr', spanish: 'es' };
+    const CODE_TO_LANG = { en: 'english', fr: 'french', es: 'spanish' };
+
     let manifest = [];
     let browseFilters = { language: 'english', period: null, audience: null };
     let activeBulletinFrameId = 'bulletin-frame-a';
     let bulletinLoadToken = 0;
+
+    // ── URL Helpers ──────────────────────────────────────
+    function bulletinPath(entry) {
+      const lang = LANG_TO_CODE[entry.language] || entry.language;
+      return '#' + lang + '/' + entry.period + '/' + entry.audience + '/' + entry.edition;
+    }
+
+    function showTopbar() {
+      document.querySelector('.topbar').classList.add('visible');
+      document.getElementById('theme-toggle-float').classList.remove('visible');
+    }
+    function hideTopbar() {
+      document.querySelector('.topbar').classList.remove('visible');
+      document.getElementById('theme-toggle-float').classList.add('visible');
+    }
 
     // ── Boot ──────────────────────────────────────────────
     fetch('bulletins/manifest.json')
       .then(r => r.json())
       .then(data => {
         manifest = data.sort((a, b) => b.number - a.number);
+        // Backfill edition from title if missing in manifest
+        manifest.forEach(b => {
+          if (typeof b.edition === 'undefined') {
+            const m = b.title ? b.title.match(/#(\d+)\b/) : null;
+            b.edition = m ? parseInt(m[1], 10) : 0;
+          }
+        });
         route();
       })
       .catch(() => {
@@ -449,25 +475,26 @@
     window.addEventListener('hashchange', route);
 
     function route() {
-      const hash = location.hash.slice(1); // remove #
-
-      // Hide all views
       document.getElementById('bulletin-view').classList.remove('active');
       document.getElementById('browse-view').classList.remove('active');
 
-      if (hash === 'browse' || hash === '') {
-        document.querySelector('.topbar').classList.add('visible');
-        document.getElementById('theme-toggle-float').classList.remove('visible');
-        showBrowse();
-      } else if (hash.startsWith('bulletins/')) {
-        document.querySelector('.topbar').classList.remove('visible');
-        document.getElementById('theme-toggle-float').classList.add('visible');
-        showBulletin(hash);
-      } else {
-        document.querySelector('.topbar').classList.add('visible');
-        document.getElementById('theme-toggle-float').classList.remove('visible');
-        showBrowse();
+      const hash = location.hash.slice(1);
+      if (!hash || hash === 'browse') {
+        showTopbar(); showBrowse(); return;
       }
+
+      // Hash format: en/biweekly/admins/1
+      const parts = hash.split('/');
+      if (parts.length === 4 && CODE_TO_LANG[parts[0]]) {
+        const lang = CODE_TO_LANG[parts[0]];
+        const edition = parseInt(parts[3], 10);
+        const entry = manifest.find(b =>
+          b.language === lang && b.period === parts[1] && b.audience === parts[2] && b.edition === edition
+        );
+        if (entry) { hideTopbar(); showBulletinEntry(entry); return; }
+      }
+
+      showTopbar(); showBrowse();
     }
 
     // Explicit theme CSS for bulletin email content inside iframe.
@@ -535,11 +562,6 @@
           });
         }
       } catch (e) {}
-    }
-
-    function getBulletinEditionNumber(entry) {
-      const match = entry && entry.title ? entry.title.match(/#(\d+)\b/) : null;
-      return match ? match[1] : null;
     }
 
     function getActiveBulletinFrame() {
@@ -630,10 +652,7 @@
     }
 
     // ── Bulletin View ─────────────────────────────────────
-    function showBulletin(filePath) {
-      const entry = manifest.find(b => b.file === filePath);
-      if (!entry) { showBrowse(); return; }
-
+    function showBulletinEntry(entry) {
       document.getElementById('bulletin-view').classList.add('active');
       document.getElementById('browse-link').style.display = '';
 
@@ -660,7 +679,7 @@
           swapToBulletinFrame(nextFrame);
         }
       };
-      nextFrame.src = filePath;
+      nextFrame.src = entry.file;
 
       // Prev / Next navigation (same language + period + audience)
       const siblings = manifest
@@ -668,7 +687,6 @@
         .sort((a, b) => b.number - a.number);
       const idx = siblings.findIndex(b => b.number === entry.number);
 
-      // Update both top and bottom nav bars
       function updateNavBtn(id, href, disabled, text) {
         const btn = document.getElementById(id);
         btn.href = href;
@@ -678,11 +696,9 @@
 
       if (idx < siblings.length - 1) {
         const previous = siblings[idx + 1];
-        const href = '#' + previous.file;
-        const previousEditionNumber = getBulletinEditionNumber(previous);
-        const label = previousEditionNumber ? 'Previous (#' + previousEditionNumber + ')' : 'Previous';
-        updateNavBtn('nav-prev', href, false, label);
-        updateNavBtn('nav-prev-top', href, false, label);
+        const label = previous.edition ? 'Previous (#' + previous.edition + ')' : 'Previous';
+        updateNavBtn('nav-prev', bulletinPath(previous), false, label);
+        updateNavBtn('nav-prev-top', bulletinPath(previous), false, label);
       } else {
         updateNavBtn('nav-prev', '#', true, 'Previous');
         updateNavBtn('nav-prev-top', '#', true, 'Previous');
@@ -690,19 +706,17 @@
 
       if (idx > 0) {
         const next = siblings[idx - 1];
-        const href = '#' + next.file;
-        const nextEditionNumber = getBulletinEditionNumber(next);
-        const label = nextEditionNumber ? 'Next (#' + nextEditionNumber + ')' : 'Next';
-        updateNavBtn('nav-next', href, false, label);
-        updateNavBtn('nav-next-top', href, false, label);
+        const label = next.edition ? 'Next (#' + next.edition + ')' : 'Next';
+        updateNavBtn('nav-next', bulletinPath(next), false, label);
+        updateNavBtn('nav-next-top', bulletinPath(next), false, label);
       } else {
         updateNavBtn('nav-next', '#', true, 'Next');
         updateNavBtn('nav-next-top', '#', true, 'Next');
       }
 
-      // Update top-right link
       document.getElementById('browse-link').textContent = 'View all bulletins';
       document.getElementById('browse-link').href = '#browse';
+      document.querySelectorAll('.nav-center a').forEach(a => { a.href = '#browse'; });
 
       window.scrollTo(0, 0);
     }
@@ -761,7 +775,7 @@
       // Update RSS link
       const rssLink = document.getElementById('rss-link');
       if (rssLink && browseFilters.language && browseFilters.period && browseFilters.audience) {
-        rssLink.href = `bulletins/${browseFilters.language}/${browseFilters.period}/${browseFilters.audience}/feed.xml`;
+        rssLink.href = 'bulletins/' + browseFilters.language + '/' + browseFilters.period + '/' + browseFilters.audience + '/feed.xml';
       }
 
       const filtered = manifest.filter(b =>
@@ -776,7 +790,7 @@
       filtered.forEach(b => {
         const a = document.createElement('a');
         a.className = 'bulletin-item';
-        a.href = '#' + b.file;
+        a.href = bulletinPath(b);
 
         const titleSpan = document.createElement('span');
         titleSpan.className = 'bulletin-item-title';
@@ -787,7 +801,7 @@
       });
     }
 
-    // ── Navigation links ──────────────────────────────────
+    // ── Navigation ────────────────────────────────────────
     document.getElementById('home-link').addEventListener('click', e => {
       e.preventDefault();
       location.hash = 'browse';

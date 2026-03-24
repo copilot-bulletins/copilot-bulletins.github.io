@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot Bulletin — Spanish / Biweekly / Admins</title>
+    <link>https://copilot-bulletins.github.io/#es/biweekly/admins</link>
+    <description>Latest GitHub Copilot updates for Admins (Biweekly, Spanish)</description>
+    <language>spanish</language>
+    <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Bulletin Biweekly #1 — Del 2 al 16 de marzo de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/1</link>
+      <description>Las últimas dos semanas refuerzan la gobernanza de los agentes de IA. GitHub ha lanzado herramientas para monitorizar sesiones agénticas con filtros avanzados, controlar la aprobación de workflows de Actions, aplicar políticas mediante hooks de agente y gestionar el acceso a nuevos modelos como GPT-5.4. El hilo común: más autonomía para los agentes, más control para el administrador.</description>
+      <pubDate>Mon, 16 Mar 2026 12:06:54 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/1</guid>
+    </item>
+  </channel>
+</rss>

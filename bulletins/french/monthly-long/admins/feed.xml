@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot Bulletin — French / Monthly long / Admins</title>
+    <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins</link>
+    <description>Latest GitHub Copilot updates for Admins (Monthly long, French)</description>
+    <language>french</language>
+    <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Bulletin Monthly (Long) #1 — Mars 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins/1</link>
+      <description>Ce mois-ci, GitHub franchit un cap décisif en matière de gouvernance de l'IA. Les Enterprise AI Controls et le plan de contrôle des agents passent en disponibilité générale, offrant aux administrateurs une visibilité sans précédent sur l'activité agentique. En parallèle, les métriques d'utilisation Copilot atteignent elles aussi la GA avec une couverture élargie. Combinées à l'arrivée de Claude et Codex sur les plans Business, et à la nouvelle architecture agentique de la revue de code, ces avancées renforcent considérablement la capacité des équipes IT à piloter le déploiement Copilot avec contrôle et confiance.</description>
+      <pubDate>Tue, 17 Mar 2026 14:31:03 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/admins/1</guid>
+    </item>
+  </channel>
+</rss>
