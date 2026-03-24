@@ -7,11 +7,11 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Copilot Bulletin Biweekly #1 — March 10 to March 24, 2026 · Admins Edition</title>
-      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/1</link>
-      <description>Over the past two weeks, GitHub Copilot delivered a series of governance-focused updates. Admins now have granular control over model reporting in usage dashboards, which security tools run during agent sessions, and how coding agent activity integrates with audit workflows. The pattern is clear: Copilot is becoming easier to manage, audit, and govern at scale.</description>
-      <pubDate>Tue, 24 Mar 2026 08:39:51 +0000</pubDate>
-      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/1</guid>
+      <title>Copilot Bulletin Biweekly #2 — March 10 to March 24, 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/2</link>
+      <description>Over the past two weeks, GitHub pushed governance and observability capabilities forward on multiple fronts. Admins now have greater clarity into actual model usage across their organizations, a permanent audit trail for AI-generated code, and new controls over coding agent security validation. The throughline: enterprise-grade oversight is expanding in step with broader AI adoption.</description>
+      <pubDate>Tue, 24 Mar 2026 09:17:21 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/2</guid>
     </item>
     <item>
       <title>Copilot Bulletin Biweekly #1 — March 2 to March 16, 2026 · Admins Edition</title>

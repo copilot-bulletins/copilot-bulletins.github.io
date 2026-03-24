@@ -9,8 +9,8 @@
     <item>
       <title>Copilot Bulletin Biweekly #2 — Du 10 au 24 mars 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/2</link>
-      <description>Ces deux semaines concentrent les efforts de GitHub sur la gouvernance et la traçabilité de l'IA en entreprise. L'introduction d'un modèle LTS, des métriques plus granulaires et des contrôles fins sur le coding agent signalent une approche structurée : permettre aux équipes de déployer Copilot à grande échelle avec confiance, sans sacrifier la conformité ni la visibilité opérationnelle.</description>
-      <pubDate>Tue, 24 Mar 2026 08:40:53 +0000</pubDate>
+      <description>Ces deux semaines ont été marquées par un renforcement significatif des outils de gouvernance et de traçabilité de Copilot pour les administrateurs. Des métriques d'usage plus précises, des pistes d'audit sur les commits de l'agent, des contrôles de sécurité configurables et un nouveau programme de support à long terme pour les modèles reflètent une priorité claire : donner aux admins une visibilité complète sur l'activité IA dans leur organisation.</description>
+      <pubDate>Tue, 24 Mar 2026 09:21:04 +0000</pubDate>
       <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/admins/2</guid>
     </item>
     <item>

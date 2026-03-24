@@ -9,8 +9,8 @@
     <item>
       <title>Copilot Bulletin Biweekly #2 — Del 10 al 24 de marzo de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/2</link>
-      <description>Esta quincena la evolución del agente de codificación de Copilot es la nota dominante: arranca un 50% más rápido, usa búsqueda semántica de código y estrena hooks de agente con soporte de instrucciones propias en JetBrains. Paralelamente, GPT-5.4 mini y Gemini 3.1 Pro amplían el catálogo de modelos en todos los IDEs.</description>
-      <pubDate>Tue, 24 Mar 2026 08:39:18 +0000</pubDate>
+      <description>Las últimas dos semanas han estado marcadas por una ola de mejoras al agente de codificación de Copilot y la expansión del catálogo de modelos. La velocidad de inicio se redujo un 50%, la búsqueda semántica de código acelera la exploración de repositorios y varios entornos de desarrollo integrado reciben capacidades agénticas completas. Al mismo tiempo, nuevos modelos —GPT-5.4 mini y Gemini 3.1 Pro— llegan a todos los IDEs más populares. ---</description>
+      <pubDate>Tue, 24 Mar 2026 09:16:48 +0000</pubDate>
       <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/2</guid>
     </item>
     <item>

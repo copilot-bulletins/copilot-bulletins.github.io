@@ -9,8 +9,8 @@
     <item>
       <title>Copilot Bulletin Biweekly #2 — March 10 to March 24, 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/devs/2</link>
-      <description>The past two weeks brought a wave of Copilot coding agent improvements: 50% faster startup times, semantic code search, configurable validation tools, and deeper session visibility. The model roster has also expanded, with GPT-5.4 mini now GA and Gemini 3.1 Pro landing in more IDEs. Agentic development is becoming more reliable, observable, and flexible.</description>
-      <pubDate>Tue, 24 Mar 2026 08:39:23 +0000</pubDate>
+      <description>Over the past two weeks, the dominant theme was the rapid maturation of Copilot's background coding agent. Startup is 50% faster, sessions are more transparent, and teams now have fine-grained control over validation tools. Combined with new model releases expanding options across IDEs, this period marks a clear shift: Copilot coding agent is no longer early-stage—it's becoming a reliable daily driver.</description>
+      <pubDate>Tue, 24 Mar 2026 09:15:59 +0000</pubDate>
       <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/devs/2</guid>
     </item>
     <item>
