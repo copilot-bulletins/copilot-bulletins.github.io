@@ -7,20 +7,6 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Copilot Bulletin Biweekly #3 — March 10 to March 24, 2026 · Admins Edition</title>
-      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/3</link>
-      <description>This fortnight, governance and auditability of AI-assisted development took center stage. GitHub introduced a long-term support (LTS) model commitment, granular admin control over coding agent validation tooling, and improved traceability of agent-authored commits — all signaling a maturing enterprise control plane around Copilot. Admins now have clearer levers to configure, audit, and comply as AI adoption scales.</description>
-      <pubDate>Tue, 24 Mar 2026 09:35:28 +0000</pubDate>
-      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/3</guid>
-    </item>
-    <item>
-      <title>Copilot Bulletin Biweekly #2 — March 10 to March 24, 2026 · Admins Edition</title>
-      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/2</link>
-      <description>Over the past two weeks, GitHub pushed governance and observability capabilities forward on multiple fronts. Admins now have greater clarity into actual model usage across their organizations, a permanent audit trail for AI-generated code, and new controls over coding agent security validation. The throughline: enterprise-grade oversight is expanding in step with broader AI adoption.</description>
-      <pubDate>Tue, 24 Mar 2026 09:17:21 +0000</pubDate>
-      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/2</guid>
-    </item>
-    <item>
       <title>Copilot Bulletin Biweekly #1 — March 2 to March 16, 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/admins/1</link>
       <description>The past two weeks focused on giving administrators stronger control over the expanding agentic ecosystem. From enterprise-wide session monitoring with new filters to repository-level workflow approval settings and agent hooks for policy enforcement, GitHub is building the governance layer admins need to manage AI agents at scale while balancing security with developer velocity.</description>
