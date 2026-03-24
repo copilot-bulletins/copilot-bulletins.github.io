@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #1 — Du 10 au 24 mars 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/1</link>
+      <description>Ces deux dernières semaines, l'agent de codage Copilot a franchi un nouveau cap : démarrage 50 % plus rapide, commits traçables jusqu'aux logs de session, et visibilité accrue sur ses actions internes. Gemini 3.1 Pro s'étend désormais à JetBrains, Xcode et Eclipse. L'IA agentique s'intègre pleinement dans le flux de travail quotidien des développeurs.</description>
+      <pubDate>Tue, 24 Mar 2026 08:36:56 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/devs/1</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #1 — Du 2 au 16 mars 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/1</link>
       <description>Ces deux dernières semaines, GitHub Copilot a considérablement renforcé ses capacités agentiques dans les IDE. VS Code et JetBrains reçoivent des mises à jour majeures qui rendent les agents plus autonomes, personnalisables et contextuellement intelligents. En parallèle, l'arrivée de GPT-5.4 et de nouvelles intégrations MCP élargissent le champ d'action de Copilot au-delà du code.</description>

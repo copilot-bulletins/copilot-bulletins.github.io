@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #2 — Du 10 au 24 mars 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/2</link>
+      <description>Ces deux semaines concentrent les efforts de GitHub sur la gouvernance et la traçabilité de l'IA en entreprise. L'introduction d'un modèle LTS, des métriques plus granulaires et des contrôles fins sur le coding agent signalent une approche structurée : permettre aux équipes de déployer Copilot à grande échelle avec confiance, sans sacrifier la conformité ni la visibilité opérationnelle.</description>
+      <pubDate>Tue, 24 Mar 2026 08:40:53 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/admins/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #1 — Du 2 au 16 mars 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/1</link>
       <description>Ces deux dernières semaines, GitHub a renforcé le contrôle et la visibilité pour les administrateurs Copilot. Nouveaux filtres de sessions agentiques, paramètre d'approbation des workflows pour le coding agent, activation requise de GPT-5.4, et sélection automatique de modèles respectant les politiques d'entreprise : l'accent est mis sur la gouvernance des capacités IA à l'échelle.</description>

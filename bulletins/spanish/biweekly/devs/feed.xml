@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #2 — Del 10 al 24 de marzo de 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/devs/2</link>
+      <description>Esta quincena la evolución del agente de codificación de Copilot es la nota dominante: arranca un 50% más rápido, usa búsqueda semántica de código y estrena hooks de agente con soporte de instrucciones propias en JetBrains. Paralelamente, GPT-5.4 mini y Gemini 3.1 Pro amplían el catálogo de modelos en todos los IDEs.</description>
+      <pubDate>Tue, 24 Mar 2026 08:39:18 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #1 — Del 2 al 16 de marzo de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/1</link>
       <description>Las últimas dos semanas consolidaron la era agéntica de GitHub Copilot. VS Code y JetBrains recibieron mejoras sustanciales en hooks, plugins y gestión de contexto para agentes. GPT-5.4 llegó como nuevo modelo de referencia, el servidor MCP de Figma conecta diseño y código bidireccionalmente, y la CLI ahora permite solicitar revisiones de Copilot sin salir de la terminal.</description>

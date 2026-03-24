@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #1 — Del 10 al 24 de marzo de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/1</link>
+      <description>Estas dos semanas, GitHub ha intensificado las capacidades de observabilidad y control para administradores: métricas de modelos más precisas, trazabilidad completa de commits del agente de codificación, nuevas métricas de uso del CLI a nivel organizacional y mayor control sobre las herramientas de validación del agente. La plataforma avanza hacia una gobernanza más sólida del desarrollo asistido por IA.</description>
+      <pubDate>Tue, 24 Mar 2026 08:41:48 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/1</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #1 — Del 2 al 16 de marzo de 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/admins/1</link>
       <description>Las últimas dos semanas refuerzan la gobernanza de los agentes de IA. GitHub ha lanzado herramientas para monitorizar sesiones agénticas con filtros avanzados, controlar la aprobación de workflows de Actions, aplicar políticas mediante hooks de agente y gestionar el acceso a nuevos modelos como GPT-5.4. El hilo común: más autonomía para los agentes, más control para el administrador.</description>
