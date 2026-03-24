@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot Bulletin — English / Monthly long / Admins</title>
+    <link>https://copilot-bulletins.github.io/#en/monthly-long/admins</link>
+    <description>Latest GitHub Copilot updates for Admins (Monthly long, English)</description>
+    <language>english</language>
+    <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Bulletin Monthly (Long) #1 — March 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/1</link>
+      <description>March brought a clear message for Copilot administrators: governance tooling is catching up with the pace of agentic innovation. New enterprise session filters, agent hooks for policy enforcement, and a security architecture built on zero-trust principles give admins granular control over how agents operate across their organizations. Meanwhile, Copilot code review crossed 60 million reviews with 12,000+ organizations running automatic reviews — signaling that AI-assisted quality workflows are becoming standard practice. GPT-5.4 and auto model selection both landed this month, each requiring admin enablement through policy settings.</description>
+      <pubDate>Tue, 17 Mar 2026 14:32:33 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/admins/1</guid>
+    </item>
+  </channel>
+</rss>

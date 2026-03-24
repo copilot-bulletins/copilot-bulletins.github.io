@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot Bulletin — English / Biweekly / Devs</title>
+    <link>https://copilot-bulletins.github.io/#en/biweekly/devs</link>
+    <description>Latest GitHub Copilot updates for Devs (Biweekly, English)</description>
+    <language>english</language>
+    <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Bulletin Biweekly #3 — March 10 to March 24, 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/devs/3</link>
+      <description>Two themes define this edition: the Copilot coding agent is maturing fast — with 50% quicker startup, semantic code search, and richer session observability — while the model catalog keeps expanding, adding GPT-5.4 mini and extending Gemini 3.1 Pro to more IDEs. The result is a tighter feedback loop whether you're delegating work to the agent or picking the right model for the job.</description>
+      <pubDate>Tue, 24 Mar 2026 09:33:25 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/devs/3</guid>
+    </item>
+    <item>
+      <title>Copilot Bulletin Biweekly #2 — March 10 to March 24, 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/devs/2</link>
+      <description>Over the past two weeks, the dominant theme was the rapid maturation of Copilot's background coding agent. Startup is 50% faster, sessions are more transparent, and teams now have fine-grained control over validation tools. Combined with new model releases expanding options across IDEs, this period marks a clear shift: Copilot coding agent is no longer early-stage—it's becoming a reliable daily driver.</description>
+      <pubDate>Tue, 24 Mar 2026 09:15:59 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/devs/2</guid>
+    </item>
+    <item>
+      <title>Copilot Bulletin Biweekly #1 — March 2 to March 16, 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/devs/1</link>
+      <description>The past two weeks mark a turning point in Copilot's agentic capabilities. Both VS Code and JetBrains IDEs shipped major agent upgrades — hooks, plugins, memory sharing, custom agents — while GPT-5.4 landed with stronger multi-step reasoning. Copilot is moving from code assistant to programmable development partner.</description>
+      <pubDate>Mon, 16 Mar 2026 12:04:44 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/devs/1</guid>
+    </item>
+  </channel>
+</rss>

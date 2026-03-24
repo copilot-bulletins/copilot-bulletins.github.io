@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Monthly #1 — Mars 2026 · Admins Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body,
+body > table {
+    background-color: #0d1117 !important;
+  }
+
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+
+  p,
+li,
+td.content,
+td.content td {
+    color: #e6edf3 !important;
+  }
+
+  h3,
+h4,
+strong {
+    color: #e6edf3 !important;
+  }
+
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+
+  a {
+    color: #58a6ff !important;
+  }
+
+  hr {
+    border-top-color: #30363d !important;
+  }
+
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Monthly #1 · Mars 2026 · Admins Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-le-fil-de-cette-édition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 Le fil de cette édition</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Ce mois-ci, GitHub pose les fondations d'une gouvernance IA mature pour les entreprises. Avec la disponibilité générale de l'AI Controls, des métriques d'utilisation et de la code review agentique, les administrateurs disposent désormais d'outils complets pour superviser, mesurer et piloter l'adoption de Copilot à l'échelle de leur organisation.</p>
+              <h3 id="️-attention" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Attention</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-03-02-upcoming-deprecation-of-gemini-3-pro-and-gpt-5-1-models" style="color: #0969da; text-decoration: underline;">Upcoming deprecation of Gemini 3 Pro and GPT-5.1 models</a> — <strong style="font-weight: 600; color: #24292f;">Deadline: 26 mars (Gemini 3 Pro), 1er avril (GPT-5.1)</strong> — Vérifiez vos <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/ai-models/supported-models" style="color: #0969da; text-decoration: underline;">politiques de modèles</a> et activez les alternatives recommandées (Gemini 3.1 Pro, GPT-5.3-Codex) avant ces dates.</li>
+              </ul>
+              <h3 id="-passez-à-laction" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Passez à l'action</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Configurez les <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/enterprise-management" style="color: #0969da; text-decoration: underline;">AI Controls et l'agent control plane</a> dans les paramètres de votre enterprise pour centraliser la gouvernance des agents.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Activez Claude et Codex pour vos utilisateurs Business dans les <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/enterprise-management" style="color: #0969da; text-decoration: underline;">paramètres AI Controls de l'enterprise</a>, puis au niveau de l'organisation.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Explorez le nouveau <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/copilot-usage-metrics" style="color: #0969da; text-decoration: underline;">dashboard de métriques Copilot</a> pour suivre l'adoption et l'utilisation de Copilot dans votre entreprise.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Désignez des <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/tutorials/roll-out-at-scale/establish-ai-managers" style="color: #0969da; text-decoration: underline;">AI managers</a> pour décentraliser l'administration IA avec des rôles personnalisés enterprise.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Questions ou besoin d'accompagnement ? Contactez votre équipe GitHub, nous sommes là pour vous aider.</li>
+              </ul>
+              <h3 id="-top-5-des-mises-à-jour-du-mois" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 des mises à jour du mois</h3>
+              <h4 id="1-ai-controls-et-agent-control-plane-en-disponibilité-générale" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. AI Controls et agent control plane en disponibilité générale</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Les administrateurs enterprise disposent désormais d'un panneau de gouvernance IA centralisé : rôles personnalisés, supervision des sessions d'agents, journal d'audit dédié, politiques d'agents personnalisés et registre MCP, le tout depuis un point d'accès unique.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-02-26-enterprise-ai-controls-agent-control-plane-now-generally-available" style="color: #0969da; text-decoration: underline;">Changelog: Enterprise AI Controls &amp; agent control plane now generally available</a></p>
+              <h4 id="2-métriques-copilot-en-ga-avec-couverture-élargie" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Métriques Copilot en GA avec couverture élargie</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Les métriques d'utilisation Copilot sont maintenant en GA avec dashboards, API et données granulaires. La couverture inclut désormais la télémétrie CLI, le mode plan, les noms d'utilisateurs EMU cohérents et de nouveaux filtres de sessions d'agents.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-02-27-copilot-metrics-is-now-generally-available" style="color: #0969da; text-decoration: underline;">Changelog: Copilot metrics is now generally available</a><br>→ <a href="https://github.blog/changelog/2026-02-27-copilot-usage-metrics-now-includes-enterprise-level-github-copilot-cli-activity" style="color: #0969da; text-decoration: underline;">Changelog: Copilot usage metrics now includes enterprise-level GitHub Copilot CLI activity</a><br>→ <a href="https://github.blog/changelog/2026-03-02-copilot-metrics-now-includes-plan-mode" style="color: #0969da; text-decoration: underline;">Changelog: Copilot metrics now includes plan mode</a><br>→ <a href="https://github.blog/changelog/2026-03-05-discover-and-manage-agent-activity-with-new-session-filters" style="color: #0969da; text-decoration: underline;">Changelog: Discover and manage agent activity with new session filters</a></p>
+              <h4 id="3-claude-et-codex-disponibles-pour-business-et-pro-gpt-54-en-ga" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Claude et Codex disponibles pour Business et Pro, GPT-5.4 en GA</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Les agents Claude (Anthropic) et Codex (OpenAI) sont désormais accessibles aux utilisateurs Copilot Business et Pro, inclus dans l'abonnement existant. GPT-5.4 est aussi en GA. Les administrateurs doivent activer ces modèles via les politiques enterprise et organisation.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users" style="color: #0969da; text-decoration: underline;">Changelog: Claude and Codex now available for Copilot Business &amp; Pro users</a><br>→ <a href="https://github.blog/changelog/2026-03-05-gpt-5-4-is-generally-available-in-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: GPT-5.4 is generally available in GitHub Copilot</a></p>
+              <h4 id="4-code-review-copilot-sur-architecture-agentique-en-ga" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. Code review Copilot sur architecture agentique en GA</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">La code review Copilot utilise désormais une architecture agentique pour analyser le contexte complet du dépôt. Résultat : des commentaires plus pertinents et moins de bruit. Les équipes utilisant des runners self-hosted doivent effectuer une <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/request-a-code-review/configure-self-hosted-runners" style="color: #0969da; text-decoration: underline;">configuration initiale</a>.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-03-05-copilot-code-review-now-runs-on-an-agentic-architecture" style="color: #0969da; text-decoration: underline;">Changelog: Copilot code review now runs on an agentic architecture</a></p>
+              <h4 id="5-nouveaux-leviers-dadministration--content-exclusion-api-approbation-workflows-et-réseau" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Nouveaux leviers d'administration : Content Exclusion API, approbation workflows et réseau</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">L'API REST Content Exclusion permet de gérer les <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/context/content-exclusion" style="color: #0969da; text-decoration: underline;">règles d'exclusion de contenu</a> par programme. Les administrateurs de dépôt peuvent désactiver l'approbation manuelle des workflows Actions pour le coding agent. Les changements de <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-access/manage-network-access" style="color: #0969da; text-decoration: underline;">configuration réseau</a> (routage par abonnement) sont désormais en vigueur.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-02-26-copilot-content-exclusion-rest-api-in-public-preview" style="color: #0969da; text-decoration: underline;">Changelog: Copilot Content Exclusion REST API in public preview</a><br>→ <a href="https://github.blog/changelog/2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows" style="color: #0969da; text-decoration: underline;">Changelog: Optionally skip approval for Copilot coding agent Actions workflows</a><br>→ <a href="https://github.blog/changelog/2026-03-02-network-configuration-changes-for-copilot-coding-agent-now-in-effect" style="color: #0969da; text-decoration: underline;">Changelog: Network configuration changes for Copilot coding agent now in effect</a></p>
+              <h3 id="-le-mois-en-chiffres" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📊 Le mois en chiffres</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/" style="color: #0969da; text-decoration: underline;"><strong style="font-weight: 600; color: #24292f;">60 millions</strong> de code reviews</a> réalisées par Copilot depuis son lancement</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/" style="color: #0969da; text-decoration: underline;"><strong style="font-weight: 600; color: #24292f;">1 code review sur 5</strong> sur GitHub</a> est désormais effectuée par Copilot</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/" style="color: #0969da; text-decoration: underline;"><strong style="font-weight: 600; color: #24292f;">10x</strong> de croissance d'utilisation</a> de la code review Copilot depuis le lancement initial</li>
+              </ul>
+              <h3 id="-également-ce-mois-ci" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 Également ce mois-ci</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-03-04-copilot-memory-now-on-by-default-for-pro-and-pro-users-in-public-preview" style="color: #0969da; text-decoration: underline;">Copilot Memory now on by default for Pro and Pro+ users</a> — La <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/copilot-memory" style="color: #0969da; text-decoration: underline;">mémoire Copilot</a> est activée par défaut pour Pro et Pro+ ; les administrateurs enterprise conservent le contrôle via les politiques.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-03-05-github-copilot-coding-agent-for-jira-is-now-in-public-preview" style="color: #0969da; text-decoration: underline;">GitHub Copilot coding agent for Jira is now in public preview</a> — Le coding agent peut être assigné directement depuis Jira pour créer des pull requests automatiques.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-02-26-github-mobile-track-coding-agent-progress-in-real-time-with-live-notifications" style="color: #0969da; text-decoration: underline;">GitHub Mobile: Track coding agent progress in real time with Live Notifications</a> — Suivez l'activité du coding agent en temps réel depuis GitHub Mobile.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity" style="color: #0969da; text-decoration: underline;">Copilot usage metrics now includes user-level GitHub Copilot CLI activity</a> — Visibilité sur l'activité CLI par utilisateur pour identifier les besoins d'accompagnement.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-02-26-copilot-metrics-report-urls-update" style="color: #0969da; text-decoration: underline;">Copilot metrics report URLs update</a> — Nouveau domaine CDN pour les rapports de métriques ; ajustez vos règles de pare-feu si nécessaire.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Vous souhaitez en voir plus ? Parcourez le <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">changelog complet GitHub Copilot</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
