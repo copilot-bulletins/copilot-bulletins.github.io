@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #3 — Du 10 mars au 24 mars 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/3</link>
+      <description>Sur les deux dernières semaines, GitHub a marqué une double accélération : plus de vélocité pour l'agent de code autonome Copilot, et un premier engagement formel de stabilité des modèles IA pour les entreprises. Ces évolutions dessinent une trajectoire claire — Copilot devient un outil de productivité mesurable et un socle fiable pour les politiques internes de sécurité et de conformité.</description>
+      <pubDate>Tue, 24 Mar 2026 09:35:15 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #2 — Du 10 au 24 mars 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/2</link>
       <description>Ces deux dernières semaines, GitHub a posé les jalons d'une IA générative fiable pour l'entreprise : premier modèle LTS avec garantie de disponibilité sur 12 mois, agent de codage 50 % plus rapide, traçabilité complète des commits IA et élargissement du portefeuille de modèles. L'orientation est claire : Copilot n'est plus un outil expérimental — c'est une infrastructure stratégique.</description>

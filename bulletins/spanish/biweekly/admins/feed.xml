@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #3 — Del 10 al 24 de marzo de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/3</link>
+      <description>Esta quincena ha estado marcada por una doble tendencia: mayor control y visibilidad para los administradores, y un refuerzo de la estabilidad a largo plazo en la gestión de modelos. GitHub ha publicado novedades que van desde métricas de uso más granulares hasta herramientas de auditoría para el agente de programación, consolidando la gobernanza como eje central de Copilot para organizaciones. ---</description>
+      <pubDate>Tue, 24 Mar 2026 09:34:57 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #2 — Del 10 de marzo al 24 de marzo de 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/admins/2</link>
       <description>En estas dos semanas, GitHub reforzó el control administrativo sobre la gestión de modelos y la auditabilidad del agente de codificación. Las actualizaciones de gobernanza, seguridad integrada y métricas de uso ofrecen a los equipos de TI y seguridad la visibilidad necesaria para operar Copilot con confianza en entornos empresariales. ---</description>
