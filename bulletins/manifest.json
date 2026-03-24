@@ -1,5 +1,93 @@
 [
   {
+    "number": 388,
+    "title": "Copilot Bulletin Biweekly #2 — Du 10 mars au 24 mars 2026 · Decision-Makers Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/french/biweekly/decision-makers/2.html",
+    "createdAt": "2026-03-24T08:43:03Z",
+    "description": "Cette quinzaine marque une accélération vers la maturité enterprise de GitHub Copilot. Entre la stabilité garantie par le premier modèle LTS, le gain de performance de 50 % de l'agent de codage et le renforcement de la visibilité sur les métriques, GitHub pose les bases d'une infrastructure d'IA fiable et gouvernable — au-delà du simple outil de productivité.",
+    "edition": 2
+  },
+  {
+    "number": 387,
+    "title": "Copilot Bulletin Biweekly #1 — Del 10 al 24 de marzo de 2026 · Admins Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/spanish/biweekly/admins/1.html",
+    "createdAt": "2026-03-24T08:41:48Z",
+    "description": "Estas dos semanas, GitHub ha intensificado las capacidades de observabilidad y control para administradores: métricas de modelos más precisas, trazabilidad completa de commits del agente de codificación, nuevas métricas de uso del CLI a nivel organizacional y mayor control sobre las herramientas de validación del agente. La plataforma avanza hacia una gobernanza más sólida del desarrollo asistido por IA.",
+    "edition": 1
+  },
+  {
+    "number": 386,
+    "title": "Copilot Bulletin Biweekly #2 — Du 10 au 24 mars 2026 · Admins Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/french/biweekly/admins/2.html",
+    "createdAt": "2026-03-24T08:40:53Z",
+    "description": "Ces deux semaines concentrent les efforts de GitHub sur la gouvernance et la traçabilité de l'IA en entreprise. L'introduction d'un modèle LTS, des métriques plus granulaires et des contrôles fins sur le coding agent signalent une approche structurée : permettre aux équipes de déployer Copilot à grande échelle avec confiance, sans sacrifier la conformité ni la visibilité opérationnelle.",
+    "edition": 2
+  },
+  {
+    "number": 385,
+    "title": "Copilot Bulletin Biweekly #1 — March 10 to March 24, 2026 · Admins Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/english/biweekly/admins/1.html",
+    "createdAt": "2026-03-24T08:39:51Z",
+    "description": "Over the past two weeks, GitHub Copilot delivered a series of governance-focused updates. Admins now have granular control over model reporting in usage dashboards, which security tools run during agent sessions, and how coding agent activity integrates with audit workflows. The pattern is clear: Copilot is becoming easier to manage, audit, and govern at scale.",
+    "edition": 1
+  },
+  {
+    "number": 384,
+    "title": "Copilot Bulletin Biweekly #2 — Del 10 al 24 de marzo de 2026 · Decision-Makers Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/spanish/biweekly/decision-makers/2.html",
+    "createdAt": "2026-03-24T08:39:31Z",
+    "description": "Durante las últimas dos semanas, Copilot ha avanzado en tres direcciones estratégicas simultáneas: agentes autónomos más rápidos, mayor visibilidad y trazabilidad sobre el trabajo generado por IA, y un catálogo de modelos más amplio. El resultado es una plataforma de ingeniería de software más medible, más gobernable y con un retorno de inversión más demostrable para las organizaciones enterprise.",
+    "edition": 2
+  },
+  {
+    "number": 383,
+    "title": "Copilot Bulletin Biweekly #2 — March 10 to March 24, 2026 · Devs Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/english/biweekly/devs/2.html",
+    "createdAt": "2026-03-24T08:39:23Z",
+    "description": "The past two weeks brought a wave of Copilot coding agent improvements: 50% faster startup times, semantic code search, configurable validation tools, and deeper session visibility. The model roster has also expanded, with GPT-5.4 mini now GA and Gemini 3.1 Pro landing in more IDEs. Agentic development is becoming more reliable, observable, and flexible.",
+    "edition": 2
+  },
+  {
+    "number": 382,
+    "title": "Copilot Bulletin Biweekly #2 — Del 10 al 24 de marzo de 2026 · Devs Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/spanish/biweekly/devs/2.html",
+    "createdAt": "2026-03-24T08:39:18Z",
+    "description": "Esta quincena la evolución del agente de codificación de Copilot es la nota dominante: arranca un 50% más rápido, usa búsqueda semántica de código y estrena hooks de agente con soporte de instrucciones propias en JetBrains. Paralelamente, GPT-5.4 mini y Gemini 3.1 Pro amplían el catálogo de modelos en todos los IDEs.",
+    "edition": 2
+  },
+  {
+    "number": 381,
+    "title": "Copilot Bulletin Biweekly #1 — Du 10 au 24 mars 2026 · Devs Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/french/biweekly/devs/1.html",
+    "createdAt": "2026-03-24T08:36:56Z",
+    "description": "Ces deux dernières semaines, l'agent de codage Copilot a franchi un nouveau cap : démarrage 50 % plus rapide, commits traçables jusqu'aux logs de session, et visibilité accrue sur ses actions internes. Gemini 3.1 Pro s'étend désormais à JetBrains, Xcode et Eclipse. L'IA agentique s'intègre pleinement dans le flux de travail quotidien des développeurs.",
+    "edition": 1
+  },
+  {
     "number": 378,
     "title": "Copilot Bulletin Monthly (Long) #1 — Mars 2026 · Decision-Makers Edition",
     "language": "french",
