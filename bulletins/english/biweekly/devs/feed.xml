@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #2 — March 23 to April 6, 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/devs/2</link>
+      <description>The past two weeks mark a clear inflection point in Copilot's agentic story for developers. From parallel agent dispatching in the CLI, to a new SDK for embedding agentic workflows in any application, to verified commits and expanded IDE tooling—these updates form a cohesive foundation for developer-led AI automation. The tools to delegate, build, and trust agents are converging.</description>
+      <pubDate>Mon, 06 Apr 2026 07:43:32 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/devs/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #1 — March 2 to March 16, 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/devs/1</link>
       <description>The past two weeks mark a turning point in Copilot's agentic capabilities. Both VS Code and JetBrains IDEs shipped major agent upgrades — hooks, plugins, memory sharing, custom agents — while GPT-5.4 landed with stronger multi-step reasoning. Copilot is moving from code assistant to programmable development partner.</description>

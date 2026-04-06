@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #2 — Abril 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly/admins/2</link>
+      <description>Este mes marca una inflexión en la gobernanza organizacional de Copilot. Los controles de ejecución y cortafuegos para el agente en la nube a nivel de organización, la disponibilidad general de instrucciones personalizadas y las métricas de uso más granulares brindan a los administradores los instrumentos necesarios para desplegar Copilot con coherencia, visibilidad y cumplimiento.</description>
+      <pubDate>Mon, 06 Apr 2026 07:51:15 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly/admins/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #1 — Marzo 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly/admins/1</link>
       <description>Este mes, GitHub ha consolidado su oferta de gobernanza empresarial para IA. Con la disponibilidad general de AI Controls, métricas de uso de Copilot y nuevos agentes de codificación, los administradores tienen ahora las herramientas necesarias para supervisar, medir y gobernar la adopción de IA a escala en toda la organización.</description>

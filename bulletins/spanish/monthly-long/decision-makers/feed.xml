@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #2 — Abril 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/decision-makers/2</link>
+      <description>Este mes marca un punto de inflexión en la evolución de GitHub Copilot como plataforma empresarial: el agente de nube amplía su alcance más allá de los pull requests hacia ciclos completos de investigación, planificación e implementación; el lanzamiento del SDK abre el motor de IA de GitHub a aplicaciones y flujos de trabajo propios; y un conjunto de controles organizacionales sin precedente permite desplegar el agente con las garantías que exige un entorno de producción. La pregunta ya no es si adoptar IA generativa, sino con qué velocidad escalar de forma segura.</description>
+      <pubDate>Mon, 06 Apr 2026 07:51:42 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/decision-makers/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #1 — Marzo 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly-long/decision-makers/1</link>
       <description>Este mes marca un punto de inflexión: GitHub Copilot se consolida como una plataforma multiagente con gobernanza empresarial completa. La llegada de Claude y Codex para todos los planes de negocio, junto con los Enterprise AI Controls y Copilot Metrics en disponibilidad general, permite a las organizaciones escalar la adopción de IA con visibilidad total y control operativo. Al mismo tiempo, el SDK de Copilot y la nueva arquitectura de seguridad para flujos agénticos posicionan a GitHub como la infraestructura sobre la que se construye el desarrollo de software del futuro.</description>

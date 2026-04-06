@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #2 — March 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/decision-makers/2</link>
+      <description>This month, GitHub Copilot crossed a significant threshold: from AI assistant to autonomous development platform. The cloud agent can now research codebases, generate implementation plans, and write code independently before any pull request is opened. Simultaneously, three new organization-level governance controls give enterprises the guardrails to deploy that autonomy at scale.</description>
+      <pubDate>Mon, 06 Apr 2026 07:48:21 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/decision-makers/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #1 — March 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/decision-makers/1</link>
       <description>GitHub Copilot is evolving from a coding assistant into a full agentic platform. This month saw GPT-5.4 go GA, agentic capabilities reach general availability across major IDEs, a new SDK for embedding Copilot into custom applications, and 60 million code reviews — underscoring the scale at which AI is reshaping how software gets built, reviewed, and shipped.</description>

@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #2 — April 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/admins/2</link>
+      <description>March and April 2026 saw a significant expansion of organization-level governance controls for Copilot cloud agent — covering runner configuration, firewall policies, commit signing, and usage analytics. Combined with custom instructions reaching GA, this month marks a clear maturation point for enterprise Copilot rollouts, giving admins the tools to standardize, secure, and measure deployments at scale.</description>
+      <pubDate>Mon, 06 Apr 2026 07:45:36 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/admins/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #1 — March 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/admins/1</link>
       <description>This month, GitHub Copilot's enterprise governance story reached a milestone. AI Controls and the agent control plane are now generally available alongside fully GA usage metrics with expanded telemetry. Combined with new multi-agent support and agentic code review, admins have a comprehensive toolkit to govern, monitor, and scale AI-assisted development across their organizations.</description>

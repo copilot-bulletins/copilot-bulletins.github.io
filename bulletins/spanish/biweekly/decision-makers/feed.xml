@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #2 — Del 23 de marzo al 6 de abril de 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/2</link>
+      <description>Durante estas dos semanas, GitHub ha dado un paso decisivo para convertir Copilot en un agente de desarrollo autónomo a escala empresarial. El agente en la nube ahora investiga, planifica y escribe código; las organizaciones cuentan con controles centralizados de infraestructura y red; y las instrucciones personalizadas alcanzan disponibilidad general. La transición de asistente a agente autónomo cobra forma real.</description>
+      <pubDate>Mon, 06 Apr 2026 07:50:23 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/decision-makers/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #1 — Del 2 al 16 de marzo de 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/1</link>
       <description>Las últimas dos semanas consolidan la transición de GitHub Copilot de herramienta de asistencia de código a plataforma estratégica de IA. Con 60 millones de revisiones de código realizadas, un SDK para integrar capacidades agénticas en aplicaciones propias y una arquitectura de seguridad diseñada para empresas, GitHub refuerza su posición como infraestructura de IA para el desarrollo de software.</description>

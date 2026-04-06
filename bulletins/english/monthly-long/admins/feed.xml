@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #2 — April 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/2</link>
+      <description>March brought significant maturation to Copilot's governance and observability story. Usage metrics now cover every Copilot surface — IDE, CLI, and cloud agent — giving administrators a complete, actionable picture of adoption across the organization. Organization-level controls were simultaneously reinforced: custom instructions reached general availability, and coding agent gained API-based repository scoping, audit-trail commits, org-wide runner defaults, and configurable validation tools. Model policy also demands attention this month: Claude Sonnet 4 is scheduled for deprecation on May 1. The broader signal is that GitHub is systematically building enterprise-grade controls into every layer of the Copilot platform.</description>
+      <pubDate>Mon, 06 Apr 2026 07:50:36 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/admins/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #1 — March 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/1</link>
       <description>March brought a clear message for Copilot administrators: governance tooling is catching up with the pace of agentic innovation. New enterprise session filters, agent hooks for policy enforcement, and a security architecture built on zero-trust principles give admins granular control over how agents operate across their organizations. Meanwhile, Copilot code review crossed 60 million reviews with 12,000+ organizations running automatic reviews — signaling that AI-assisted quality workflows are becoming standard practice. GPT-5.4 and auto model selection both landed this month, each requiring admin enablement through policy settings.</description>

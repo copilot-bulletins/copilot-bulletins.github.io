@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #2 — Del 23 de marzo al 6 de abril de 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/devs/2</link>
+      <description>Las últimas dos semanas consolidan un patrón claro: GitHub Copilot evoluciona hacia un ecosistema agéntico más compositivo y extensible. Desde la ejecución paralela en la CLI hasta un SDK público para integrar las capacidades del agente en aplicaciones propias, el foco está en multiplicar la productividad del desarrollador mediante automatización coordinada.</description>
+      <pubDate>Mon, 06 Apr 2026 07:45:29 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #1 — Del 2 al 16 de marzo de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/1</link>
       <description>Las últimas dos semanas consolidaron la era agéntica de GitHub Copilot. VS Code y JetBrains recibieron mejoras sustanciales en hooks, plugins y gestión de contexto para agentes. GPT-5.4 llegó como nuevo modelo de referencia, el servidor MCP de Figma conecta diseño y código bidireccionalmente, y la CLI ahora permite solicitar revisiones de Copilot sin salir de la terminal.</description>

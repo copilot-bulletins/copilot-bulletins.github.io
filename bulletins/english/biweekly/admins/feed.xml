@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #2 — March 23 to April 6, 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/2</link>
+      <description>The past two weeks mark a clear turning point for Copilot governance at scale. GitHub has moved several organization-level controls from preview to general availability, and introduced new mechanisms for managing the cloud agent's security posture, runner infrastructure, and usage visibility across the entire organization — all configurable from a single place.</description>
+      <pubDate>Mon, 06 Apr 2026 07:44:20 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #1 — March 2 to March 16, 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/admins/1</link>
       <description>The past two weeks focused on giving administrators stronger control over the expanding agentic ecosystem. From enterprise-wide session monitoring with new filters to repository-level workflow approval settings and agent hooks for policy enforcement, GitHub is building the governance layer admins need to manage AI agents at scale while balancing security with developer velocity.</description>

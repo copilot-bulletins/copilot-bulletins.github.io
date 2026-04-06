@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #2 — April 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/devs/2</link>
+      <description>This month, Copilot shifted from assistant to platform. The Copilot SDK opens the agent runtime to any application, `/fleet` adds parallel execution to the CLI, and Visual Studio gains a full custom-agent authoring system. Cloud agent commits are now cryptographically signed—unlocking use in repos with strict branch protection. Copilot is becoming infrastructure developers build on.</description>
+      <pubDate>Mon, 06 Apr 2026 07:44:56 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/devs/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #1 — March 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/devs/1</link>
       <description>This month, GitHub Copilot's agentic capabilities matured across every developer surface — IDEs, CLI, code review, and the coding agent. Agent hooks, shared memory, and a new agentic architecture for code review give developers more programmable control over AI-assisted workflows, while GPT-5.4 and bidirectional MCP integrations expand what agents can accomplish autonomously.</description>

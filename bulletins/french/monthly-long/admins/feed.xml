@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #2 — Mars 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins/2</link>
+      <description>Ce mois de mars est marqué par la maturité organisationnelle du Copilot cloud agent. GitHub a livré une série de contrôles au niveau organisation — runners, pare-feu, instructions personnalisées — qui permettent aux administrateurs de déployer l'agent à grande échelle avec des règles cohérentes. Simultanément, les métriques d'utilisation ont atteint une couverture complète : CLI par utilisateur, suivi de l'activité de l'agent de code. Pour les équipes IT, c'est le mois où Copilot passe d'un outil à déployer à une plateforme à gouverner.</description>
+      <pubDate>Mon, 06 Apr 2026 07:48:52 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/admins/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #1 — Mars 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins/1</link>
       <description>Ce mois-ci, GitHub franchit un cap décisif en matière de gouvernance de l'IA. Les Enterprise AI Controls et le plan de contrôle des agents passent en disponibilité générale, offrant aux administrateurs une visibilité sans précédent sur l'activité agentique. En parallèle, les métriques d'utilisation Copilot atteignent elles aussi la GA avec une couverture élargie. Combinées à l'arrivée de Claude et Codex sur les plans Business, et à la nouvelle architecture agentique de la revue de code, ces avancées renforcent considérablement la capacité des équipes IT à piloter le déploiement Copilot avec contrôle et confiance.</description>

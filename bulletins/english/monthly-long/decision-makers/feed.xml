@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #2 — April 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/2</link>
+      <description>March brought two converging signals for GitHub Copilot: the autonomous agent became demonstrably more capable, and organizations gained the governance infrastructure to deploy it confidently at scale. From the ability to plan before executing, to org-level runner and firewall controls and cryptographically signed commits, the cloud agent is transitioning from developer convenience into a governable enterprise asset. Simultaneously, GitHub's model ecosystem accelerated — faster, leaner models arriving while an aging lineup retires with clear migration paths. These are the signs of a platform maturing toward enterprise permanence.</description>
+      <pubDate>Mon, 06 Apr 2026 07:49:57 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #1 — March 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/1</link>
       <description>This month, GitHub Copilot crossed a threshold from coding assistant to enterprise platform. The launch of GPT-5.4 and the Copilot SDK signal that agentic AI is no longer confined to the IDE — it's becoming programmable infrastructure embedded across the software lifecycle. Meanwhile, 60 million code reviews and expanded enterprise controls demonstrate that organizations are not just experimenting with AI-assisted development — they're operationalizing it at scale. For decision-makers, the question is shifting from whether to adopt Copilot to how deeply to integrate it.</description>

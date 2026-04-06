@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #2 — April 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/2</link>
+      <description>March and early April signal a clear shift in how Copilot integrates into developer workflows. The Copilot cloud agent has evolved from a pull-request generator into a full research-and-planning collaborator — capable of deep codebase exploration and step-by-step implementation guidance before writing a single line of code. At the same time, the developer toolkit has expanded significantly: a new SDK brings Copilot's agent runtime into your own applications, `/fleet` in Copilot CLI enables parallel subagent execution, and IDE integrations have matured across JetBrains, Visual Studio, and VS Code.</description>
+      <pubDate>Mon, 06 Apr 2026 07:46:39 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/devs/2</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #1 — March 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/1</link>
       <description>This month, GitHub Copilot expanded its reach across every surface developers work on. The Copilot CLI reached general availability, bringing agentic coding to the terminal. Code review shifted to an agentic architecture with deeper repository understanding, while the coding agent gained new integrations and platform support. A wave of new models — GPT-5.4, Claude Sonnet 4.6, Gemini 3.1 Pro — gives developers more choice and capability. The theme is clear: Copilot is becoming a persistent, context-aware collaborator that works wherever you do.</description>
