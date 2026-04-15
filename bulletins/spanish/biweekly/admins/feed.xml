@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #3 — Del 1 al 15 de abril de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/3</link>
+      <description>Esta quincena refuerza el control administrativo de Copilot en tres frentes: residencia de datos y cumplimiento FedRAMP para requisitos regulatorios, controles centralizados del agente en la nube para una gobernanza coherente, y métricas de uso ampliadas que diferencian la adopción activa de la cobertura pasiva. Las organizaciones ya tienen las herramientas para desplegar Copilot con confianza a escala.</description>
+      <pubDate>Wed, 15 Apr 2026 15:41:30 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #2 — Del 23 de marzo al 6 de abril de 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/admins/2</link>
       <description>Las últimas dos semanas representan un avance clave en el control administrativo de Copilot. GitHub ha centralizado la configuración del Copilot cloud agent a nivel organización: runners, cortafuegos e instrucciones personalizadas son ahora gestionables de forma unificada en todos los repositorios, dando a los administradores las herramientas para desplegar el agente con las garantías de seguridad requeridas.</description>

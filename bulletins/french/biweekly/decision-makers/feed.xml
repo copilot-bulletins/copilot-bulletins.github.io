@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #3 — Du 1er au 15 avril 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/3</link>
+      <description>Ces deux dernières semaines, GitHub a posé des jalons stratégiques majeurs pour les entreprises : résidence des données et conformité FedRAMP pour Copilot, choix élargi des modèles d'IA tiers, et automatisation renforcée du cycle de développement. Ces avancées reflètent une ambition claire : faire de Copilot une plateforme d'IA de confiance, adaptée aux exigences réglementaires les plus strictes.</description>
+      <pubDate>Wed, 15 Apr 2026 15:39:52 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #2 — Du 23 mars au 6 avril 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/2</link>
       <description>Ces deux dernières semaines marquent un tournant stratégique pour GitHub Copilot : la plateforme s'affirme comme une couche d'IA d'entreprise extensible et gouvernable. Le lancement du SDK Copilot, l'expansion de l'agent cloud au-delà des pull requests et les nouveaux contrôles organisationnels dessinent la vision de GitHub : une IA systématique, auditable et intégrée au cœur de chaque organisation. ---</description>

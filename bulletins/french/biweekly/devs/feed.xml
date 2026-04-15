@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #3 — Du 1er avril au 15 avril 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/3</link>
+      <description>Ces deux dernières semaines, Copilot franchit une nouvelle étape vers l'ubiquité : les sessions CLI deviennent pilotables à distance depuis le web ou le mobile, l'agent cloud intègre une phase de planification et de recherche en amont du code, et le CLI expérimente une revue croisée entre familles de modèles. L'assistant sort du bureau pour accompagner les développeurs dans tous leurs contextes.</description>
+      <pubDate>Wed, 15 Apr 2026 15:45:34 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/devs/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #2 — Du 23 mars au 6 avril 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/2</link>
       <description>Ces deux dernières semaines ont été dominées par une accélération de l'outillage agentique autour de GitHub Copilot : SDK public, parallélisation native dans le CLI, nouvelles capacités dans les IDEs. GitHub consolide une plateforme sur laquelle les développeurs peuvent non seulement utiliser des agents, mais aussi en construire, les orchestrer et les intégrer dans leurs propres workflows.</description>

@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #3 — April 1 to April 15, 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/3</link>
+      <description>The past two weeks mark a turning point in GitHub's enterprise strategy for Copilot. Compliance-grade data residency, FedRAMP authorization, multi-agent parallelism, and cross-model quality validation signal a clear direction: Copilot is evolving from a developer productivity tool into foundational AI infrastructure designed to meet the demands of regulated industries and global enterprises.</description>
+      <pubDate>Wed, 15 Apr 2026 15:45:10 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/decision-makers/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #2 — March 23 to April 6, 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/2</link>
       <description>Over the past two weeks, GitHub has systematically matured Copilot cloud agent from a pull request tool into an enterprise-ready development platform. Expanded autonomous capabilities — research, planning, and code iteration — combined with a wave of organization-level governance controls signal that GitHub is ready for organizations to deploy AI agents at scale.</description>
