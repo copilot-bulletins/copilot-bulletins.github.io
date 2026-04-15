@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #3 — Du 1er avril au 15 avril 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/3</link>
+      <description>Cette quinzaine marque une étape majeure dans la gouvernance de Copilot à l'échelle de l'entreprise : la résidence des données US/EU et la conformité FedRAMP passent en disponibilité générale. Simultanément, GitHub enrichit les métriques d'adoption — cloud agent, revue de code, CLI — offrant aux administrateurs une visibilité complète et unifiée de l'utilisation de Copilot dans leur organisation. ---</description>
+      <pubDate>Wed, 15 Apr 2026 16:23:44 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/admins/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #2 — Du 23 mars au 6 avril 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/2</link>
       <description>Cette quinzaine marque un tournant dans la maturité opérationnelle de Copilot pour les équipes d'administration : GitHub centralise les contrôles de gouvernance de l'agent cloud Copilot au niveau de l'organisation. Runners, pare-feu réseau, conformité des commits signés — les outils pour déployer Copilot à grande échelle, avec les bonnes guardrails, sont désormais entre les mains des administrateurs.</description>

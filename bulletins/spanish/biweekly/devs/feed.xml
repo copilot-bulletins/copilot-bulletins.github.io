@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #3 — Del 1 al 15 de abril de 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/devs/3</link>
+      <description>Las últimas dos semanas consolidan un patrón claro: Copilot se expande hacia donde trabajan los desarrolladores. VS Code recibe modos autónomos de próxima generación, la CLI se puede controlar desde cualquier dispositivo, y los agentes cloud ya resuelven conflictos de fusión directamente en los pull requests. El ecosistema se abre además con BYOK y un SDK público.</description>
+      <pubDate>Wed, 15 Apr 2026 16:22:54 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #2 — Del 23 de marzo al 6 de abril de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/2</link>
       <description>Las últimas dos semanas consolidan un patrón claro: GitHub Copilot evoluciona hacia un ecosistema agéntico más compositivo y extensible. Desde la ejecución paralela en la CLI hasta un SDK público para integrar las capacidades del agente en aplicaciones propias, el foco está en multiplicar la productividad del desarrollador mediante automatización coordinada.</description>

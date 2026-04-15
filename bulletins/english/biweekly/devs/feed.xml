@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #3 — April 1 to April 15, 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/devs/3</link>
+      <description>The past two weeks reveal a clear pattern in Copilot's evolution: greater developer autonomy and mobility. VS Code gained a fully autonomous Autopilot mode, the CLI shed its dependency on GitHub-hosted models with BYOK support, and agent sessions can now be monitored and steered remotely from any device. Copilot is becoming less tied to a single desk or tool.</description>
+      <pubDate>Wed, 15 Apr 2026 16:20:48 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/devs/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #2 — March 23 to April 6, 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/devs/2</link>
       <description>The past two weeks mark a clear inflection point in Copilot's agentic story for developers. From parallel agent dispatching in the CLI, to a new SDK for embedding agentic workflows in any application, to verified commits and expanded IDE tooling—these updates form a cohesive foundation for developer-led AI automation. The tools to delegate, build, and trust agents are converging.</description>

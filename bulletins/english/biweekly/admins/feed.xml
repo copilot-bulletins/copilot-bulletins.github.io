@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #3 — April 1 to April 15, 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/3</link>
+      <description>The past two weeks mark a governance inflection point for enterprise admins: data residency and FedRAMP compliance arrive for Copilot, alongside new organization-level controls for the cloud agent—centralizing runner and firewall policy enforcement. Usage metrics also deepen, offering clearer visibility into how teams actively engage with code review and the agent across your organization.</description>
+      <pubDate>Wed, 15 Apr 2026 16:23:37 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #2 — March 23 to April 6, 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/admins/2</link>
       <description>The past two weeks mark a clear turning point for Copilot governance at scale. GitHub has moved several organization-level controls from preview to general availability, and introduced new mechanisms for managing the cloud agent's security posture, runner infrastructure, and usage visibility across the entire organization — all configurable from a single place.</description>
