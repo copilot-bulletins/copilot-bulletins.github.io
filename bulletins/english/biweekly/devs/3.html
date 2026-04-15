@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #3 — April 1 to April 15, 2026 · Devs Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body,
+body > table {
+    background-color: #0d1117 !important;
+  }
+
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+
+  p,
+li,
+td.content,
+td.content td {
+    color: #e6edf3 !important;
+  }
+
+  h3,
+h4,
+strong {
+    color: #e6edf3 !important;
+  }
+
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+
+  a {
+    color: #58a6ff !important;
+  }
+
+  hr {
+    border-top-color: #30363d !important;
+  }
+
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #3 · April 1 to April 15, 2026 · Devs Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-this-editions-thread" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 This edition's thread</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">The past two weeks reveal a clear pattern in Copilot's evolution: greater developer autonomy and mobility. VS Code gained a fully autonomous Autopilot mode, the CLI shed its dependency on GitHub-hosted models with BYOK support, and agent sessions can now be monitored and steered remotely from any device. Copilot is becoming less tied to a single desk or tool.</p>
+              <h3 id="️-heads-up" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Heads up</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated" style="color: #0969da; text-decoration: underline;">GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated</a> — <strong style="font-weight: 600; color: #24292f;">Deprecated: April 1, 2026</strong> — Update all workflows and integrations to use GPT-5.3-Codex; see the <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/ai-models/supported-models" style="color: #0969da; text-decoration: underline;">supported models documentation</a>.</li>
+              </ul>
+              <h3 id="-take-action" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Take action</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Enable <a href="https://code.visualstudio.com/updates/v1_115" style="color: #0969da; text-decoration: underline;">Autopilot mode</a> in VS Code for fully hands-free agent sessions that approve their own actions.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Bring your own keys: configure <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models" style="color: #0969da; text-decoration: underline;">BYOK models in Copilot CLI</a> for air-gapped or custom provider workflows.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Try remote CLI sessions: start with <code>copilot --remote</code> and <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/steer-remotely" style="color: #0969da; text-decoration: underline;">steer from the web or GitHub Mobile</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Questions or need support? Reach out to your GitHub team, we're here to help.</li>
+              </ul>
+              <h3 id="-top-5-updates" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 updates</h3>
+              <h4 id="1-vs-codes-march-releases-autopilot-browser-debugging-and-more" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. VS Code's March releases: Autopilot, browser debugging, and more</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">VS Code's March releases introduce Autopilot—a preview mode where agents approve their own actions and run to completion without manual intervention. Also new: browser debugging from the editor, image and video in chat, nested subagents, MCP servers shared with Copilot CLI sessions, and a unified chat customizations editor.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases" style="color: #0969da; text-decoration: underline;">Changelog: GitHub Copilot in Visual Studio Code, March Releases</a></p>
+              <h4 id="2-copilot-cli-now-supports-byok-and-local-models" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Copilot CLI now supports BYOK and local models</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Copilot CLI now lets you bring your own model provider—Azure OpenAI, Anthropic, Ollama, or any OpenAI-compatible endpoint—instead of relying on GitHub-hosted routing. Set <code>COPILOT_OFFLINE=true</code> for fully air-gapped workflows. GitHub authentication is optional when using your own keys.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models" style="color: #0969da; text-decoration: underline;">Changelog: Copilot CLI now supports BYOK and local models</a></p>
+              <h4 id="3-remote-control-cli-sessions-from-the-web-or-mobile" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Remote control CLI sessions from the web or mobile</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Copilot CLI now streams your session to GitHub in real time. Start with <code>copilot --remote</code>, get a link and QR code, and monitor or steer your task from any browser or the GitHub Mobile app—without staying at the machine running the session.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview" style="color: #0969da; text-decoration: underline;">Changelog: Remote control CLI sessions on web and mobile in public preview</a></p>
+              <h4 id="4-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. Fix merge conflicts in three clicks with Copilot cloud agent</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">A new "Fix with Copilot" button now appears in the merge box on github.com when a PR has conflicts. Click it, submit the pre-populated comment, and Copilot resolves the conflicts, verifies the build passes, and pushes—all from its cloud-based development environment.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent" style="color: #0969da; text-decoration: underline;">Changelog: Fix merge conflicts in three clicks with Copilot cloud agent</a></p>
+              <h4 id="5-pick-your-model-for-claude-and-codex-coding-agents" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Pick your model for Claude and Codex coding agents</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Model selection is now available for Claude and Codex third-party coding agents on github.com. Choose from Anthropic Sonnet and Opus variants (4.5 and 4.6) for Claude, or GPT-5.2-Codex, GPT-5.3-Codex, and GPT-5.4 for Codex—same model-picker experience as with Copilot cloud agent.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com" style="color: #0969da; text-decoration: underline;">Changelog: Model selection for Claude and Codex agents on github.com</a></p>
+              <h3 id="-also-in-this-edition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 Also in this edition</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview" style="color: #0969da; text-decoration: underline;">Copilot SDK in public preview</a> — The production-tested agent runtime powering Copilot cloud agent and CLI is now available as an SDK in 5 languages (Node.js, Python, Go, .NET, Java) to embed agentic capabilities directly in your own apps.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster" style="color: #0969da; text-decoration: underline;">Copilot cloud agent's validation tools are now 20% faster</a> — CodeQL, secret scanning, advisory DB checks, and code review now run in parallel, cutting total validation time by 20%.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-08-github-mobile-research-and-code-with-copilot-cloud-agent-anywhere" style="color: #0969da; text-decoration: underline;">GitHub Mobile: Research and code with Copilot cloud agent anywhere</a> — Copilot cloud agent on Mobile now supports codebase research, plan generation, and code changes on a branch—not just PR workflows.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Want to see more? Browse the full <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">GitHub Copilot changelog</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

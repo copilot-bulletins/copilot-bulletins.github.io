@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #3 — Du 1er avril au 15 avril 2026 · Admins Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body,
+body > table {
+    background-color: #0d1117 !important;
+  }
+
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+
+  p,
+li,
+td.content,
+td.content td {
+    color: #e6edf3 !important;
+  }
+
+  h3,
+h4,
+strong {
+    color: #e6edf3 !important;
+  }
+
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+
+  a {
+    color: #58a6ff !important;
+  }
+
+  hr {
+    border-top-color: #30363d !important;
+  }
+
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #3 · Du 1er avril au 15 avril 2026 · Admins Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-le-fil-de-cette-édition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 Le fil de cette édition</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Cette quinzaine marque une étape majeure dans la gouvernance de Copilot à l'échelle de l'entreprise : la résidence des données US/EU et la conformité FedRAMP passent en disponibilité générale. Simultanément, GitHub enrichit les métriques d'adoption — cloud agent, revue de code, CLI — offrant aux administrateurs une visibilité complète et unifiée de l'utilisation de Copilot dans leur organisation.</p>
+              <hr style="border: 0; border-top: 1px solid #d0d7de; margin: 16px 0;">
+              <h3 id="️-attention" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Attention</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro" style="color: #0969da; text-decoration: underline;">Enforcing new limits and retiring Opus 4.6 Fast from Copilot Pro+</a> — <strong style="font-weight: 600; color: #24292f;">Retrait immédiat</strong> — Le modèle Opus 4.6 Fast est retiré des abonnements Copilot Pro+. Les utilisateurs affectés doivent basculer vers Opus 4.6 comme alternative ; de nouveaux <a href="https://docs.github.com/en/copilot/concepts/rate-limits" style="color: #0969da; text-decoration: underline;">plafonds d'utilisation</a> sont également mis en place progressivement sur tous les plans.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-10-pausing-new-github-copilot-pro-trials" style="color: #0969da; text-decoration: underline;">Pausing new GitHub Copilot Pro trials</a> — <strong style="font-weight: 600; color: #24292f;">Action requise</strong> — Les nouveaux essais Copilot Pro sont suspendus jusqu'à nouvel ordre en raison d'abus détectés. Orientez les nouveaux utilisateurs vers Copilot Free ou un abonnement payant en attendant le rétablissement des essais.</li>
+              </ul>
+              <hr style="border: 0; border-top: 1px solid #d0d7de; margin: 16px 0;">
+              <h3 id="-passez-à-laction" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Passez à l'action</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Activez la résidence des données (US/EU) ou la conformité FedRAMP depuis les <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/data-residency/github-copilot-with-data-residency" style="color: #0969da; text-decoration: underline;">paramètres Copilot de votre entreprise</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Exploitez l'<a href="https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-usage-metrics" style="color: #0969da; text-decoration: underline;">API des métriques d'utilisation Copilot</a> pour suivre l'adoption du cloud agent et mesurer l'impact des revues de code automatisées sur vos cycles de développement.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Activez les politiques d'accès pour les agents tiers (Claude, Codex) depuis la page <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies" style="color: #0969da; text-decoration: underline;">Politiques et fonctionnalités de votre entreprise</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Vérifiez vos tableaux de bord de métriques : les totaux de haut niveau incluent désormais l'activité CLI. Ajustez vos seuils si nécessaire.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Des questions ou besoin d'aide ? Contactez votre équipe GitHub, nous sommes là pour vous accompagner.</li>
+              </ul>
+              <hr style="border: 0; border-top: 1px solid #d0d7de; margin: 16px 0;">
+              <h3 id="-top-5-des-mises-à-jour" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 des mises à jour</h3>
+              <h4 id="1-résidence-des-données-copilot-useu-et-conformité-fedramp-disponibles-en-ga" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. Résidence des données Copilot US/EU et conformité FedRAMP disponibles en GA</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">GitHub Copilot prend désormais en charge la résidence des données pour les régions US et EU, garantissant que tous les traitements d'inférence restent dans la géographie désignée. Les clients gouvernementaux américains bénéficient en outre de la conformité FedRAMP Moderate. Les administrateurs d'entreprise activent ces restrictions depuis leurs paramètres Copilot, avec une majoration de 10 % du multiplicateur de requêtes premium.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available" style="color: #0969da; text-decoration: underline;">Changelog: Copilot data residency in US + EU and FedRAMP compliance now available</a></p>
+              <h4 id="2-les-métriques-dutilisation-agrègent-désormais-les-utilisateurs-actifs-du-cloud-agent" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Les métriques d'utilisation agrègent désormais les utilisateurs actifs du cloud agent</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Les rapports au niveau entreprise et organisation incluent maintenant des comptages d'utilisateurs actifs du Copilot cloud agent : quotidien, hebdomadaire et mensuel. Ces champs permettent de suivre l'adoption de l'agent sans agréger manuellement les données par utilisateur, et s'ajoutent aux métriques existantes pour une vue complète de l'usage de Copilot.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts" style="color: #0969da; text-decoration: underline;">Changelog: Copilot usage metrics now aggregate Copilot cloud agent active user counts</a></p>
+              <h4 id="3-métriques-de-fusion-pour-les-pr-révisées-par-copilot-dans-lapi" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Métriques de fusion pour les PR révisées par Copilot dans l'API</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Deux nouveaux champs rejoignent l'API des métriques d'utilisation : nombre de PR fusionnées après revue Copilot et délai médian de fusion pour ces PR. Combinées aux métriques sur les PR créées par le cloud agent, elles offrent une vue bout en bout de la contribution de Copilot dans le cycle de vie des pull requests.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-08-copilot-reviewed-pull-request-merge-metrics-now-in-the-usage-metrics-api" style="color: #0969da; text-decoration: underline;">Changelog: Copilot-reviewed pull request merge metrics now in the usage metrics API</a></p>
+              <h4 id="4-lactivité-copilot-cli-intégrée-dans-les-totaux-des-métriques-dutilisation" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. L'activité Copilot CLI intégrée dans les totaux des métriques d'utilisation</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">L'activité Copilot CLI est désormais incluse dans les totaux de haut niveau de l'API et apparaît dans les ventilations par fonctionnalité (<code>feature=copilot_cli</code>). Les administrateurs disposent d'une vue unifiée IDE + CLI sans agrégation manuelle. <strong style="font-weight: 600; color: #24292f;">À noter</strong> : les totaux de haut niveau reflètent maintenant IDE + CLI — vérifiez vos tableaux de bord si ces valeurs y sont utilisées.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-10-copilot-cli-activity-now-included-in-usage-metrics-totals-and-feature-breakdowns" style="color: #0969da; text-decoration: underline;">Changelog: Copilot CLI activity now included in usage metrics totals and feature breakdowns</a></p>
+              <h4 id="5-sélection-de-modèle-pour-les-agents-tiers-claude-et-codex-sur-githubcom" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Sélection de modèle pour les agents tiers Claude et Codex sur github.com</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Les agents de codage tiers Claude et Codex supportent désormais la sélection de modèle sur github.com, comme le cloud agent Copilot. Pour les abonnements Business et Enterprise, les administrateurs doivent activer les <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies" style="color: #0969da; text-decoration: underline;">politiques Anthropic Claude ou OpenAI Codex</a> depuis les paramètres d'entreprise pour en autoriser l'accès.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com" style="color: #0969da; text-decoration: underline;">Changelog: Model selection for Claude and Codex agents on github.com</a></p>
+              <hr style="border: 0; border-top: 1px solid #d0d7de; margin: 16px 0;">
+              <h3 id="-également-dans-cette-édition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 Également dans cette édition</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent" style="color: #0969da; text-decoration: underline;">Fix merge conflicts in three clicks with Copilot cloud agent</a> — Le Copilot cloud agent peut désormais résoudre les conflits de fusion en trois clics depuis github.com ; les administrateurs doivent avoir activé le cloud agent dans les paramètres.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview" style="color: #0969da; text-decoration: underline;">Remote control CLI sessions on web and mobile in public preview</a> — Les sessions Copilot CLI peuvent être surveillées et pilotées depuis le web ou les apps mobiles GitHub ; les administrateurs Business/Enterprise doivent activer les politiques d'accès à distance.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster" style="color: #0969da; text-decoration: underline;">Copilot cloud agent's validation tools are now 20% faster</a> — Les outils de validation du cloud agent (CodeQL, secret scanning, code review) s'exécutent maintenant en parallèle, réduisant le temps de validation de 20 %.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Envie d'en voir plus ? Consultez l'intégralité du <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">changelog GitHub Copilot</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
