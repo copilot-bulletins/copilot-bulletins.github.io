@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #3 — Du 1er avril au 15 avril 2026 · Devs Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body,
+body > table {
+    background-color: #0d1117 !important;
+  }
+
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+
+  p,
+li,
+td.content,
+td.content td {
+    color: #e6edf3 !important;
+  }
+
+  h3,
+h4,
+strong {
+    color: #e6edf3 !important;
+  }
+
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+
+  a {
+    color: #58a6ff !important;
+  }
+
+  hr {
+    border-top-color: #30363d !important;
+  }
+
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #3 · Du 1er avril au 15 avril 2026 · Devs Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-le-fil-de-cette-édition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 Le fil de cette édition</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Ces deux dernières semaines, Copilot franchit une nouvelle étape vers l'ubiquité : les sessions CLI deviennent pilotables à distance depuis le web ou le mobile, l'agent cloud intègre une phase de planification et de recherche en amont du code, et le CLI expérimente une revue croisée entre familles de modèles. L'assistant sort du bureau pour accompagner les développeurs dans tous leurs contextes.</p>
+              <h3 id="️-attention" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Attention</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro" style="color: #0969da; text-decoration: underline;">Enforcing new limits and retiring Opus 4.6 Fast from Copilot Pro+</a> — <strong style="font-weight: 600; color: #24292f;">Action required</strong> — Le modèle Opus 4.6 Fast est retiré des plans Copilot Pro+ ; passez à Opus 4.6 comme alternative. De nouveaux plafonds de requêtes sont déployés progressivement : utilisez le <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/auto-model-selection" style="color: #0969da; text-decoration: underline;">mode Auto</a> pour basculer automatiquement vers un autre modèle en cas de limite atteinte.</li>
+              </ul>
+              <h3 id="-passez-à-laction" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Passez à l'action</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Essayez les sessions CLI à distance : lancez <code>copilot --remote</code> et ouvrez la session depuis n'importe quel appareil (<a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/steer-remotely" style="color: #0969da; text-decoration: underline;">documentation</a>).</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Activez le mode expérimental dans Copilot CLI avec <code>/experimental</code> pour accéder à <a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-combines-model-families-for-a-second-opinion/" style="color: #0969da; text-decoration: underline;">Rubber Duck</a>, le second modèle cross-family qui évalue vos plans.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Utilisez l'agent cloud Copilot pour <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/cloud-agent/research-plan-iterate" style="color: #0969da; text-decoration: underline;">planifier et itérer</a> avant d'ouvrir une pull request.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Des questions ou besoin d'aide ? Contactez votre équipe GitHub, nous sommes là pour vous accompagner.</li>
+              </ul>
+              <h3 id="-top-5-des-mises-à-jour" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 des mises à jour</h3>
+              <h4 id="1-pilotez-vos-sessions-copilot-cli-depuis-le-web-ou-le-mobile" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. Pilotez vos sessions Copilot CLI depuis le web ou le mobile</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">La Copilot CLI s'ouvre sur le monde avec <code>copilot --remote</code> : votre session est diffusée en temps réel vers GitHub.com ou l'appli mobile (lien + QR code). Envoyez des instructions, approuvez des permissions et changez de mode à distance — parfait pour les longues tâches en arrière-plan.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview" style="color: #0969da; text-decoration: underline;">Changelog: Remote control CLI sessions on web and mobile in public preview</a></p>
+              <h4 id="2-rubber-duck--une-revue-croisée-entre-modèles-dans-copilot-cli" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Rubber Duck : une revue croisée entre modèles dans Copilot CLI</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">En mode expérimental, Copilot CLI introduit Rubber Duck : un second modèle d'une autre famille d'IA (GPT-5.4 si vous utilisez Claude) qui évalue les plans de l'agent avant l'exécution. Résultat : Claude Sonnet + Rubber Duck comble 74,7 % de l'écart de performance avec Opus seul. Activez via <code>/experimental</code>.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-combines-model-families-for-a-second-opinion/" style="color: #0969da; text-decoration: underline;">Blog: GitHub Copilot CLI combines model families for a second opinion</a></p>
+              <h4 id="3-lagent-cloud-copilot-passe-en-mode-planification" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. L'agent cloud Copilot passe en mode planification</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Copilot cloud agent évolue : demandez un plan d'implémentation avant toute écriture de code, itérez sur une branche et ouvrez une PR seulement quand vous êtes prêt. Une session de recherche approfondie est aussi disponible pour explorer et comprendre le dépôt avant d'agir.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent/" style="color: #0969da; text-decoration: underline;">Changelog: Research, plan and code with Copilot cloud agent</a></p>
+              <h4 id="4-résolvez-les-conflits-de-fusion-en-trois-clics" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. Résolvez les conflits de fusion en trois clics</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Plus besoin de résoudre manuellement les conflits de merge : un bouton "Fix with Copilot" apparaît désormais sur github.com dans les PRs conflictuelles. Cliquez, confirmez, et l'agent cloud prend la main — il résout les conflits, vérifie que les tests passent, et pousse les modifications.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent" style="color: #0969da; text-decoration: underline;">Changelog: Fix merge conflicts in three clicks with Copilot cloud agent</a></p>
+              <h4 id="5-sélection-de-modèle-pour-les-agents-tiers-claude-et-codex" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Sélection de modèle pour les agents tiers Claude et Codex</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Comme pour Copilot cloud agent, il est désormais possible de choisir le modèle lors du lancement d'une tâche avec les agents Claude (Anthropic) et Codex (OpenAI) sur github.com. Les modèles disponibles incluent Claude Sonnet 4.6, Claude Opus 4.6, GPT-5.2-Codex, GPT-5.3-Codex et GPT-5.4.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com" style="color: #0969da; text-decoration: underline;">Changelog: Model selection for Claude and Codex agents on github.com</a></p>
+              <h3 id="-également-dans-cette-édition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 Également dans cette édition</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster" style="color: #0969da; text-decoration: underline;">Copilot cloud agent's validation tools are now 20% faster</a> — CodeQL, secret scanning et Copilot code review s'exécutent désormais en parallèle, réduisant le temps de validation de 20 %.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-04-10-pausing-new-github-copilot-pro-trials" style="color: #0969da; text-decoration: underline;">Pausing new GitHub Copilot Pro trials</a> — Les essais Copilot Pro sont suspendus le temps de renforcer les mécanismes de protection contre les abus.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/" style="color: #0969da; text-decoration: underline;">GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI</a> — Série de tutoriels pour découvrir Copilot CLI, de l'installation à la délégation de tâches vers l'agent cloud.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Vous voulez en voir plus ? Parcourez le <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">changelog GitHub Copilot</a> complet.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
