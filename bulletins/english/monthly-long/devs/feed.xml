@@ -7,17 +7,10 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Copilot Bulletin Monthly (Long) #1 — April 2026 · Devs Edition</title>
-      <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/1</link>
-      <description>April 2026 was a pivotal month for GitHub Copilot — not an incremental update but a broad platform expansion that redefined where and how developers engage with AI-assisted development. New frontier models, a dramatically more capable cloud agent, and deep IDE enhancements across VS Code, Visual Studio, and JetBrains collectively shifted Copilot from a coding assistant into an autonomous development partner. Meanwhile, the CLI gained BYOK, local model support, and the ability to be remotely steered — extending the agentic loop to any device, anywhere.</description>
-      <pubDate>Fri, 01 May 2026 07:54:56 +0000</pubDate>
-      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/devs/1</guid>
-    </item>
-    <item>
       <title>Copilot Bulletin Monthly (Long) #2 — April 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/2</link>
-      <description>March and early April signal a clear shift in how Copilot integrates into developer workflows. The Copilot cloud agent has evolved from a pull-request generator into a full research-and-planning collaborator — capable of deep codebase exploration and step-by-step implementation guidance before writing a single line of code. At the same time, the developer toolkit has expanded significantly: a new SDK brings Copilot's agent runtime into your own applications, `/fleet` in Copilot CLI enables parallel subagent execution, and IDE integrations have matured across JetBrains, Visual Studio, and VS Code.</description>
-      <pubDate>Mon, 06 Apr 2026 07:46:39 +0000</pubDate>
+      <description>April 2026 was a pivotal month for GitHub Copilot — not an incremental update but a broad platform expansion that redefined where and how developers engage with AI-assisted development. New frontier models, a dramatically more capable cloud agent, and deep IDE enhancements across VS Code, Visual Studio, and JetBrains collectively shifted Copilot from a coding assistant into an autonomous development partner. Meanwhile, the CLI gained BYOK, local model support, and the ability to be remotely steered — extending the agentic loop to any device, anywhere.</description>
+      <pubDate>Fri, 01 May 2026 07:54:56 +0000</pubDate>
       <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/devs/2</guid>
     </item>
     <item>

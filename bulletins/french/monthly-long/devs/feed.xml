@@ -7,17 +7,10 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Copilot Bulletin Monthly (Long) #3 — Avril 2026 · Devs Edition</title>
-      <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/3</link>
-      <description>Avril 2026 marque un tournant décisif dans la maturation de Copilot comme partenaire de développement autonome. VS Code gagne un mode Autopilot qui laisse les agents s'exécuter sans interruption, JetBrains introduit le mode agent inline en préversion et Visual Studio intègre le cloud agent directement depuis l'IDE. L'arrivée de GPT-5.5 et les nouvelles capacités BYOK du CLI offrent un contrôle inédit sur le choix du modèle. En toile de fond, la transition vers la facturation à l'usage, effective le 1er juin, annonce une nouvelle ère pour l'ensemble des plans Copilot.</description>
-      <pubDate>Fri, 01 May 2026 07:59:27 +0000</pubDate>
-      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/devs/3</guid>
-    </item>
-    <item>
       <title>Copilot Bulletin Monthly (Long) #2 — Avril 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/2</link>
-      <description>Avril 2026 marque un tournant dans l'autonomie de GitHub Copilot pour les développeurs. Le Copilot cloud agent s'affranchit de l'ouverture automatique d'une pull request : il peut désormais mener une recherche approfondie, proposer un plan d'implémentation et itérer sur une branche avant que vous décidiez. La commande `/fleet` dans Copilot CLI pousse cette logique plus loin, en distribuant le travail entre plusieurs agents exécutés en parallèle. Le SDK Copilot sort en preview publique et Visual Studio reçoit une mise à jour majeure centrée sur l'extensibilité. Le message est clair : Copilot évolue vers un partenaire de développement autonome et transparent.</description>
-      <pubDate>Mon, 06 Apr 2026 07:46:37 +0000</pubDate>
+      <description>Avril 2026 marque un tournant décisif dans la maturation de Copilot comme partenaire de développement autonome. VS Code gagne un mode Autopilot qui laisse les agents s'exécuter sans interruption, JetBrains introduit le mode agent inline en préversion et Visual Studio intègre le cloud agent directement depuis l'IDE. L'arrivée de GPT-5.5 et les nouvelles capacités BYOK du CLI offrent un contrôle inédit sur le choix du modèle. En toile de fond, la transition vers la facturation à l'usage, effective le 1er juin, annonce une nouvelle ère pour l'ensemble des plans Copilot.</description>
+      <pubDate>Fri, 01 May 2026 07:59:27 +0000</pubDate>
       <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/devs/2</guid>
     </item>
     <item>

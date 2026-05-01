@@ -7,17 +7,10 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Copilot Bulletin Monthly #3 — Abril 2026 · Devs Edition</title>
-      <link>https://copilot-bulletins.github.io/#es/monthly/devs/3</link>
+      <title>Copilot Bulletin Monthly #2 — Abril 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly/devs/2</link>
       <description>Abril sienta las bases de una nueva etapa: Copilot ya no es un asistente ligado a un único IDE. Las capacidades agénticas llegan a VS Code, Visual Studio y JetBrains con el mismo nivel de autonomía, mientras GPT-5.5 y Claude Opus 4.7 elevan el techo de rendimiento disponible en cada uno de ellos.</description>
       <pubDate>Fri, 01 May 2026 07:58:57 +0000</pubDate>
-      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly/devs/3</guid>
-    </item>
-    <item>
-      <title>Copilot Bulletin Monthly #2 — Marzo 2026 · Devs Edition</title>
-      <link>https://copilot-bulletins.github.io/#es/monthly/devs/2</link>
-      <description>Marzo 2026 consolida el salto del asistente al agente autónomo. Copilot cloud agent ya trabaja en ramas sin crear pull requests, genera planes de implementación e investiga tu codebase a fondo. El nuevo SDK pone ese motor en tus propias aplicaciones. GPT-5.4 mini llega a todos los planes. Y `/fleet` en Copilot CLI ejecuta múltiples tareas en paralelo.</description>
-      <pubDate>Mon, 06 Apr 2026 07:46:30 +0000</pubDate>
       <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly/devs/2</guid>
     </item>
     <item>
