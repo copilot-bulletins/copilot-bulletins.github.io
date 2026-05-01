@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #3 — May 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/devs/3</link>
+      <description>April was Copilot's most expansive month for developer tooling in 2026. A new frontier model, autonomous agent modes landing in VS Code, JetBrains, and Visual Studio simultaneously, and a public SDK opening Copilot's agent runtime to any application mark a shift from AI assistant to AI platform. Developers can now build with Copilot, not just alongside it.</description>
+      <pubDate>Fri, 01 May 2026 07:58:14 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/devs/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #2 — April 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/devs/2</link>
       <description>This month, Copilot shifted from assistant to platform. The Copilot SDK opens the agent runtime to any application, `/fleet` adds parallel execution to the CLI, and Visual Studio gains a full custom-agent authoring system. Cloud agent commits are now cryptographically signed—unlocking use in repos with strict branch protection. Copilot is becoming infrastructure developers build on.</description>

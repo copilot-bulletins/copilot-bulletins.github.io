@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #3 — Abril 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/devs/3</link>
+      <description>Abril 2026 consolida dos tendencias que definen el rumbo de GitHub Copilot: la expansión agentic y la democratización de los modelos de IA. El agente en la nube gana velocidad y nuevas superficies de integración, mientras que el Copilot CLI trasciende el entorno local para seguirte desde cualquier dispositivo. Al mismo tiempo, la llegada de GPT-5.5 y Claude Opus 4.7 amplía el abanico de opciones para tareas complejas de múltiples pasos. El resultado es un asistente cada vez más ubicuo, capaz de actuar donde trabajas, con el modelo que mejor se adapta a tu flujo.</description>
+      <pubDate>Fri, 01 May 2026 07:57:34 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/devs/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #2 — Marzo 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly-long/devs/2</link>
       <description>Marzo 2026 marcó un punto de inflexión en el desarrollo asistido por agentes. GitHub lanzó el Copilot SDK en preview pública, habilitando que cualquier desarrollador embeba las capacidades agénticas de Copilot en sus propias aplicaciones y flujos de trabajo. Al mismo tiempo, herramientas como `/fleet` en Copilot CLI y las mejoras del cloud agent transforman el ciclo de desarrollo cotidiano: más paralelismo, más autonomía y mayor transparencia. Visual Studio suma agentes personalizados y skills reutilizables. La tendencia es inequívoca: el desarrollo ya no es secuencial ni solitario, sino orquestado y colaborativo. ---</description>

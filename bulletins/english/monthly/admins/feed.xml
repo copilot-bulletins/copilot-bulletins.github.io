@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #3 — April 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/admins/3</link>
+      <description>April was a defining month for Copilot governance. With US and EU data residency, FedRAMP compliance, and the most expansive usage metrics update to date, GitHub is investing heavily in the tools administrators need to deploy AI at scale with confidence. New granular controls for cloud agent rollout and expanded model availability round out a high-impact month for enterprise admins.</description>
+      <pubDate>Fri, 01 May 2026 07:59:51 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/admins/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #2 — April 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/admins/2</link>
       <description>March and April 2026 saw a significant expansion of organization-level governance controls for Copilot cloud agent — covering runner configuration, firewall policies, commit signing, and usage analytics. Combined with custom instructions reaching GA, this month marks a clear maturation point for enterprise Copilot rollouts, giving admins the tools to standardize, secure, and measure deployments at scale.</description>

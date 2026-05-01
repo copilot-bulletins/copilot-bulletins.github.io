@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #4 — Del 15 de abril al 30 de abril de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/4</link>
+      <description>Esta quincena está marcada por una transformación en la facturación de Copilot: el 1 de junio, los premium request units darán paso a los AI Credits, basados en el consumo real de tokens. Los administradores deben revisar presupuestos, configurar límites de gasto y gestionar los nuevos modelos GPT-5.5 y Claude Opus 4.7, ya en disponibilidad general.</description>
+      <pubDate>Fri, 01 May 2026 07:58:54 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #3 — Del 1 de abril al 15 de abril de 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/admins/3</link>
       <description>Esta quincena consolida dos avances clave para los administradores: la llegada de la residencia de datos y la certificación FedRAMP amplía el control sobre el cumplimiento normativo, mientras que nuevas métricas para el CLI, la revisión de código y el agente en la nube ofrecen una visibilidad más completa sobre la adopción de Copilot en la organización.</description>

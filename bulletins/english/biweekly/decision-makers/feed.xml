@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #4 — April 15 to April 30, 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/4</link>
+      <description>April 15–30 brought GitHub Copilot's most significant pricing shift to date, alongside two new frontier model launches from OpenAI and Anthropic. As the cloud agent accelerates and agentic capabilities become the default, usage-based billing arriving June 1 gives organizations the cost transparency they need to scale AI investment with confidence.</description>
+      <pubDate>Fri, 01 May 2026 07:58:32 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/decision-makers/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #3 — April 1 to April 15, 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/3</link>
       <description>GitHub Copilot is consolidating its enterprise credentials this fortnight. Two pivotal thresholds were crossed: data sovereignty for regulated industries, and precision measurement of AI agent adoption across organizations. Paired with expanded model choice for third-party coding agents, these advances signal that Copilot is no longer a productivity experiment—it is infrastructure-grade tooling for organizations that cannot afford ambiguity.</description>

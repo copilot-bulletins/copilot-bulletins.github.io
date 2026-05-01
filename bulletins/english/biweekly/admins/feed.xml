@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #4 — April 15 to April 30, 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/4</link>
+      <description>The defining story of this fortnight is a billing model shift: GitHub Copilot moves from fixed premium request quotas to usage-based AI Credits on June 1. For admins, this means reviewing budget controls, model policies, and Actions minutes allocations simultaneously. A concurrent GitHub App token format change adds a compliance checkpoint for organizations running automation on GitHub's platform.</description>
+      <pubDate>Fri, 01 May 2026 07:57:10 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #3 — April 1 to April 15, 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/admins/3</link>
       <description>The past two weeks mark a governance inflection point for enterprise admins: data residency and FedRAMP compliance arrive for Copilot, alongside new organization-level controls for the cloud agent—centralizing runner and firewall policy enforcement. Usage metrics also deepen, offering clearer visibility into how teams actively engage with code review and the agent across your organization.</description>
