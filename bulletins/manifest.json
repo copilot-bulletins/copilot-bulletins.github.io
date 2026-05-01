@@ -1,80 +1,80 @@
 [
   {
     "number": 477,
-    "title": "Copilot Bulletin Monthly (Long) #3 — Avril 2026 · Admins Edition",
+    "title": "Copilot Bulletin Monthly (Long) #2 — Avril 2026 · Admins Edition",
     "language": "french",
     "period": "monthly-long",
     "audience": "admins",
-    "file": "bulletins/french/monthly-long/admins/3.html",
+    "file": "bulletins/french/monthly-long/admins/2.html",
     "createdAt": "2026-05-01T08:07:44Z",
     "description": "Avril 2026 marque une étape décisive pour les administrateurs Copilot. La résidence des données US/EU et la conformité FedRAMP passent en disponibilité générale, offrant les fondations d'un déploiement conforme aux réglementations les plus strictes. La revue de code Copilot atteint la GA avec plus d'un million d'utilisateurs, tandis que les métriques d'adoption s'étendent à l'ensemble des surfaces — cloud agent, CLI, revue de code. De nouveaux modèles et capacités agentiques élargissent le périmètre à piloter, transformant Copilot d'un outil à activer en une plateforme à gouverner avec rigueur et confiance. ---",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 476,
-    "title": "Copilot Bulletin Monthly (Long) #3 — Abril 2026 · Decision-Makers Edition",
+    "title": "Copilot Bulletin Monthly (Long) #2 — Abril 2026 · Decision-Makers Edition",
     "language": "spanish",
     "period": "monthly-long",
     "audience": "decision-makers",
-    "file": "bulletins/spanish/monthly-long/decision-makers/3.html",
+    "file": "bulletins/spanish/monthly-long/decision-makers/2.html",
     "createdAt": "2026-05-01T08:04:31Z",
     "description": "Abril de 2026 consolida a GitHub Copilot como plataforma empresarial de referencia. Tres ejes definen el mes: la residencia de datos en EE.UU. y la UE junto con la certificación FedRAMP acerca Copilot a los requisitos de soberanía y cumplimiento más exigentes; la expansión del agente en la nube hacia ciclos completos de investigación, planificación e implementación amplía el alcance de la automatización; y el SDK abre el motor de IA de GitHub al ecosistema propio. La ampliación de las métricas de uso cierra el ciclo: datos para medir y escalar con confianza.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 475,
-    "title": "Copilot Bulletin Monthly #3 — Abril 2026 · Decision-Makers Edition",
+    "title": "Copilot Bulletin Monthly #2 — Abril 2026 · Decision-Makers Edition",
     "language": "spanish",
     "period": "monthly",
     "audience": "decision-makers",
-    "file": "bulletins/spanish/monthly/decision-makers/3.html",
+    "file": "bulletins/spanish/monthly/decision-makers/2.html",
     "createdAt": "2026-05-01T08:04:18Z",
     "description": "Abril marca el salto definitivo de GitHub Copilot hacia infraestructura AI de nivel empresarial. La transición a facturación basada en uso, la certificación FedRAMP y la residencia de datos en EE. UU. y la UE, la llegada de GPT-5.5 y la aceleración del agente cloud definen un mes que consolida Copilot como plataforma preparada para las organizaciones más exigentes.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 474,
-    "title": "Copilot Bulletin Monthly #3 — Avril 2026 · Devs Edition",
+    "title": "Copilot Bulletin Monthly #2 — Avril 2026 · Devs Edition",
     "language": "french",
     "period": "monthly",
     "audience": "devs",
-    "file": "bulletins/french/monthly/devs/3.html",
+    "file": "bulletins/french/monthly/devs/2.html",
     "createdAt": "2026-05-01T08:03:27Z",
     "description": "Avril 2026 a effacé les barrières de l'environnement pour les développeurs. Copilot CLI s'affranchit des modèles hébergés par GitHub grâce au BYOK, VS Code intègre Copilot nativement sans extension à installer, et les sessions CLI se pilotent à distance depuis n'importe quel appareil. L'agent s'adapte à votre contexte — vous restez dans votre flux de travail.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 473,
-    "title": "Copilot Bulletin Monthly (Long) #3 — April 2026 · Admins Edition",
+    "title": "Copilot Bulletin Monthly (Long) #2 — April 2026 · Admins Edition",
     "language": "english",
     "period": "monthly-long",
     "audience": "admins",
-    "file": "bulletins/english/monthly-long/admins/3.html",
+    "file": "bulletins/english/monthly-long/admins/2.html",
     "createdAt": "2026-05-01T08:02:47Z",
     "description": "April 2026 marks the most consequential governance month for Copilot enterprise administrators in recent memory. Data residency and FedRAMP compliance reached production, consolidating all inference within designated regions. Organization-level controls for the cloud agent's firewall and runner configuration replaced fragmented per-repository settings with a single policy layer. And usage metrics expanded to cover every Copilot surface — IDE, CLI, code review, and the agent — giving admins a complete adoption telemetry picture for the first time. The pattern is unmistakable: GitHub is delivering enterprise-grade controls at the same pace it ships new capabilities.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 472,
-    "title": "Copilot Bulletin Monthly (Long) #3 — Avril 2026 · Decision-Makers Edition",
+    "title": "Copilot Bulletin Monthly (Long) #2 — Avril 2026 · Decision-Makers Edition",
     "language": "french",
     "period": "monthly-long",
     "audience": "decision-makers",
-    "file": "bulletins/french/monthly-long/decision-makers/3.html",
+    "file": "bulletins/french/monthly-long/decision-makers/2.html",
     "createdAt": "2026-05-01T08:01:03Z",
     "description": "Avril 2026 marque deux inflexions majeures pour GitHub Copilot. D'abord, une réorganisation structurelle de la facturation : les crédits IA remplacent les requêtes premium à compter du 1er juin, avec une logique de consommation réelle et des contrôles budgétaires granulaires. Ensuite, une accélération de la maturité agentique : l'agent cloud s'intègre directement dans Visual Studio et JetBrains, les nouveaux modèles GPT-5.5 et Claude Opus 4.7 enrichissent le portefeuille, et Copilot CLI inaugure une revue croisée entre familles de modèles. La plateforme évolue d'un outil d'assistance vers un agent de développement autonome et mesurable.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 471,
-    "title": "Copilot Bulletin Monthly (Long) #3 — April 2026 · Decision-Makers Edition",
+    "title": "Copilot Bulletin Monthly (Long) #2 — April 2026 · Decision-Makers Edition",
     "language": "english",
     "period": "monthly-long",
     "audience": "decision-makers",
-    "file": "bulletins/english/monthly-long/decision-makers/3.html",
+    "file": "bulletins/english/monthly-long/decision-makers/2.html",
     "createdAt": "2026-05-01T08:00:48Z",
     "description": "April 2026 marked a strategic inflection point for GitHub Copilot. The platform's transition to usage-based billing — effective June 1 — is the most significant pricing restructuring in Copilot's history, driven by a surge in agentic compute demand so intense that GitHub paused new individual plan sign-ups to maintain service quality for existing customers. Simultaneously, two frontier models — GPT-5.5 and Claude Opus 4.7 — launched at the top of the capability curve. These signals together confirm that Copilot is operating at enterprise scale, with the organizational controls and economics to match.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 470,
@@ -89,58 +89,58 @@
   },
   {
     "number": 469,
-    "title": "Copilot Bulletin Monthly #3 — April 2026 · Admins Edition",
+    "title": "Copilot Bulletin Monthly #2 — April 2026 · Admins Edition",
     "language": "english",
     "period": "monthly",
     "audience": "admins",
-    "file": "bulletins/english/monthly/admins/3.html",
+    "file": "bulletins/english/monthly/admins/2.html",
     "createdAt": "2026-05-01T07:59:51Z",
     "description": "April was a defining month for Copilot governance. With US and EU data residency, FedRAMP compliance, and the most expansive usage metrics update to date, GitHub is investing heavily in the tools administrators need to deploy AI at scale with confidence. New granular controls for cloud agent rollout and expanded model availability round out a high-impact month for enterprise admins.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 468,
-    "title": "Copilot Bulletin Monthly #3 — Avril 2026 · Decision-Makers Edition",
+    "title": "Copilot Bulletin Monthly #2 — Avril 2026 · Decision-Makers Edition",
     "language": "french",
     "period": "monthly",
     "audience": "decision-makers",
-    "file": "bulletins/french/monthly/decision-makers/3.html",
+    "file": "bulletins/french/monthly/decision-makers/2.html",
     "createdAt": "2026-05-01T07:59:44Z",
     "description": "Avril 2026 aura été le mois de la maturité enterprise de GitHub Copilot. La résidence des données et la certification FedRAMP ouvrent la plateforme aux secteurs les plus exigeants, l'IA agentique s'étend à tous les environnements de développement, et de nouveaux indicateurs permettent désormais de mesurer concrètement le retour sur investissement de l'IA au niveau organisationnel.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 467,
-    "title": "Copilot Bulletin Monthly (Long) #3 — Abril 2026 · Admins Edition",
+    "title": "Copilot Bulletin Monthly (Long) #2 — Abril 2026 · Admins Edition",
     "language": "spanish",
     "period": "monthly-long",
     "audience": "admins",
-    "file": "bulletins/spanish/monthly-long/admins/3.html",
+    "file": "bulletins/spanish/monthly-long/admins/2.html",
     "createdAt": "2026-05-01T07:59:40Z",
     "description": "Abril de 2026 marca un punto de inflexión en la gobernanza de Copilot para las organizaciones. La próxima facturación de minutos de GitHub Actions para el Code Review exige planificación presupuestaria anticipada. En paralelo, la llegada del modelo GPT-5.5 y la función BYOK amplían las decisiones de configuración que recaen sobre los administradores. Las mejoras en la API de métricas de uso —con nuevos campos para el cloud agent y el Code Review— ofrecen la visibilidad granular necesaria para fundamentar decisiones de adopción y expansión con datos reales.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 466,
-    "title": "Copilot Bulletin Monthly (Long) #3 — Avril 2026 · Devs Edition",
+    "title": "Copilot Bulletin Monthly (Long) #2 — Avril 2026 · Devs Edition",
     "language": "french",
     "period": "monthly-long",
     "audience": "devs",
-    "file": "bulletins/french/monthly-long/devs/3.html",
+    "file": "bulletins/french/monthly-long/devs/2.html",
     "createdAt": "2026-05-01T07:59:27Z",
     "description": "Avril 2026 marque un tournant décisif dans la maturation de Copilot comme partenaire de développement autonome. VS Code gagne un mode Autopilot qui laisse les agents s'exécuter sans interruption, JetBrains introduit le mode agent inline en préversion et Visual Studio intègre le cloud agent directement depuis l'IDE. L'arrivée de GPT-5.5 et les nouvelles capacités BYOK du CLI offrent un contrôle inédit sur le choix du modèle. En toile de fond, la transition vers la facturation à l'usage, effective le 1er juin, annonce une nouvelle ère pour l'ensemble des plans Copilot.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 465,
-    "title": "Copilot Bulletin Monthly #3 — Abril 2026 · Devs Edition",
+    "title": "Copilot Bulletin Monthly #2 — Abril 2026 · Devs Edition",
     "language": "spanish",
     "period": "monthly",
     "audience": "devs",
-    "file": "bulletins/spanish/monthly/devs/3.html",
+    "file": "bulletins/spanish/monthly/devs/2.html",
     "createdAt": "2026-05-01T07:58:57Z",
     "description": "Abril sienta las bases de una nueva etapa: Copilot ya no es un asistente ligado a un único IDE. Las capacidades agénticas llegan a VS Code, Visual Studio y JetBrains con el mismo nivel de autonomía, mientras GPT-5.5 y Claude Opus 4.7 elevan el techo de rendimiento disponible en cada uno de ellos.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 464,
@@ -166,14 +166,14 @@
   },
   {
     "number": 462,
-    "title": "Copilot Bulletin Monthly #3 — Abril 2026 · Admins Edition",
+    "title": "Copilot Bulletin Monthly #2 — Abril 2026 · Admins Edition",
     "language": "spanish",
     "period": "monthly",
     "audience": "admins",
-    "file": "bulletins/spanish/monthly/admins/3.html",
+    "file": "bulletins/spanish/monthly/admins/2.html",
     "createdAt": "2026-05-01T07:58:42Z",
     "description": "En abril, GitHub Copilot avanzó hacia un modelo de facturación por consumo: los cambios en el code review, la llegada de GPT-5.5 con habilitación explícita por parte del administrador, y las nuevas métricas de uso consolidan una plataforma donde la gobernanza empresarial cobra protagonismo. Visibilidad, control y responsabilidad van de la mano.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 461,
@@ -188,47 +188,47 @@
   },
   {
     "number": 460,
-    "title": "Copilot Bulletin Monthly #3 — April 2026 · Devs Edition",
+    "title": "Copilot Bulletin Monthly #2 — April 2026 · Devs Edition",
     "language": "english",
     "period": "monthly",
     "audience": "devs",
-    "file": "bulletins/english/monthly/devs/3.html",
+    "file": "bulletins/english/monthly/devs/2.html",
     "createdAt": "2026-05-01T07:58:14Z",
     "description": "April was Copilot's most expansive month for developer tooling in 2026. A new frontier model, autonomous agent modes landing in VS Code, JetBrains, and Visual Studio simultaneously, and a public SDK opening Copilot's agent runtime to any application mark a shift from AI assistant to AI platform. Developers can now build with Copilot, not just alongside it.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 459,
-    "title": "Copilot Bulletin Monthly #3 — April 2026 · Decision-Makers Edition",
+    "title": "Copilot Bulletin Monthly #2 — April 2026 · Decision-Makers Edition",
     "language": "english",
     "period": "monthly",
     "audience": "decision-makers",
-    "file": "bulletins/english/monthly/decision-makers/3.html",
+    "file": "bulletins/english/monthly/decision-makers/2.html",
     "createdAt": "2026-05-01T07:58:13Z",
     "description": "April was a landmark month for enterprise-grade GitHub Copilot: compliance boundaries solidified with data residency and FedRAMP certification, autonomous coding expanded from pull-request creation to full research-and-plan workflows, and two frontier models from OpenAI and Anthropic became broadly available. The strategic direction is clear — AI-native software development is ready for regulated, large-scale enterprise adoption.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 458,
-    "title": "Copilot Bulletin Monthly (Long) #3 — Abril 2026 · Devs Edition",
+    "title": "Copilot Bulletin Monthly (Long) #2 — Abril 2026 · Devs Edition",
     "language": "spanish",
     "period": "monthly-long",
     "audience": "devs",
-    "file": "bulletins/spanish/monthly-long/devs/3.html",
+    "file": "bulletins/spanish/monthly-long/devs/2.html",
     "createdAt": "2026-05-01T07:57:34Z",
     "description": "Abril 2026 consolida dos tendencias que definen el rumbo de GitHub Copilot: la expansión agentic y la democratización de los modelos de IA. El agente en la nube gana velocidad y nuevas superficies de integración, mientras que el Copilot CLI trasciende el entorno local para seguirte desde cualquier dispositivo. Al mismo tiempo, la llegada de GPT-5.5 y Claude Opus 4.7 amplía el abanico de opciones para tareas complejas de múltiples pasos. El resultado es un asistente cada vez más ubicuo, capaz de actuar donde trabajas, con el modelo que mejor se adapta a tu flujo.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 457,
-    "title": "Copilot Bulletin Monthly #3 — Avril 2026 · Admins Edition",
+    "title": "Copilot Bulletin Monthly #2 — Avril 2026 · Admins Edition",
     "language": "french",
     "period": "monthly",
     "audience": "admins",
-    "file": "bulletins/french/monthly/admins/3.html",
+    "file": "bulletins/french/monthly/admins/2.html",
     "createdAt": "2026-05-01T07:57:27Z",
     "description": "Avril 2026 marque un tournant opérationnel pour les administrateurs Copilot : la revue de code passera à la facturation par minutes Actions le 1er juin, deux nouveaux modèles de pointe nécessitent une activation explicite, et les tableaux de bord de métriques s'enrichissent. Les équipes IT doivent se préparer à gérer ces changements dès maintenant.",
-    "edition": 3
+    "edition": 2
   },
   {
     "number": 456,
@@ -276,14 +276,14 @@
   },
   {
     "number": 452,
-    "title": "Copilot Bulletin Monthly (Long) #1 — April 2026 · Devs Edition",
+    "title": "Copilot Bulletin Monthly (Long) #2 — April 2026 · Devs Edition",
     "language": "english",
     "period": "monthly-long",
     "audience": "devs",
-    "file": "bulletins/english/monthly-long/devs/1.html",
+    "file": "bulletins/english/monthly-long/devs/2.html",
     "createdAt": "2026-05-01T07:54:56Z",
     "description": "April 2026 was a pivotal month for GitHub Copilot — not an incremental update but a broad platform expansion that redefined where and how developers engage with AI-assisted development. New frontier models, a dramatically more capable cloud agent, and deep IDE enhancements across VS Code, Visual Studio, and JetBrains collectively shifted Copilot from a coding assistant into an autonomous development partner. Meanwhile, the CLI gained BYOK, local model support, and the ability to be remotely steered — extending the agentic loop to any device, anywhere.",
-    "edition": 1
+    "edition": 2
   },
   {
     "number": 451,
