@@ -7,7 +7,7 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Copilot Bulletin Monthly #3 — Mai 2026 · Devs Edition</title>
+      <title>Copilot Bulletin Monthly #3 — Avril 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly/devs/3</link>
       <description>Avril 2026 a effacé les barrières de l'environnement pour les développeurs. Copilot CLI s'affranchit des modèles hébergés par GitHub grâce au BYOK, VS Code intègre Copilot nativement sans extension à installer, et les sessions CLI se pilotent à distance depuis n'importe quel appareil. L'agent s'adapte à votre contexte — vous restez dans votre flux de travail.</description>
       <pubDate>Fri, 01 May 2026 08:03:27 +0000</pubDate>
