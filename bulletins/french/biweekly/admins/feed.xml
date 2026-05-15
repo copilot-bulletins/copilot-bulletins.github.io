@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #5 — Du 1er mai au 14 mai 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/5</link>
+      <description>Entre le 1er et le 14 mai 2026, GitHub Copilot consolide les outils d'administration : métriques d'utilisation désormais ventilées par équipe, rapports de facturation à l'usage disponibles avant le basculement du 1er juin, et gouvernance élargie pour les agents cloud et CLI à l'échelle de l'organisation. Les administrateurs disposent de leviers concrets pour piloter l'adoption et anticiper les transitions imminentes.</description>
+      <pubDate>Fri, 15 May 2026 11:17:34 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/admins/5</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #4 — Du 15 avril au 30 avril 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/4</link>
       <description>Cette quinzaine marque un tournant dans la gouvernance financière de Copilot : la revue de code commencera à consommer des minutes GitHub Actions dès le 1er juin. Simultanément, deux nouveaux modèles — GPT-5.5 et Claude Opus 4.7 — exigent une activation explicite par les administrateurs, consolidant leur rôle clé dans le contrôle des capacités IA à l'échelle de l'organisation.</description>

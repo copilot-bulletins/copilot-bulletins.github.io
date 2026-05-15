@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #5 — Du 1er mai au 14 mai 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/5</link>
+      <description>Cette quinzaine marque un tournant dans l'expérience développeur de Copilot : la frontière entre IDE, terminal et plateforme s'estompe. L'application Copilot native ancre le workflow agentique dans GitHub, les mises à jour VS Code et JetBrains enrichissent le contexte local, et l'API REST ouvre la porte aux automations à grande échelle.</description>
+      <pubDate>Fri, 15 May 2026 11:17:47 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/devs/5</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #4 — Du 15 avril au 30 avril 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/4</link>
       <description>Cette quinzaine marque une accélération notable sur deux fronts : l'arrivée de GPT-5.5 et Claude Opus 4.7 pour les tâches agentiques les plus exigeantes, et l'intégration de nouvelles capacités agentiques dans Visual Studio et JetBrains. La frontière entre IDE local et agent cloud continue de s'estomper, pour un workflow de développement plus fluide.</description>
