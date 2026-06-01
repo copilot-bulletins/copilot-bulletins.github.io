@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #3 — Mayo 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly/devs/3</link>
+      <description>Mayo marca el mes de la plataforma agéntica distribuida: la app nativa de escritorio de Copilot, el control remoto de sesiones desde cualquier dispositivo y la expansión de la selección automática de modelos en VS Code consolidan un giro fundamental. Copilot no es ya solo un asistente en el editor: es una superficie de trabajo que actúa aunque no estés frente al teclado.</description>
+      <pubDate>Mon, 01 Jun 2026 09:04:11 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly/devs/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #2 — Abril 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly/devs/2</link>
       <description>Abril sienta las bases de una nueva etapa: Copilot ya no es un asistente ligado a un único IDE. Las capacidades agénticas llegan a VS Code, Visual Studio y JetBrains con el mismo nivel de autonomía, mientras GPT-5.5 y Claude Opus 4.7 elevan el techo de rendimiento disponible en cada uno de ellos.</description>

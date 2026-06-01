@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #5 — Del 15 al 31 de mayo de 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/5</link>
+      <description>Durante esta quincena, GitHub Copilot consolidó su posición como plataforma empresarial de referencia: reconocida por tercera vez consecutiva como líder en el Cuadrante Mágico de Gartner, con 140.000 organizaciones activas y un crecimiento anual superior al 100 %. A ello se suman nuevas herramientas de gobierno por organización y métricas de madurez en adopción de IA para medir y gestionar el retorno de la inversión con mayor precisión.</description>
+      <pubDate>Mon, 01 Jun 2026 09:04:39 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/decision-makers/5</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #4 — Del 1 al 14 de mayo de 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/4</link>
       <description>Esta quincena consolida la transformación de Copilot en plataforma de desarrollo autónomo. El GitHub Copilot app en technical preview marca un punto de inflexión: el desarrollo agéntico tiene su propio entorno nativo. La nueva API REST para tareas del agente y las métricas por equipo ofrecen las herramientas para escalar y medir el ROI de Copilot en la organización.</description>

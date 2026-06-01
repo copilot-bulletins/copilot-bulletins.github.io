@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #3 — Mai 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/decision-makers/3</link>
+      <description>En mai, deux signaux stratégiques dominent : la reconnaissance Gartner, pour la troisième année consécutive, confirme la position de leader de GitHub dans l'IA de développement enterprise, tandis qu'une vague de mises à jour renforce la maturité opérationnelle de la plateforme. Gouvernance fine des modèles par organisation, métriques d'adoption en phases, agent cloud plus efficace et économique, nouvelle application Copilot en préversion — mai marque un tournant : de l'outil de productivité individuelle vers une plateforme d'orchestration agentique à l'échelle de l'entreprise. ---</description>
+      <pubDate>Mon, 01 Jun 2026 09:06:29 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/decision-makers/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #2 — Avril 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly-long/decision-makers/2</link>
       <description>Avril 2026 marque deux inflexions majeures pour GitHub Copilot. D'abord, une réorganisation structurelle de la facturation : les crédits IA remplacent les requêtes premium à compter du 1er juin, avec une logique de consommation réelle et des contrôles budgétaires granulaires. Ensuite, une accélération de la maturité agentique : l'agent cloud s'intègre directement dans Visual Studio et JetBrains, les nouveaux modèles GPT-5.5 et Claude Opus 4.7 enrichissent le portefeuille, et Copilot CLI inaugure une revue croisée entre familles de modèles. La plateforme évolue d'un outil d'assistance vers un agent de développement autonome et mesurable.</description>

@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #3 — May 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/admins/3</link>
+      <description>May 2026 marked a pivotal month for Copilot governance and accountability. The transition to usage-based AI Credits billing, launching June 1, arrived alongside a wave of analytics upgrades — from AI adoption cohort classification to per-team breakdowns — that give admins the data to justify spend, target enablement, and demonstrate ROI. Oversight capability finally caught up with deployment scale. ---</description>
+      <pubDate>Mon, 01 Jun 2026 09:05:27 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/admins/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #2 — April 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/admins/2</link>
       <description>April was a defining month for Copilot governance. With US and EU data residency, FedRAMP compliance, and the most expansive usage metrics update to date, GitHub is investing heavily in the tools administrators need to deploy AI at scale with confidence. New granular controls for cloud agent rollout and expanded model availability round out a high-impact month for enterprise admins.</description>

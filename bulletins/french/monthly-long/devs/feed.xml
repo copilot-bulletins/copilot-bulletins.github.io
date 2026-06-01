@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #1 — Mai 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/1</link>
+      <description>Mai 2026 marque un tournant dans la relation développeur-agent : Copilot s'impose comme l'interface centrale du développement. L'application native inaugure des sessions parallèles sur branches isolées, intégrées nativement à GitHub. L'API Agent Tasks ouvre la programmabilité à grande échelle. VS Code et JetBrains enrichissent leur support d'agent. L'arrivée de Claude Opus 4.8 et le routage intelligent de la sélection automatique par type de tâche élèvent la qualité et l'efficacité des interactions. Mai pose les fondations d'un workflow agentique end-to-end, de la création d'issue jusqu'à la merge request.</description>
+      <pubDate>Mon, 01 Jun 2026 09:04:22 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/devs/1</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #2 — Avril 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/2</link>
       <description>Avril 2026 marque un tournant décisif dans la maturation de Copilot comme partenaire de développement autonome. VS Code gagne un mode Autopilot qui laisse les agents s'exécuter sans interruption, JetBrains introduit le mode agent inline en préversion et Visual Studio intègre le cloud agent directement depuis l'IDE. L'arrivée de GPT-5.5 et les nouvelles capacités BYOK du CLI offrent un contrôle inédit sur le choix du modèle. En toile de fond, la transition vers la facturation à l'usage, effective le 1er juin, annonce une nouvelle ère pour l'ensemble des plans Copilot.</description>

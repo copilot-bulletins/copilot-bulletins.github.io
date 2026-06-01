@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #3 — May 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/3</link>
+      <description>May 2026 was a defining month for Copilot governance and observability. Usage metrics gained two major new dimensions—team-level breakdowns and AI adoption cohort classification—giving administrators the deepest analytical view yet into how Copilot spreads across their organization. Simultaneously, model governance shifted into high gear: GPT-5.3-Codex became the first long-term support (LTS) default for Business and Enterprise plans, targeted model rules landed in public preview, and April billing reports arrived just in time to prepare for the June 1 usage-based billing transition. Together, these updates reflect a clear maturation of Copilot's enterprise management layer. ---</description>
+      <pubDate>Mon, 01 Jun 2026 09:03:58 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/admins/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #2 — April 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/2</link>
       <description>April 2026 marks the most consequential governance month for Copilot enterprise administrators in recent memory. Data residency and FedRAMP compliance reached production, consolidating all inference within designated regions. Organization-level controls for the cloud agent's firewall and runner configuration replaced fragmented per-repository settings with a single policy layer. And usage metrics expanded to cover every Copilot surface — IDE, CLI, code review, and the agent — giving admins a complete adoption telemetry picture for the first time. The pattern is unmistakable: GitHub is delivering enterprise-grade controls at the same pace it ships new capabilities.</description>

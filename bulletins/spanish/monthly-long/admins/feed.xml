@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #3 — Mayo 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/admins/3</link>
+      <description>Mayo de 2026 marca el umbral de la transición a la facturación por uso de Copilot. Con los créditos de IA activos desde el 1 de junio, los administradores han contado este mes con herramientas inéditas: informes de consumo previo, métricas de madurez de adopción por equipo y fase, y reglas de modelos por organización. En paralelo, la gobernanza del cloud agent se ha reforzado con secretos centralizados, una API de auditoría y plugins gestionados para Copilot CLI. Mayo consolida el control sobre una plataforma en expansión acelerada. ---</description>
+      <pubDate>Mon, 01 Jun 2026 09:06:56 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/admins/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #2 — Abril 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly-long/admins/2</link>
       <description>Abril de 2026 marca un punto de inflexión en la gobernanza de Copilot para las organizaciones. La próxima facturación de minutos de GitHub Actions para el Code Review exige planificación presupuestaria anticipada. En paralelo, la llegada del modelo GPT-5.5 y la función BYOK amplían las decisiones de configuración que recaen sobre los administradores. Las mejoras en la API de métricas de uso —con nuevos campos para el cloud agent y el Code Review— ofrecen la visibilidad granular necesaria para fundamentar decisiones de adopción y expansión con datos reales.</description>

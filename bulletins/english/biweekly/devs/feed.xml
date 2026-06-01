@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #6 — May 15 to May 31, 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/devs/6</link>
+      <description>The May 15–31 period was defined by one overarching theme: Copilot becoming a genuinely multi-surface, self-directing workflow platform for developers. A new frontier model arrived across every IDE, the model selection layer got smarter, and developer sessions became portable across devices — all reinforcing that the in-editor code assistant era is giving way to something more systemic.</description>
+      <pubDate>Mon, 01 Jun 2026 09:00:45 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/devs/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #5 — May 1 to May 14, 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/devs/5</link>
       <description>The first two weeks of May mark an acceleration in agentic development infrastructure. A dedicated GitHub Copilot desktop app arrives as a new surface for parallel agent sessions. The cloud agent becomes programmable via REST API. JetBrains users gain the CLI agent in public preview. VS Code ships four weeks of agentic improvements. The pattern: more surfaces, tighter control, less switching between tools.</description>

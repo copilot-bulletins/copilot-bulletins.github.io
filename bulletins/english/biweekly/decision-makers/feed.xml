@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #5 — May 15 to May 31, 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/5</link>
+      <description>This period marks a decisive step in GitHub Copilot's evolution as an enterprise platform. The Copilot app enters technical preview as a purpose-built agentic development environment, while new AI adoption cohort metrics show where teams stand on the path from code completion to multi-agent workflows. Enterprise model governance rounds out a platform that is now both strategic and measurable.</description>
+      <pubDate>Mon, 01 Jun 2026 09:06:41 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/decision-makers/5</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #1 — May 1 to May 14, 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/1</link>
       <description>This period signals a strategic shift in GitHub Copilot from a productivity assistant to a full development infrastructure platform. A new desktop app for parallel agentic workflows, an API for programmatic task delegation, and team-level adoption analytics together represent GitHub's commitment to making AI the backbone of enterprise software delivery.</description>

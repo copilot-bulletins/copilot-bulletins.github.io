@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #1 — Mai 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins/1</link>
+      <description>Le mois de mai marque un tournant décisif pour les administrateurs Copilot : deux grandes dynamiques se conjuguent. D'une part, les outils de gouvernance s'affinent — règles de modèles par organisation, secrets centralisés pour les agents, plugins gérés en entreprise — permettant un contrôle granulaire à chaque couche de l'outillage. D'autre part, la maturité opérationnelle progresse : les métriques d'utilisation s'enrichissent (cohortes d'adoption, ventilation par équipe) et la facturation à la consommation entre en vigueur dès le 1er juin. C'est un mois de fond, pensé pour les administrateurs qui pilotent le déploiement Copilot à l'échelle.</description>
+      <pubDate>Mon, 01 Jun 2026 09:03:29 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/admins/1</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #2 — Avril 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins/2</link>
       <description>Avril 2026 marque une étape décisive pour les administrateurs Copilot. La résidence des données US/EU et la conformité FedRAMP passent en disponibilité générale, offrant les fondations d'un déploiement conforme aux réglementations les plus strictes. La revue de code Copilot atteint la GA avec plus d'un million d'utilisateurs, tandis que les métriques d'adoption s'étendent à l'ensemble des surfaces — cloud agent, CLI, revue de code. De nouveaux modèles et capacités agentiques élargissent le périmètre à piloter, transformant Copilot d'un outil à activer en une plateforme à gouverner avec rigueur et confiance. ---</description>

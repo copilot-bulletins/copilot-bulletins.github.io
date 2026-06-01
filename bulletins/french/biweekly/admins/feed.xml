@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #6 — Du 15 mai au 31 mai 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/6</link>
+      <description>Cette quinzaine marque une consolidation des leviers de gouvernance administrative pour Copilot. Métriques d'adoption par phase, règles de modèles ciblées par organisation, contrôles de la mémoire au niveau dépôt : les administrateurs disposent maintenant d'une granularité sans précédent. Simultanément, la transition vers la facturation à l'usage entre en vigueur aujourd'hui, changeant fondamentalement la mécanique de contrôle des coûts. ---</description>
+      <pubDate>Mon, 01 Jun 2026 09:03:20 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/admins/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #5 — Du 1er mai au 14 mai 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/5</link>
       <description>Entre le 1er et le 14 mai 2026, GitHub Copilot consolide les outils d'administration : métriques d'utilisation désormais ventilées par équipe, rapports de facturation à l'usage disponibles avant le basculement du 1er juin, et gouvernance élargie pour les agents cloud et CLI à l'échelle de l'organisation. Les administrateurs disposent de leviers concrets pour piloter l'adoption et anticiper les transitions imminentes.</description>

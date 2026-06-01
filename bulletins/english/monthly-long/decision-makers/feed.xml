@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #3 — May 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/3</link>
+      <description>May 2026 marked a decisive expansion of GitHub Copilot from a developer productivity tool into an enterprise AI platform. Three forces drove this shift: a new dedicated desktop application for agentic development, programmatic APIs that let organizations weave AI-driven work into existing automation pipelines, and a billing model realignment that ties cost to actual usage. Running through these changes is a single strategic signal — GitHub is building the infrastructure for AI to function as a managed organizational capability, not just an individual assistant.</description>
+      <pubDate>Mon, 01 Jun 2026 09:06:34 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #2 — April 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/2</link>
       <description>April 2026 marked a strategic inflection point for GitHub Copilot. The platform's transition to usage-based billing — effective June 1 — is the most significant pricing restructuring in Copilot's history, driven by a surge in agentic compute demand so intense that GitHub paused new individual plan sign-ups to maintain service quality for existing customers. Simultaneously, two frontier models — GPT-5.5 and Claude Opus 4.7 — launched at the top of the capability curve. These signals together confirm that Copilot is operating at enterprise scale, with the organizational controls and economics to match.</description>

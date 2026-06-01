@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #3 — Mayo 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly/admins/3</link>
+      <description>Mayo consolida el giro de GitHub Copilot hacia una plataforma de IA gobernada a escala empresarial. La inminente transición a la facturación por consumo, los nuevos controles de modelos por organización y la expansión de métricas de adopción por equipo configuran un mes en el que la visibilidad, el control y la responsabilidad ocupan el centro de la agenda para administradores.</description>
+      <pubDate>Mon, 01 Jun 2026 09:04:40 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly/admins/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #2 — Abril 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly/admins/2</link>
       <description>En abril, GitHub Copilot avanzó hacia un modelo de facturación por consumo: los cambios en el code review, la llegada de GPT-5.5 con habilitación explícita por parte del administrador, y las nuevas métricas de uso consolidan una plataforma donde la gobernanza empresarial cobra protagonismo. Visibilidad, control y responsabilidad van de la mano.</description>

@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #3 — Mai 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly/admins/3</link>
+      <description>Mai 2026 marque un tournant décisif pour la gouvernance et la mesure de Copilot en entreprise. L'API de métriques gagne en profondeur analytique — granularité par équipe, cohorts de maturité d'adoption — tandis que la facturation à l'usage entre en vigueur. Les administrateurs disposent désormais d'outils complets pour mesurer qui utilise Copilot, comment, et à quel coût.</description>
+      <pubDate>Mon, 01 Jun 2026 09:03:35 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly/admins/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #2 — Avril 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly/admins/2</link>
       <description>Avril 2026 marque un tournant opérationnel pour les administrateurs Copilot : la revue de code passera à la facturation par minutes Actions le 1er juin, deux nouveaux modèles de pointe nécessitent une activation explicite, et les tableaux de bord de métriques s'enrichissent. Les équipes IT doivent se préparer à gérer ces changements dès maintenant.</description>

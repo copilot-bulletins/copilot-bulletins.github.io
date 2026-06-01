@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #6 — Du 15 mai au 31 mai 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/6</link>
+      <description>Cette quinzaine est placée sous le signe du contrôle développeur : choisir quel modèle Copilot utilise, selon quelle tâche, et le piloter depuis n'importe quelle surface. Sélection automatique dans VS Code, contrôle à distance des sessions CLI depuis mobile ou VS Code, commandes mémoire en CLI — Copilot devient un assistant multi-surface, toujours plus contextuel et prévisible.</description>
+      <pubDate>Mon, 01 Jun 2026 09:00:59 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/devs/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #5 — Du 1er mai au 14 mai 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/5</link>
       <description>Cette quinzaine marque un tournant dans l'expérience développeur de Copilot : la frontière entre IDE, terminal et plateforme s'estompe. L'application Copilot native ancre le workflow agentique dans GitHub, les mises à jour VS Code et JetBrains enrichissent le contexte local, et l'API REST ouvre la porte aux automations à grande échelle.</description>

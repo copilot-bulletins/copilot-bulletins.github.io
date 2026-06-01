@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #3 — Mayo 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly/decision-makers/3</link>
+      <description>Mayo confirma a GitHub Copilot como la plataforma de ingeniería de software agentic de referencia. Por tercer año consecutivo, Gartner posiciona a GitHub como Líder —con la mayor capacidad de ejecución— en el Magic Quadrant para agentes de codificación empresarial. Con 140 000 organizaciones y un crecimiento superior al 100% interanual, la IA ya no es un piloto: es infraestructura productiva. ---</description>
+      <pubDate>Mon, 01 Jun 2026 09:06:25 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly/decision-makers/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #2 — Abril 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly/decision-makers/2</link>
       <description>Abril marca el salto definitivo de GitHub Copilot hacia infraestructura AI de nivel empresarial. La transición a facturación basada en uso, la certificación FedRAMP y la residencia de datos en EE. UU. y la UE, la llegada de GPT-5.5 y la aceleración del agente cloud definen un mes que consolida Copilot como plataforma preparada para las organizaciones más exigentes.</description>

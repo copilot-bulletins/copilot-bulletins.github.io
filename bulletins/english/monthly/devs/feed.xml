@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #3 — May 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/devs/3</link>
+      <description>May marks the month Copilot became a true multi-surface platform for agentic work. A new desktop app, remote session control going generally available, smarter model routing, and Claude Opus 4.8 landing across all clients signal a shift: developers can now direct parallel agent workflows from any device, in any IDE, without being tied to a single machine or model choice.</description>
+      <pubDate>Mon, 01 Jun 2026 09:03:02 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/devs/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #2 — April 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/devs/2</link>
       <description>April was Copilot's most expansive month for developer tooling in 2026. A new frontier model, autonomous agent modes landing in VS Code, JetBrains, and Visual Studio simultaneously, and a public SDK opening Copilot's agent runtime to any application mark a shift from AI assistant to AI platform. Developers can now build with Copilot, not just alongside it.</description>

@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #6 — May 15 to May 31, 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/6</link>
+      <description>Governance depth defined this period. Enterprise administrators gained new levers to control which AI models reach which teams, understand not just how many developers use Copilot but what adoption maturity phase they've reached, and tighten how Copilot stores repository knowledge. The shift is from broad seat enablement to precise, measurable governance at every layer. ---</description>
+      <pubDate>Mon, 01 Jun 2026 09:03:28 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #5 — May 1 to May 14, 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/admins/5</link>
       <description>This period marks a decisive push toward enterprise-grade control of Copilot. Centralized plugin management, org-level agent secrets, and richer usage metrics give admins the governance tools to scale responsibly. With AI credits launching June 1, the new billing reports arrive exactly when needed — making these two weeks a turning point for oversight, policy, and budget planning. ---</description>

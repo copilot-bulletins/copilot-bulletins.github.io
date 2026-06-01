@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #1 — May 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/1</link>
+      <description>May brought a decisive shift toward agentic development. A new GitHub-native desktop app, one-click CI repair, and cross-surface CLI session control point to Copilot becoming a true asynchronous collaborator — not just a reactive assistant. The signals are consistent: agentic work is moving out of the IDE and into every surface developers already use. The model layer also matured. A new base model with long-term stability guarantees gives enterprise teams a foundation they can count on, while auto-routing intelligence takes model selection off your plate — matching each task to the right model automatically. ---</description>
+      <pubDate>Mon, 01 Jun 2026 09:02:31 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/devs/1</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #2 — April 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/2</link>
       <description>April 2026 was a pivotal month for GitHub Copilot — not an incremental update but a broad platform expansion that redefined where and how developers engage with AI-assisted development. New frontier models, a dramatically more capable cloud agent, and deep IDE enhancements across VS Code, Visual Studio, and JetBrains collectively shifted Copilot from a coding assistant into an autonomous development partner. Meanwhile, the CLI gained BYOK, local model support, and the ability to be remotely steered — extending the agentic loop to any device, anywhere.</description>
