@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #6 — Du 15 mai au 31 mai 2026 · Admins Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body,
+body > table {
+    background-color: #0d1117 !important;
+  }
+
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+
+  p,
+li,
+td.content,
+td.content td {
+    color: #e6edf3 !important;
+  }
+
+  h3,
+h4,
+strong {
+    color: #e6edf3 !important;
+  }
+
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+
+  a {
+    color: #58a6ff !important;
+  }
+
+  hr {
+    border-top-color: #30363d !important;
+  }
+
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #6 · Du 15 mai au 31 mai 2026 · Admins Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-le-fil-de-cette-édition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 Le fil de cette édition</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Cette quinzaine marque une consolidation des leviers de gouvernance administrative pour Copilot. Métriques d'adoption par phase, règles de modèles ciblées par organisation, contrôles de la mémoire au niveau dépôt : les administrateurs disposent maintenant d'une granularité sans précédent. Simultanément, la transition vers la facturation à l'usage entre en vigueur aujourd'hui, changeant fondamentalement la mécanique de contrôle des coûts.</p>
+              <hr style="border: 0; border-top: 1px solid #d0d7de; margin: 16px 0;">
+              <h3 id="️-attention" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Attention</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/" style="color: #0969da; text-decoration: underline;">GitHub Copilot passe à la facturation à l'usage</a> — <strong style="font-weight: 600; color: #24292f;">Deadline : 1er juin 2026</strong> — La transition est effective aujourd'hui : les crédits IA remplacent les requêtes premium et les expériences de repli disparaissent ; si ce n'est pas fait, configurez vos <a href="https://docs.github.com/en/enterprise-cloud@latest/billing/using-the-new-billing-platform/preventing-overspending" style="color: #0969da; text-decoration: underline;">limites de budget et contrôles de dépenses</a> dès maintenant.</li>
+              </ul>
+              <hr style="border: 0; border-top: 1px solid #d0d7de; margin: 16px 0;">
+              <h3 id="-passez-à-laction" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Passez à l'action</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Activez les <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models" style="color: #0969da; text-decoration: underline;">règles de modèles ciblées par organisation</a> pour un contrôle fin des modèles Copilot disponibles dans chaque organisation.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Activez la politique Claude Opus 4.8 dans vos <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies" style="color: #0969da; text-decoration: underline;">paramètres de politiques Copilot</a> pour le rendre disponible aux utilisateurs Business et Enterprise.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Explorez les nouveaux <a href="https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-usage-metrics" style="color: #0969da; text-decoration: underline;">champs de phase d'adoption IA</a> dans l'API des métriques pour identifier où concentrer vos efforts d'activation.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Configurez vos <a href="https://docs.github.com/en/enterprise-cloud@latest/billing/using-the-new-billing-platform/preventing-overspending" style="color: #0969da; text-decoration: underline;">limites de budget Copilot</a> maintenant que la facturation à l'usage est en vigueur.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Des questions ? Contactez votre équipe GitHub, nous sommes là pour vous aider.</li>
+              </ul>
+              <hr style="border: 0; border-top: 1px solid #d0d7de; margin: 16px 0;">
+              <h3 id="-top-5-des-mises-à-jour" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 des mises à jour</h3>
+              <h4 id="1-cohorts-dadoption-ia-dans-lapi-des-métriques-copilot" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. Cohorts d'adoption IA dans l'API des métriques Copilot</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">L'API des métriques d'utilisation Copilot classe désormais chaque utilisateur engagé dans une phase d'adoption IA (Phase 0 à 3), selon les surfaces Copilot utilisées sur 28 jours glissants. Les rapports entreprise et organisation exposent ces agrégats pour orienter vos programmes de formation et de déploiement.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-05-29-copilot-usage-metrics-api-adds-cohorts-for-ai-adoption" style="color: #0969da; text-decoration: underline;">Changelog: Copilot usage metrics API adds cohorts for AI adoption</a></p>
+              <h4 id="2-contrôle-granulaire-des-modèles-par-organisation" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Contrôle granulaire des modèles par organisation</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Les propriétaires d'entreprise peuvent désormais créer des règles ciblées autorisant des modèles Copilot spécifiques à des organisations sélectionnées, dépassant les paramètres globaux de l'entreprise. Une interface rafraîchie centralise la gestion des disponibilités de modèles par défaut sur une seule page.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-05-26-target-copilot-models-to-organizations-with-model-rules" style="color: #0969da; text-decoration: underline;">Changelog: Target Copilot models to organizations with model rules</a></p>
+              <h4 id="3-claude-opus-48-disponible--activation-requise" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Claude Opus 4.8 disponible — activation requise</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Claude Opus 4.8, dernier modèle d'Anthropic, est disponible dans GitHub Copilot pour les plans Business et Enterprise. Les administrateurs doivent activer explicitement la politique Claude Opus 4.8 dans les paramètres Copilot de l'entreprise avant que les utilisateurs puissent le sélectionner.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Claude Opus 4.8 is generally available for GitHub Copilot</a></p>
+              <h4 id="4-contrôles-de-la-mémoire-copilot-au-niveau-dépôt" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. Contrôles de la mémoire Copilot au niveau dépôt</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Les administrateurs de dépôts peuvent désormais désactiver la mémoire Copilot au niveau dépôt depuis les paramètres Copilot du dépôt. Le scope de chaque fait capturé est maintenant clairement indiqué (préférence utilisateur ou fait dépôt) ; la commande <code>/memory</code> est aussi disponible dans le Copilot CLI.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-05-26-copilot-memory-has-more-controls-for-deletion-scope-and-the-copilot-cli" style="color: #0969da; text-decoration: underline;">Changelog: Copilot Memory has more controls for deletion, scope, and the Copilot CLI</a></p>
+              <h4 id="5-github-leader-dans-le-magic-quadrant-gartner-pour-la-3e-année-consécutive" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. GitHub Leader dans le Magic Quadrant Gartner pour la 3e année consécutive</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Pour la troisième année consécutive, Gartner positionne GitHub en tête de la capacité d'exécution dans le Magic Quadrant Enterprise AI Coding Agents. Le rapport souligne la maturité opérationnelle de Copilot — gouvernance, sécurité, contrôles d'audit — validant sa pertinence pour les déploiements d'entreprise à grande échelle.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/" style="color: #0969da; text-decoration: underline;">Blog: GitHub recognized as a Leader in the Gartner® Magic QuadrantTM for Enterprise AI Coding Agents for the third year in a row</a></p>
+              <hr style="border: 0; border-top: 1px solid #d0d7de; margin: 16px 0;">
+              <h3 id="-la-quinzaine-en-chiffres" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📊 La quinzaine en chiffres</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/" style="color: #0969da; text-decoration: underline;"><strong style="font-weight: 600; color: #24292f;">140 000</strong> organisations</a> utilisent désormais GitHub Copilot — presque le triple du nombre d'il y a un an</li>
+              </ul>
+              <hr style="border: 0; border-top: 1px solid #d0d7de; margin: 16px 0;">
+              <h3 id="-également-dans-cette-édition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 Également dans cette édition</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-05-28-hard-budget-limits-now-available-for-github-advanced-security" style="color: #0969da; text-decoration: underline;">Hard budget limits now available for GitHub Advanced Security</a> — Les administrateurs d'entreprise peuvent désormais bloquer les dépenses GHAS dès qu'un plafond de licences est atteint, avec transparence licence/coût en temps réel.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-05-26-filter-secret-scanning-approval-requests-by-sort-order-and-bypass-status" style="color: #0969da; text-decoration: underline;">Filter secret scanning approval requests by sort order and bypass status</a> — Triez les demandes de contournement push protection (plus récent, plus ancien, récemment mis à jour) et filtrez les alertes via le paramètre <code>is_bypassed</code> dans l'API REST.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Vous voulez en voir plus ? Parcourez le <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">changelog GitHub Copilot</a> complet.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

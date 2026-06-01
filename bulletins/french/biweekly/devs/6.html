@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #6 — Du 15 mai au 31 mai 2026 · Devs Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body,
+body > table {
+    background-color: #0d1117 !important;
+  }
+
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+
+  p,
+li,
+td.content,
+td.content td {
+    color: #e6edf3 !important;
+  }
+
+  h3,
+h4,
+strong {
+    color: #e6edf3 !important;
+  }
+
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+
+  a {
+    color: #58a6ff !important;
+  }
+
+  hr {
+    border-top-color: #30363d !important;
+  }
+
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #6 · Du 15 mai au 31 mai 2026 · Devs Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-le-fil-de-cette-édition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 Le fil de cette édition</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Cette quinzaine est placée sous le signe du contrôle développeur : choisir quel modèle Copilot utilise, selon quelle tâche, et le piloter depuis n'importe quelle surface. Sélection automatique dans VS Code, contrôle à distance des sessions CLI depuis mobile ou VS Code, commandes mémoire en CLI — Copilot devient un assistant multi-surface, toujours plus contextuel et prévisible.</p>
+              <h3 id="️-attention" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Attention</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-05-15-grok-code-fast-1-deprecated" style="color: #0969da; text-decoration: underline;">Grok Code Fast 1 deprecated</a> — <strong style="font-weight: 600; color: #24292f;">Action requise</strong> — Ce modèle n'est plus disponible dans aucune interface Copilot. Migrez vos workflows vers GPT-5 mini ou Claude Haiku 4.5. Consultez la <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/ai-models/supported-models" style="color: #0969da; text-decoration: underline;">liste des modèles supportés</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-05-20-updates-to-available-models-in-copilot-on-web" style="color: #0969da; text-decoration: underline;">Updates to available models in Copilot on web</a> — <strong style="font-weight: 600; color: #24292f;">Action requise</strong> — Les modèles Gemini, GPT-5.2 Codex et GPT-5.4 nano ont été retirés de Copilot Chat sur github.com. Adaptez vos habitudes de travail web en conséquence.</li>
+              </ul>
+              <h3 id="-passez-à-laction" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Passez à l'action</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Activez le contrôle à distance de vos sessions Copilot CLI via <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/steer-remotely" style="color: #0969da; text-decoration: underline;">les réglages de pilotage à distance</a> pour piloter vos sessions depuis GitHub Mobile ou VS Code.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Choisissez <strong style="font-weight: 600; color: #24292f;">Auto</strong> dans le sélecteur de modèle VS Code pour <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/auto-model-selection" style="color: #0969da; text-decoration: underline;">bénéficier de l'optimisation automatique selon vos tâches</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Utilisez <code>/memory on|off|show</code> dans Copilot CLI pour gérer vos préférences de mémoire, ou consultez vos <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/copilot-memory" style="color: #0969da; text-decoration: underline;">réglages Copilot Memory</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Activez Claude Opus 4.8 dans vos <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/ai-models/supported-models" style="color: #0969da; text-decoration: underline;">paramètres de modèles Copilot</a> (Copilot Business/Enterprise).</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Questions ou besoin d'assistance ? Contactez votre équipe GitHub, nous sommes là pour vous aider.</li>
+              </ul>
+              <h3 id="-top-5-des-mises-à-jour" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 des mises à jour</h3>
+              <h4 id="1-contrôle-à-distance-des-sessions-copilot-cli--disponibilité-générale" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. Contrôle à distance des sessions Copilot CLI : disponibilité générale</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Le contrôle à distance des sessions Copilot CLI passe en disponibilité générale sur GitHub Mobile, github.com, VS Code et JetBrains. Lancez une session dans votre terminal, puis guidez-la depuis votre téléphone : progression en temps réel, réponses aux questions Copilot et ajustement du plan à la volée.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-05-18-remote-control-for-copilot-cli-sessions-now-generally-available-on-mobile-web-and-vs-code" style="color: #0969da; text-decoration: underline;">Changelog: Remote control for Copilot CLI sessions now generally available on mobile, web, and VS Code</a></p>
+              <h4 id="2-sélection-automatique-de-modèles-selon-la-tâche-dans-vs-code" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Sélection automatique de modèles selon la tâche dans VS Code</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Copilot Auto dans VS Code sélectionne maintenant le modèle optimal selon la complexité de votre tâche — génération de code, débogage, orchestration d'outils. Les requêtes simples vont vers des modèles légers, les tâches complexes vers des modèles de raisonnement. En prime, une remise de 10 % sur les requêtes premium en mode Auto.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-05-20-auto-model-selection-now-routes-based-on-your-task-in-vs-code" style="color: #0969da; text-decoration: underline;">Changelog: Auto model selection now routes based on your task in VS Code</a></p>
+              <h4 id="3-claude-opus-48-disponible-dans-github-copilot" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Claude Opus 4.8 disponible dans GitHub Copilot</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Claude Opus 4.8, le nouveau modèle phare d'Anthropic, est maintenant disponible dans GitHub Copilot. Il surpasse ses prédécesseurs en compréhension de code et en navigation dans de grandes bases de code. Disponible sur VS Code, JetBrains, Copilot CLI, github.com, GitHub Mobile et plus encore. Multiplicateur : 15x en attendant la facturation à l'usage.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Claude Opus 4.8 is generally available for GitHub Copilot</a></p>
+              <h4 id="4-copilot-memory-senrichit-de-nouveaux-contrôles-et-commandes-cli" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. Copilot Memory s'enrichit de nouveaux contrôles et commandes CLI</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Copilot Memory étend ses contrôles : les admins de dépôt peuvent désactiver la mémoire au niveau du dépôt, la commande <code>/memory on|off|show</code> est disponible dans Copilot CLI, et le prompt de capture précise si la donnée stockée est une préférence personnelle ou un fait partagé au niveau du dépôt.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-05-26-copilot-memory-has-more-controls-for-deletion-scope-and-the-copilot-cli" style="color: #0969da; text-decoration: underline;">Changelog: Copilot Memory has more controls for deletion, scope, and the Copilot CLI</a></p>
+              <h4 id="5-gpt-53-codex-devient-le-modèle-de-base-pour-business-et-enterprise" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. GPT-5.3-Codex devient le modèle de base pour Business et Enterprise</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">GPT-5.3-Codex remplace GPT-4.1 comme modèle de base pour toutes les organisations Copilot Business et Enterprise depuis le 17 mai. Premier modèle LTS de Copilot, il est garanti disponible jusqu'au 4 février 2027 — un gage de stabilité pour les équipes qui gèrent des processus de validation internes.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise" style="color: #0969da; text-decoration: underline;">Changelog: GPT-5.3-Codex is now the base model for Copilot Business and Enterprise</a></p>
+              <h3 id="-également-dans-cette-édition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 Également dans cette édition</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-05-21-github-copilot-for-eclipse-is-open-source" style="color: #0969da; text-decoration: underline;">GitHub Copilot for Eclipse is open source</a> — Le plugin Copilot pour Eclipse est désormais open source (licence MIT), permettant à la communauté d'explorer son code et d'y contribuer.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot" style="color: #0969da; text-decoration: underline;">Gemini 3.5 Flash is generally available for GitHub Copilot</a> — Nouvelle option rapide et économique de Google, disponible sur VS Code, JetBrains, Xcode et Eclipse.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent" style="color: #0969da; text-decoration: underline;">One-click fixes for failing Actions with Copilot cloud agent</a> — Corrigez les workflows GitHub Actions en échec en un clic grâce à l'agent cloud Copilot.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-05-18-copilot-spaces-api-now-generally-available" style="color: #0969da; text-decoration: underline;">Copilot Spaces API now generally available</a> — L'API Copilot Spaces est désormais en GA, ouvrant la voie à des intégrations programmatiques.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users" style="color: #0969da; text-decoration: underline;">Copilot Memory supports user preferences for Pro, Pro+ users</a> — Les préférences personnelles Copilot Memory sont maintenant disponibles pour les plans Pro et Pro+.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Vous voulez en voir plus ? Parcourez l'intégralité du <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">changelog GitHub Copilot</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
