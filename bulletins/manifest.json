@@ -1,5 +1,104 @@
 [
   {
+    "number": 523,
+    "title": "Copilot Bulletin Biweekly #6 — June 1 to June 14, 2026 · Decision-Makers Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/english/biweekly/decision-makers/6.html",
+    "createdAt": "2026-06-15T10:14:39Z",
+    "description": "This period, GitHub Copilot consolidated from an assistant into a programmable, agent-native platform — a shift anchored by Microsoft Build 2026. The throughline is infrastructure: a dedicated desktop application, agent automation and embeddable APIs, and a usage-based billing model that ties spend to consumption. For decision-makers, Copilot now pairs strategic reach with measurable cost accountability.",
+    "edition": 6
+  },
+  {
+    "number": 522,
+    "title": "Copilot Bulletin Biweekly #7 — Du 1er juin au 14 juin 2026 · Decision-Makers Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/french/biweekly/decision-makers/7.html",
+    "createdAt": "2026-06-15T10:12:40Z",
+    "description": "Durant cette quinzaine, GitHub a assemblé les briques d'une plateforme agentique : une application dédiée, l'automatisation des workflows, des agents partenaires, un SDK à intégrer et un modèle de facturation à l'usage. Pour les décideurs, le développement assisté par agents passe à l'échelle, avec les contrôles de gouvernance et la structure tarifaire nécessaires pour l'adopter sereinement.",
+    "edition": 7
+  },
+  {
+    "number": 521,
+    "title": "Copilot Bulletin Biweekly #6 — Del 1 de junio al 14 de junio de 2026 · Decision-Makers Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/spanish/biweekly/decision-makers/6.html",
+    "createdAt": "2026-06-15T10:12:25Z",
+    "description": "Esta quincena consolidó un giro estratégico: Copilot deja de ser un asistente individual para convertirse en una plataforma «agent-native» que las organizaciones ejecutan, gobiernan y amplían a escala. Presentado en Microsoft Build 2026, este cambio redefine cómo se mide el valor de la IA: menos sobre sugerencias puntuales y más sobre automatización gobernada, control de costes y retorno medible.",
+    "edition": 6
+  },
+  {
+    "number": 520,
+    "title": "Copilot Bulletin Biweekly #7 — Du 1er juin au 14 juin 2026 · Devs Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/french/biweekly/devs/7.html",
+    "createdAt": "2026-06-15T10:11:02Z",
+    "description": "Cette quinzaine confirme une tendance de fond : l'assistance de Copilot devient résolument agentique et s'étend à chaque surface de développement — terminal, IDE, cloud et automatisations. En parallèle, des fenêtres de contexte élargies et des niveaux de raisonnement configurables donnent aux développeurs les moyens de traiter des tâches plus complexes et multi-fichiers, sans perdre le fil de projets volumineux.",
+    "edition": 7
+  },
+  {
+    "number": 519,
+    "title": "Copilot Bulletin Biweekly #7 — Du 1er juin au 14 juin 2026 · Admins Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/french/biweekly/admins/7.html",
+    "createdAt": "2026-06-15T10:09:46Z",
+    "description": "Cette quinzaine place la gouvernance et la sécurité au cœur de l'expérience administrateur Copilot. La facturation à l'usage est désormais active, et les leviers de contrôle sur les coûts comme sur la revue de code gagnent en précision. La validation de sécurité s'étend par ailleurs aux agents tiers, donnant aux administrateurs une granularité accrue pour encadrer leur déploiement.",
+    "edition": 7
+  },
+  {
+    "number": 518,
+    "title": "Copilot Bulletin Biweekly #7 — Del 1 al 14 de junio de 2026 · Devs Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/spanish/biweekly/devs/7.html",
+    "createdAt": "2026-06-15T10:09:42Z",
+    "description": "Esta quincena, marcada por Microsoft Build 2026, consolidó un cambio de fondo: el desarrollo agéntico deja de ser una función del editor para convertirse en un flujo de trabajo cotidiano y controlable en todas las superficies. Para quienes programáis, esto se traduce en más contexto, razonamiento ajustable y entornos aislados que permiten delegar tareas autónomas sin renunciar al control.",
+    "edition": 7
+  },
+  {
+    "number": 517,
+    "title": "Copilot Bulletin Biweekly #7 — Del 1 de junio al 14 de junio de 2026 · Admins Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/spanish/biweekly/admins/7.html",
+    "createdAt": "2026-06-15T10:09:38Z",
+    "description": "Esta quincena, GitHub reforzó las palancas de gobernanza para administradores: control del gasto, configuración del code review, validación de seguridad y ajustes gestionados a nivel de empresa. A medida que las capacidades agénticas se generalizan, el foco se desplaza hacia el control —quién consume qué, con qué modelos y bajo qué políticas— para escalar Copilot sin perder visibilidad ni cumplimiento.",
+    "edition": 7
+  },
+  {
+    "number": 516,
+    "title": "Copilot Bulletin Biweekly #7 — June 1 to June 14, 2026 · Devs Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/english/biweekly/devs/7.html",
+    "createdAt": "2026-06-15T10:09:31Z",
+    "description": "This period, agentic development moved from experiment toward everyday infrastructure. Copilot's agent capabilities matured in parallel across the terminal, the IDE, and a new desktop app, while larger context windows and configurable reasoning gave those agents more room to work. For developers, the practical takeaway: running, steering, and trusting agents across surfaces is becoming part of the daily workflow.",
+    "edition": 7
+  },
+  {
+    "number": 515,
+    "title": "Copilot Bulletin Biweekly #7 — June 1 to June 14, 2026 · Admins Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/english/biweekly/admins/7.html",
+    "createdAt": "2026-06-15T10:08:53Z",
+    "description": "This period put administrators firmly in control. As Copilot's agentic capabilities spread across the IDE, CLI, and cloud, GitHub shipped the matching governance layer: finer cost management, automatic security validation, and enterprise-wide configuration standards. The throughline is operational maturity—the controls that let you scale Copilot adoption broadly while keeping spending, security, and compliance under centralized oversight.",
+    "edition": 7
+  },
+  {
     "number": 513,
     "title": "Copilot Bulletin Monthly (Long) #3 — Mayo 2026 · Decision-Makers Edition",
     "language": "spanish",
