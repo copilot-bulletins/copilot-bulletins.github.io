@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #7 — June 1 to June 14, 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/7</link>
+      <description>This period put administrators firmly in control. As Copilot's agentic capabilities spread across the IDE, CLI, and cloud, GitHub shipped the matching governance layer: finer cost management, automatic security validation, and enterprise-wide configuration standards. The throughline is operational maturity—the controls that let you scale Copilot adoption broadly while keeping spending, security, and compliance under centralized oversight.</description>
+      <pubDate>Mon, 15 Jun 2026 10:08:53 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #6 — May 15 to May 31, 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/admins/6</link>
       <description>Governance depth defined this period. Enterprise administrators gained new levers to control which AI models reach which teams, understand not just how many developers use Copilot but what adoption maturity phase they've reached, and tighten how Copilot stores repository knowledge. The shift is from broad seat enablement to precise, measurable governance at every layer. ---</description>

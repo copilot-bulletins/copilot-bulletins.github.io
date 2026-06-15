@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #7 — Du 1er juin au 14 juin 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/7</link>
+      <description>Durant cette quinzaine, GitHub a assemblé les briques d'une plateforme agentique : une application dédiée, l'automatisation des workflows, des agents partenaires, un SDK à intégrer et un modèle de facturation à l'usage. Pour les décideurs, le développement assisté par agents passe à l'échelle, avec les contrôles de gouvernance et la structure tarifaire nécessaires pour l'adopter sereinement.</description>
+      <pubDate>Mon, 15 Jun 2026 10:12:40 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #6 — Du 15 mai au 31 mai 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/6</link>
       <description>Cette quinzaine confirme la maturité de GitHub Copilot comme plateforme enterprise : reconnue Leader Gartner pour la troisième année consécutive, la plateforme renforce sa gouvernance modèles, développe son écosystème de LLMs de pointe et dote les décideurs d'outils concrets pour mesurer — et piloter — l'adoption de l'IA à l'échelle.</description>

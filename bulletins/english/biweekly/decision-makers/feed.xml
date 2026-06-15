@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #6 — June 1 to June 14, 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/6</link>
+      <description>This period, GitHub Copilot consolidated from an assistant into a programmable, agent-native platform — a shift anchored by Microsoft Build 2026. The throughline is infrastructure: a dedicated desktop application, agent automation and embeddable APIs, and a usage-based billing model that ties spend to consumption. For decision-makers, Copilot now pairs strategic reach with measurable cost accountability.</description>
+      <pubDate>Mon, 15 Jun 2026 10:14:39 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/decision-makers/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #5 — May 15 to May 31, 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/5</link>
       <description>This period marks a decisive step in GitHub Copilot's evolution as an enterprise platform. The Copilot app enters technical preview as a purpose-built agentic development environment, while new AI adoption cohort metrics show where teams stand on the path from code completion to multi-agent workflows. Enterprise model governance rounds out a platform that is now both strategic and measurable.</description>
