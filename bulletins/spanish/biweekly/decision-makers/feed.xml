@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #7 — Del 15 al 30 de junio de 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/7</link>
+      <description>Esta quincena Copilot consolidó su madurez como plataforma empresarial: más superficies de trabajo (app de escritorio en disponibilidad general, Jira, JetBrains) y modelos de frontera junto a controles de gasto por usuario y métricas de adopción más completas. Para la dirección, la conversación se desplaza del uso individual hacia el escalado gobernado y el retorno medible de la IA.</description>
+      <pubDate>Wed, 01 Jul 2026 08:44:02 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/decision-makers/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #6 — Del 1 de junio al 14 de junio de 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/6</link>
       <description>Esta quincena consolidó un giro estratégico: Copilot deja de ser un asistente individual para convertirse en una plataforma «agent-native» que las organizaciones ejecutan, gobiernan y amplían a escala. Presentado en Microsoft Build 2026, este cambio redefine cómo se mide el valor de la IA: menos sobre sugerencias puntuales y más sobre automatización gobernada, control de costes y retorno medible.</description>

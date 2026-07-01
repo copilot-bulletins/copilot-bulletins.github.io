@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #3 — Junio 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/devs/3</link>
+      <description>Junio consolidó un cambio de fondo: Copilot deja de vivir solo en el editor para convertirse en un agente que trabaja en el terminal, el escritorio y tu CI. La app de GitHub Copilot y la nueva interfaz del Copilot CLI alcanzaron disponibilidad general, mientras los sandboxes, las automatizaciones del agente en la nube y los agentic workflows aportaron autonomía bajo control. Una oleada de modelos nuevos amplió tus opciones. Para quien programa, el reto pasa de autocompletar a orquestar agentes.</description>
+      <pubDate>Wed, 01 Jul 2026 08:52:05 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/devs/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #1 — Mayo 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly-long/devs/1</link>
       <description>Mayo 2026 marca la llegada de Copilot como plataforma agéntica de pleno derecho. La nueva app de escritorio, el control remoto disponible en todos los dispositivos, el agente CLI en JetBrains y la API REST del agente cloud consolidan un ecosistema donde los agentes actúan en paralelo, en cualquier entorno y desde cualquier lugar. Al mismo tiempo, VS Code y Copilot CLI reciben actualizaciones que amplían contexto, modelos y acceso a terminal. El resultado: un flujo de trabajo agéntico continuo, de la idea al pull request, sin interrupciones.</description>

@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #8 — Du 15 juin au 30 juin 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/8</link>
+      <description>Cette quinzaine, deux dynamiques structurent l'actualité pour les développeurs : un élargissement du choix de modèles, entre nouvelles disponibilités générales et préversions, et la maturation des surfaces agentiques — application de bureau, terminal et IDE. Résultat concret : davantage de latitude pour sélectionner le bon modèle selon la tâche, et plus d'environnements où déléguer un travail multi-étapes à un agent.</description>
+      <pubDate>Wed, 01 Jul 2026 08:40:30 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/devs/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #7 — Du 1er juin au 14 juin 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/7</link>
       <description>Cette quinzaine confirme une tendance de fond : l'assistance de Copilot devient résolument agentique et s'étend à chaque surface de développement — terminal, IDE, cloud et automatisations. En parallèle, des fenêtres de contexte élargies et des niveaux de raisonnement configurables donnent aux développeurs les moyens de traiter des tâches plus complexes et multi-fichiers, sans perdre le fil de projets volumineux.</description>

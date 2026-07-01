@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #4 — Junio 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/admins/4</link>
+      <description>Junio consolida un cambio estructural: con la facturación por uso en vigor desde el día 1, la gestión de Copilot gira ahora en torno al consumo. GitHub ha respondido dotando a los administradores de un control cada vez más granular — presupuestos de créditos por usuario, mayor visibilidad de consumo y adopción, y ajustes gestionados a nivel de empresa. En paralelo, la seguridad del código de agentes y el code review maduran hacia una gobernanza aplicable a escala. Gobernar coste y riesgo es ya tan decisivo como habilitar la adopción.</description>
+      <pubDate>Wed, 01 Jul 2026 08:51:16 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/admins/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #3 — Mayo 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly-long/admins/3</link>
       <description>Mayo de 2026 marca el umbral de la transición a la facturación por uso de Copilot. Con los créditos de IA activos desde el 1 de junio, los administradores han contado este mes con herramientas inéditas: informes de consumo previo, métricas de madurez de adopción por equipo y fase, y reglas de modelos por organización. En paralelo, la gobernanza del cloud agent se ha reforzado con secretos centralizados, una API de auditoría y plugins gestionados para Copilot CLI. Mayo consolida el control sobre una plataforma en expansión acelerada. ---</description>

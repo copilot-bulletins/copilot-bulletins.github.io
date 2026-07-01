@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #8 — Del 15 de junio al 30 de junio de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/8</link>
+      <description>Esta quincena consolidó el control administrativo de Copilot en dos frentes: la gobernanza y la visibilidad de costes. GitHub amplió los ajustes gestionados a nivel de empresa y añadió nuevas palancas de medición y presupuesto. Para los equipos de administración, esto significa aplicar políticas antes de la ejecución y vincular el consumo con el valor de forma más precisa.</description>
+      <pubDate>Wed, 01 Jul 2026 08:43:57 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #7 — Del 1 de junio al 14 de junio de 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/admins/7</link>
       <description>Esta quincena, GitHub reforzó las palancas de gobernanza para administradores: control del gasto, configuración del code review, validación de seguridad y ajustes gestionados a nivel de empresa. A medida que las capacidades agénticas se generalizan, el foco se desplaza hacia el control —quién consume qué, con qué modelos y bajo qué políticas— para escalar Copilot sin perder visibilidad ni cumplimiento.</description>

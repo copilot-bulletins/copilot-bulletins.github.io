@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #3 — June 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/3</link>
+      <description>June turned agentic development into a place you go, not just a feature you invoke. Copilot's agent gained a dedicated desktop home, a redesigned terminal, and first-class seats inside the IDEs you already use — all reachable from one account. Underneath, the model layer widened and grew smarter about itself: larger context, configurable reasoning, and routing that picks the model for you. The throughline is consolidation — surfaces, models, and automation primitives settling into one coherent, programmable platform you can build on.</description>
+      <pubDate>Wed, 01 Jul 2026 08:43:42 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/devs/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #1 — May 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/1</link>
       <description>May brought a decisive shift toward agentic development. A new GitHub-native desktop app, one-click CI repair, and cross-surface CLI session control point to Copilot becoming a true asynchronous collaborator — not just a reactive assistant. The signals are consistent: agentic work is moving out of the IDE and into every surface developers already use. The model layer also matured. A new base model with long-term stability guarantees gives enterprise teams a foundation they can count on, while auto-routing intelligence takes model selection off your plate — matching each task to the right model automatically. ---</description>

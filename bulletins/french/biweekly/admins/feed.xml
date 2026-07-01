@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #8 — Du 15 juin au 30 juin 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/8</link>
+      <description>Cette quinzaine place la gouvernance d'entreprise au premier plan : budgets de crédits IA par utilisateur pour maîtriser les coûts, métriques d'usage enrichies pour mieux mesurer l'adoption, et contrôles renforcés sur les paramètres clients gérés. Pour les administrateurs, ces évolutions convergent vers un pilotage plus fin de la dépense, de la conformité et de la valeur de Copilot à l'échelle.</description>
+      <pubDate>Wed, 01 Jul 2026 08:41:28 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/admins/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #7 — Du 1er juin au 14 juin 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/7</link>
       <description>Cette quinzaine place la gouvernance et la sécurité au cœur de l'expérience administrateur Copilot. La facturation à l'usage est désormais active, et les leviers de contrôle sur les coûts comme sur la revue de code gagnent en précision. La validation de sécurité s'étend par ailleurs aux agents tiers, donnant aux administrateurs une granularité accrue pour encadrer leur déploiement.</description>

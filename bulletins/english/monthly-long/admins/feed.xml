@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #4 — June 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/4</link>
+      <description>June's dominant theme for administrators was governance catching up with agentic development. With usage-based billing now live across all plans, GitHub shipped the controls to match: per-user credit budgets on cost centers, richer consumption and adoption data in reports and the metrics API, and the first real policy levers in enterprise-managed settings. Security and code review matured in parallel. For admins, the month is less about new features to try and more about the guardrails, visibility, and cost discipline needed to scale Copilot responsibly.</description>
+      <pubDate>Wed, 01 Jul 2026 08:45:24 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/admins/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #3 — May 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/3</link>
       <description>May 2026 was a defining month for Copilot governance and observability. Usage metrics gained two major new dimensions—team-level breakdowns and AI adoption cohort classification—giving administrators the deepest analytical view yet into how Copilot spreads across their organization. Simultaneously, model governance shifted into high gear: GPT-5.3-Codex became the first long-term support (LTS) default for Business and Enterprise plans, targeted model rules landed in public preview, and April billing reports arrived just in time to prepare for the June 1 usage-based billing transition. Together, these updates reflect a clear maturation of Copilot's enterprise management layer. ---</description>

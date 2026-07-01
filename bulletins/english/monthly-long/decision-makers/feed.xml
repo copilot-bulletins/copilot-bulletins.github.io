@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #4 — June 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/4</link>
+      <description>June marked Copilot's shift from features to a platform for agent-native development. GitHub consolidated the agent experience into a dedicated desktop app, widened model choice past twenty frontier options, and moved autonomous, scheduled agents into everyday engineering. Just as important, the business scaffolding matured: usage-based billing, per-user credit budgets, and richer adoption metrics now let leaders fund AI precisely and tie spend to delivered work. The throughline for decision-makers is control—more capability paired with clearer governance, cost visibility, and measurable impact, so scaling Copilot becomes a managed investment rather than an open-ended experiment.</description>
+      <pubDate>Wed, 01 Jul 2026 08:48:38 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #3 — May 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/3</link>
       <description>May 2026 marked a decisive expansion of GitHub Copilot from a developer productivity tool into an enterprise AI platform. Three forces drove this shift: a new dedicated desktop application for agentic development, programmatic APIs that let organizations weave AI-driven work into existing automation pipelines, and a billing model realignment that ties cost to actual usage. Running through these changes is a single strategic signal — GitHub is building the infrastructure for AI to function as a managed organizational capability, not just an individual assistant.</description>

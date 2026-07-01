@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #4 — Junio 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly/admins/4</link>
+      <description>Junio consolidó una prioridad clara para quienes administran Copilot: gobernar la IA a escala. Con la facturación por consumo ya activa, GitHub reforzó los controles de coste, la configuración gestionada a nivel de empresa y las métricas de adopción. El mensaje para los equipos de administración es operativo: menos experimentación aislada y más presupuesto, política y medición bajo control.</description>
+      <pubDate>Wed, 01 Jul 2026 08:45:54 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly/admins/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #3 — Mayo 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly/admins/3</link>
       <description>Mayo consolida el giro de GitHub Copilot hacia una plataforma de IA gobernada a escala empresarial. La inminente transición a la facturación por consumo, los nuevos controles de modelos por organización y la expansión de métricas de adopción por equipo configuran un mes en el que la visibilidad, el control y la responsabilidad ocupan el centro de la agenda para administradores.</description>

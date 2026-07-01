@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #4 — June 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/devs/4</link>
+      <description>This month, Copilot's center of gravity shifted from inline suggestions toward agent-driven development across dedicated surfaces. A desktop app, a matured command-line experience, more autonomous coding agents, and a broader model roster all landed together. For developers, the practical takeaway is choice: match the surface and model to each task, and let agents handle the repetitive work.</description>
+      <pubDate>Wed, 01 Jul 2026 08:40:56 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/devs/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #3 — May 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/devs/3</link>
       <description>May marks the month Copilot became a true multi-surface platform for agentic work. A new desktop app, remote session control going generally available, smarter model routing, and Claude Opus 4.8 landing across all clients signal a shift: developers can now direct parallel agent workflows from any device, in any IDE, without being tied to a single machine or model choice.</description>

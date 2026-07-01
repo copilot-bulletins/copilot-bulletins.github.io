@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #4 — Junio 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/decision-makers/4</link>
+      <description>Junio consolidó el giro de Copilot de asistente a plataforma agéntica de nivel empresarial. Llegó la app de escritorio pensada para agentes, se ampliaron los flujos autónomos (Agentic Workflows, agentes en la nube, SDK) y creció el catálogo de modelos de frontera. En paralelo, GitHub reforzó los controles que exigen las direcciones: gobierno de costes con presupuestos por usuario, métricas de adopción para medir el retorno y una revisión de código cada vez más configurable. El mensaje para quien decide es claro: la autonomía escala, pero acompañada de visibilidad, gobernanza y elección.</description>
+      <pubDate>Wed, 01 Jul 2026 08:53:43 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/decision-makers/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #3 — Mayo 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly-long/decision-makers/3</link>
       <description>Mayo consolida el liderazgo de GitHub en IA empresarial en tres frentes: reconocimiento externo como plataforma de referencia, maduración de flujos de trabajo agénticos sin dependencia de dispositivo, y nuevas herramientas de medición del ROI. Para los responsables de decisiones, el mensaje es claro: GitHub Copilot ha evolucionado de asistente de código a plataforma agéntica para el ciclo completo de desarrollo. Con 140,000 organizaciones activas —casi el triple de hace un año— y crecimiento interanual del 100%+, el mapa competitivo se consolida. Las nuevas métricas por equipo y cohortes de adopción permiten demostrar el valor de la inversión con precisión inédita. ---</description>

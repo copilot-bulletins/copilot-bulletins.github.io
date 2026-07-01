@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #8 — Del 15 de junio al 30 de junio de 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/devs/8</link>
+      <description>Esta quincena consolida a Copilot como una plataforma de desarrollo agéntica, multimodelo y multiplataforma. La tendencia dominante es la madurez: nuevas capacidades pasan de vista previa a disponibilidad general y los agentes se integran más a fondo en cada superficie. Para los desarrolladores, se traduce en más libertad para elegir modelo y en asistentes más capaces allí donde ya programan.</description>
+      <pubDate>Wed, 01 Jul 2026 08:41:41 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #7 — Del 1 al 14 de junio de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/7</link>
       <description>Esta quincena, marcada por Microsoft Build 2026, consolidó un cambio de fondo: el desarrollo agéntico deja de ser una función del editor para convertirse en un flujo de trabajo cotidiano y controlable en todas las superficies. Para quienes programáis, esto se traduce en más contexto, razonamiento ajustable y entornos aislados que permiten delegar tareas autónomas sin renunciar al control.</description>

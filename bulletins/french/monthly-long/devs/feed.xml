@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #3 — Juin 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/3</link>
+      <description>Juin 2026 confirme une bascule : Copilot n'est plus un assistant d'éditeur, mais un partenaire agentique présent partout où vous codez. Terminal, application de bureau et IDE JetBrains passent en disponibilité générale avec des capacités d'agent natives. En parallèle, le choix de modèles s'élargit, les fenêtres de contexte franchissent le million de tokens et l'extensibilité s'ouvre via le SDK, les agent apps et les workflows agentiques. Pour les développeurs, cela signifie déléguer davantage de tâches de fond tout en gardant la main sur le modèle, le contexte et les garde-fous.</description>
+      <pubDate>Wed, 01 Jul 2026 08:50:17 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/devs/3</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #1 — Mai 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/1</link>
       <description>Mai 2026 marque un tournant dans la relation développeur-agent : Copilot s'impose comme l'interface centrale du développement. L'application native inaugure des sessions parallèles sur branches isolées, intégrées nativement à GitHub. L'API Agent Tasks ouvre la programmabilité à grande échelle. VS Code et JetBrains enrichissent leur support d'agent. L'arrivée de Claude Opus 4.8 et le routage intelligent de la sélection automatique par type de tâche élèvent la qualité et l'efficacité des interactions. Mai pose les fondations d'un workflow agentique end-to-end, de la création d'issue jusqu'à la merge request.</description>
