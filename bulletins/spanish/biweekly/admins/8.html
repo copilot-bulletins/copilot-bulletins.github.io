@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #8 — Del 15 de junio al 30 de junio de 2026 · Admins Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body, body > table {
+    background-color: #0d1117 !important;
+  }
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+  p, li, td.content, td.content td {
+    color: #e6edf3 !important;
+  }
+  h3, h4, strong {
+    color: #e6edf3 !important;
+  }
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+  a {
+    color: #58a6ff !important;
+  }
+  hr {
+    border-top-color: #30363d !important;
+  }
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #8 · Del 15 de junio al 30 de junio de 2026 · Admins Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-el-hilo-de-esta-edición" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 El hilo de esta edición</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Esta quincena consolidó el control administrativo de Copilot en dos frentes: la gobernanza y la visibilidad de costes. GitHub amplió los ajustes gestionados a nivel de empresa y añadió nuevas palancas de medición y presupuesto. Para los equipos de administración, esto significa aplicar políticas antes de la ejecución y vincular el consumo con el valor de forma más precisa.</p>
+              <h3 id="️-atención" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Atención</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast" style="color: #0969da; text-decoration: underline;">Retirada de Opus 4.6 (fast)</a> — <strong style="font-weight: 600; color: #24292f;">Efectivo desde el 29 de junio de 2026</strong> — Opus 4.6 (fast) ya se ha retirado de todas las experiencias de Copilot. Habilita Opus 4.8 (fast) en las <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-organization/manage-policies" style="color: #0969da; text-decoration: underline;">políticas de modelos de tu empresa</a> para no interrumpir los flujos de trabajo de tus equipos.</li>
+              </ul>
+              <h3 id="-pasa-a-la-acción" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Pasa a la acción</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Define presupuestos de créditos de IA por usuario en tus <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/billing/budgets-for-usage-based-billing" style="color: #0969da; text-decoration: underline;">centros de costes</a> para controlar el gasto a escala sin configurarlos uno por uno.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Restringe qué plugins pueden instalar tus equipos con <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/configure-enterprise-plugin-standards" style="color: #0969da; text-decoration: underline;">strictKnownMarketplaces en los ajustes gestionados</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Desactiva el modo de omisión de permisos ("modo yolo") con <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/disable-automatic-commands" style="color: #0969da; text-decoration: underline;">disableBypassPermissionsMode</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Mide la adopción y el retorno con las <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/copilot-usage-metrics" style="color: #0969da; text-decoration: underline;">métricas de uso de Copilot</a>, ahora con las fusiones totales por fase de adopción.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">¿Preguntas o necesitas soporte? Contacta a tu equipo de GitHub, estamos aquí para ayudarte.</li>
+              </ul>
+              <h3 id="-top-5-de-actualizaciones" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 de actualizaciones</h3>
+              <h4 id="1-presupuestos-de-créditos-de-ia-por-usuario-en-los-centros-de-costes" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. Presupuestos de créditos de IA por usuario en los centros de costes</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Los administradores de empresa pueden fijar un presupuesto único de créditos de IA por usuario en un centro de costes: se aplica a todos sus miembros y los sigue cuando cambian de equipo. Evita crear miles de presupuestos individuales para controlar el gasto.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-06-30-per-user-ai-credit-budgets-available-for-cost-centers" style="color: #0969da; text-decoration: underline;">Changelog: Per-user AI credit budgets available for cost centers</a></p>
+              <h4 id="2-control-de-marketplaces-de-plugins-con-strictknownmarketplaces" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Control de marketplaces de plugins con strictKnownMarketplaces</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Los ajustes gestionados a nivel de empresa ya permiten definir strictKnownMarketplaces en VS Code y Copilot CLI. Copilot solo instalará plugins desde los marketplaces que autorices, aplicando tu estrategia de gobernanza antes de la ejecución y eliminando el riesgo de plugins no confiables.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli" style="color: #0969da; text-decoration: underline;">Changelog: Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI</a></p>
+              <h4 id="3-bloqueo-del-modo-yolo-con-disablebypasspermissionsmode" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Bloqueo del "modo yolo" con disableBypassPermissionsMode</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">La primera capacidad de gobernanza de los ajustes gestionados permite a los administradores establecer disableBypassPermissionsMode para impedir que Copilot CLI y VS Code omitan automáticamente las solicitudes de permiso (el llamado "modo yolo" o autoaprobación). Se aplica a las licencias de Copilot Business y Enterprise.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls" style="color: #0969da; text-decoration: underline;">Changelog: Enterprise-managed settings now support bypass permission controls</a></p>
+              <h4 id="4-fusiones-totales-por-fase-de-adopción-en-los-informes" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. Fusiones totales por fase de adopción en los informes</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Los informes de organización y empresa ya muestran el total de pull requests fusionadas por cada fase de adopción de IA, no solo las medias por usuario. Con total_pull_requests_merged, los administradores ven la contribución real de cada cohorte y demuestran el retorno.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports" style="color: #0969da; text-decoration: underline;">Changelog: Track total merges by adoption phase in enterprise and organization reports</a></p>
+              <h4 id="5-créditos-de-ia-consumidos-por-usuario-en-la-api-de-métricas" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Créditos de IA consumidos por usuario en la API de métricas</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">La API de métricas de uso de Copilot incorpora el campo ai_credits_used, que indica los créditos de IA que consume cada usuario al día. Disponible en los informes de 1 y 28 días a nivel de organización y empresa, conecta el consumo con el valor.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api" style="color: #0969da; text-decoration: underline;">Changelog: AI credits consumed per user now in the Copilot usage metrics API</a></p>
+              <h3 id="-también-en-esta-edición" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 También en esta edición</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users" style="color: #0969da; text-decoration: underline;">Las métricas de uso de Copilot ahora incluyen a más usuarios activos</a> — Los informes combinan telemetría de servidor y de cliente para reflejar a más usuarios activos.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates" style="color: #0969da; text-decoration: underline;">Copilot code review: mejoras de profundidad de análisis y eficiencia</a> — Mayor eficiencia de coste en las revisiones y control de la profundidad de análisis por organización.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-17-copilot-cli-supports-enterprise-bring-your-own-key-byok-models" style="color: #0969da; text-decoration: underline;">Copilot CLI admite modelos empresariales con tu propia clave (BYOK)</a> — Los administradores pueden desplegar modelos de proveedores externos en el selector del CLI.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available" style="color: #0969da; text-decoration: underline;">GitHub Copilot para Jira ya está disponible de forma general</a> — Más visibilidad y control de las sesiones del agente directamente desde Jira.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">¿Quieres ver más? Consulta el <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">changelog completo de GitHub Copilot</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

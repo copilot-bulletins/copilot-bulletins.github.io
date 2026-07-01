@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Monthly #4 — Junio 2026 · Devs Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body, body > table {
+    background-color: #0d1117 !important;
+  }
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+  p, li, td.content, td.content td {
+    color: #e6edf3 !important;
+  }
+  h3, h4, strong {
+    color: #e6edf3 !important;
+  }
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+  a {
+    color: #58a6ff !important;
+  }
+  hr {
+    border-top-color: #30363d !important;
+  }
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Monthly #4 · Junio 2026 · Devs Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-el-hilo-de-esta-edición" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 El hilo de esta edición</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">En junio, Copilot afianzó el desarrollo agéntico en las herramientas que los desarrolladores ya usan a diario: la terminal, el escritorio y el IDE. Su madurez, sumada a una oferta de modelos más amplia y configurable, desplaza el foco de las funciones aisladas hacia flujos de trabajo autónomos, con más autonomía y elección sin cambiar de contexto.</p>
+              <h3 id="️-atención" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Atención</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-02-gpt-4-1-deprecated" style="color: #0969da; text-decoration: underline;">GPT-4.1 deprecated</a> — <strong style="font-weight: 600; color: #24292f;">Fecha límite: 1 de junio de 2026</strong> — GPT-4.1 se retiró de todas las experiencias de Copilot; cambia a GPT-5.5 desde el <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-ai-models/change-the-chat-model" style="color: #0969da; text-decoration: underline;">selector de modelos de Copilot Chat</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-05-gpt-5-2-and-gpt-5-2-codex-deprecated" style="color: #0969da; text-decoration: underline;">GPT-5.2 and GPT-5.2-Codex deprecated</a> — <strong style="font-weight: 600; color: #24292f;">Fecha límite: 5 de junio de 2026</strong> — migra a GPT-5.5 y GPT-5.3-Codex; revisa los <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/ai-models/supported-models" style="color: #0969da; text-decoration: underline;">modelos disponibles</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast" style="color: #0969da; text-decoration: underline;">Upcoming deprecation of Opus 4.6 (fast)</a> — <strong style="font-weight: 600; color: #24292f;">Fecha límite: 29 de junio de 2026</strong> — sustituye Opus 4.6 (fast) por Opus 4.8 (fast) en tus configuraciones.</li>
+              </ul>
+              <h3 id="-pasa-a-la-acción" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Pasa a la acción</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Instala la <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli" style="color: #0969da; text-decoration: underline;">nueva Copilot CLI</a> y ejecuta tus primeros flujos agénticos desde la terminal.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Descarga la <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/github-copilot-app/getting-started" style="color: #0969da; text-decoration: underline;">app de escritorio de GitHub Copilot</a> para macOS, Windows o Linux.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Compara los <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/ai-models/supported-models" style="color: #0969da; text-decoration: underline;">modelos disponibles</a> y ajusta el <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-ai-models/change-the-chat-model" style="color: #0969da; text-decoration: underline;">modelo de chat</a> según cada tarea.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Activa el <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/copilot-in-jetbrains" style="color: #0969da; text-decoration: underline;">agente de Copilot en tus IDE de JetBrains</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">¿Preguntas o necesitas ayuda? Contacta a tu equipo de GitHub, estamos aquí para ayudarte.</li>
+              </ul>
+              <h3 id="-top-5-de-actualizaciones-del-mes" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 de actualizaciones del mes</h3>
+              <h4 id="1-copilot-cli-alcanza-la-disponibilidad-general-con-nueva-interfaz" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. Copilot CLI alcanza la disponibilidad general con nueva interfaz</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">La nueva interfaz de terminal de Copilot CLI, presentada en Microsoft Build 2026, ya está en disponibilidad general con diseño por pestañas. El mes también trajo el comando /security-review, un panel unificado de /settings, soporte de modelos BYOK y entrada por voz.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available" style="color: #0969da; text-decoration: underline;">Changelog: Copilot CLI: New terminal interface is generally available</a><br>→ <a href="https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli" style="color: #0969da; text-decoration: underline;">Changelog: Dedicated security review command now available in Copilot CLI</a><br>→ <a href="https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings" style="color: #0969da; text-decoration: underline;">Changelog: Copilot CLI: Configure everything from one place with /settings</a><br>→ <a href="https://github.blog/changelog/2026-06-17-copilot-cli-supports-enterprise-bring-your-own-key-byok-models" style="color: #0969da; text-decoration: underline;">Changelog: Copilot CLI supports enterprise bring your own key (BYOK) models</a><br>→ <a href="https://github.blog/changelog/2026-06-02-copilot-cli-improved-ui-rubber-duck-prompt-scheduling-and-voice-input" style="color: #0969da; text-decoration: underline;">Changelog: Copilot CLI: Improved UI, rubber duck, prompt scheduling, and voice input</a></p>
+              <h4 id="2-nueva-oleada-de-modelos-claude-sonnet-5-opus-48-fast-y-más-contexto" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Nueva oleada de modelos: Claude Sonnet 5, Opus 4.8 (fast) y más contexto</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Más opciones para desarrolladores: Claude Sonnet 5 en disponibilidad general y Claude Opus 4.8 (fast mode) en vista previa con mayor velocidad. Copilot suma además ventanas de contexto de hasta un millón de tokens y niveles de razonamiento configurables para tareas más profundas.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Claude Sonnet 5 is generally available for GitHub Copilot</a><br>→ <a href="https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot</a><br>→ <a href="https://github.blog/changelog/2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Larger context windows and configurable reasoning levels for GitHub Copilot</a></p>
+              <h4 id="3-la-app-de-github-copilot-llega-a-disponibilidad-general" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. La app de GitHub Copilot llega a disponibilidad general</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">La app de escritorio de GitHub Copilot ya está disponible para macOS, Windows y Linux. Es el hogar nativo del desarrollo dirigido por agentes: gestiona sesiones de agentes, issues y pull requests desde una experiencia construida sobre GitHub.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available" style="color: #0969da; text-decoration: underline;">Changelog: GitHub Copilot app generally available</a><br>→ <a href="https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/" style="color: #0969da; text-decoration: underline;">Blog: GitHub Copilot app: The agent-native desktop experience</a></p>
+              <h4 id="4-el-desarrollo-agéntico-da-un-salto-sandboxes-tareas-programadas-y-api" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. El desarrollo agéntico da un salto: sandboxes, tareas programadas y API</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">El agente en la nube gana automatizaciones que se ejecutan por horario o eventos del repositorio, una API REST de tareas y un agent finder que selecciona herramientas y servidores MCP automáticamente. Los sandboxes locales y en la nube entran en vista previa pública.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-06-02-cloud-and-local-sandboxes-for-github-copilot-now-in-public-preview" style="color: #0969da; text-decoration: underline;">Changelog: Cloud and local sandboxes for GitHub Copilot now in public preview</a><br>→ <a href="https://github.blog/changelog/2026-06-02-schedule-and-automate-tasks-with-copilot-cloud-agent" style="color: #0969da; text-decoration: underline;">Changelog: Schedule and automate tasks with Copilot cloud agent</a><br>→ <a href="https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max" style="color: #0969da; text-decoration: underline;">Changelog: Agent tasks REST API now available for Copilot Pro, Pro+, and Max</a><br>→ <a href="https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available" style="color: #0969da; text-decoration: underline;">Changelog: Agent finder for GitHub Copilot now available</a><br>→ <a href="https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview" style="color: #0969da; text-decoration: underline;">Changelog: GitHub Agentic Workflows is now in public preview</a></p>
+              <h4 id="5-copilot-se-integra-más-a-fondo-en-los-ide-de-jetbrains" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Copilot se integra más a fondo en los IDE de JetBrains</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">JetBrains AI Assistant y GitHub Copilot estrechan su integración: el agente de Copilot ya está disponible dentro de AI Assistant. El mes también incorporó Claude como proveedor de agentes en vista previa y llevó Copilot CLI y capacidades agénticas a los IDE de JetBrains.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant" style="color: #0969da; text-decoration: underline;">Changelog: Copilot Agent is now available in JetBrains AI Assistant</a><br>→ <a href="https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides" style="color: #0969da; text-decoration: underline;">Changelog: New features and Claude as agent provider preview in JetBrains IDEs</a><br>→ <a href="https://github.blog/changelog/2026-06-02-introducing-copilot-cli-and-agentic-capabilities-enhancements-in-jetbrains-ides" style="color: #0969da; text-decoration: underline;">Changelog: Introducing Copilot CLI and agentic capabilities enhancements in JetBrains IDEs</a></p>
+              <h3 id="-también-este-mes" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 También este mes</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available" style="color: #0969da; text-decoration: underline;">Copilot SDK is now generally available</a> — Incrusta el motor agéntico de Copilot en tus propias aplicaciones y herramientas con una API estable.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users" style="color: #0969da; text-decoration: underline;">Auto mode in Copilot Chat available for all users</a> — El modo auto elige el modelo por ti en Copilot Chat en github.com y la app móvil.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests" style="color: #0969da; text-decoration: underline;">Copilot Chat brings richer context to pull requests</a> — Más contexto y nuevas capacidades al trabajar con diffs y pull requests en github.com.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max" style="color: #0969da; text-decoration: underline;">Fix with Copilot for failing Actions now in Pro, Pro+, and Max</a> — Corrige trabajos de GitHub Actions fallidos con un solo clic.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available" style="color: #0969da; text-decoration: underline;">GitHub Copilot for Jira is now generally available</a> — Lleva Copilot a tus flujos de trabajo en Jira con selección de modelo.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot" style="color: #0969da; text-decoration: underline;">MAI-Code-1-Flash is now available for GitHub Copilot</a> — El nuevo modelo pequeño de Microsoft llega a Copilot, empezando por VS Code.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases" style="color: #0969da; text-decoration: underline;">GitHub Copilot in Visual Studio Code, May releases</a> — Novedades de las versiones v1.120 a v1.123 para todos los usuarios.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">¿Quieres ver más? Explora el <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">changelog completo de GitHub Copilot</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
