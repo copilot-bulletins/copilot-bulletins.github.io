@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #9 — Del 1 al 14 de julio de 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/devs/9</link>
+      <description>La primera quincena de julio estuvo marcada por la ampliación de opciones para desarrolladores: nuevos modelos, más proveedores de agentes y mejoras en los IDE. Copilot avanza hacia un flujo más flexible, donde eliges el modelo adecuado para cada tarea y automatizas trabajo con agentes, tanto en tu editor como en tus canalizaciones de CI/CD.</description>
+      <pubDate>Wed, 15 Jul 2026 07:43:44 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/9</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #8 — Del 15 de junio al 30 de junio de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/8</link>
       <description>Esta quincena consolida a Copilot como una plataforma de desarrollo agéntica, multimodelo y multiplataforma. La tendencia dominante es la madurez: nuevas capacidades pasan de vista previa a disponibilidad general y los agentes se integran más a fondo en cada superficie. Para los desarrolladores, se traduce en más libertad para elegir modelo y en asistentes más capaces allí donde ya programan.</description>
