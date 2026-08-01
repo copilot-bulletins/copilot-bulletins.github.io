@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #9 — July 15 to July 31, 2026 · Decision-Makers Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body, body > table {
+    background-color: #0d1117 !important;
+  }
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+  p, li, td.content, td.content td {
+    color: #e6edf3 !important;
+  }
+  h3, h4, strong {
+    color: #e6edf3 !important;
+  }
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+  a {
+    color: #58a6ff !important;
+  }
+  hr {
+    border-top-color: #30363d !important;
+  }
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #9 · July 15 to July 31, 2026 · Decision-Makers Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-this-editions-thread" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 This edition's thread</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">The second half of July centered on measurement and cost control. As Copilot spreading across teams becomes usage-based, GitHub shipped the instrumentation leaders need: an impact dashboard, repository-level metrics, and credit governance tied to cost centers. Alongside a widening frontier-model catalog, the signal for decision-makers is clear — Copilot investment is now quantifiable, governable, and tied to measurable business outcomes.</p>
+              <h3 id="️-heads-up" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Heads up</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated" style="color: #0969da; text-decoration: underline;">Gemini 2.5 Pro and Gemini 3 Flash deprecated</a> — <strong style="font-weight: 600; color: #24292f;">Deadline: July 31, 2026</strong> — These models are retired across all Copilot experiences. Ensure teams migrate to supported models and confirm alternatives are enabled in your <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-organization/manage-policies" style="color: #0969da; text-decoration: underline;">model policies</a>.</li>
+              </ul>
+              <h3 id="-take-action" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Take action</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Tell your Copilot impact story with the new <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/metrics-data" style="color: #0969da; text-decoration: underline;">usage metrics and reporting</a> capabilities.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Govern AI spend by managing credit pools and budgets in <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/manage-and-track-spending" style="color: #0969da; text-decoration: underline;">cost and spending management</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Review which frontier models fit your teams and set policy in <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-ai-models/configure-access-to-ai-models" style="color: #0969da; text-decoration: underline;">AI model configuration</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Questions or need support? Reach out to your GitHub team, we're here to help.</li>
+              </ul>
+              <h3 id="-top-5-updates" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 updates</h3>
+              <h4 id="1-prove-copilots-impact-with-a-new-dashboard" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. Prove Copilot's impact with a new dashboard</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">A new metrics impact dashboard for enterprise administrators and organization owners goes beyond who is using Copilot to show the effect on delivery. For decision-makers, it turns adoption into a defensible impact narrative for stakeholders and budget conversations.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard" style="color: #0969da; text-decoration: underline;">Changelog: New Copilot usage metrics impact dashboard</a></p>
+              <h4 id="2-govern-ai-spend-per-cost-center" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Govern AI spend per cost center</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">AI credit pools can now be managed directly in the billing UI when creating and editing cost centers. This gives finance and engineering leaders a straightforward lever to allocate, cap, and track Copilot spend across business units without API workarounds.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui" style="color: #0969da; text-decoration: underline;">Changelog: AI credit pools for cost centers in the billing UI</a></p>
+              <h4 id="3-repository-level-metrics-reach-general-availability" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Repository-level metrics reach general availability</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">The Copilot usage metrics REST API now reports per-repository, daily activity for coding agent and code review. Leaders gain granular visibility into where AI delivers value, enabling data-driven decisions on where to expand or focus enablement efforts.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available" style="color: #0969da; text-decoration: underline;">Changelog: Repository-level GitHub Copilot usage metrics generally available</a></p>
+              <h4 id="4-a-widening-frontier-model-catalog" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. A widening frontier-model catalog</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Copilot added Claude Opus 5, Grok 4.5, and Gemini 3.6 Flash this period, spanning deep reasoning to fast agentic coding. Broad model choice reduces vendor lock-in risk and lets organizations match capability and cost to each workload.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Claude Opus 5 is now available in GitHub Copilot</a><br>→ <a href="https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Grok 4.5 is now available in GitHub Copilot</a><br>→ <a href="https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Gemini 3.6 Flash is now available in GitHub Copilot</a></p>
+              <h4 id="5-faster-access-to-new-models-by-default" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Faster access to new models by default</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">A new global default enablement policy turns on generally available models for Copilot Business and Enterprise automatically, instead of requiring manual activation. Teams get innovation sooner while administrators retain policy control to restrict models when needed.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise" style="color: #0969da; text-decoration: underline;">Changelog: Default model enablement for Copilot Business and Enterprise</a></p>
+              <h3 id="-also-in-this-edition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 Also in this edition</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available" style="color: #0969da; text-decoration: underline;">Copilot code review agent skills and MCP now generally available</a> — Custom skills and MCP servers reach GA across all paid plans, deepening automated review quality.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available" style="color: #0969da; text-decoration: underline;">Copilot cloud agent for Linear is now generally available</a> — Assign Linear issues to Copilot's autonomous background agent to accelerate delivery.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview" style="color: #0969da; text-decoration: underline;">Enterprise Teams model policy targeting in public preview</a> — Set baseline model policies targeted to specific users for finer governance.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app" style="color: #0969da; text-decoration: underline;">Enterprise managed settings now apply to the GitHub Copilot app</a> — Extend centralized configuration control to the desktop app.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Want to see more? Browse the full <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">GitHub Copilot changelog</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
