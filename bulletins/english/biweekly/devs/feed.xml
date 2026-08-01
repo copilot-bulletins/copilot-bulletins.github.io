@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #10 — July 15 to July 31, 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/devs/10</link>
+      <description>This period, Copilot deepened agent-native tooling and expanded model choice. Autonomous agents reached more of your workflow—the VS Code Agents window, Linear, GitHub Issues—while code review gained MCP and skills support. For developers, the practical shift is matching the right model and agent to each task, with richer context flowing directly into everyday coding and review.</description>
+      <pubDate>Sat, 01 Aug 2026 07:52:58 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/devs/10</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #9 — July 1 to July 14, 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/devs/9</link>
       <description>The first half of July put agentic development front and center. New model choices, a generally available integrated browser, vision support, and deeper agent providers across VS Code and JetBrains gave developers more ways to delegate real work and stay in flow. The theme is practical autonomy: richer tooling that keeps you in control while agents handle more of the loop.</description>

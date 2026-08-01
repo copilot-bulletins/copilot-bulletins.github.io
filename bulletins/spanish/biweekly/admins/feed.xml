@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #10 — Del 15 de julio al 31 de julio de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/10</link>
+      <description>Esta quincena consolidó el control administrativo sobre Copilot. Las novedades giran en torno a gobernanza y visibilidad: políticas por cliente, segmentación de modelos por equipos, restricciones por dispositivo y métricas de uso más granulares. Para los equipos de administración, el mensaje es claro: ahora dispone de palancas más finas para alinear la adopción de Copilot con sus marcos de seguridad, cumplimiento y medición de impacto.</description>
+      <pubDate>Sat, 01 Aug 2026 07:55:11 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/10</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #9 — Del 1 de julio al 14 de julio de 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/admins/9</link>
       <description>Esta quincena consolida el control empresarial sobre Copilot. Las novedades giran en torno a la gobernanza centralizada, la distribución de configuraciones gestionadas y el control de costes por centro y por usuario. Para los administradores crecen las palancas para estandarizar políticas, acotar el gasto y medir la adopción con mayor precisión a escala de empresa.</description>

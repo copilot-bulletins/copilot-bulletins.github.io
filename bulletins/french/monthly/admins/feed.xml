@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #5 — Juillet 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly/admins/5</link>
+      <description>Juillet a placé la gouvernance au cœur de Copilot. Métriques d'usage plus fines, contrôle budgétaire par centre de coûts, politiques d'entreprise ciblées et paramètres gérés étendus à l'application Copilot : GitHub outille les administrateurs pour piloter l'adoption, maîtriser les coûts et encadrer l'IA à grande échelle, sans freiner les équipes.</description>
+      <pubDate>Sat, 01 Aug 2026 07:55:05 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly/admins/5</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #4 — Juin 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly/admins/4</link>
       <description>Ce mois-ci, GitHub a consolidé la gouvernance de Copilot à l'échelle de l'entreprise. De nouveaux garde-fous de configuration, un pilotage budgétaire à l'usage et des métriques d'adoption plus complètes convergent vers un objectif : donner aux administrateurs les contrôles, la visibilité et la maîtrise des coûts pour encadrer un développement toujours plus agentique et facturé à la consommation.</description>

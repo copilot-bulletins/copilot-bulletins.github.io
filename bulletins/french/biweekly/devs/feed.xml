@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #10 — Du 15 juillet au 31 juillet 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/10</link>
+      <description>Cette quinzaine a été marquée par l'accélération autour des modèles et des agents. Trois nouveaux modèles rejoignent Copilot, tandis que l'écosystème agentique se stabilise : MCP et les agent skills passent en disponibilité générale, et l'agent cloud gagne de nouveaux points d'entrée. Pour les développeurs, cela signifie davantage de choix et des workflows autonomes plus fiables au quotidien.</description>
+      <pubDate>Sat, 01 Aug 2026 07:52:48 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/devs/10</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #9 — Du 1er juillet au 14 juillet 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/9</link>
       <description>Cette quinzaine, Copilot élargit le choix : nouveaux modèles, sélection automatique et davantage de fournisseurs d'agents dans les IDE. Pour les développeurs, l'enjeu n'est plus seulement d'avoir de l'IA, mais de faire correspondre le bon modèle et le bon agent à chaque tâche — raisonnement lourd, codage quotidien ou assistance rapide — tout en gardant la maîtrise de son environnement de travail.</description>

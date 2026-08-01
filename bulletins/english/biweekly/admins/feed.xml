@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #10 — July 15 to July 31, 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/10</link>
+      <description>This period was defined by administrative control. GitHub shipped a wave of enterprise governance capabilities — finer model policy targeting, dedicated app access policies, centrally managed settings extending to new surfaces, and richer usage reporting. For admins, the message is clear: Copilot's governance surface is maturing, giving you tighter, more granular control over access, models, and measurable impact across your organization.</description>
+      <pubDate>Sat, 01 Aug 2026 07:53:50 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/10</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #9 — July 1 to July 14, 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/admins/9</link>
       <description>This period centered on enterprise control and observability. GitHub shipped a wave of administration capabilities—generally available managed settings, MDM-based configuration, richer usage APIs, and granular cost governance. For administrators, the message is clear: Copilot is maturing into a fleet-manageable platform where policy, spend, and adoption can be governed centrally and audited with confidence.</description>

@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #4 — Juillet 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins/4</link>
+      <description>Juillet a placé la gouvernance au cœur de Copilot. Les administrateurs disposent de leviers plus fins pour piloter les modèles, propager des paramètres managés via MDM et encadrer l'accès à l'app GitHub Copilot. En parallèle, la mesure de l'adoption franchit un cap : métriques d'usage plus précises, tableau de bord d'impact et gestion des coûts par centre de coûts et crédits IA. Le message est clair : outiller le déploiement à grande échelle tout en gardant la maîtrise des dépenses, de la sécurité et de la conformité.</description>
+      <pubDate>Sat, 01 Aug 2026 07:56:30 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/admins/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #3 — Juin 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins/3</link>
       <description>En juin, la gouvernance et la maîtrise des coûts s'imposent pour les administrateurs. À mesure que les capacités agentiques se généralisent, GitHub livre les contrôles pour les encadrer : budgets de crédits IA par utilisateur adossés aux cost centers, paramètres gérés par l'entreprise verrouillant marketplaces et permissions, télémétrie d'adoption plus complète et validation de sécurité étendue aux agents tiers. Objectif : piloter la consommation, appliquer vos politiques avant l'exécution des outils et mesurer l'adoption sur des données fiables — déployer Copilot à l'échelle sans sacrifier visibilité ni conformité.</description>

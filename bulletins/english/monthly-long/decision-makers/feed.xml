@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #5 — July 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/5</link>
+      <description>July made the business case for Copilot concrete. GitHub paired expanding autonomy—a generally available desktop app, a widening roster of frontier models, and agents that act across issues and pull requests—with the governance and measurement leaders need to fund it responsibly. Cost centers gained credit pools and per-user budgets, new impact dashboards and usage metrics reached general availability, and AI moved deeper into security remediation. The strategic signal is consistent: Copilot is maturing into a managed investment where capability, cost visibility, and measurable outcomes advance together, letting organizations scale AI-assisted engineering with confidence rather than guesswork.</description>
+      <pubDate>Sat, 01 Aug 2026 07:57:53 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/5</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #4 — June 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/4</link>
       <description>June marked Copilot's shift from features to a platform for agent-native development. GitHub consolidated the agent experience into a dedicated desktop app, widened model choice past twenty frontier options, and moved autonomous, scheduled agents into everyday engineering. Just as important, the business scaffolding matured: usage-based billing, per-user credit budgets, and richer adoption metrics now let leaders fund AI precisely and tie spend to delivered work. The throughline for decision-makers is control—more capability paired with clearer governance, cost visibility, and measurable impact, so scaling Copilot becomes a managed investment rather than an open-ended experiment.</description>

@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #10 — Du 15 juillet au 31 juillet 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/10</link>
+      <description>Cette quinzaine, la gouvernance de Copilot se recentre sur l'application desktop et sur le pilotage à grande échelle. GitHub étend les paramètres managés d'entreprise à l'app et à l'agent cloud, introduit une activation par défaut des modèles, affine le ciblage des politiques et enrichit les métriques d'impact. Pour les administrateurs, l'enjeu glisse de l'activation ponctuelle vers un contrôle unifié des accès, des coûts et de la mesure.</description>
+      <pubDate>Sat, 01 Aug 2026 07:55:02 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/admins/10</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #9 — Du 1er juillet au 14 juillet 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/9</link>
       <description>Cette quinzaine confirme une orientation nettement axée gouvernance d'entreprise. GitHub a industrialisé le contrôle centralisé de Copilot : configuration managée déployable à grande échelle, télémétrie encadrée, budgets par utilisateur et revues de sécurité intégrées. Pour les administrateurs, l'enjeu passe de l'activation à la maîtrise — standardiser les politiques, tracer l'usage et cadrer les coûts sans friction pour les équipes.</description>

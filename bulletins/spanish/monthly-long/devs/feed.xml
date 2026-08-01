@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #4 — Julio 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/devs/4</link>
+      <description>Julio giró en torno a una idea: elegir la herramienta adecuada para cada tarea. El catálogo de modelos creció con nuevas opciones de frontera y selección automática, mientras la línea de comandos, los agentes en los IDE y las integraciones vía MCP maduraron hasta volverse parte natural del flujo diario. Para quien programa, el mensaje es autonomía práctica: delegar más trabajo en agentes sin perder control, con capacidades como visión, herramientas de navegador y revisiones de código cada vez más configurables y conectadas a tu entorno real.</description>
+      <pubDate>Sat, 01 Aug 2026 07:54:38 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/devs/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #3 — Junio 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly-long/devs/3</link>
       <description>Junio consolidó un cambio de fondo: Copilot deja de vivir solo en el editor para convertirse en un agente que trabaja en el terminal, el escritorio y tu CI. La app de GitHub Copilot y la nueva interfaz del Copilot CLI alcanzaron disponibilidad general, mientras los sandboxes, las automatizaciones del agente en la nube y los agentic workflows aportaron autonomía bajo control. Una oleada de modelos nuevos amplió tus opciones. Para quien programa, el reto pasa de autocompletar a orquestar agentes.</description>

@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #9 — Del 15 de julio al 31 de julio de 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/9</link>
+      <description>La segunda quincena de julio consolida una idea clave para la dirección: el valor de Copilot ya no se mide solo por la adopción, sino por el impacto demostrable. GitHub refuerza la medición del retorno, amplía el catálogo de modelos de frontera y madura la revisión de código automatizada, situando la inversión en IA en un terreno cuantificable y gobernable.</description>
+      <pubDate>Sat, 01 Aug 2026 07:57:43 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/decision-makers/9</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #8 — Del 1 de julio al 14 de julio de 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/8</link>
       <description>La primera quincena de julio consolida una idea clave para la dirección: la autonomía de Copilot avanza acompañada de gobernanza y medición. Se amplía el acceso a la plataforma agéntica y al catálogo de modelos de frontera, mientras GitHub refuerza el control de costes por usuario y las métricas de adopción. El desarrollo asistido por IA se vuelve escalable, gobernable y cuantificable.</description>

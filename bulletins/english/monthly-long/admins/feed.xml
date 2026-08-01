@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #5 — July 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/5</link>
+      <description>July was a governance and visibility month for Copilot administrators. GitHub deepened usage and adoption metrics, expanded enterprise-managed settings across more clients, and gave finance teams finer cost controls through AI credit pools and per-user budgets. Security moved left with in-app security reviews and agentic autofix, while model governance matured with default enablement and policy targeting. The through-line: more precise levers to measure impact, enforce standards, and control spend as agentic Copilot scales across your organization.</description>
+      <pubDate>Sat, 01 Aug 2026 07:55:29 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/admins/5</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #4 — June 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/4</link>
       <description>June's dominant theme for administrators was governance catching up with agentic development. With usage-based billing now live across all plans, GitHub shipped the controls to match: per-user credit budgets on cost centers, richer consumption and adoption data in reports and the metrics API, and the first real policy levers in enterprise-managed settings. Security and code review matured in parallel. For admins, the month is less about new features to try and more about the guardrails, visibility, and cost discipline needed to scale Copilot responsibly.</description>

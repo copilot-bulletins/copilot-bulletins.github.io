@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #4 — July 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/4</link>
+      <description>July was about choice and autonomy for developers. Copilot's model catalog widened dramatically—frontier releases from Anthropic, OpenAI, Google, xAI, and Moonshot now sit side by side, with auto-selection routing each task to the right one. In parallel, agents matured across the CLI, IDEs, and code review, while vision and browser tooling went generally available. The practical takeaway: you have more ways to delegate real work and match the right model and agent to each task, without leaving your editor.</description>
+      <pubDate>Sat, 01 Aug 2026 07:53:07 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/devs/4</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #3 — June 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/3</link>
       <description>June turned agentic development into a place you go, not just a feature you invoke. Copilot's agent gained a dedicated desktop home, a redesigned terminal, and first-class seats inside the IDEs you already use — all reachable from one account. Underneath, the model layer widened and grew smarter about itself: larger context, configurable reasoning, and routing that picks the model for you. The throughline is consolidation — surfaces, models, and automation primitives settling into one coherent, programmable platform you can build on.</description>
