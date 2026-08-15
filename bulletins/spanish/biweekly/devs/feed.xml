@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #11 — Del 1 de agosto al 14 de agosto de 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/devs/11</link>
+      <description>La primera quincena de agosto giró en torno a la elección de modelo y la agencia. Llegaron varios modelos nuevos, controles de razonamiento para el agente en la nube y automatizaciones activadas por comentarios. Para quien programa a diario, el mensaje es claro: más opciones para ajustar potencia, coste y comportamiento del agente según cada tarea.</description>
+      <pubDate>Sat, 15 Aug 2026 07:18:00 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/11</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #10 — Del 15 de julio al 31 de julio de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/10</link>
       <description>La quincena estuvo marcada por la expansión del catálogo de modelos y la madurez del ecosistema agéntico. Llegaron nuevos modelos de primer nivel y el estándar MCP se estabilizó, mientras las capacidades de agente pasaron a disponibilidad general en más superficies. Para quien programa a diario, significa más opciones de razonamiento y una base de integración más sólida y predecible.</description>

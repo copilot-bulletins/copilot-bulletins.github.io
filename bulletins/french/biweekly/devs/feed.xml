@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #11 — Du 1 août au 14 août 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/11</link>
+      <description>Cette quinzaine confirme l'ouverture de l'écosystème agentique de Copilot. Un standard de plugins partagé entre les clients, la mémoire persistante et les modèles locaux dans l'IDE, des automatisations déclenchées par commentaires et un niveau de raisonnement ajustable : autant de leviers pour composer vous-même votre agent. Pour les développeurs, l'enjeu devient l'orchestration des outils autant que la génération de code.</description>
+      <pubDate>Sat, 15 Aug 2026 07:18:27 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/devs/11</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #10 — Du 15 juillet au 31 juillet 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/10</link>
       <description>Cette quinzaine a été marquée par l'accélération autour des modèles et des agents. Trois nouveaux modèles rejoignent Copilot, tandis que l'écosystème agentique se stabilise : MCP et les agent skills passent en disponibilité générale, et l'agent cloud gagne de nouveaux points d'entrée. Pour les développeurs, cela signifie davantage de choix et des workflows autonomes plus fiables au quotidien.</description>

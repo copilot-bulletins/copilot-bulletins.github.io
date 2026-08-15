@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #11 — Del 1 de agosto al 14 de agosto de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/11</link>
+      <description>La primera quincena de agosto reforzó la gobernanza a escala: los administradores ganan un control más granular sobre configuraciones, servidores MCP, costes y métricas de impacto. El eje del periodo es la delegación controlada —dar autonomía a los equipos sin perder los límites definidos centralmente— y una trazabilidad financiera más fina que conecta el gasto de IA con resultados medibles.</description>
+      <pubDate>Sat, 15 Aug 2026 07:19:58 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/11</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #10 — Del 15 de julio al 31 de julio de 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/admins/10</link>
       <description>Esta quincena consolidó el control administrativo sobre Copilot. Las novedades giran en torno a gobernanza y visibilidad: políticas por cliente, segmentación de modelos por equipos, restricciones por dispositivo y métricas de uso más granulares. Para los equipos de administración, el mensaje es claro: ahora dispone de palancas más finas para alinear la adopción de Copilot con sus marcos de seguridad, cumplimiento y medición de impacto.</description>

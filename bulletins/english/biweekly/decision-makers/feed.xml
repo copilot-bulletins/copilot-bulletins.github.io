@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #10 — August 1 to August 14, 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/10</link>
+      <description>This period, GitHub sharpened the business case for Copilot. New tooling ties spend directly to output, exposes third-party agent activity, and moves quality controls to general availability. The signal for leaders is clear: the conversation is shifting from adoption to measurable return, with financial visibility and governance maturing into the instruments needed to justify and scale investment with confidence.</description>
+      <pubDate>Sat, 15 Aug 2026 07:19:32 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/decision-makers/10</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #9 — July 15 to July 31, 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/9</link>
       <description>The second half of July centered on measurement and cost control. As Copilot spreading across teams becomes usage-based, GitHub shipped the instrumentation leaders need: an impact dashboard, repository-level metrics, and credit governance tied to cost centers. Alongside a widening frontier-model catalog, the signal for decision-makers is clear — Copilot investment is now quantifiable, governable, and tied to measurable business outcomes.</description>
