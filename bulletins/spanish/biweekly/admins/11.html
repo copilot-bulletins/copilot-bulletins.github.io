@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #11 — Del 1 de agosto al 14 de agosto de 2026 · Admins Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body, body > table {
+    background-color: #0d1117 !important;
+  }
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+  p, li, td.content, td.content td {
+    color: #e6edf3 !important;
+  }
+  h3, h4, strong {
+    color: #e6edf3 !important;
+  }
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+  a {
+    color: #58a6ff !important;
+  }
+  hr {
+    border-top-color: #30363d !important;
+  }
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #11 · Del 1 de agosto al 14 de agosto de 2026 · Admins Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-el-hilo-de-esta-edición" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 El hilo de esta edición</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">La primera quincena de agosto reforzó la gobernanza a escala: los administradores ganan un control más granular sobre configuraciones, servidores MCP, costes y métricas de impacto. El eje del periodo es la delegación controlada —dar autonomía a los equipos sin perder los límites definidos centralmente— y una trazabilidad financiera más fina que conecta el gasto de IA con resultados medibles.</p>
+              <h3 id="️-atención" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Atención</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com" style="color: #0969da; text-decoration: underline;">Próxima retirada de GitHub Spark en github.com</a> — <strong style="font-weight: 600; color: #24292f;">Fecha límite: 31 de agosto de 2026</strong> — Spark ya no admite nuevos usuarios ni apps; los usuarios existentes deben exportar sus apps antes de esa fecha.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash" style="color: #0969da; text-decoration: underline;">Próxima retirada de MAI-Code-1-Flash</a> — <strong style="font-weight: 600; color: #24292f;">Fecha límite: 10 de septiembre de 2026</strong> — Migre a MAI-Code-1.1-Flash y habilite el modelo en sus <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/enterprise-administrators/enterprise-managed-settings" style="color: #0969da; text-decoration: underline;">políticas de configuración gestionada</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app" style="color: #0969da; text-decoration: underline;">Retirada de la app Copilot Billing Preview</a> — <strong style="font-weight: 600; color: #24292f;">Acción requerida</strong> — La app ya no está disponible; gestione el gasto desde los <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/billing/budgets-for-usage-based-billing" style="color: #0969da; text-decoration: underline;">ajustes de facturación</a>.</li>
+              </ul>
+              <h3 id="-pasa-a-la-acción" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Pasa a la acción</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Delegue configuración por equipos con las <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/configure-enterprise-managed-settings" style="color: #0969da; text-decoration: underline;">configuraciones gestionadas de empresa</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Controle qué servidores MCP puede ejecutar Copilot con la <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-mcp-usage/configure-enterprise-allowlist" style="color: #0969da; text-decoration: underline;">lista de permitidos de empresa</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Cuantifique el retorno con el <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/view-impact-dashboard" style="color: #0969da; text-decoration: underline;">panel de impacto de Copilot</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Contenga el gasto con <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/tutorials/budgets/getting-started-with-budget-controls" style="color: #0969da; text-decoration: underline;">presupuestos de facturación por uso</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">¿Preguntas o necesita ayuda? Contacte con su equipo de GitHub, estamos aquí para ayudar.</li>
+              </ul>
+              <h3 id="-top-5-de-actualizaciones" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 de actualizaciones</h3>
+              <h4 id="1-especialización-por-equipos-en-la-configuración-gestionada" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. Especialización por equipos en la configuración gestionada</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Los administradores de empresa pueden ahora personalizar la configuración gestionada dirigiéndola a equipos concretos mediante archivos de configuración individuales. Permite escalar la gobernanza sin cuellos de botella ni políticas únicas, dando flexibilidad a los equipos dentro de los límites que usted define.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings" style="color: #0969da; text-decoration: underline;">Changelog: Enterprise team specialization for managed settings</a></p>
+              <h4 id="2-listas-de-permitidos-de-mcp-en-la-configuración-gestionada-de-empresa" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Listas de permitidos de MCP en la configuración gestionada de empresa</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Los propietarios de empresa pueden controlar de forma centralizada qué servidores MCP pueden ejecutar los clientes de Copilot mediante las nuevas claves <code>allowedMcpServers</code> y <code>deniedMcpServers</code>. Un control clave de seguridad y cumplimiento para estandarizar el uso de MCP en toda la organización.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings" style="color: #0969da; text-decoration: underline;">Changelog: MCP allowlists in enterprise managed settings</a></p>
+              <h4 id="3-el-panel-de-impacto-añade-una-sección-de-retorno-de-inversión" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. El panel de impacto añade una sección de retorno de inversión</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">El panel de impacto de Copilot incorpora una sección de retorno de inversión que conecta el gasto con las pull requests generadas. Compara usuarios pasivos frente a desarrolladores centrados en agentes, mostrando coste por desarrollador y porcentaje sobre la nómina para justificar la inversión.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section" style="color: #0969da; text-decoration: underline;">Changelog: Copilot impact dashboard adds a return on investment section</a></p>
+              <h4 id="4-la-api-de-métricas-de-uso-añade-actividad-de-agentes" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. La API de métricas de uso añade actividad de agentes</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">La API de métricas de uso ahora informa de la actividad de las apps de agentes (como Claude o Codex), desglosada por agente individual mediante el array <code>totals_by_3rd_party_agent</code>. Disponible en los informes de empresa y organización, mejora la visibilidad de la adopción de agentes.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity" style="color: #0969da; text-decoration: underline;">Changelog: Copilot usage metrics API adds agent app activity</a></p>
+              <h4 id="5-desglose-de-tokens-por-modelo-en-el-informe-de-uso" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Desglose de tokens por modelo en el informe de uso</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">El informe de uso muestra ahora, por cada modelo, los tokens de entrada, salida, lectura y escritura en caché junto a los créditos de IA consumidos. Facilita explicar cada cargo, identificar oportunidades de optimización y compartir el detalle con las partes interesadas.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report" style="color: #0969da; text-decoration: underline;">Changelog: Per-model token breakdown in the usage report</a></p>
+              <h3 id="-también-en-esta-edición" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 También en esta edición</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available" style="color: #0969da; text-decoration: underline;">Copilot code review effort levels are generally available</a> — Los niveles de esfuerzo de la revisión de código de Copilot alcanzan disponibilidad general.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments" style="color: #0969da; text-decoration: underline;">Trigger Copilot automations with comments</a> — Active automatizaciones de Copilot directamente desde comentarios.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent" style="color: #0969da; text-decoration: underline;">Customize the reasoning level for Copilot cloud agent</a> — Ajuste el nivel de razonamiento del agente en la nube según la tarea.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot" style="color: #0969da; text-decoration: underline;">Gemini 3.7 Flash is now available in GitHub Copilot</a> — Nuevo modelo disponible; revise sus políticas de modelos.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot" style="color: #0969da; text-decoration: underline;">Kimi K3 is now available in GitHub Copilot</a> — Amplía el catálogo de modelos gobernable desde la configuración de empresa.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Want to see more? Browse the full <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">GitHub Copilot changelog</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
