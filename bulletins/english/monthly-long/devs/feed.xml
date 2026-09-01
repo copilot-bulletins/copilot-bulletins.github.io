@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #5 — August 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/5</link>
+      <description>August was about **portability and control** for developers. A new open plugin standard let you build agent capabilities once and run them everywhere, while a wave of fresh models landed across every surface. Your favorite IDEs — VS Code, JetBrains, Visual Studio — all matured their agentic workflows, and cloud agent gained finer-grained tuning through reasoning levels and comment-triggered automations. The throughline: fewer silos, more consistent behavior, and knobs to match effort and cost to the task in front of you.</description>
+      <pubDate>Tue, 01 Sep 2026 07:18:35 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/devs/5</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #4 — July 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/4</link>
       <description>July was about choice and autonomy for developers. Copilot's model catalog widened dramatically—frontier releases from Anthropic, OpenAI, Google, xAI, and Moonshot now sit side by side, with auto-selection routing each task to the right one. In parallel, agents matured across the CLI, IDEs, and code review, while vision and browser tooling went generally available. The practical takeaway: you have more ways to delegate real work and match the right model and agent to each task, without leaving your editor.</description>

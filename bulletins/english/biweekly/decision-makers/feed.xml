@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #11 — August 15 to August 31, 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/11</link>
+      <description>This period, Copilot moved deeper into the places teams already collaborate and coordinate. Agentic work now reaches into chat platforms, code review widened its coverage, and enterprise model governance became enforceable. For decision-makers, the signal is clear: Copilot is shifting from an individual coding aid toward a shared, governed capability embedded across the software delivery lifecycle.</description>
+      <pubDate>Tue, 01 Sep 2026 07:21:58 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/decision-makers/11</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #10 — August 1 to August 14, 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/10</link>
       <description>This period, GitHub sharpened the business case for Copilot. New tooling ties spend directly to output, exposes third-party agent activity, and moves quality controls to general availability. The signal for leaders is clear: the conversation is shifting from adoption to measurable return, with financial visibility and governance maturing into the instruments needed to justify and scale investment with confidence.</description>

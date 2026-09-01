@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #6 — Août 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly/devs/6</link>
+      <description>Août 2026 confirme une orientation claire pour les développeurs : rendre Copilot plus modulaire et adaptable à chaque flux de travail. Standardisation des plugins d'agents, élargissement du catalogue de modèles, revue de code plus autonome et progrès continus dans les IDE dessinent un écosystème où vous composez votre environnement de développement plutôt que de le subir.</description>
+      <pubDate>Tue, 01 Sep 2026 07:17:47 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly/devs/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #5 — Juillet 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly/devs/5</link>
       <description>Ce mois-ci, le choix s'impose comme fil conducteur. GitHub a élargi son catalogue de modèles de pointe et consolidé son écosystème agentique — CLI, IDE, MCP et revue de code désormais extensibles. Pour les développeurs, l'enjeu devient d'associer le bon modèle et le bon agent à chaque tâche, tout en gardant la maîtrise de leur environnement de travail.</description>

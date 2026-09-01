@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #6 — August 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/decision-makers/6</link>
+      <description>August centered on measurable value and governance. GitHub tied Copilot more tightly to business outcomes—surfacing return-on-investment reporting, richer usage metrics, and enterprise-wide model controls—while broadening where teams collaborate with the assistant. For leaders, the signal is clear: Copilot is maturing from a productivity tool into a governed platform you can measure, standardize, and justify at scale.</description>
+      <pubDate>Tue, 01 Sep 2026 07:21:47 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/decision-makers/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #5 — July 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/decision-makers/5</link>
       <description>July was about turning Copilot from a cost into a measurable, governed investment. GitHub shipped the instrumentation leaders need—adoption dashboards, repository-level metrics, per-user budgets, and cost-center controls—alongside AI-driven security remediation and an expanding frontier-model lineup. The signal for decision-makers is clear: capability and accountability are advancing together, making it easier to fund AI precisely and prove return.</description>

@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #6 — Agosto 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly/devs/6</link>
+      <description>Agosto giró en torno a la elección: nuevos modelos, más superficies de trabajo (IDE, CLI, JetBrains) y agentes más configurables. Para quienes desarrollan, el mensaje es claro: Copilot se adapta a tu flujo, no al revés. Elegir el modelo y el nivel de esfuerzo adecuados para cada tarea se vuelve parte del día a día.</description>
+      <pubDate>Tue, 01 Sep 2026 07:18:59 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly/devs/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #5 — Julio 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly/devs/5</link>
       <description>Julio consolidó a Copilot como plataforma agéntica: una oleada de nuevos modelos (Claude Opus 5, GPT-5.6, Grok 4.5) convive con capacidades extensibles vía MCP y agent skills que llegan a producción. Para quienes desarrollan, el mensaje es claro: elegir el modelo adecuado y conectar herramientas propias ya no es experimental, sino parte del flujo diario de trabajo.</description>

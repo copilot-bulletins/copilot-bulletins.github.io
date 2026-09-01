@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #5 — Août 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/5</link>
+      <description>Août 2026 confirme deux dynamiques pour les développeurs. D'abord, le choix de modèles s'élargit encore : Kimi K3, Gemini 3.7 Flash, Grok 4.6 et MAI-Code-1.1-Flash rejoignent le catalogue, pendant que MAI-Code-1-Flash amorce sa sortie. Ensuite, l'outillage agentique gagne en maturité : Agent Plugins 1.0 unifie VS Code, la CLI et l'appli Copilot, l'agent de codage expose ses niveaux de raisonnement, et la revue de code passe en disponibilité générale. JetBrains, Visual Studio et VS Code reçoivent leurs mises à jour mensuelles. Concrètement, vous avez plus de leviers pour adapter Copilot à chaque tâche.</description>
+      <pubDate>Tue, 01 Sep 2026 07:19:21 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/devs/5</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #4 — Juillet 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/4</link>
       <description>Juillet 2026 a été porté par deux dynamiques majeures pour les développeurs : une vague de nouveaux modèles et une montée en puissance de l'agentique intégrée à vos outils du quotidien. Copilot élargit son catalogue de modèles pour ajuster puissance et rapidité à chaque tâche, tandis que le CLI, les IDE JetBrains et VS Code gagnent en autonomie et en interopérabilité via MCP. En parallèle, la revue de code et la correction des alertes de sécurité s'automatisent davantage. Concrètement, vous disposez de plus de contrôle sur le modèle utilisé et d'agents capables d'agir directement dans votre environnement.</description>

@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #6 — August 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/6</link>
+      <description>August centered on governance and measurement. Enterprise managed settings matured into a real control plane — MCP allowlists, team-scoped policies, marketplace auto-updates, and JetBrains coverage — while the global model policy moved to general availability with staged enforcement. In parallel, new ROI and per-agent, per-model usage reporting turned Copilot spend into something you can trace and justify. For admins, the takeaway is concrete: you can now define guardrails once, delegate safely to teams, and prove value with data rather than assumption.</description>
+      <pubDate>Tue, 01 Sep 2026 07:19:20 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/admins/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #5 — July 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/5</link>
       <description>July was a governance and visibility month for Copilot administrators. GitHub deepened usage and adoption metrics, expanded enterprise-managed settings across more clients, and gave finance teams finer cost controls through AI credit pools and per-user budgets. Security moved left with in-app security reviews and agentic autofix, while model governance matured with default enablement and policy targeting. The through-line: more precise levers to measure impact, enforce standards, and control spend as agentic Copilot scales across your organization.</description>

@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #6 — August 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/6</link>
+      <description>August was about turning Copilot from a productivity tool into a measurable business asset. GitHub shipped a return-on-investment view in the impact dashboard, richer usage metrics, and enforced global model governance — giving leaders the numbers and controls to justify and scale their investment. In parallel, agentic collaboration expanded into Slack and Teams, and code review kept maturing. The strategic signal for decision-makers is clear: the platform is optimizing for demonstrable outcomes, governance at scale, and embedding AI where teams already work.</description>
+      <pubDate>Tue, 01 Sep 2026 07:21:09 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #5 — July 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/5</link>
       <description>July made the business case for Copilot concrete. GitHub paired expanding autonomy—a generally available desktop app, a widening roster of frontier models, and agents that act across issues and pull requests—with the governance and measurement leaders need to fund it responsibly. Cost centers gained credit pools and per-user budgets, new impact dashboards and usage metrics reached general availability, and AI moved deeper into security remediation. The strategic signal is consistent: Copilot is maturing into a managed investment where capability, cost visibility, and measurable outcomes advance together, letting organizations scale AI-assisted engineering with confidence rather than guesswork.</description>

@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #6 — August 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/devs/6</link>
+      <description>August pushed Copilot toward a more open, steerable agent. A cross-client plugin standard, comment-triggered automations, adjustable reasoning, and a fresh wave of frontier models all point the same way: you compose the agent instead of accepting a fixed one. For developers, the day-to-day work increasingly means orchestrating tools, models, and behavior — not just accepting code suggestions.</description>
+      <pubDate>Tue, 01 Sep 2026 07:16:44 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/devs/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #5 — July 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/devs/5</link>
       <description>July was about choice and autonomy at the keyboard. A wave of new frontier models landed in Copilot while the CLI, code review, and IDE agents grew more capable and configurable. For developers, that means more control over which model handles a task and more agentic help across the tools you already use every day.</description>

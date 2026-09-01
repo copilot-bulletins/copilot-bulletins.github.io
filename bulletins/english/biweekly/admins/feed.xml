@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #12 — August 15 to August 31, 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/12</link>
+      <description>Enterprise control was the defining theme this period. GitHub shipped governance primitives across the stack — a generally available global model policy, expanded enterprise-managed settings for JetBrains, and centralized plugin and MCP controls. For administrators, the message is clear: consistent, policy-driven configuration now spans more IDEs and surfaces, making it easier to enforce standards and demonstrate compliance across your Copilot deployment.</description>
+      <pubDate>Tue, 01 Sep 2026 07:18:22 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/12</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #11 — August 1 to August 14, 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/admins/11</link>
       <description>This period centered on governance and financial visibility. New enterprise controls for MCP servers and team-specific managed settings gave administrators finer policy boundaries, while impact-dashboard ROI cards, per-model token breakdowns, and agent-level usage metrics turned spend and adoption into measurable, defensible figures. For admins, Copilot is increasingly something you can govern, cost, and justify with data.</description>

@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #6 — August 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/admins/6</link>
+      <description>August centered on enterprise governance and measurement. GitHub gave administrators finer control over managed settings, model policy, and MCP access, while sharpening the tools to prove Copilot's value. For admins, the throughline is clear: scale adoption confidently by tightening guardrails and grounding every rollout decision in usage, cost, and ROI data.</description>
+      <pubDate>Tue, 01 Sep 2026 07:19:49 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/admins/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #5 — July 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/admins/5</link>
       <description>July centered on operational control. GitHub shipped a wave of administration capabilities—richer usage and adoption metrics, enterprise-managed configuration, and finer-grained cost governance—that give admins clearer visibility into how Copilot is adopted and stronger levers to shape it. For teams scaling Copilot across the organization, this month is about measurement, policy, and predictable spend.</description>

@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #5 — Août 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins/5</link>
+      <description>En août, la gouvernance a été au cœur des évolutions Copilot. Les paramètres gérés d'entreprise s'étendent à de nouveaux clients et scénarios, tandis que la politique globale de modèles et les contrôles MCP offrent aux administrateurs un cadre plus fin pour encadrer l'usage. En parallèle, la mesure progresse : tableau de bord d'impact orienté ROI, ventilation des tokens par modèle et API de métriques enrichie renforcent la visibilité sur la valeur et les coûts. Enfin, plusieurs changements de politiques et de facturation à venir demandent votre attention pour éviter toute interruption côté équipes.</description>
+      <pubDate>Tue, 01 Sep 2026 07:21:10 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/admins/5</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #4 — Juillet 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins/4</link>
       <description>Juillet a placé la gouvernance au cœur de Copilot. Les administrateurs disposent de leviers plus fins pour piloter les modèles, propager des paramètres managés via MDM et encadrer l'accès à l'app GitHub Copilot. En parallèle, la mesure de l'adoption franchit un cap : métriques d'usage plus précises, tableau de bord d'impact et gestion des coûts par centre de coûts et crédits IA. Le message est clair : outiller le déploiement à grande échelle tout en gardant la maîtrise des dépenses, de la sécurité et de la conformité.</description>
