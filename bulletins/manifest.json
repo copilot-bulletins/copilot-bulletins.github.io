@@ -1,5 +1,104 @@
 [
   {
+    "number": 632,
+    "title": "Copilot Bulletin Biweekly #13 — Du 1er au 14 septembre 2026 · Decision-Makers Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/french/biweekly/decision-makers/13.html",
+    "createdAt": "2026-09-15T07:19:52Z",
+    "description": "Cette quinzaine confirme une orientation claire : à mesure que Copilot gagne en autonomie, GitHub renforce les leviers de gouvernance et de maîtrise des coûts. Nouveaux modèles, agents capables d'approuver des revues, contrôles centralisés des permissions et arbitrage coût/qualité donnent aux dirigeants les moyens de déployer l'IA à grande échelle tout en gardant le contrôle du risque et du budget.",
+    "edition": 13
+  },
+  {
+    "number": 631,
+    "title": "Copilot Bulletin Biweekly #12 — Del 1 de septiembre al 14 de septiembre de 2026 · Decision-Makers Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/spanish/biweekly/decision-makers/12.html",
+    "createdAt": "2026-09-15T07:19:34Z",
+    "description": "Esta quincena, GitHub reforzó la idea de una IA gobernable y cuantificable. Las novedades dan a las organizaciones palancas para equilibrar coste, calidad y control: niveles de selección de modelo, permisos centralizados sobre las operaciones de los agentes y métricas de adopción más completas. Para la dirección, el mensaje es claro: Copilot madura como una inversión medible, previsible y alineada con los objetivos del negocio.",
+    "edition": 12
+  },
+  {
+    "number": 630,
+    "title": "Copilot Bulletin Biweekly #13 — September 1 to September 14, 2026 · Admins Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/english/biweekly/admins/13.html",
+    "createdAt": "2026-09-15T07:19:03Z",
+    "description": "Administrative control was the dominant theme this period. GitHub shipped enterprise-managed permissions for agent operations, extended content-exclusion enforcement to the Copilot app and CLI, and added budget expiration dates. For admins, the takeaway is clear: as Copilot's agentic surface expands, so does the governance tooling to keep operations, spend, and sensitive code within policy.",
+    "edition": 13
+  },
+  {
+    "number": 629,
+    "title": "Copilot Bulletin Biweekly #12 — September 1 to September 14, 2026 · Decision-Makers Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/english/biweekly/decision-makers/12.html",
+    "createdAt": "2026-09-15T07:18:25Z",
+    "description": "This period, GitHub tightened the enterprise controls around autonomous coding. New model choices, cost-and-quality tiers, agent-permission guardrails, and richer adoption metrics all point to the same direction: giving leadership the levers to scale AI safely while proving return on investment. For decision-makers, the story is maturing governance and measurable value, not just more capability.",
+    "edition": 12
+  },
+  {
+    "number": 628,
+    "title": "Copilot Bulletin Biweekly #13 — Del 1 de septiembre al 14 de septiembre de 2026 · Admins Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/spanish/biweekly/admins/13.html",
+    "createdAt": "2026-09-15T07:18:19Z",
+    "description": "Esta quincena consolida el control administrativo sobre los agentes de Copilot y sus modelos. Entre permisos gestionados a nivel de empresa, exclusiones de contenido generalizadas y nuevas métricas de adopción, el mensaje para administradores es claro: la gobernanza operativa madura al mismo ritmo que las capacidades. Es momento de revisar políticas, presupuestos y controles antes de las próximas retiradas de modelos.",
+    "edition": 13
+  },
+  {
+    "number": 627,
+    "title": "Copilot Bulletin Biweekly #13 — Du 1er au 14 septembre 2026 · Admins Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/french/biweekly/admins/13.html",
+    "createdAt": "2026-09-15T07:17:59Z",
+    "description": "Cette quinzaine place la gouvernance d'entreprise au cœur de Copilot. Les nouveautés renforcent le contrôle centralisé des opérations d'agents, l'observabilité de l'adoption et la protection du code sensible. Pour les administrateurs, la tendance est claire : déployer les agents à grande échelle tout en gardant des garde-fous fermes, mesurables et non contournables par les utilisateurs.",
+    "edition": 13
+  },
+  {
+    "number": 626,
+    "title": "Copilot Bulletin Biweekly #13 — September 1 to September 14, 2026 · Devs Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/english/biweekly/devs/13.html",
+    "createdAt": "2026-09-15T07:17:55Z",
+    "description": "Model choice dominated this period. GitHub Copilot expanded its lineup with new frontier models, retired older ones, and introduced tiered auto model selection so you can steer the balance of cost, quality, and speed. For developers, this means more control over which engine handles each task—and a need to migrate off soon-to-be-deprecated models before workflows break.",
+    "edition": 13
+  },
+  {
+    "number": 625,
+    "title": "Copilot Bulletin Biweekly #13 — Du 1 au 14 septembre 2026 · Devs Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/french/biweekly/devs/13.html",
+    "createdAt": "2026-09-15T07:17:33Z",
+    "description": "Cette quinzaine place le choix et le contrôle des modèles au cœur de l'expérience développeur. Nouveaux modèles disponibles, sélection automatique désormais réglable selon le coût et la qualité, et retraits programmés : Copilot vous demande d'être plus intentionnel sur le modèle utilisé pour chaque tâche. En parallèle, la revue de code et les agents gagnent en autonomie dans vos outils du quotidien.",
+    "edition": 13
+  },
+  {
+    "number": 624,
+    "title": "Copilot Bulletin Biweekly #13 — Del 1 al 14 de septiembre de 2026 · Devs Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/spanish/biweekly/devs/13.html",
+    "createdAt": "2026-09-15T07:17:23Z",
+    "description": "Esta quincena la elección de modelo pasa a primer plano. Con nuevos modelos generales disponibles, niveles de optimización para la selección automática y varias deprecaciones en marcha, el desarrollador gana control sobre el equilibrio entre coste, calidad y velocidad en cada prompt. Conviene revisar qué modelos usas hoy y adaptar tus flujos antes de que cambien las opciones disponibles.",
+    "edition": 13
+  },
+  {
     "number": 623,
     "title": "Copilot Bulletin Monthly (Long) #6 — Août 2026 · Decision-Makers Edition",
     "language": "french",
