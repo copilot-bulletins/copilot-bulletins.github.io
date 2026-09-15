@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #13 — Del 1 al 14 de septiembre de 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/devs/13</link>
+      <description>Esta quincena la elección de modelo pasa a primer plano. Con nuevos modelos generales disponibles, niveles de optimización para la selección automática y varias deprecaciones en marcha, el desarrollador gana control sobre el equilibrio entre coste, calidad y velocidad en cada prompt. Conviene revisar qué modelos usas hoy y adaptar tus flujos antes de que cambien las opciones disponibles.</description>
+      <pubDate>Tue, 15 Sep 2026 07:17:23 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/13</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #12 — Del 15 de agosto al 31 de agosto de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/12</link>
       <description>La segunda quincena de agosto reforzó a Copilot dentro del entorno de desarrollo: VS Code, Visual Studio y JetBrains recibieron mejoras centradas en sesiones de agentes, revisión de código y personalización mediante MCP. Para quienes desarrollan, el mensaje es claro: menos cambios de contexto y más control sobre modelos, agentes y flujos de trabajo directamente en el IDE.</description>
