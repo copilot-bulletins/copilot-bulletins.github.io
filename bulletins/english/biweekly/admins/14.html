@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #14 — September 15 to September 30, 2026 · Admins Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body, body > table {
+    background-color: #0d1117 !important;
+  }
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+  p, li, td.content, td.content td {
+    color: #e6edf3 !important;
+  }
+  h3, h4, strong {
+    color: #e6edf3 !important;
+  }
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+  a {
+    color: #58a6ff !important;
+  }
+  hr {
+    border-top-color: #30363d !important;
+  }
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #14 · September 15 to September 30, 2026 · Admins Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-this-editions-thread" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 This edition's thread</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">This period centered on administrative control and visibility. GitHub shipped a new default-enablement policy, in-product settings validation, deeper usage and adoption metrics, and open observability for agents. For admins, the message is clear: governing Copilot at scale now comes with stronger guardrails, clearer data, and fewer configuration surprises.</p>
+              <h3 id="️-heads-up" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Heads up</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october" style="color: #0969da; text-decoration: underline;">Upcoming deprecation of selected GitHub Copilot models in mid-October</a> — <strong style="font-weight: 600; color: #24292f;">Deadline: October 19, 2026</strong> — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, and Grok 4.5 will be retired across all experiences. Review your <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models" style="color: #0969da; text-decoration: underline;">default model availability</a> and migrate to the suggested alternatives.</li>
+              </ul>
+              <h3 id="-take-action" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Take action</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Configure the new default-enablement policy during the 28-day grace window on the AI Controls page before it affects users — see <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies" style="color: #0969da; text-decoration: underline;">managing enterprise policies</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Check feature engagement in the <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/view-usage-and-adoption" style="color: #0969da; text-decoration: underline;">usage and adoption dashboard</a> to find under-adopted experiences.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Review and approve member <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-budget-requests" style="color: #0969da; text-decoration: underline;">budget increase requests</a> directly from your settings.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Validate your enterprise-managed settings JSON in the new in-product validator on the enterprise AI controls page.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Questions or need support? Reach out to your GitHub team, we're here to help.</li>
+              </ul>
+              <h3 id="-top-5-updates" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 updates</h3>
+              <h4 id="1-a-new-default-policy-for-copilot-features" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. A new default policy for Copilot features</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">A new global default policy governs generally available features and client capabilities in enterprise and organization settings. For 28 days you can configure it without affecting users, giving admins time to decide how new capabilities roll out before enforcement begins.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise" style="color: #0969da; text-decoration: underline;">Changelog: Default Enablement of Copilot features for Copilot Business and Enterprise</a></p>
+              <h4 id="2-feature-engagement-in-the-impact-dashboard" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Feature engagement in the impact dashboard</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">The Copilot impact dashboard now shows how many active users regularly use key features, with a 28-day engagement breakdown. Admins can quickly see which experiences are widely adopted and which need more enablement, and the same data is available via enterprise and organization report APIs.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement" style="color: #0969da; text-decoration: underline;">Changelog: Copilot impact dashboard now shows feature engagement</a></p>
+              <h4 id="3-budget-increase-requests-are-generally-available" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Budget increase requests are generally available</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">When a member exhausts their AI credits, they can now request more budget the moment they hit the limit. Admins approve, adjust, or deny requests without leaving settings, and requests route automatically to whichever account pays for the budget.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available" style="color: #0969da; text-decoration: underline;">Changelog: Copilot budget increase requests are generally available</a></p>
+              <h4 id="4-opentelemetry-for-agent-observability" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. OpenTelemetry for agent observability</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">The GitHub Copilot app now supports OpenTelemetry through enterprise-managed settings. Admins can stream agent activity data to compatible monitoring tools to analyze sessions, trace model and tool requests, and investigate unexpected behavior, bringing agent operations into existing observability pipelines.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app" style="color: #0969da; text-decoration: underline;">Changelog: OpenTelemetry in the GitHub Copilot app</a></p>
+              <h4 id="5-in-product-validator-for-managed-settings" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. In-product validator for managed settings</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">A new in-product validator catches malformed JSON, unsupported configurations, and invalid team mappings before they silently block policy enforcement. Each issue identifies the affected file and JSON path in the enterprise AI controls page, making misconfigured policies far easier to diagnose.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator" style="color: #0969da; text-decoration: underline;">Changelog: Enterprise managed settings in-product validator</a></p>
+              <h3 id="-also-in-this-edition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 Also in this edition</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages" style="color: #0969da; text-decoration: underline;">Usage metrics API adds pull request review stages</a> — Repository-level reports now break down how long PRs spend in each review stage, with median and 90th percentile times.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api" style="color: #0969da; text-decoration: underline;">Agentic CLI customizations now in the usage metrics API</a> — CLI reports gain activity metrics for skills, custom agents, MCP servers, slash commands, and plugins.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience" style="color: #0969da; text-decoration: underline;">Copilot code review: an improved review experience</a> — A refreshed review flow for requesting and acting on Copilot code reviews.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app" style="color: #0969da; text-decoration: underline;">Local sandboxing in the GitHub Copilot app</a> — Run agent operations in a local sandbox for tighter control over what agents can touch.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams" style="color: #0969da; text-decoration: underline;">Updates to GitHub Copilot for Slack and Microsoft Teams</a> — Improvements to Copilot's chat integrations in collaboration tools.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Want to see more? Browse the full <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">GitHub Copilot changelog</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Monthly #7 — September 2026 · Admins Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body, body > table {
+    background-color: #0d1117 !important;
+  }
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+  p, li, td.content, td.content td {
+    color: #e6edf3 !important;
+  }
+  h3, h4, strong {
+    color: #e6edf3 !important;
+  }
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+  a {
+    color: #58a6ff !important;
+  }
+  hr {
+    border-top-color: #30363d !important;
+  }
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Monthly #7 · September 2026 · Admins Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-this-editions-thread" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 This edition's thread</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">September centered on one theme for administrators: governing an increasingly agentic Copilot at scale. As agents gained autonomy across IDEs, CLI, and pull requests, GitHub shipped matching controls — enterprise-managed permissions, content exclusions, budget guardrails, and richer usage metrics. The operational message is clear: capability and governance are advancing in lockstep, so policies and defaults deserve a fresh review now.</p>
+              <h3 id="️-heads-up" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Heads up</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october" style="color: #0969da; text-decoration: underline;">Upcoming deprecation of selected GitHub Copilot models in mid-October</a> — <strong style="font-weight: 600; color: #24292f;">Deadline: mid-October 2026</strong> — Review which models your teams rely on and align defaults via <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies" style="color: #0969da; text-decoration: underline;">enterprise policies</a> before retirement.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise" style="color: #0969da; text-decoration: underline;">Default Enablement of Copilot features for Copilot Business and Enterprise</a> — <strong style="font-weight: 600; color: #24292f;">Action required</strong> — Newly released features will be on by default; confirm your <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/use-managed-settings/get-started" style="color: #0969da; text-decoration: underline;">managed settings</a> reflect your intended posture.</li>
+              </ul>
+              <h3 id="-take-action" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Take action</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Standardize agent and model governance with <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/use-managed-settings/get-started" style="color: #0969da; text-decoration: underline;">enterprise managed settings</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Protect sensitive code by configuring <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot" style="color: #0969da; text-decoration: underline;">content exclusions</a> across repositories.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Measure value and adoption in the <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/view-impact-dashboard" style="color: #0969da; text-decoration: underline;">Copilot impact dashboard</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Control spend with <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-budget-requests" style="color: #0969da; text-decoration: underline;">budget increase requests and limits</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Questions or need support? Reach out to your GitHub team, we're here to help.</li>
+              </ul>
+              <h3 id="-top-5-updates-of-the-month" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 updates of the month</h3>
+              <h4 id="1-enterprise-managed-governance-tightens-around-agents-and-models" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. Enterprise-managed governance tightens around agents and models</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Admins gained centralized, non-overridable control this month: managed permissions for agent operations, a settings in-product validator, and support for any default model. Together they let enterprises enforce consistent guardrails as Copilot's agentic surface widens.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations" style="color: #0969da; text-decoration: underline;">Changelog: Enterprise managed permissions for GitHub Copilot agent operations</a><br>→ <a href="https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model" style="color: #0969da; text-decoration: underline;">Changelog: Enterprise-managed settings support any default model</a><br>→ <a href="https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator" style="color: #0969da; text-decoration: underline;">Changelog: Enterprise managed settings in-product validator</a></p>
+              <h4 id="2-copilot-code-review-matures-into-a-governed-workflow" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Copilot code review matures into a governed workflow</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Copilot code review can now approve pull requests, resolve and analyze comments automatically, and be requested and configured in more ways. For admins, this makes AI review a policy-manageable stage in the delivery lifecycle rather than an ad-hoc assist.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests" style="color: #0969da; text-decoration: underline;">Changelog: Copilot code review can now approve pull requests</a><br>→ <a href="https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review" style="color: #0969da; text-decoration: underline;">Changelog: Auto-resolution and analysis updates in Copilot code review</a><br>→ <a href="https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews" style="color: #0969da; text-decoration: underline;">Changelog: More ways to request and configure Copilot code reviews</a></p>
+              <h4 id="3-usage-and-adoption-metrics-get-deeper-and-more-exportable" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Usage and adoption metrics get deeper and more exportable</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Visibility expanded across the board: the impact dashboard now shows feature engagement, VS Code agents and agentic CLI customizations flow into usage metrics, the API adds PR review stages, and OpenTelemetry enables standardized observability. Admins can prove ROI and spot gaps precisely.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement" style="color: #0969da; text-decoration: underline;">Changelog: Copilot impact dashboard now shows feature engagement</a><br>→ <a href="https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages" style="color: #0969da; text-decoration: underline;">Changelog: Usage metrics API adds pull request review stages</a><br>→ <a href="https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app" style="color: #0969da; text-decoration: underline;">Changelog: OpenTelemetry in the GitHub Copilot app</a></p>
+              <h4 id="4-budget-controls-become-more-precise" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. Budget controls become more precise</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Spending governance advanced with expiration dates for individual user budgets and generally available budget increase requests. Admins can now cap exposure per user, time-box allocations, and handle overage requests through a managed workflow instead of manual exceptions.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets" style="color: #0969da; text-decoration: underline;">Changelog: Set an expiration date for individual user budgets</a><br>→ <a href="https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available" style="color: #0969da; text-decoration: underline;">Changelog: Copilot budget increase requests are generally available</a></p>
+              <h4 id="5-content-exclusions-reach-general-availability-in-the-copilot-app-and-cli" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Content exclusions reach general availability in the Copilot app and CLI</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Content exclusion enforcement now extends to the Copilot app and CLI, closing a gap as Copilot moves beyond the IDE. Admins get consistent protection of sensitive files across more surfaces, strengthening compliance and reducing accidental exposure.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli" style="color: #0969da; text-decoration: underline;">Changelog: Content exclusions generally available in Copilot app and CLI</a></p>
+              <h3 id="-also-this-month" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 Also this month</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains" style="color: #0969da; text-decoration: underline;">Enterprise-managed sandbox in Copilot for JetBrains</a> — Centrally governed sandboxing for JetBrains users.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app" style="color: #0969da; text-decoration: underline;">Local sandboxing in the GitHub Copilot app</a> — Safer local execution for agentic tasks.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics" style="color: #0969da; text-decoration: underline;">Add VS Code Agents to Copilot usage metrics</a> — Broader coverage of agent activity in reporting.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups" style="color: #0969da; text-decoration: underline;">Reopening Copilot Business and Enterprise signups</a> — New licensing availability for organizations.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams" style="color: #0969da; text-decoration: underline;">Updates to GitHub Copilot for Slack and Microsoft Teams</a> — Copilot reaches more collaboration surfaces.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Want to see more? Browse the full <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">GitHub Copilot changelog</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
