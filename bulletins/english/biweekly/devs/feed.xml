@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #14 — September 15 to September 30, 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/devs/14</link>
+      <description>This period, the theme for developers is choice and control in your editor. A wave of new frontier models arrived, smarter orchestration landed in VS Code and the Copilot app, and the agent gained safer execution through local sandboxing and assisted approvals. The result: Copilot is increasingly tunable to the task in front of you.</description>
+      <pubDate>Thu, 01 Oct 2026 07:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/devs/14</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #13 — September 1 to September 14, 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/devs/13</link>
       <description>Model choice dominated this period. GitHub Copilot expanded its lineup with new frontier models, retired older ones, and introduced tiered auto model selection so you can steer the balance of cost, quality, and speed. For developers, this means more control over which engine handles each task—and a need to migrate off soon-to-be-deprecated models before workflows break.</description>

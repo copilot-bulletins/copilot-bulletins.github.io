@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #13 — September 15 to September 30, 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/13</link>
+      <description>This period was defined by accelerating model choice and sharper measurement. GitHub broadened its frontier model lineup across vendors and expanded multi-model orchestration, reducing dependence on any single provider. At the same time, new adoption and review insights make Copilot's business impact easier to quantify. For leaders, the signal is clear: optionality and accountability are maturing together.</description>
+      <pubDate>Thu, 01 Oct 2026 07:29:45 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/decision-makers/13</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #12 — September 1 to September 14, 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/12</link>
       <description>This period, GitHub tightened the enterprise controls around autonomous coding. New model choices, cost-and-quality tiers, agent-permission guardrails, and richer adoption metrics all point to the same direction: giving leadership the levers to scale AI safely while proving return on investment. For decision-makers, the story is maturing governance and measurable value, not just more capability.</description>

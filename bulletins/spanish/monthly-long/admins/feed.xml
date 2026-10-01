@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #7 — Septiembre 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/admins/7</link>
+      <description>Septiembre giró en torno al control empresarial. GitHub reforzó el gobierno de Copilot con políticas por defecto configurables para funciones nuevas, permisos gestionados para operaciones de agentes y exclusiones de contenido en la app y la CLI. En paralelo, la observabilidad maduró: el panel de impacto y las APIs de métricas ahora revelan qué funciones se adoptan de verdad. Para los equipos de administración, el mensaje es claro: hay más palancas para definir barreras, medir la adopción real y gobernar el gasto antes de abrir el acceso de forma masiva.</description>
+      <pubDate>Thu, 01 Oct 2026 07:30:39 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/admins/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #6 — Agosto 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly-long/admins/6</link>
       <description>Agosto giró en torno a un mismo eje para quien administra Copilot: gobernanza a escala y visibilidad. Los enterprise managed settings se ampliaron a nuevos clientes y controles (equipos, MCP, marketplaces, JetBrains), la política global de modelos alcanzó disponibilidad general y los paneles de métricas ganaron una lectura de retorno de inversión y un desglose de tokens por modelo. En paralelo, la revisión de código con Copilot maduró con niveles de esfuerzo y nuevas capacidades. El mensaje es claro: más palancas para estandarizar, medir y justificar el despliegue de Copilot en la organización.</description>

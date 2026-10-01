@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #7 — September 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/7</link>
+      <description>September centered on enterprise control. GitHub expanded managed settings, agent permissions, and content exclusions, giving administrators centralized guardrails that users and workspaces cannot weaken. In parallel, adoption visibility deepened: the impact dashboard, usage metrics API, and OpenTelemetry support turn Copilot activity into measurable, auditable signals. Budget governance also matured with expiration dates and self-service increase requests. For administrators, the practical takeaway is clear: you now have finer-grained policy, security, and observability levers to scale Copilot responsibly—while a wave of model deprecations means model policies need review before mid-October.</description>
+      <pubDate>Thu, 01 Oct 2026 07:26:44 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/admins/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #6 — August 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/6</link>
       <description>August centered on governance and measurement. Enterprise managed settings matured into a real control plane — MCP allowlists, team-scoped policies, marketplace auto-updates, and JetBrains coverage — while the global model policy moved to general availability with staged enforcement. In parallel, new ROI and per-agent, per-model usage reporting turned Copilot spend into something you can trace and justify. For admins, the takeaway is concrete: you can now define guardrails once, delegate safely to teams, and prove value with data rather than assumption.</description>

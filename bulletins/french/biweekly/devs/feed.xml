@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #14 — Du 15 au 30 septembre 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/14</link>
+      <description>Cette quinzaine, l'actualité Copilot s'est concentrée sur l'expérience des développeurs dans leurs outils du quotidien. Orchestration intelligente de modèles, agents plus sûrs et mieux contrôlés, indexation de code plus rapide et vague de nouveaux modèles : l'objectif est de réduire les frictions tout en laissant le développeur aux commandes des décisions importantes.</description>
+      <pubDate>Thu, 01 Oct 2026 07:25:10 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/devs/14</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #13 — Du 1 au 14 septembre 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/13</link>
       <description>Cette quinzaine place le choix et le contrôle des modèles au cœur de l'expérience développeur. Nouveaux modèles disponibles, sélection automatique désormais réglable selon le coût et la qualité, et retraits programmés : Copilot vous demande d'être plus intentionnel sur le modèle utilisé pour chaque tâche. En parallèle, la revue de code et les agents gagnent en autonomie dans vos outils du quotidien.</description>

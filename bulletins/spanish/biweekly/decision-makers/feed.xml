@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #13 — Del 15 de septiembre al 30 de septiembre de 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/13</link>
+      <description>En esta quincena, Copilot maduró de "ofrecer herramientas de IA" a "convertir la IA de frontera en el estándar, medible y gobernable a escala". La habilitación de funciones por defecto, los paneles de impacto y la orquestación multimodelo apuntan a una misma dirección estratégica: acelerar la adopción con control empresarial y demostrar el valor con datos verificables, no con promesas.</description>
+      <pubDate>Thu, 01 Oct 2026 07:29:59 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/decision-makers/13</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #12 — Del 1 de septiembre al 14 de septiembre de 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/12</link>
       <description>Esta quincena, GitHub reforzó la idea de una IA gobernable y cuantificable. Las novedades dan a las organizaciones palancas para equilibrar coste, calidad y control: niveles de selección de modelo, permisos centralizados sobre las operaciones de los agentes y métricas de adopción más completas. Para la dirección, el mensaje es claro: Copilot madura como una inversión medible, previsible y alineada con los objetivos del negocio.</description>

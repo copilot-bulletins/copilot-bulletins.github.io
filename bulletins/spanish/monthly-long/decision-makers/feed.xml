@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #7 — Septiembre 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/decision-makers/7</link>
+      <description>Septiembre consolidó un mensaje estratégico para quien decide: Copilot deja de medirse por adopción y pasa a medirse por impacto gobernado. GitHub conectó la medición del retorno —panel de impacto con uso de funciones, métricas por etapas de revisión— con una gobernanza de costes más fina y una habilitación de funciones por defecto que acelera el despliegue sin perder control. En paralelo, el catálogo de modelos de frontera se amplió y la orquestación multimodelo apunta a calidad superior con menor coste. La dirección es clara: escalar la IA agéntica con visibilidad de ROI, elección de modelo y control financiero.</description>
+      <pubDate>Thu, 01 Oct 2026 07:30:54 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/decision-makers/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #6 — Agosto 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly-long/decision-makers/6</link>
       <description>Agosto consolidó una idea central para quienes deciden: Copilot deja de medirse por adopción y empieza a medirse por retorno. El nuevo apartado de retorno de inversión en el panel de impacto, junto con métricas de uso más granulares, permiten conectar el gasto en IA con la producción real de código. En paralelo, la gobernanza madura —política global de modelos, ajustes de políticas y facturación— y la oferta se amplía a Slack y Teams. El mensaje estratégico: la IA agéntica ya es un activo gobernable y cuantificable a escala empresarial.</description>

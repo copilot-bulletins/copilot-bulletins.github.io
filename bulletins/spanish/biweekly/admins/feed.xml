@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #14 — Del 15 de septiembre al 30 de septiembre de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/14</link>
+      <description>Esta quincena consolidó el control administrativo sobre Copilot a escala empresarial. Las novedades giraron en torno a políticas de habilitación por defecto, validación de configuraciones gestionadas y mayor granularidad en las métricas de uso y adopción. Para los equipos de administración, el mensaje es claro: GitHub está dotando a enterprise y organización de herramientas para gobernar, auditar y medir Copilot con precisión.</description>
+      <pubDate>Thu, 01 Oct 2026 07:28:17 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/14</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #13 — Del 1 de septiembre al 14 de septiembre de 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/admins/13</link>
       <description>Esta quincena consolida el control administrativo sobre los agentes de Copilot y sus modelos. Entre permisos gestionados a nivel de empresa, exclusiones de contenido generalizadas y nuevas métricas de adopción, el mensaje para administradores es claro: la gobernanza operativa madura al mismo ritmo que las capacidades. Es momento de revisar políticas, presupuestos y controles antes de las próximas retiradas de modelos.</description>

@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #6 — Septiembre 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/devs/6</link>
+      <description>Septiembre giró en torno a la elección: más modelos de frontera y, sobre todo, mejores formas de orquestarlos. HydraFusion y los tres niveles de selección automática te dejan equilibrar coste, calidad y velocidad por cada prompt, en lugar de fijar un único modelo. En paralelo, maduró el flujo agéntico: revisión de código que aprueba pull requests, sandboxing local en la app de Copilot y mayor control en JetBrains. Para quien programa a diario, el mensaje es claro: más potencia bruta, pero con controles finos para aplicarla con criterio y seguridad.</description>
+      <pubDate>Thu, 01 Oct 2026 07:25:46 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/devs/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #5 — Agosto 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly-long/devs/5</link>
       <description>Agosto giró en torno a dos ejes para quienes desarrollan: más opciones de modelos y agentes más integrados en el flujo de trabajo. Llegaron varios modelos nuevos al selector de Copilot, mientras VS Code, Visual Studio y JetBrains sumaron mejoras centradas en sesiones de agente, MCP y personalización. La revisión de código con Copilot amplió sus límites y su alcance. En conjunto, el mes consolida un patrón claro: elegir el modelo adecuado y delegar tareas a agentes se vuelve parte natural del día a día, con menos fricción entre el editor, la CLI y la web.</description>

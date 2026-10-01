@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #6 — September 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/6</link>
+      <description>September was a model-and-agent month for developers. GitHub Copilot expanded its model lineup across every vendor while sharpening the agentic surfaces where you spend your day: the Copilot CLI, VS Code, JetBrains, and code review. The through-line is choice plus guardrails — more models and orchestration via HydraFusion, paired with local sandboxing, content exclusions, and smarter autofix. For devs, that means faster iteration on large codebases and more autonomy, without giving up control over what the agent can touch.</description>
+      <pubDate>Thu, 01 Oct 2026 07:24:40 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/devs/6</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #5 — August 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/5</link>
       <description>August was about **portability and control** for developers. A new open plugin standard let you build agent capabilities once and run them everywhere, while a wave of fresh models landed across every surface. Your favorite IDEs — VS Code, JetBrains, Visual Studio — all matured their agentic workflows, and cloud agent gained finer-grained tuning through reasoning levels and comment-triggered automations. The throughline: fewer silos, more consistent behavior, and knobs to match effort and cost to the task in front of you.</description>

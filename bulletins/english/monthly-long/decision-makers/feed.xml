@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #7 — September 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/7</link>
+      <description>September centered on two strategic levers: expanding model choice and proving return on investment. A steady influx of frontier models, paired with orchestration and auto-selection, positions Copilot to deliver top-tier quality while controlling cost. In parallel, GitHub deepened spend governance, adoption analytics, and enterprise controls—giving leaders the visibility to tie Copilot usage to measurable outcomes. For decision-makers, the signal is clear: the platform is maturing from a productivity tool into a governable, cost-accountable asset that scales across the organization with predictable economics.</description>
+      <pubDate>Thu, 01 Oct 2026 07:29:32 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #6 — August 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/6</link>
       <description>August was about turning Copilot from a productivity tool into a measurable business asset. GitHub shipped a return-on-investment view in the impact dashboard, richer usage metrics, and enforced global model governance — giving leaders the numbers and controls to justify and scale their investment. In parallel, agentic collaboration expanded into Slack and Teams, and code review kept maturing. The strategic signal for decision-makers is clear: the platform is optimizing for demonstrable outcomes, governance at scale, and embedding AI where teams already work.</description>

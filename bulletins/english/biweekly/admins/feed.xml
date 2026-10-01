@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #14 — September 15 to September 30, 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/14</link>
+      <description>This period centered on administrative control and visibility. GitHub shipped a new default-enablement policy, in-product settings validation, deeper usage and adoption metrics, and open observability for agents. For admins, the message is clear: governing Copilot at scale now comes with stronger guardrails, clearer data, and fewer configuration surprises.</description>
+      <pubDate>Thu, 01 Oct 2026 07:25:50 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/14</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #13 — September 1 to September 14, 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/admins/13</link>
       <description>Administrative control was the dominant theme this period. GitHub shipped enterprise-managed permissions for agent operations, extended content-exclusion enforcement to the Copilot app and CLI, and added budget expiration dates. For admins, the takeaway is clear: as Copilot's agentic surface expands, so does the governance tooling to keep operations, spend, and sensitive code within policy.</description>

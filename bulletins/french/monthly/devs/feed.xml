@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #7 — Septembre 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly/devs/7</link>
+      <description>Septembre a été marqué par une accélération sur les modèles : nouvelle vague de modèles disponibles, orchestration multi-modèles avec HydraFusion et réglage fin du compromis coût/qualité. Pour les développeurs, l'enjeu n'est plus seulement d'avoir le bon modèle, mais de choisir intelligemment lequel utiliser selon chaque tâche, directement dans l'IDE et la CLI.</description>
+      <pubDate>Thu, 01 Oct 2026 07:25:17 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly/devs/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #6 — Août 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly/devs/6</link>
       <description>Août 2026 confirme une orientation claire pour les développeurs : rendre Copilot plus modulaire et adaptable à chaque flux de travail. Standardisation des plugins d'agents, élargissement du catalogue de modèles, revue de code plus autonome et progrès continus dans les IDE dessinent un écosystème où vous composez votre environnement de développement plutôt que de le subir.</description>

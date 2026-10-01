@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #14 — Del 15 al 30 de septiembre de 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/devs/14</link>
+      <description>La segunda quincena de septiembre consolidó una idea clara para quien programa: menos elegir un modelo y más dejar que Copilot orquante el trabajo. Llegaron nuevos modelos de varios proveedores, orquestación automática en el editor y mejoras de rendimiento e indexación en el IDE y la CLI. El resultado práctico es más capacidad sin más fricción en el flujo diario.</description>
+      <pubDate>Thu, 01 Oct 2026 07:25:26 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/14</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #13 — Del 1 al 14 de septiembre de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/13</link>
       <description>Esta quincena la elección de modelo pasa a primer plano. Con nuevos modelos generales disponibles, niveles de optimización para la selección automática y varias deprecaciones en marcha, el desarrollador gana control sobre el equilibrio entre coste, calidad y velocidad en cada prompt. Conviene revisar qué modelos usas hoy y adaptar tus flujos antes de que cambien las opciones disponibles.</description>

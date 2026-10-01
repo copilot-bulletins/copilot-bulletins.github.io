@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #7 — Septembre 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly/admins/7</link>
+      <description>En septembre, GitHub a consolidé l'outillage de gouvernance autour de Copilot. Permissions d'agents pilotées au niveau entreprise, politique d'activation par défaut des fonctionnalités, validateur de paramètres managés et métriques d'adoption enrichies convergent vers un même objectif : donner aux administrateurs des leviers fermes, mesurables et non contournables pour déployer l'IA à grande échelle tout en maîtrisant le risque et les coûts.</description>
+      <pubDate>Thu, 01 Oct 2026 07:27:18 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly/admins/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #6 — Août 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly/admins/6</link>
       <description>Août confirme la montée en maturité de la gouvernance Copilot. Les nouveautés du mois convergent vers un même objectif pour les administrateurs : cadrer l'usage à grande échelle et relier la dépense IA à des résultats mesurables. Politiques de modèles, paramètres managés d'entreprise et traçabilité financière se renforcent mutuellement, faisant passer le pilotage de l'adoption au contrôle opérationnel et à la responsabilité budgétaire.</description>
