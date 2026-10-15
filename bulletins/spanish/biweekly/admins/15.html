@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #15 — Del 1 de octubre al 14 de octubre de 2026 · Admins Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body, body > table {
+    background-color: #0d1117 !important;
+  }
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+  p, li, td.content, td.content td {
+    color: #e6edf3 !important;
+  }
+  h3, h4, strong {
+    color: #e6edf3 !important;
+  }
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+  a {
+    color: #58a6ff !important;
+  }
+  hr {
+    border-top-color: #30363d !important;
+  }
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #15 · Del 1 de octubre al 14 de octubre de 2026 · Admins Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="-el-hilo-de-esta-edición" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 El hilo de esta edición</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Esta quincena consolidó las palancas de gobierno empresarial de Copilot. GitHub reforzó el control sobre cómo se aplican las políticas en los clientes, cómo se atribuye la actividad sin exponer contenido, y cómo se factura el uso en la organización. Para los equipos de administración, el mensaje es claro: más barreras configurables, más visibilidad auditable y más control del gasto antes de ampliar el acceso.</p>
+              <h3 id="️-atención" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Atención</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated" style="color: #0969da; text-decoration: underline;">Selected models in GitHub Copilot deprecated</a> — <strong style="font-weight: 600; color: #24292f;">Fecha límite: 2 de octubre de 2026</strong> — Gemini 3.5/3.6 Flash, Kimi K2.7 Code y Claude Opus 4.7 quedaron retirados. Actualice flujos e integraciones a los modelos sugeridos y revise sus <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/enterprise/policies" style="color: #0969da; text-decoration: underline;">políticas de modelos</a>.</li>
+              </ul>
+              <h3 id="-pasa-a-la-acción" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Pasa a la acción</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Exija la actualización de ajustes gestionados en el arranque del cliente y fije versiones mínimas desde sus <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/enterprise/policies" style="color: #0969da; text-decoration: underline;">políticas empresariales</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Active la atribución de identidad en telemetría sin capturar contenido mediante <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/enterprise/opentelemetry" style="color: #0969da; text-decoration: underline;">OpenTelemetry</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Dirija la facturación de las revisiones de código a su centro de costes y limite quién puede solicitarlas desde la <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/code-review" style="color: #0969da; text-decoration: underline;">revisión de código de Copilot</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Defina políticas de sandbox local para los flujos agénticos siguiendo la <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/copilot-cli/understanding-local-sandboxing" style="color: #0969da; text-decoration: underline;">guía de sandboxing local</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">¿Preguntas o necesita soporte? Contacte con su equipo de GitHub, estamos aquí para ayudar.</li>
+              </ul>
+              <h3 id="-top-5-de-actualizaciones" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 de actualizaciones</h3>
+              <h4 id="1-aplicación-reforzada-de-ajustes-gestionados-en-la-empresa" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. Aplicación reforzada de ajustes gestionados en la empresa</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Los administradores pueden exigir que los clientes compatibles recuperen los ajustes gestionados del servidor al iniciarse, en lugar de depender de políticas en caché. También se añaden versiones mínimas de cliente a claves de gobierno, empezando por la del sandbox.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates" style="color: #0969da; text-decoration: underline;">Changelog: Enterprise managed settings enforcement updates</a></p>
+              <h4 id="2-atribución-de-identidad-en-telemetría-sin-exponer-contenido" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Atribución de identidad en telemetría sin exponer contenido</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">El ajuste <code>telemetry.capture.identity</code> añade atributos de identidad (nombre de cuenta, cuenta del SO y nombre de máquina) a los datos OTel, sin recopilar prompts, respuestas ni contenido de herramientas. Desactivado por defecto y con capturas de grano fino configurables.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture" style="color: #0969da; text-decoration: underline;">Changelog: Client telemetry user attribution and configurable capture</a></p>
+              <h4 id="3-facturación-y-controles-de-la-revisión-de-código-por-organización" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Facturación y controles de la revisión de código por organización</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Los propietarios pueden facturar las revisiones de código de los miembros con licencia al centro de costes de la organización en lugar de consumir sus cuotas, y controlar quién puede solicitar revisiones. Más gobierno del gasto y del acceso.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls" style="color: #0969da; text-decoration: underline;">Changelog: Copilot code review: New organization billing options and controls</a></p>
+              <h4 id="4-modelo-específico-para-detección-de-secretos-filtrados" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. Modelo específico para detección de secretos filtrados</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Un modelo creado a medida mejora la detección de secretos filtrados en alertas, protección de push y en <code>/security-review</code> de Copilot. Las alertas detectadas por IA siguen incluidas con Secret Protection y llegarán también a GitHub Enterprise Server.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection" style="color: #0969da; text-decoration: underline;">Changelog: Purpose-built model for leaked secret detection</a></p>
+              <h4 id="5-sandboxing-local-de-copilot-disponible-de-forma-general" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Sandboxing local de Copilot disponible de forma general</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">El sandboxing local está GA en Copilot CLI, la app de Copilot y sesiones de VS Code con Agent Host. Ofrece un límite seguro de ejecución para flujos agénticos, con acceso restringido a archivos, red y credenciales según políticas del desarrollador o la organización.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available" style="color: #0969da; text-decoration: underline;">Changelog: Local sandboxing for GitHub Copilot now generally available</a></p>
+              <h3 id="-también-en-esta-edición" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 También en esta edición</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics" style="color: #0969da; text-decoration: underline;">Update your IDE to restore agent activity in Copilot usage metrics</a> — Una corrección restaura la actividad de agentes en las métricas de uso; actualice los IDE afectados.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot" style="color: #0969da; text-decoration: underline;">Gemini 4 Argon in GitHub Copilot</a> — Nuevo modelo disponible; habilítelo mediante sus políticas de modelos.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot" style="color: #0969da; text-decoration: underline;">Claude Haiku 5.5 in GitHub Copilot</a> — Modelo rápido añadido al catálogo de Copilot.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option" style="color: #0969da; text-decoration: underline;">HydraFusion updates and new Max option</a> — Nueva opción Max en la orquestación de modelos.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains" style="color: #0969da; text-decoration: underline;">New controls and chat improvements in Copilot for JetBrains</a> — Nuevos controles y mejoras de chat en JetBrains.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Want to see more? Browse the full <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">GitHub Copilot changelog</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

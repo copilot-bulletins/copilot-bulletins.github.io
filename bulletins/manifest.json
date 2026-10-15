@@ -1,5 +1,104 @@
 [
   {
+    "number": 668,
+    "title": "Copilot Bulletin Biweekly #15 — Du 1er au 14 octobre 2026 · Decision-Makers Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/french/biweekly/decision-makers/15.html",
+    "createdAt": "2026-10-15T07:21:59Z",
+    "description": "Cette quinzaine confirme une orientation claire : industrialiser l'IA agentique à l'échelle de l'entreprise. Les annonces portent moins sur de nouvelles fonctionnalités que sur les garde-fous — sécurité d'exécution, détection de secrets, gouvernance des paramètres et contrôle des coûts. Pour les décideurs, le message est stratégique : Copilot gagne en maturité opérationnelle, réduisant les risques et rendant l'adoption à grande échelle plus défendable.",
+    "edition": 15
+  },
+  {
+    "number": 667,
+    "title": "Copilot Bulletin Biweekly #14 — October 1 to October 14, 2026 · Decision-Makers Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/english/biweekly/decision-makers/14.html",
+    "createdAt": "2026-10-15T07:21:56Z",
+    "description": "This period centered on two converging forces: expanding model optionality and tightening cost and risk governance. GitHub broadened its frontier model lineup and advanced multi-model orchestration, while shipping finer billing controls and purpose-built security detection. For leaders, the signal is strategic—Copilot is maturing into a governable asset where quality, spend, and compliance can be managed together at scale.",
+    "edition": 14
+  },
+  {
+    "number": 666,
+    "title": "Copilot Bulletin Biweekly #14 — Del 1 de octubre al 14 de octubre de 2026 · Decision-Makers Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/spanish/biweekly/decision-makers/14.html",
+    "createdAt": "2026-10-15T07:21:18Z",
+    "description": "Esta quincena, la estrategia de Copilot giró en torno a dos palancas de negocio: ampliar la elección de modelos de frontera y gobernar mejor el coste del valor generado. GitHub reforzó su catálogo multiproveedor y la orquestación automática, al tiempo que afinó los controles de facturación. Para quien decide, la señal es clara: más calidad con economía predecible y control empresarial.",
+    "edition": 14
+  },
+  {
+    "number": 665,
+    "title": "Copilot Bulletin Biweekly #15 — Du 1er octobre au 14 octobre 2026 · Admins Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/french/biweekly/admins/15.html",
+    "createdAt": "2026-10-15T07:20:41Z",
+    "description": "Cette quinzaine place la gouvernance au premier plan. GitHub a renforcé l'arsenal des administrateurs : application forcée des paramètres gérés, attribution télémétrie granulaire, contrôles de facturation et de licence pour la revue de code, détection de secrets dédiée et fiabilisation des métriques d'usage. Pour les administrateurs, cela se traduit par davantage de leviers pour imposer vos politiques, attribuer l'activité et maîtriser les coûts à l'échelle de l'entreprise.",
+    "edition": 15
+  },
+  {
+    "number": 664,
+    "title": "Copilot Bulletin Biweekly #15 — Del 1 de octubre al 14 de octubre de 2026 · Admins Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/spanish/biweekly/admins/15.html",
+    "createdAt": "2026-10-15T07:20:34Z",
+    "description": "Esta quincena consolidó las palancas de gobierno empresarial de Copilot. GitHub reforzó el control sobre cómo se aplican las políticas en los clientes, cómo se atribuye la actividad sin exponer contenido, y cómo se factura el uso en la organización. Para los equipos de administración, el mensaje es claro: más barreras configurables, más visibilidad auditable y más control del gasto antes de ampliar el acceso.",
+    "edition": 15
+  },
+  {
+    "number": 663,
+    "title": "Copilot Bulletin Biweekly #15 — October 1 to October 14, 2026 · Admins Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/english/biweekly/admins/15.html",
+    "createdAt": "2026-10-15T07:20:20Z",
+    "description": "Governance and control took center stage this period. GitHub shipped tools that tighten how administrators enforce policy, attribute usage, and secure agentic execution — from forcing fresh managed settings at startup to isolating locally run commands. For admins, the message is clear: agentic Copilot is maturing, and the levers to govern it at organization and enterprise scale are expanding in parallel.",
+    "edition": 15
+  },
+  {
+    "number": 662,
+    "title": "Copilot Bulletin Biweekly #15 — Del 1 de octubre al 14 de octubre de 2026 · Devs Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/spanish/biweekly/devs/15.html",
+    "createdAt": "2026-10-15T07:20:19Z",
+    "description": "La primera quincena de octubre consolidó una tendencia clara: los flujos agénticos salen del IDE hacia la terminal, el escritorio y entornos aislados. Para quienes programan a diario, esto significa agentes más autónomos pero con límites de ejecución más seguros, además de nuevos modelos que optimizan velocidad y coste. El foco está en ampliar dónde y cómo actúa Copilot sin perder control.",
+    "edition": 15
+  },
+  {
+    "number": 661,
+    "title": "Copilot Bulletin Biweekly #15 — October 1 to October 14, 2026 · Devs Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/english/biweekly/devs/15.html",
+    "createdAt": "2026-10-15T07:19:55Z",
+    "description": "This period was all about model choice and safer autonomy. GitHub shipped two new frontier models, smarter multi-model orchestration, and moved local sandboxing to general availability. For developers, the takeaway is practical: you get more capable models for different jobs, plus guardrails that let agents run code without putting your machine at risk.",
+    "edition": 15
+  },
+  {
+    "number": 660,
+    "title": "Copilot Bulletin Biweekly #15 — Du 1er au 14 octobre 2026 · Devs Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/french/biweekly/devs/15.html",
+    "createdAt": "2026-10-15T07:19:47Z",
+    "description": "Cette quinzaine confirme la montée en puissance du développement agentique en local. Entre les workflows dynamiques orchestrés par code, le sandboxing local généralisé et la découverte de modèles locaux dans la CLI, Copilot gagne en contrôle, en fiabilité et en sécurité d'exécution sur votre propre machine. Pour les développeurs, cela signifie automatiser des tâches plus complexes tout en gardant la maîtrise de l'environnement.",
+    "edition": 15
+  },
+  {
     "number": 659,
     "title": "Copilot Bulletin Monthly (Long) #7 — Septiembre 2026 · Decision-Makers Edition",
     "language": "spanish",
