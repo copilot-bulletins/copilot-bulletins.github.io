@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #15 — Du 1er au 14 octobre 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/15</link>
+      <description>Cette quinzaine confirme une orientation claire : industrialiser l'IA agentique à l'échelle de l'entreprise. Les annonces portent moins sur de nouvelles fonctionnalités que sur les garde-fous — sécurité d'exécution, détection de secrets, gouvernance des paramètres et contrôle des coûts. Pour les décideurs, le message est stratégique : Copilot gagne en maturité opérationnelle, réduisant les risques et rendant l'adoption à grande échelle plus défendable.</description>
+      <pubDate>Thu, 15 Oct 2026 07:21:59 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/15</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #14 — Du 15 septembre au 30 septembre 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/decision-makers/14</link>
       <description>Cette quinzaine confirme la stratégie de GitHub : offrir le choix des meilleurs modèles tout en outillant les dirigeants pour en mesurer la valeur. L'arrivée de nouveaux modèles de pointe, l'activation par défaut des fonctionnalités et des tableaux de bord d'adoption enrichis traduisent une même priorité : accélérer le temps de création de valeur et rendre le retour sur investissement de Copilot plus visible et plus pilotable à l'échelle de l'entreprise.</description>

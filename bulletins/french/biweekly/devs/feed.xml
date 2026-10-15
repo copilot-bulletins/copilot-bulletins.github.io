@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #15 — Du 1er au 14 octobre 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/15</link>
+      <description>Cette quinzaine confirme la montée en puissance du développement agentique en local. Entre les workflows dynamiques orchestrés par code, le sandboxing local généralisé et la découverte de modèles locaux dans la CLI, Copilot gagne en contrôle, en fiabilité et en sécurité d'exécution sur votre propre machine. Pour les développeurs, cela signifie automatiser des tâches plus complexes tout en gardant la maîtrise de l'environnement.</description>
+      <pubDate>Thu, 15 Oct 2026 07:19:47 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/devs/15</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #14 — Du 15 au 30 septembre 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/14</link>
       <description>Cette quinzaine, l'actualité Copilot s'est concentrée sur l'expérience des développeurs dans leurs outils du quotidien. Orchestration intelligente de modèles, agents plus sûrs et mieux contrôlés, indexation de code plus rapide et vague de nouveaux modèles : l'objectif est de réduire les frictions tout en laissant le développeur aux commandes des décisions importantes.</description>

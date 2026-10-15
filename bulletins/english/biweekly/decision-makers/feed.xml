@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #14 — October 1 to October 14, 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/14</link>
+      <description>This period centered on two converging forces: expanding model optionality and tightening cost and risk governance. GitHub broadened its frontier model lineup and advanced multi-model orchestration, while shipping finer billing controls and purpose-built security detection. For leaders, the signal is strategic—Copilot is maturing into a governable asset where quality, spend, and compliance can be managed together at scale.</description>
+      <pubDate>Thu, 15 Oct 2026 07:21:56 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/decision-makers/14</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #13 — September 15 to September 30, 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/13</link>
       <description>This period was defined by accelerating model choice and sharper measurement. GitHub broadened its frontier model lineup across vendors and expanded multi-model orchestration, reducing dependence on any single provider. At the same time, new adoption and review insights make Copilot's business impact easier to quantify. For leaders, the signal is clear: optionality and accountability are maturing together.</description>

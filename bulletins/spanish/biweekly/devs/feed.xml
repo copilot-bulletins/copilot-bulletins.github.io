@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #15 — Del 1 de octubre al 14 de octubre de 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/devs/15</link>
+      <description>La primera quincena de octubre consolidó una tendencia clara: los flujos agénticos salen del IDE hacia la terminal, el escritorio y entornos aislados. Para quienes programan a diario, esto significa agentes más autónomos pero con límites de ejecución más seguros, además de nuevos modelos que optimizan velocidad y coste. El foco está en ampliar dónde y cómo actúa Copilot sin perder control.</description>
+      <pubDate>Thu, 15 Oct 2026 07:20:19 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/15</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #14 — Del 15 al 30 de septiembre de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/14</link>
       <description>La segunda quincena de septiembre consolidó una idea clara para quien programa: menos elegir un modelo y más dejar que Copilot orquante el trabajo. Llegaron nuevos modelos de varios proveedores, orquestación automática en el editor y mejoras de rendimiento e indexación en el IDE y la CLI. El resultado práctico es más capacidad sin más fricción en el flujo diario.</description>

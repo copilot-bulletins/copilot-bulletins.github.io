@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #15 — Del 1 de octubre al 14 de octubre de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/15</link>
+      <description>Esta quincena consolidó las palancas de gobierno empresarial de Copilot. GitHub reforzó el control sobre cómo se aplican las políticas en los clientes, cómo se atribuye la actividad sin exponer contenido, y cómo se factura el uso en la organización. Para los equipos de administración, el mensaje es claro: más barreras configurables, más visibilidad auditable y más control del gasto antes de ampliar el acceso.</description>
+      <pubDate>Thu, 15 Oct 2026 07:20:34 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/15</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #14 — Del 15 de septiembre al 30 de septiembre de 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/admins/14</link>
       <description>Esta quincena consolidó el control administrativo sobre Copilot a escala empresarial. Las novedades giraron en torno a políticas de habilitación por defecto, validación de configuraciones gestionadas y mayor granularidad en las métricas de uso y adopción. Para los equipos de administración, el mensaje es claro: GitHub está dotando a enterprise y organización de herramientas para gobernar, auditar y medir Copilot con precisión.</description>
