@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #8 — October 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/8</link>
+      <description>October was defined by GitHub Universe, where GitHub positioned itself as an end-to-end software delivery system for developers working alongside agents. The commercial model shifted too: Copilot is now included with GitHub Enterprise, with spending managed through AI credit budgets rather than seat counts. Three threads connect the month's announcements: cost-aware model orchestration, agents that run unattended across tools and repositories, and stronger guardrails around review, security and measurement. For leaders, the question is moving from "should we adopt agents?" to "how do we govern, budget and benchmark them?"</description>
+      <pubDate>Tue, 03 Nov 2026 08:37:17 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #7 — September 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/decision-makers/7</link>
       <description>September centered on two strategic levers: expanding model choice and proving return on investment. A steady influx of frontier models, paired with orchestration and auto-selection, positions Copilot to deliver top-tier quality while controlling cost. In parallel, GitHub deepened spend governance, adoption analytics, and enterprise controls—giving leaders the visibility to tie Copilot usage to measurable outcomes. For decision-makers, the signal is clear: the platform is maturing from a productivity tool into a governable, cost-accountable asset that scales across the organization with predictable economics.</description>

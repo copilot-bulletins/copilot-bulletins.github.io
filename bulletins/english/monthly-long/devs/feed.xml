@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #7 — October 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/7</link>
+      <description>October was shaped by GitHub Universe, and the message for developers is that Copilot is becoming a connected agent platform rather than a set of separate tools. Sessions now follow you across the editor, CLI, app, web and mobile, backed by cloud sandboxes and persistent memory. Model choice is moving to the platform too: Copilot Fusion routes work across models for you, while new local options and sandboxes give you more control on your own machine. Automations, Agent Merge and stronger code review take on more of the routine work.</description>
+      <pubDate>Tue, 03 Nov 2026 08:35:20 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/devs/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #6 — September 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/6</link>
       <description>September was a model-and-agent month for developers. GitHub Copilot expanded its model lineup across every vendor while sharpening the agentic surfaces where you spend your day: the Copilot CLI, VS Code, JetBrains, and code review. The through-line is choice plus guardrails — more models and orchestration via HydraFusion, paired with local sandboxing, content exclusions, and smarter autofix. For devs, that means faster iteration on large codebases and more autonomy, without giving up control over what the agent can touch.</description>

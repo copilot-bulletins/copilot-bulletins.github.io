@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #7 — Octubre 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly-long/devs/7</link>
+      <description>Octubre, marcado por GitHub Universe, consolida a Copilot como un sistema de agentes que trabaja en paralelo contigo. La selección de modelos pasa a ser automática y orquestada, las sesiones se ejecutan en sandboxes en la nube y continúan en cualquier superficie, y los flujos recurrentes se convierten en automatizaciones compartidas por el equipo. Al mismo tiempo, el contexto se vuelve persistente: memoria, conectores verificados y revisiones de código más exhaustivas. Para los desarrolladores, esto significa menos configuración repetitiva y más tiempo dedicado a validar resultados en lugar de dirigir cada paso.</description>
+      <pubDate>Tue, 03 Nov 2026 08:35:47 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly-long/devs/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #6 — Septiembre 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly-long/devs/6</link>
       <description>Septiembre giró en torno a la elección: más modelos de frontera y, sobre todo, mejores formas de orquestarlos. HydraFusion y los tres niveles de selección automática te dejan equilibrar coste, calidad y velocidad por cada prompt, en lugar de fijar un único modelo. En paralelo, maduró el flujo agéntico: revisión de código que aprueba pull requests, sandboxing local en la app de Copilot y mayor control en JetBrains. Para quien programa a diario, el mensaje es claro: más potencia bruta, pero con controles finos para aplicarla con criterio y seguridad.</description>

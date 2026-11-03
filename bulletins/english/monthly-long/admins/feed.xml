@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #8 — October 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/8</link>
+      <description>October shifted Copilot administration from managing seats to governing usage. Licensing, billing, and policy defaults now point toward budget-based control, with more settings managed centrally and enforced on every client. Visibility improved alongside that control. Usage reporting now covers more tools, names internal customizations, and adds peer benchmarks. Agent execution gained stronger local guardrails. For admins, this is a good time to review default policies, managed settings, and budgets before the next round of features reaches your users.</description>
+      <pubDate>Tue, 03 Nov 2026 08:35:37 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/admins/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #7 — September 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly-long/admins/7</link>
       <description>September centered on enterprise control. GitHub expanded managed settings, agent permissions, and content exclusions, giving administrators centralized guardrails that users and workspaces cannot weaken. In parallel, adoption visibility deepened: the impact dashboard, usage metrics API, and OpenTelemetry support turn Copilot activity into measurable, auditable signals. Budget governance also matured with expiration dates and self-service increase requests. For administrators, the practical takeaway is clear: you now have finer-grained policy, security, and observability levers to scale Copilot responsibly—while a wave of model deprecations means model policies need review before mid-October.</description>

@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #7 — Octobre 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins/7</link>
+      <description>Octobre marque un tournant dans le pilotage de Copilot : le modèle de licence se simplifie autour d'un budget d'usage unique, tandis que les contrôles centralisés s'étendent aux postes des développeurs, aux plugins et aux identités applicatives. En parallèle, la mesure gagne en précision : les rapports couvrent désormais davantage d'outils, nomment vos personnalisations internes et permettent de vous comparer à vos pairs. Pour les administrateurs, l'enjeu est clair : revoir les politiques par défaut, encadrer l'autonomie croissante des agents et s'appuyer sur des données fiables pour piloter l'adoption.</description>
+      <pubDate>Tue, 03 Nov 2026 08:36:39 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/admins/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #6 — Septembre 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly-long/admins/6</link>
       <description>Septembre a placé la gouvernance au cœur de Copilot. Les équipes d'administration gagnent un contrôle plus fin : permissions centralisées des agents, paramètres gérés par l'entreprise et politique d'activation par défaut encadrent désormais le déploiement à grande échelle. En parallèle, l'observabilité progresse nettement, avec des métriques d'usage enrichies et un tableau de bord d'impact plus lisible pour piloter l'adoption. La revue de code et la maîtrise des coûts poursuivent leur montée en maturité. Pour les administrateurs, le message est clair : outiller l'adoption tout en gardant la main sur la sécurité, la conformité et la dépense.</description>

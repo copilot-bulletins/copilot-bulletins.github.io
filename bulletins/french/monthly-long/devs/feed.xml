@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly-long/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly (Long) #7 — Octobre 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/7</link>
+      <description>Octobre, marqué par GitHub Universe, fait passer Copilot d'un assistant que l'on sollicite à un ensemble d'agents qui travaillent en continu : dans le cloud, sur votre machine, ou déclenchés par des événements de vos dépôts. Le choix du modèle se délègue désormais au routage intelligent, et le contexte (mémoire, outils connectés) se configure une seule fois. Pour les développeurs, l'enjeu se déplace : moins de configuration et de micro-pilotage, plus de définition d'objectifs, de garde-fous et de revue des résultats produits par les agents.</description>
+      <pubDate>Tue, 03 Nov 2026 08:36:01 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/devs/7</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly (Long) #6 — Septembre 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/6</link>
       <description>Septembre a été rythmé par une vague de nouveaux modèles et par l'industrialisation des flux agentiques. Côté modèles, le choix s'élargit fortement (familles GPT-6, Claude 5.5, Gemini et Grok), tandis que HydraFusion orchestre plusieurs modèles automatiquement. En parallèle, GitHub renforce l'exécution sûre du code assisté : sandboxing local, exclusions de contenu et revues de code plus intelligentes. Pour les développeurs, la direction est claire : plus de puissance de modèle, mais encadrée par des garde-fous concrets et intégrée directement dans l'IDE, le CLI et le flux de pull request.</description>
