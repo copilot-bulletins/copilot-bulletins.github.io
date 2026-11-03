@@ -1,5 +1,104 @@
 [
   {
+    "number": 700,
+    "title": "Copilot Bulletin Monthly (Long) #8 — Octubre 2026 · Decision-Makers Edition",
+    "language": "spanish",
+    "period": "monthly-long",
+    "audience": "decision-makers",
+    "file": "bulletins/spanish/monthly-long/decision-makers/8.html",
+    "createdAt": "2026-11-03T08:37:25Z",
+    "description": "Octubre, marcado por GitHub Universe, consolida un cambio de modelo: Copilot deja de ser una licencia adicional para convertirse en una capacidad de la plataforma, facturada por consumo real. Al mismo tiempo, GitHub apuesta por la orquestación inteligente de modelos y por agentes que trabajan en la nube, de forma continua y en cualquier superficie. Para los responsables de decisión, la consecuencia es doble: más palancas para controlar el coste por tarea y nuevas métricas para comparar la adopción con la de sus pares. La calidad y la seguridad avanzan en paralelo, con revisiones y correcciones automatizadas más exhaustivas.",
+    "edition": 8
+  },
+  {
+    "number": 699,
+    "title": "Copilot Bulletin Monthly (Long) #8 — October 2026 · Decision-Makers Edition",
+    "language": "english",
+    "period": "monthly-long",
+    "audience": "decision-makers",
+    "file": "bulletins/english/monthly-long/decision-makers/8.html",
+    "createdAt": "2026-11-03T08:37:17Z",
+    "description": "October was defined by GitHub Universe, where GitHub positioned itself as an end-to-end software delivery system for developers working alongside agents. The commercial model shifted too: Copilot is now included with GitHub Enterprise, with spending managed through AI credit budgets rather than seat counts. Three threads connect the month's announcements: cost-aware model orchestration, agents that run unattended across tools and repositories, and stronger guardrails around review, security and measurement. For leaders, the question is moving from \"should we adopt agents?\" to \"how do we govern, budget and benchmark them?\"",
+    "edition": 8
+  },
+  {
+    "number": 698,
+    "title": "Copilot Bulletin Monthly (Long) #8 — Octobre 2026 · Decision-Makers Edition",
+    "language": "french",
+    "period": "monthly-long",
+    "audience": "decision-makers",
+    "file": "bulletins/french/monthly-long/decision-makers/8.html",
+    "createdAt": "2026-11-03T08:37:15Z",
+    "description": "Octobre a été marqué par GitHub Universe et un changement de modèle économique : Copilot devient une composante de la plateforme GitHub Enterprise, piloté par un budget d'usage plutôt que par des licences. En parallèle, GitHub mise sur l'orchestration multi-modèles pour réduire les coûts sans sacrifier la qualité. L'autre tendance de fond : les agents deviennent des actifs d'équipe, avec mémoire, automatisations partagées et revue de code plus exigeante. Pour les décideurs, l'enjeu se déplace de l'adoption vers la gouvernance des budgets et la mesure de l'impact face aux pairs du secteur.",
+    "edition": 8
+  },
+  {
+    "number": 697,
+    "title": "Copilot Bulletin Monthly (Long) #8 — Octubre 2026 · Admins Edition",
+    "language": "spanish",
+    "period": "monthly-long",
+    "audience": "admins",
+    "file": "bulletins/spanish/monthly-long/admins/8.html",
+    "createdAt": "2026-11-03T08:36:52Z",
+    "description": "Octubre traslada el centro de la administración de Copilot de las licencias al consumo. El nuevo modelo incluido en GitHub Enterprise, la facturación de code review a nivel de organización y los límites de créditos en Automations convierten el presupuesto en la palanca principal de gestión. Al mismo tiempo, la gobernanza se vuelve más programable y verificable: APIs de políticas de modelos, managed settings que fallan en modo cerrado, sandboxing local y métricas que identifican cada herramienta y personalización. Para los administradores, el reto es menos habilitar funciones y más definir políticas, presupuestos y visibilidad desde el principio.",
+    "edition": 8
+  },
+  {
+    "number": 696,
+    "title": "Copilot Bulletin Monthly (Long) #7 — Octobre 2026 · Admins Edition",
+    "language": "french",
+    "period": "monthly-long",
+    "audience": "admins",
+    "file": "bulletins/french/monthly-long/admins/7.html",
+    "createdAt": "2026-11-03T08:36:39Z",
+    "description": "Octobre marque un tournant dans le pilotage de Copilot : le modèle de licence se simplifie autour d'un budget d'usage unique, tandis que les contrôles centralisés s'étendent aux postes des développeurs, aux plugins et aux identités applicatives. En parallèle, la mesure gagne en précision : les rapports couvrent désormais davantage d'outils, nomment vos personnalisations internes et permettent de vous comparer à vos pairs. Pour les administrateurs, l'enjeu est clair : revoir les politiques par défaut, encadrer l'autonomie croissante des agents et s'appuyer sur des données fiables pour piloter l'adoption.",
+    "edition": 7
+  },
+  {
+    "number": 695,
+    "title": "Copilot Bulletin Monthly (Long) #7 — Octobre 2026 · Devs Edition",
+    "language": "french",
+    "period": "monthly-long",
+    "audience": "devs",
+    "file": "bulletins/french/monthly-long/devs/7.html",
+    "createdAt": "2026-11-03T08:36:01Z",
+    "description": "Octobre, marqué par GitHub Universe, fait passer Copilot d'un assistant que l'on sollicite à un ensemble d'agents qui travaillent en continu : dans le cloud, sur votre machine, ou déclenchés par des événements de vos dépôts. Le choix du modèle se délègue désormais au routage intelligent, et le contexte (mémoire, outils connectés) se configure une seule fois. Pour les développeurs, l'enjeu se déplace : moins de configuration et de micro-pilotage, plus de définition d'objectifs, de garde-fous et de revue des résultats produits par les agents.",
+    "edition": 7
+  },
+  {
+    "number": 694,
+    "title": "Copilot Bulletin Monthly (Long) #7 — Octubre 2026 · Devs Edition",
+    "language": "spanish",
+    "period": "monthly-long",
+    "audience": "devs",
+    "file": "bulletins/spanish/monthly-long/devs/7.html",
+    "createdAt": "2026-11-03T08:35:47Z",
+    "description": "Octubre, marcado por GitHub Universe, consolida a Copilot como un sistema de agentes que trabaja en paralelo contigo. La selección de modelos pasa a ser automática y orquestada, las sesiones se ejecutan en sandboxes en la nube y continúan en cualquier superficie, y los flujos recurrentes se convierten en automatizaciones compartidas por el equipo. Al mismo tiempo, el contexto se vuelve persistente: memoria, conectores verificados y revisiones de código más exhaustivas. Para los desarrolladores, esto significa menos configuración repetitiva y más tiempo dedicado a validar resultados en lugar de dirigir cada paso.",
+    "edition": 7
+  },
+  {
+    "number": 693,
+    "title": "Copilot Bulletin Monthly (Long) #8 — October 2026 · Admins Edition",
+    "language": "english",
+    "period": "monthly-long",
+    "audience": "admins",
+    "file": "bulletins/english/monthly-long/admins/8.html",
+    "createdAt": "2026-11-03T08:35:37Z",
+    "description": "October shifted Copilot administration from managing seats to governing usage. Licensing, billing, and policy defaults now point toward budget-based control, with more settings managed centrally and enforced on every client. Visibility improved alongside that control. Usage reporting now covers more tools, names internal customizations, and adds peer benchmarks. Agent execution gained stronger local guardrails. For admins, this is a good time to review default policies, managed settings, and budgets before the next round of features reaches your users.",
+    "edition": 8
+  },
+  {
+    "number": 692,
+    "title": "Copilot Bulletin Monthly (Long) #7 — October 2026 · Devs Edition",
+    "language": "english",
+    "period": "monthly-long",
+    "audience": "devs",
+    "file": "bulletins/english/monthly-long/devs/7.html",
+    "createdAt": "2026-11-03T08:35:20Z",
+    "description": "October was shaped by GitHub Universe, and the message for developers is that Copilot is becoming a connected agent platform rather than a set of separate tools. Sessions now follow you across the editor, CLI, app, web and mobile, backed by cloud sandboxes and persistent memory. Model choice is moving to the platform too: Copilot Fusion routes work across models for you, while new local options and sandboxes give you more control on your own machine. Automations, Agent Merge and stronger code review take on more of the routine work.",
+    "edition": 7
+  },
+  {
     "number": 691,
     "title": "Copilot Bulletin Monthly #8 — Octubre 2026 · Decision-Makers Edition",
     "language": "spanish",
