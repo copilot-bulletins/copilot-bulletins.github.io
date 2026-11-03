@@ -421,6 +421,7 @@
     Powered by <a href="https://github.com/features/copilot">GitHub Copilot</a> & <a href="https://github.github.com/gh-aw/">Agentic Workflows</a> · Built by <a href="https://github.com/ghsioux">@ghsioux</a> 
   </footer>
 
+  <script src="bulletin-routes.js"></script>
   <script>
     const LABELS = {
       language: { english: 'English', french: 'Français', spanish: 'Español' },
@@ -428,9 +429,8 @@
       audience: { devs: 'Developers', admins: 'Admins', 'decision-makers': 'Decision-Makers' }
     };
 
-    // Language code ↔ full name mapping
+    // Language to short code mapping
     const LANG_TO_CODE = { english: 'en', french: 'fr', spanish: 'es' };
-    const CODE_TO_LANG = { en: 'english', fr: 'french', es: 'spanish' };
 
     let manifest = [];
     let browseFilters = { language: 'english', period: null, audience: null };
@@ -439,8 +439,7 @@
 
     // ── URL Helpers ──────────────────────────────────────
     function bulletinPath(entry) {
-      const lang = LANG_TO_CODE[entry.language] || entry.language;
-      return '#' + lang + '/' + entry.period + '/' + entry.audience + '/' + entry.edition;
+      return BulletinRoutes.path(entry, manifest);
     }
 
     function showTopbar() {
@@ -466,10 +465,11 @@
         });
         route();
       })
-      .catch(() => {
+      .catch(error => {
+        console.error('Unable to load bulletins:', error);
         document.getElementById('browse-view').classList.add('active');
         document.getElementById('no-results').style.display = 'block';
-        document.getElementById('no-results').textContent = 'No bulletins available yet. Check back soon.';
+        document.getElementById('no-results').textContent = 'Unable to load bulletins. Please try again later.';
       });
 
     window.addEventListener('hashchange', route);
@@ -483,16 +483,8 @@
         showTopbar(); showBrowse(); return;
       }
 
-      // Hash format: en/biweekly/admins/1
-      const parts = hash.split('/');
-      if (parts.length === 4 && CODE_TO_LANG[parts[0]]) {
-        const lang = CODE_TO_LANG[parts[0]];
-        const edition = parseInt(parts[3], 10);
-        const entry = manifest.find(b =>
-          b.language === lang && b.period === parts[1] && b.audience === parts[2] && b.edition === edition
-        );
-        if (entry) { hideTopbar(); showBulletinEntry(entry); return; }
-      }
+      const entry = BulletinRoutes.findEntry(hash, manifest);
+      if (entry) { hideTopbar(); showBulletinEntry(entry); return; }
 
       showTopbar(); showBrowse();
     }
@@ -682,10 +674,8 @@
       nextFrame.src = entry.file;
 
       // Prev / Next navigation (same language + period + audience)
-      const siblings = manifest
-        .filter(b => b.language === entry.language && b.period === entry.period && b.audience === entry.audience)
-        .sort((a, b) => b.edition - a.edition);
-      const idx = siblings.findIndex(b => b.edition === entry.edition);
+      const siblings = BulletinRoutes.siblings(entry, manifest);
+      const idx = siblings.findIndex(b => b.number === entry.number);
 
       function updateNavBtn(id, href, disabled, text) {
         const btn = document.getElementById(id);
