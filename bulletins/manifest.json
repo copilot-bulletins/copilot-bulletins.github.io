@@ -1,5 +1,104 @@
 [
   {
+    "number": 691,
+    "title": "Copilot Bulletin Monthly #8 — Octubre 2026 · Decision-Makers Edition",
+    "language": "spanish",
+    "period": "monthly",
+    "audience": "decision-makers",
+    "file": "bulletins/spanish/monthly/decision-makers/8.html",
+    "createdAt": "2026-11-03T08:25:48Z",
+    "description": "Octubre, marcado por GitHub Universe, consolida a GitHub como un sistema completo de entrega de software con agentes. El foco pasa de generar código a completar trabajo: orquestación automática de modelos, revisión más rigurosa, automatización gobernada y un modelo comercial basado en consumo. Para los líderes, esto significa más control sobre costes, calidad y adopción medible.",
+    "edition": 8
+  },
+  {
+    "number": 690,
+    "title": "Copilot Bulletin Monthly #7 — Octobre 2026 · Decision-Makers Edition",
+    "language": "french",
+    "period": "monthly",
+    "audience": "decision-makers",
+    "file": "bulletins/french/monthly/decision-makers/7.html",
+    "createdAt": "2026-11-03T08:25:07Z",
+    "description": "Octobre, marqué par GitHub Universe, fait de Copilot un élément de la plateforme. L'accès à l'IA s'intègre désormais à GitHub Enterprise, la facturation porte sur l'usage réel et l'orchestration multi-modèles réduit les coûts. Pour les décideurs, le sujet n'est plus l'achat de licences. Il s'agit désormais de piloter un budget IA, de mesurer l'adoption et de sécuriser la qualité du code livré.",
+    "edition": 7
+  },
+  {
+    "number": 689,
+    "title": "Copilot Bulletin Monthly #8 — Octubre 2026 · Admins Edition",
+    "language": "spanish",
+    "period": "monthly",
+    "audience": "admins",
+    "file": "bulletins/spanish/monthly/admins/8.html",
+    "createdAt": "2026-11-03T08:24:48Z",
+    "description": "Octubre consolida la gobernanza centralizada de Copilot. Las licencias se simplifican en torno a un presupuesto de empresa, las políticas por defecto y de modelos se vuelven programables, y los agentes locales quedan sujetos a controles que el desarrollador no puede debilitar. Para los administradores, esto significa menos configuración manual y más visibilidad sobre el uso real.",
+    "edition": 8
+  },
+  {
+    "number": 688,
+    "title": "Copilot Bulletin Monthly #8 — October 2026 · Decision-Makers Edition",
+    "language": "english",
+    "period": "monthly",
+    "audience": "decision-makers",
+    "file": "bulletins/english/monthly/decision-makers/8.html",
+    "createdAt": "2026-11-03T08:24:43Z",
+    "description": "October, anchored by GitHub Universe, moved Copilot from a per-seat add-on to a platform capability with usage-based economics. The focus shifted to completed work rather than generated code. Agents now orchestrate models, review code, and run shared team workflows. Leaders also gained new levers to compare adoption and manage cost.",
+    "edition": 8
+  },
+  {
+    "number": 687,
+    "title": "Copilot Bulletin Monthly #8 — Octubre 2026 · Devs Edition",
+    "language": "spanish",
+    "period": "monthly",
+    "audience": "devs",
+    "file": "bulletins/spanish/monthly/devs/8.html",
+    "createdAt": "2026-11-03T08:24:07Z",
+    "description": "Octubre, marcado por GitHub Universe, consolida a Copilot como un sistema de agentes y no solo como un asistente en el editor. La selección de modelos, la ejecución en la nube y la integración con herramientas externas se automatizan cada vez más. Para los desarrolladores, esto implica delegar tareas completas y dedicar más tiempo a revisar y decidir.",
+    "edition": 8
+  },
+  {
+    "number": 686,
+    "title": "Copilot Bulletin Monthly #8 — Octobre 2026 · Admins Edition",
+    "language": "french",
+    "period": "monthly",
+    "audience": "admins",
+    "file": "bulletins/french/monthly/admins/8.html",
+    "createdAt": "2026-11-03T08:24:04Z",
+    "description": "Octobre marque un déplacement du pilotage de Copilot : la gestion des sièges laisse place à la gestion des budgets d'usage, et la gouvernance s'étend des modèles aux agents exécutés localement. Pour les administrateurs, l'enjeu est de définir dès maintenant les politiques, les plafonds de dépenses et les indicateurs qui encadreront une adoption agentique à grande échelle.",
+    "edition": 8
+  },
+  {
+    "number": 685,
+    "title": "Copilot Bulletin Monthly #8 — October 2026 · Admins Edition",
+    "language": "english",
+    "period": "monthly",
+    "audience": "admins",
+    "file": "bulletins/english/monthly/admins/8.html",
+    "createdAt": "2026-11-03T08:23:54Z",
+    "description": "October shifted Copilot administration from seats to usage. Licensing now centers on enterprise budgets, while new policy APIs, enforced defaults, and managed settings give admins tighter, auditable control over models, plugins, and agents. Richer usage metrics close visibility gaps, so governance decisions can rest on real adoption data rather than estimates.",
+    "edition": 8
+  },
+  {
+    "number": 684,
+    "title": "Copilot Bulletin Monthly #8 — Octobre 2026 · Devs Edition",
+    "language": "french",
+    "period": "monthly",
+    "audience": "devs",
+    "file": "bulletins/french/monthly/devs/8.html",
+    "createdAt": "2026-11-03T08:23:48Z",
+    "description": "Octobre, marqué par GitHub Universe, fait passer Copilot d'assistant de session à système d'agents persistant. Le choix des modèles s'automatise, les tâches répétitives deviennent des workflows déclenchés par des événements, et le contexte (mémoire, outils externes) suit le développeur d'un client à l'autre. Pour les développeurs, cela réduit la configuration manuelle et les changements de contexte.",
+    "edition": 8
+  },
+  {
+    "number": 683,
+    "title": "Copilot Bulletin Monthly #8 — October 2026 · Devs Edition",
+    "language": "english",
+    "period": "monthly",
+    "audience": "devs",
+    "file": "bulletins/english/monthly/devs/8.html",
+    "createdAt": "2026-11-03T08:23:34Z",
+    "description": "October shifted Copilot from single-session assistance toward coordinated agent systems. Model routing, multi-repository projects, shared automations and merge-blocker fixing now run continuously across the app, IDEs, CLI and cloud. For developers, the practical change is less time choosing models and babysitting tasks, and more time reviewing outcomes and setting direction.",
+    "edition": 8
+  },
+  {
     "number": 668,
     "title": "Copilot Bulletin Biweekly #15 — Du 1er au 14 octobre 2026 · Decision-Makers Edition",
     "language": "french",
