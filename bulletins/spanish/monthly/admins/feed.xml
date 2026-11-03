@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #8 — Octubre 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly/admins/8</link>
+      <description>Octubre consolida la gobernanza centralizada de Copilot. Las licencias se simplifican en torno a un presupuesto de empresa, las políticas por defecto y de modelos se vuelven programables, y los agentes locales quedan sujetos a controles que el desarrollador no puede debilitar. Para los administradores, esto significa menos configuración manual y más visibilidad sobre el uso real.</description>
+      <pubDate>Tue, 03 Nov 2026 08:24:48 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly/admins/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #7 — Septiembre 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly/admins/7</link>
       <description>Septiembre consolidó el control empresarial sobre Copilot. Los nuevos ajustes gestionados, los permisos sobre operaciones de agentes y la ampliación de las métricas de uso dan a los administradores más capacidad para gobernar la adopción, acotar costes y auditar el impacto. Para equipos de plataforma y seguridad, el mensaje es claro: la gobernanza escala al mismo ritmo que las capacidades.</description>

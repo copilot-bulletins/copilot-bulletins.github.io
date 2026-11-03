@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #8 — Octubre 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/monthly/devs/8</link>
+      <description>Octubre, marcado por GitHub Universe, consolida a Copilot como un sistema de agentes y no solo como un asistente en el editor. La selección de modelos, la ejecución en la nube y la integración con herramientas externas se automatizan cada vez más. Para los desarrolladores, esto implica delegar tareas completas y dedicar más tiempo a revisar y decidir.</description>
+      <pubDate>Tue, 03 Nov 2026 08:24:07 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/monthly/devs/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #7 — Septiembre 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/monthly/devs/7</link>
       <description>Septiembre consolidó a Copilot como plataforma multimodelo y agéntica. Llegaron nuevos modelos de OpenAI, Anthropic, Google y xAI, junto con mejoras profundas en la app de Copilot, VS Code y JetBrains. Para quienes programan, el mensaje es claro: más opciones de modelo, mejor comprensión del código y ejecución agéntica más segura y controlable en el día a día.</description>

@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #8 — October 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/admins/8</link>
+      <description>October shifted Copilot administration from seats to usage. Licensing now centers on enterprise budgets, while new policy APIs, enforced defaults, and managed settings give admins tighter, auditable control over models, plugins, and agents. Richer usage metrics close visibility gaps, so governance decisions can rest on real adoption data rather than estimates.</description>
+      <pubDate>Tue, 03 Nov 2026 08:23:54 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/admins/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #7 — September 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/admins/7</link>
       <description>September centered on one theme for administrators: governing an increasingly agentic Copilot at scale. As agents gained autonomy across IDEs, CLI, and pull requests, GitHub shipped matching controls — enterprise-managed permissions, content exclusions, budget guardrails, and richer usage metrics. The operational message is clear: capability and governance are advancing in lockstep, so policies and defaults deserve a fresh review now.</description>

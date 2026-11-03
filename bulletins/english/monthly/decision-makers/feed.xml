@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #8 — October 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/decision-makers/8</link>
+      <description>October, anchored by GitHub Universe, moved Copilot from a per-seat add-on to a platform capability with usage-based economics. The focus shifted to completed work rather than generated code. Agents now orchestrate models, review code, and run shared team workflows. Leaders also gained new levers to compare adoption and manage cost.</description>
+      <pubDate>Tue, 03 Nov 2026 08:24:43 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/decision-makers/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #7 — September 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/decision-makers/7</link>
       <description>September made Copilot's value more measurable and more governable. GitHub paired frontier-quality gains and cost-and-quality controls with maturing autonomous code review and enterprise-grade guardrails. For leadership, the signal is clear: AI is moving from experiment to managed investment, with the levers needed to scale adoption safely while demonstrating return.</description>

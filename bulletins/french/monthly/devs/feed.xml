@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #8 — Octobre 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/monthly/devs/8</link>
+      <description>Octobre, marqué par GitHub Universe, fait passer Copilot d'assistant de session à système d'agents persistant. Le choix des modèles s'automatise, les tâches répétitives deviennent des workflows déclenchés par des événements, et le contexte (mémoire, outils externes) suit le développeur d'un client à l'autre. Pour les développeurs, cela réduit la configuration manuelle et les changements de contexte.</description>
+      <pubDate>Tue, 03 Nov 2026 08:23:48 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly/devs/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #7 — Septembre 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly/devs/7</link>
       <description>Septembre a été marqué par une accélération sur les modèles : nouvelle vague de modèles disponibles, orchestration multi-modèles avec HydraFusion et réglage fin du compromis coût/qualité. Pour les développeurs, l'enjeu n'est plus seulement d'avoir le bon modèle, mais de choisir intelligemment lequel utiliser selon chaque tâche, directement dans l'IDE et la CLI.</description>

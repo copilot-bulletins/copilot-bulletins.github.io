@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/monthly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Monthly #8 — October 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/monthly/devs/8</link>
+      <description>October shifted Copilot from single-session assistance toward coordinated agent systems. Model routing, multi-repository projects, shared automations and merge-blocker fixing now run continuously across the app, IDEs, CLI and cloud. For developers, the practical change is less time choosing models and babysitting tasks, and more time reviewing outcomes and setting direction.</description>
+      <pubDate>Tue, 03 Nov 2026 08:23:34 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly/devs/8</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Monthly #7 — September 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/monthly/devs/7</link>
       <description>September was defined by expanding developer choice across models and surfaces. A wave of new frontier models landed in Copilot while agentic capabilities spread from the CLI into VS Code, JetBrains, and the Copilot app. For developers, the practical takeaway is more flexibility in where you work and which model powers each task — with safer local execution.</description>
