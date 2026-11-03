@@ -57,10 +57,10 @@
     </item>
     <item>
       <title>Copilot Bulletin Monthly (Long) #1 — March 2026 · Devs Edition</title>
-      <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/1</link>
+      <link>https://copilot-bulletins.github.io/#en/monthly-long/devs/1/371</link>
       <description>This month, GitHub Copilot expanded its reach across every surface developers work on. The Copilot CLI reached general availability, bringing agentic coding to the terminal. Code review shifted to an agentic architecture with deeper repository understanding, while the coding agent gained new integrations and platform support. A wave of new models — GPT-5.4, Claude Sonnet 4.6, Gemini 3.1 Pro — gives developers more choice and capability. The theme is clear: Copilot is becoming a persistent, context-aware collaborator that works wherever you do.</description>
       <pubDate>Tue, 17 Mar 2026 14:30:36 +0000</pubDate>
-      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/devs/1</guid>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/monthly-long/devs/1/371</guid>
     </item>
   </channel>
 </rss>

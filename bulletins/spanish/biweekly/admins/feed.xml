@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #16 — Del 15 de octubre al 31 de octubre de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/16</link>
+      <description>La gobernanza de Copilot pasa de la configuración manual a la gestión programática y centralizada. Durante esta quincena, los controles de licencias, modelos, plugins y políticas por defecto se trasladan a presupuestos, APIs y ajustes gestionados por la empresa. Para los administradores, esto significa menos tareas repetitivas y más visibilidad, pero también la necesidad de revisar las políticas existentes.</description>
+      <pubDate>Tue, 03 Nov 2026 08:22:20 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/16</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #15 — Del 1 de octubre al 14 de octubre de 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/admins/15</link>
       <description>Esta quincena consolidó las palancas de gobierno empresarial de Copilot. GitHub reforzó el control sobre cómo se aplican las políticas en los clientes, cómo se atribuye la actividad sin exponer contenido, y cómo se factura el uso en la organización. Para los equipos de administración, el mensaje es claro: más barreras configurables, más visibilidad auditable y más control del gasto antes de ampliar el acceso.</description>

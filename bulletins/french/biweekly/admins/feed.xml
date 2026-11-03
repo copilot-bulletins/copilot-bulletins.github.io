@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #16 — Du 15 octobre au 31 octobre 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/16</link>
+      <description>Cette quinzaine, marquée par GitHub Universe, la gouvernance de Copilot passe du réglage manuel à la configuration programmable. Les politiques s'appliquent par défaut, se pilotent par API et les métriques deviennent nettement plus fines. Pour les administrateurs, l'enjeu est de vérifier dès maintenant les paramètres hérités avant que les nouveaux usages agentiques ne se généralisent.</description>
+      <pubDate>Tue, 03 Nov 2026 08:22:16 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/admins/16</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #15 — Du 1er octobre au 14 octobre 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/admins/15</link>
       <description>Cette quinzaine place la gouvernance au premier plan. GitHub a renforcé l'arsenal des administrateurs : application forcée des paramètres gérés, attribution télémétrie granulaire, contrôles de facturation et de licence pour la revue de code, détection de secrets dédiée et fiabilisation des métriques d'usage. Pour les administrateurs, cela se traduit par davantage de leviers pour imposer vos politiques, attribuer l'activité et maîtriser les coûts à l'échelle de l'entreprise.</description>

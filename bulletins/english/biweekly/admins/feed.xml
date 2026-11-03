@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #16 — October 15 to October 31, 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/16</link>
+      <description>Late October moved Copilot administration away from managing seats and toward managing policy and budgets. Licensing, plugins, agent permissions and model access now come with central controls and APIs. Usage reporting now also covers tools outside the IDE. For admins, this means fewer manual steps and more of the governance work handled through policy.</description>
+      <pubDate>Tue, 03 Nov 2026 08:22:16 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/16</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #15 — October 1 to October 14, 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/admins/15</link>
       <description>Governance and control took center stage this period. GitHub shipped tools that tighten how administrators enforce policy, attribute usage, and secure agentic execution — from forcing fresh managed settings at startup to isolating locally run commands. For admins, the message is clear: agentic Copilot is maturing, and the levers to govern it at organization and enterprise scale are expanding in parallel.</description>

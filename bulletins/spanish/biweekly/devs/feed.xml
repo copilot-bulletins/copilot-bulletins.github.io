@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #16 — Del 15 de octubre al 31 de octubre de 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/devs/16</link>
+      <description>GitHub Universe marcó la quincena: Copilot deja de ser un asistente ligado a una ventana y pasa a ser un sistema de agentes que eligen sus propios modelos, recuerdan el contexto del equipo y siguen trabajando en la nube. Para los desarrolladores, esto significa menos configuración manual y más tareas delegadas de principio a fin, desde cualquier cliente.</description>
+      <pubDate>Tue, 03 Nov 2026 08:22:41 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/16</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #15 — Del 1 de octubre al 14 de octubre de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/15</link>
       <description>La primera quincena de octubre consolidó una tendencia clara: los flujos agénticos salen del IDE hacia la terminal, el escritorio y entornos aislados. Para quienes programan a diario, esto significa agentes más autónomos pero con límites de ejecución más seguros, además de nuevos modelos que optimizan velocidad y coste. El foco está en ampliar dónde y cómo actúa Copilot sin perder control.</description>

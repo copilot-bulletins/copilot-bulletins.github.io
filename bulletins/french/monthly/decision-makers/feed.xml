@@ -9,7 +9,7 @@
     <item>
       <title>Copilot Bulletin Monthly #7 — Octobre 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/monthly/decision-makers/7</link>
-      <description>Octobre, marqué par GitHub Universe, fait de Copilot un élément de la plateforme. L'accès à l'IA s'intègre désormais à GitHub Enterprise, la facturation porte sur l'usage réel et l'orchestration multi-modèles réduit les coûts. Pour les décideurs, le sujet n'est plus l'achat de licences. Il s'agit désormais de piloter un budget IA, de mesurer l'adoption et de sécuriser la qualité du code livré.</description>
+      <description>Octobre, marqué par GitHub Universe, fait de Copilot un élément de la plateforme. L'accès à l'IA s'intègre à GitHub Enterprise, la facturation porte sur l'usage réel et l'orchestration multi-modèles réduit les coûts. Pour les décideurs, l'enjeu est de piloter un budget IA, de mesurer l'adoption et de sécuriser la qualité du code livré.</description>
       <pubDate>Tue, 03 Nov 2026 08:25:07 +0000</pubDate>
       <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly/decision-makers/7</guid>
     </item>
@@ -57,10 +57,10 @@
     </item>
     <item>
       <title>Copilot Bulletin Monthly #1 — Mars 2026 · Decision-Makers Edition</title>
-      <link>https://copilot-bulletins.github.io/#fr/monthly/decision-makers/1</link>
+      <link>https://copilot-bulletins.github.io/#fr/monthly/decision-makers/1/369</link>
       <description>Ce mois-ci, GitHub Copilot franchit un cap stratégique : l'IA ne se contente plus d'assister les développeurs, elle s'intègre comme infrastructure d'exécution à l'échelle de l'entreprise. Du SDK programmable aux 60 millions de revues de code automatisées, la plateforme démontre un passage de l'expérimentation à l'industrialisation, avec les outils de mesure d'impact pour le prouver.</description>
       <pubDate>Tue, 17 Mar 2026 14:19:19 +0000</pubDate>
-      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly/decision-makers/1</guid>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly/decision-makers/1/369</guid>
     </item>
   </channel>
 </rss>

@@ -57,10 +57,10 @@
     </item>
     <item>
       <title>Copilot Bulletin Monthly (Long) #1 — Mars 2026 · Devs Edition</title>
-      <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/1</link>
+      <link>https://copilot-bulletins.github.io/#fr/monthly-long/devs/1/374</link>
       <description>Ce mois de mars marque un tournant agentique pour GitHub Copilot. L'ensemble des IDE — VS Code, JetBrains, Visual Studio — converge vers un modèle d'agent programmable, extensible via des hooks et des serveurs MCP. En parallèle, l'arrivée de GPT-5.4 et la refonte agentique du code review renforcent la qualité des interactions. Le coding agent, désormais intégré à Jira et capable d'exécuter les workflows Actions sans approbation manuelle, franchit un seuil d'autonomie notable. La tendance est claire : Copilot passe du statut d'assistant contextuel à celui de coéquipier autonome, capable de planifier, exécuter et mémoriser le contexte de vos projets.</description>
       <pubDate>Tue, 17 Mar 2026 14:32:02 +0000</pubDate>
-      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/devs/1</guid>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/monthly-long/devs/1/374</guid>
     </item>
   </channel>
 </rss>
