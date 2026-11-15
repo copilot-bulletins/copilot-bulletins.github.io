@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #17 — November 1 to November 14, 2026 · Devs Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body, body > table {
+    background-color: #0d1117 !important;
+  }
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+  p, li, td.content, td.content td {
+    color: #e6edf3 !important;
+  }
+  h3, h4, strong {
+    color: #e6edf3 !important;
+  }
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+  a {
+    color: #58a6ff !important;
+  }
+  hr {
+    border-top-color: #30363d !important;
+  }
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #17 · November 1 to November 14, 2026 · Devs Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="dart-this-editions-thread" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 This edition's thread</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Copilot is moving into the tools developers already use rather than asking them to switch. Native integrations reached JetBrains Air and Xcode's built-in assistant, while new frontier and fast models arrived alongside a December retirement list. The practical effect: more control over where you work and which model fits each task.</p>
+              <h3 id="warning-heads-up" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Heads up</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december" style="color: #0969da; text-decoration: underline;">Upcoming deprecation of selected GitHub Copilot models in December</a> — <strong style="font-weight: 600; color: #24292f;">Deadline: December 14, 2026</strong> — Move off Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6 and Kimi K3, and check the suggested alternatives in <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/ai-models/supported-models" style="color: #0969da; text-decoration: underline;">Supported AI models in GitHub Copilot</a>.</li>
+              </ul>
+              <h3 id="rocket-take-action" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Take action</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Try Claude Fable 5.2 or Gemini 4 Hydrogen by <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-in-your-ide/chat-with-copilot/change-the-chat-model" style="color: #0969da; text-decoration: underline;">changing the AI model for Copilot Chat</a></li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Open the new <code>/settings</code> dashboard after <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/use-copilot-cli/overview" style="color: #0969da; text-decoration: underline;">setting up GitHub Copilot CLI</a> to manage plugins and MCP servers in one place</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Package repeatable team workflows as <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/customizations/agent-skills" style="color: #0969da; text-decoration: underline;">agent skills</a> so any agent can reuse them</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Tune review effort and custom instructions per repository by <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-on-github/set-up-copilot/configure-code-review" style="color: #0969da; text-decoration: underline;">configuring Copilot code review</a></li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Questions or need support? Reach out to your GitHub team, we're here to help.</li>
+              </ul>
+              <h3 id="trophy-top-5-updates" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 updates</h3>
+              <h4 id="1-copilot-arrives-in-jetbrains-air" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. Copilot arrives in JetBrains Air</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Delegate tasks to Copilot from JetBrains Air's agent picker using your existing subscription. Track parallel agent sessions, review changes alongside your code, and run cloud tasks in isolated sandboxes through Air Teams, without consuming JetBrains AI credits.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air" style="color: #0969da; text-decoration: underline;">Changelog: GitHub Copilot is now available in JetBrains Air</a></p>
+              <h4 id="2-copilot-inside-xcodes-native-coding-assistant" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Copilot inside Xcode's native coding assistant</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Copilot now plugs directly into Xcode's built-in coding assistant, in public preview from Xcode 27.3 beta on macOS Tahoe 26.6+. Enable it under Xcode &gt; Settings &gt; Intelligence. All Copilot plans are supported, and the existing Copilot for Xcode extension remains available.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant" style="color: #0969da; text-decoration: underline;">Changelog: GitHub Copilot is now available in Xcode’s coding assistant</a></p>
+              <h4 id="3-claude-fable-52-for-complex-multistep-work" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Claude Fable 5.2 for complex multistep work</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Anthropic's newest Fable model is generally available for large-codebase, multistep tasks, solving more tasks than Fable 5.1 with fewer steps and tool calls. Available on Pro+, Max, Business and Enterprise; Business and Enterprise admins must enable its policy first.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Claude Fable 5.2 in GitHub Copilot</a></p>
+              <h4 id="4-two-new-gemini-4-models-carbon-and-hydrogen" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. Two new Gemini 4 models: Carbon and Hydrogen</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Gemini 4 Carbon targets complex agentic and reasoning work with a focus on secure code generation. Gemini 4 Hydrogen, a Flash model, delivers fast, efficient tool use and better instruction following than Gemini 3.8 Flash, including in the Copilot SDK.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Sources:<br>→ <a href="https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Gemini 4 Carbon in GitHub Copilot</a><br>→ <a href="https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Gemini 4 Hydrogen in GitHub Copilot</a></p>
+              <h4 id="5-cli-settings-dashboard-and-vs-code-1145" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. CLI settings dashboard and VS Code 1.145</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Copilot CLI's <code>/settings</code> now opens a searchable dashboard for plugins and MCP servers. VS Code 1.145 adds chat view modes, cron-scheduled local automations with custom agents, remote app previews in the Agents window, and the Copilot app gains Agent Merge improvements.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2" style="color: #0969da; text-decoration: underline;">Changelog: GitHub Copilot weekly releases — November 2</a></p>
+              <h3 id="pushpin-also-in-this-edition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 Also in this edition</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available" style="color: #0969da; text-decoration: underline;"><code>@GitHub</code> in Slack and Teams is generally available and more</a> — Turn chat threads into issues and pull requests, with Canvas reviews in Teams.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds" style="color: #0969da; text-decoration: underline;">C++ language server now auto-configures MSBuild builds</a> — Copilot CLI gets precise C++ code intelligence without a setup skill.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app" style="color: #0969da; text-decoration: underline;">GitHub Enterprise Server support in the GitHub Copilot app</a> — Work with GHES repositories, issues and pull requests, now generally available.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates" style="color: #0969da; text-decoration: underline;">Copilot code review: API management and review overview updates</a> — Manage review settings via API and get more compact review overviews.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/" style="color: #0969da; text-decoration: underline;">Build once, run on any agent: A practical guide to agent skills</a> — How to write reusable, reviewable skills for any agent host.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Want to see more? Browse the full <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">GitHub Copilot changelog</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,5 +1,104 @@
 [
   {
+    "number": 709,
+    "title": "Copilot Bulletin Biweekly #17 — Du 1er au 14 novembre 2026 · Decision-Makers Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/french/biweekly/decision-makers/17.html",
+    "createdAt": "2026-11-15T07:12:57Z",
+    "description": "Cette quinzaine, GitHub a nettement renforcé la mesure de la valeur de Copilot : les métriques couvrent désormais l'efficacité réelle des revues de code, le chat, les agents et les modèles BYOK. Pour les décideurs, cela permet de fonder les arbitrages budgétaires sur des données d'adoption et d'impact plus complètes, plutôt que sur des estimations.",
+    "edition": 17
+  },
+  {
+    "number": 708,
+    "title": "Copilot Bulletin Biweekly #16 — Del 1 de noviembre al 14 de noviembre de 2026 · Decision-Makers Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/spanish/biweekly/decision-makers/16.html",
+    "createdAt": "2026-11-15T07:12:53Z",
+    "description": "Esta quincena, GitHub se centró en medir el valor real de Copilot. Las nuevas métricas muestran qué ocurre con las recomendaciones de la IA, cómo se adopta cada experiencia y dónde hay lagunas en los datos. Al mismo tiempo, Copilot llega a más herramientas de colaboración y de desarrollo. Para la dirección, esto significa decisiones de inversión mejor fundamentadas.",
+    "edition": 16
+  },
+  {
+    "number": 707,
+    "title": "Copilot Bulletin Biweekly #16 — November 1 to November 14, 2026 · Decision-Makers Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "decision-makers",
+    "file": "bulletins/english/biweekly/decision-makers/16.html",
+    "createdAt": "2026-11-15T07:12:48Z",
+    "description": "Measurement caught up with adoption this fortnight. GitHub extended Copilot reporting to show how chat, agents, code review feedback and bring-your-own-key models are actually used, while widening access across new tools and frontier models. For leaders, the conversation shifts from whether teams use Copilot to where it delivers measurable value.",
+    "edition": 16
+  },
+  {
+    "number": 706,
+    "title": "Copilot Bulletin Biweekly #17 — November 1 to November 14, 2026 · Devs Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/english/biweekly/devs/17.html",
+    "createdAt": "2026-11-15T07:12:13Z",
+    "description": "Copilot is moving into the tools developers already use rather than asking them to switch. Native integrations reached JetBrains Air and Xcode's built-in assistant, while new frontier and fast models arrived alongside a December retirement list. The practical effect: more control over where you work and which model fits each task.",
+    "edition": 17
+  },
+  {
+    "number": 705,
+    "title": "Copilot Bulletin Biweekly #17 — Du 1er novembre au 14 novembre 2026 · Admins Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/french/biweekly/admins/17.html",
+    "createdAt": "2026-11-15T07:11:56Z",
+    "description": "Cette quinzaine, Copilot devient plus pilotable par programmation. Les réglages de revue de code, l'attribution des licences et la qualité des métriques sont désormais accessibles par API. Pour les administrateurs, cela permet d'automatiser la gouvernance à grande échelle, de fiabiliser les tableaux de bord d'adoption et de mieux maîtriser les modèles utilisés, notamment leurs conditions de rétention des données.",
+    "edition": 17
+  },
+  {
+    "number": 704,
+    "title": "Copilot Bulletin Biweekly #17 — Del 1 de noviembre al 14 de noviembre de 2026 · Admins Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/spanish/biweekly/admins/17.html",
+    "createdAt": "2026-11-15T07:11:53Z",
+    "description": "Esta quincena, la visibilidad operativa domina: las métricas de uso distinguen ahora el tráfico de modelos propios, miden el impacto real de la revisión de código y detectan brechas de telemetría. Al mismo tiempo, más configuraciones pasan a la API. Para los administradores, esto significa gobernar Copilot con datos más fiables y automatizar sin depender de la interfaz.",
+    "edition": 17
+  },
+  {
+    "number": 703,
+    "title": "Copilot Bulletin Biweekly #17 — November 1 to November 14, 2026 · Admins Edition",
+    "language": "english",
+    "period": "biweekly",
+    "audience": "admins",
+    "file": "bulletins/english/biweekly/admins/17.html",
+    "createdAt": "2026-11-15T07:11:13Z",
+    "description": "This period centered on visibility and programmatic control. Usage metrics now show whether AI feedback is acted on, where telemetry is missing and how self-managed models are used, while more settings move to APIs and GitHub Apps. For admins, this means fewer reporting gaps and governance that can be automated rather than managed by hand.",
+    "edition": 17
+  },
+  {
+    "number": 702,
+    "title": "Copilot Bulletin Biweekly #17 — Del 1 de noviembre al 14 de noviembre de 2026 · Devs Edition",
+    "language": "spanish",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/spanish/biweekly/devs/17.html",
+    "createdAt": "2026-11-15T07:11:09Z",
+    "description": "Esta quincena, Copilot llega a más entornos de trabajo de los desarrolladores. Se integra en entornos nativos de terceros, y el catálogo de modelos se renueva con varias opciones más capaces o más rápidas. Para los desarrolladores, esto significa elegir el agente y el modelo adecuados sin cambiar de herramienta ni de suscripción, y planificar las migraciones de modelos antes de diciembre.",
+    "edition": 17
+  },
+  {
+    "number": 701,
+    "title": "Copilot Bulletin Biweekly #17 — Du 1er novembre au 14 novembre 2026 · Devs Edition",
+    "language": "french",
+    "period": "biweekly",
+    "audience": "devs",
+    "file": "bulletins/french/biweekly/devs/17.html",
+    "createdAt": "2026-11-15T07:10:46Z",
+    "description": "Cette quinzaine, Copilot s'installe là où les développeurs travaillent déjà : nouveaux environnements natifs, outils de conversation d'équipe et nouveaux modèles disponibles dans tous les clients. Pour les développeurs, l'enjeu est concret : déléguer et suivre le travail des agents sans changer d'outil, tout en choisissant le modèle adapté à chaque tâche.",
+    "edition": 17
+  },
+  {
     "number": 700,
     "title": "Copilot Bulletin Monthly (Long) #8 — Octubre 2026 · Decision-Makers Edition",
     "language": "spanish",

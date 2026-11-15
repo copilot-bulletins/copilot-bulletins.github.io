@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copilot Bulletin Biweekly #17 — Du 1er novembre au 14 novembre 2026 · Admins Edition</title>
+  <style>
+@media (prefers-color-scheme: dark) {
+  body, body > table {
+    background-color: #0d1117 !important;
+  }
+  body > table > tbody > tr > td > table {
+    background-color: #161b22 !important;
+  }
+  td[bgcolor="#24292f"] {
+    background-color: #010409 !important;
+  }
+  p, li, td.content, td.content td {
+    color: #e6edf3 !important;
+  }
+  h3, h4, strong {
+    color: #e6edf3 !important;
+  }
+  h3 {
+    border-bottom-color: #30363d !important;
+  }
+  td[style*="border-bottom"] {
+    border-bottom-color: #30363d !important;
+  }
+  a {
+    color: #58a6ff !important;
+  }
+  hr {
+    border-top-color: #30363d !important;
+  }
+  th {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+  }
+  code {
+    background-color: #262c36 !important;
+    color: #e6edf3 !important;
+  }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f6f8fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f8fa;">
+    <tr>
+      <td align="center" style="padding:0 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:16px 16px 28px 16px;">
+        <table role="presentation" width="720" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border:1px solid #a78bfa; border-radius:8px; max-width:720px;">
+          <!-- Header -->
+          <tr>
+              <td bgcolor="#24292f" style="background-color:#24292f; mso-shading:#24292f; padding:0; border-radius:8px 8px 0 0; font-size:18px; font-weight:600; color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+                <img alt="GitHub Copilot Bulletin" width="720" height="84" style="display:block; width:100%; height:auto; min-height:72px; border:0; border-radius:8px 8px 0 0;" src="https://copilot-bulletins.github.io/bulletins/headers/banner.png">
+              </td>
+          </tr>
+          <!-- Subtitle -->
+          <tr>
+            <td style="padding:24px 32px 8px 32px; border-bottom:1px solid #d0d7de;">
+              <p style="margin:0; font-size:15px; font-weight:600; color:#24292f;">Biweekly #17 · Du 1er novembre au 14 novembre 2026 · Admins Edition</p>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content" style="padding:24px 32px 32px 32px; color:#1f2328; font-size:14px; line-height:1.6;">
+              <h3 id="dart-le-fil-de-cette-édition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🎯 Le fil de cette édition</h3>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Cette quinzaine, Copilot devient plus pilotable par programmation. Les réglages de revue de code, l'attribution des licences et la qualité des métriques sont désormais accessibles par API. Pour les administrateurs, cela permet d'automatiser la gouvernance à grande échelle, de fiabiliser les tableaux de bord d'adoption et de mieux maîtriser les modèles utilisés, notamment leurs conditions de rétention des données.</p>
+              <h3 id="warning-attention" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">⚠️ Attention</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december" style="color: #0969da; text-decoration: underline;">Upcoming deprecation of selected GitHub Copilot models in December</a> — <strong style="font-weight: 600; color: #24292f;">Deadline: 14 décembre 2026</strong> — Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6 et Kimi K3 seront retirés. Vérifiez que les modèles de remplacement sont activés dans vos <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models" style="color: #0969da; text-decoration: underline;">politiques de modèles</a>.</li>
+              </ul>
+              <h3 id="rocket-passez-à-laction" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🚀 Passez à l'action</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Automatisez l'activation et le niveau d'effort de la revue de code Copilot via l'<a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-on-github/set-up-copilot/configure-code-review" style="color: #0969da; text-decoration: underline;">API de configuration de la revue de code</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Confiez l'attribution des licences à une GitHub App grâce aux <a href="https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-user-management" style="color: #0969da; text-decoration: underline;">endpoints REST de gestion des utilisateurs Copilot</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Identifiez les utilisateurs aux versions d'IDE obsolètes en consultant les <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/billing-and-usage/copilot-usage-metrics/copilot-metrics" style="color: #0969da; text-decoration: underline;">versions minimales prises en charge par les métriques</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Évaluez la politique Claude Fable 5.2 et ses conditions de rétention avant activation dans les <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies" style="color: #0969da; text-decoration: underline;">politiques de votre entreprise</a>.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Des questions ou besoin d'accompagnement ? Contactez votre équipe GitHub, nous sommes là pour vous aider.</li>
+              </ul>
+              <h3 id="trophy-top-5-des-mises-à-jour" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">🏆 Top 5 des mises à jour</h3>
+              <h4 id="1-la-revue-de-code-copilot-se-configure-entièrement-par-api" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">1. La revue de code Copilot se configure entièrement par API</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Les réglages de la revue de code sont désormais gérables via REST et GraphQL, de la politique d'entreprise jusqu'au dépôt. Les réglages imposés par l'entreprise ne peuvent pas être contournés, et les revues de Copilot sont identifiables grâce à des champs d'attribution explicites.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates" style="color: #0969da; text-decoration: underline;">Changelog: Copilot code review: API management and review overview updates</a></p>
+              <h4 id="2-attribution-des-licences-copilot-via-github-apps" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">2. Attribution des licences Copilot via GitHub Apps</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Les GitHub Apps d'entreprise peuvent appeler les API de gestion des licences Copilot pour attribuer des postes aux utilisateurs et équipes d'entreprise. Une nouvelle permission granulaire, Enterprise Copilot license management, évite de recourir à des jetons personnels.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management" style="color: #0969da; text-decoration: underline;">Changelog: GitHub App support for Enterprise Copilot seat management</a></p>
+              <h4 id="3-des-métriques-dusage-plus-fiables" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">3. Des métriques d'usage plus fiables</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">L'API de métriques signale désormais les utilisateurs sans télémétrie client ou utilisant des IDE et extensions sous les versions minimales. Vous pouvez ainsi cibler les postes à mettre à jour et combler les lacunes de vos rapports sans ouvrir de ticket.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps" style="color: #0969da; text-decoration: underline;">Changelog: Usage metrics API flags telemetry and version gaps</a></p>
+              <h4 id="4-mesurer-limpact-réel-de-la-revue-de-code" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">4. Mesurer l'impact réel de la revue de code</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Les rapports par dépôt indiquent combien de commentaires de Copilot ont été pris en compte, ventilés par sévérité, type et personnalisation. Un taux de prise en compte par dépôt permet d'objectiver la valeur de la revue de code automatisée.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate" style="color: #0969da; text-decoration: underline;">Changelog: Usage metrics API adds code review details and addressed rate</a></p>
+              <h4 id="5-claude-fable-52--une-politique-à-évaluer" style="margin: 20px 0 6px 0; font-size: 14px; font-weight: 600; color: #24292f;">5. Claude Fable 5.2 : une politique à évaluer</h4>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">Claude Fable 5.2 est disponible, mais sa politique est désactivée par défaut. Ce modèle requiert une rétention des données par Anthropic ; l'activer vaut acceptation. Une exemption de rétention nulle est possible pour certaines entreprises éligibles jusqu'à fin 2026.</p>
+              <p style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #1f2328;">→ <a href="https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot" style="color: #0969da; text-decoration: underline;">Changelog: Claude Fable 5.2 in GitHub Copilot</a></p>
+              <h3 id="pushpin-également-dans-cette-édition" style="margin: 24px 0 8px 0; font-size: 16px; font-weight: 600; color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">📌 Également dans cette édition</h3>
+              <ul style="margin: 8px 0; padding-left: 24px;">
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api" style="color: #0969da; text-decoration: underline;">BYOK and enterprise custom models in the Copilot usage API</a> — L'usage BYOK local et des modèles personnalisés d'entreprise apparaît désormais dans les métriques.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage" style="color: #0969da; text-decoration: underline;">Copilot impact dashboard adds chat and VS Code agent usage</a> — Le tableau de bord d'impact couvre maintenant neuf expériences Copilot, dont le chat.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app" style="color: #0969da; text-decoration: underline;">GitHub Enterprise Server support in the GitHub Copilot app</a> — Les comptes GHES sont désormais pris en charge dans l'application Copilot (disponibilité générale).</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot" style="color: #0969da; text-decoration: underline;">Gemini 4 Carbon in GitHub Copilot</a> — Nouveau modèle de Google orienté code sécurisé, à activer via les politiques de modèles.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;"><a href="https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available" style="color: #0969da; text-decoration: underline;"><code>@GitHub</code> in Slack and Teams is generally available and more</a> — L'intégration Slack et Teams passe en disponibilité générale.</li>
+              <li style="margin: 4px 0; font-size: 14px; line-height: 1.5; color: #1f2328;">Envie d'en savoir plus ? Consultez le <a href="https://github.blog/changelog/?label=copilot&amp;opened-months=3" style="color: #0969da; text-decoration: underline;">changelog GitHub Copilot</a> complet.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
