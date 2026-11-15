@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #17 — Del 1 de noviembre al 14 de noviembre de 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/devs/17</link>
+      <description>Esta quincena, Copilot llega a más entornos de trabajo de los desarrolladores. Se integra en entornos nativos de terceros, y el catálogo de modelos se renueva con varias opciones más capaces o más rápidas. Para los desarrolladores, esto significa elegir el agente y el modelo adecuados sin cambiar de herramienta ni de suscripción, y planificar las migraciones de modelos antes de diciembre.</description>
+      <pubDate>Sun, 15 Nov 2026 07:11:09 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/devs/17</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #16 — Del 15 de octubre al 31 de octubre de 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/devs/16</link>
       <description>GitHub Universe marcó la quincena: Copilot deja de ser un asistente ligado a una ventana y pasa a ser un sistema de agentes que eligen sus propios modelos, recuerdan el contexto del equipo y siguen trabajando en la nube. Para los desarrolladores, esto significa menos configuración manual y más tareas delegadas de principio a fin, desde cualquier cliente.</description>

@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #17 — Del 1 de noviembre al 14 de noviembre de 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/admins/17</link>
+      <description>Esta quincena, la visibilidad operativa domina: las métricas de uso distinguen ahora el tráfico de modelos propios, miden el impacto real de la revisión de código y detectan brechas de telemetría. Al mismo tiempo, más configuraciones pasan a la API. Para los administradores, esto significa gobernar Copilot con datos más fiables y automatizar sin depender de la interfaz.</description>
+      <pubDate>Sun, 15 Nov 2026 07:11:53 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/admins/17</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #16 — Del 15 de octubre al 31 de octubre de 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/admins/16</link>
       <description>La gobernanza de Copilot pasa de la configuración manual a la gestión programática y centralizada. Durante esta quincena, los controles de licencias, modelos, plugins y políticas por defecto se trasladan a presupuestos, APIs y ajustes gestionados por la empresa. Para los administradores, esto significa menos tareas repetitivas y más visibilidad, pero también la necesidad de revisar las políticas existentes.</description>

@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/admins/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #17 — November 1 to November 14, 2026 · Admins Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/admins/17</link>
+      <description>This period centered on visibility and programmatic control. Usage metrics now show whether AI feedback is acted on, where telemetry is missing and how self-managed models are used, while more settings move to APIs and GitHub Apps. For admins, this means fewer reporting gaps and governance that can be automated rather than managed by hand.</description>
+      <pubDate>Sun, 15 Nov 2026 07:11:13 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/admins/17</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #16 — October 15 to October 31, 2026 · Admins Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/admins/16</link>
       <description>Late October moved Copilot administration away from managing seats and toward managing policy and budgets. Licensing, plugins, agent permissions and model access now come with central controls and APIs. Usage reporting now also covers tools outside the IDE. For admins, this means fewer manual steps and more of the governance work handled through policy.</description>

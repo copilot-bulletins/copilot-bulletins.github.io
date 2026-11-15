@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #16 — November 1 to November 14, 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/16</link>
+      <description>Measurement caught up with adoption this fortnight. GitHub extended Copilot reporting to show how chat, agents, code review feedback and bring-your-own-key models are actually used, while widening access across new tools and frontier models. For leaders, the conversation shifts from whether teams use Copilot to where it delivers measurable value.</description>
+      <pubDate>Sun, 15 Nov 2026 07:12:48 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/decision-makers/16</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #15 — October 15 to October 31, 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/decision-makers/15</link>
       <description>GitHub Universe 2026 reframed Copilot as an end-to-end agentic software delivery system rather than a coding assistant. The commercial model shifted too: Copilot is now included with GitHub Enterprise and billed on usage. For leaders, the focus moves from counting seats to governing AI spend, measuring outcomes, and benchmarking adoption against industry peers.</description>

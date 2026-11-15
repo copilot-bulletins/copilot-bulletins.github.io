@@ -7,6 +7,13 @@
     <language>french</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/french/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #17 — Du 1er novembre au 14 novembre 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/17</link>
+      <description>Cette quinzaine, Copilot s'installe là où les développeurs travaillent déjà : nouveaux environnements natifs, outils de conversation d'équipe et nouveaux modèles disponibles dans tous les clients. Pour les développeurs, l'enjeu est concret : déléguer et suivre le travail des agents sans changer d'outil, tout en choisissant le modèle adapté à chaque tâche.</description>
+      <pubDate>Sun, 15 Nov 2026 07:10:46 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#fr/biweekly/devs/17</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #16 — Du 15 octobre au 31 octobre 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#fr/biweekly/devs/16</link>
       <description>Avec Universe 2026, Copilot devient un environnement de travail continu plutôt qu'un simple assistant dans l'éditeur. Le choix du modèle peut désormais être délégué, les sessions passent d'un outil à l'autre et le contexte externe s'intègre sans configuration. Pour les développeurs, cela signifie moins de friction et davantage de tâches confiées aux agents, sans perdre le contrôle.</description>

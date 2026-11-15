@@ -7,6 +7,13 @@
     <language>spanish</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/spanish/biweekly/decision-makers/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #16 — Del 1 de noviembre al 14 de noviembre de 2026 · Decision-Makers Edition</title>
+      <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/16</link>
+      <description>Esta quincena, GitHub se centró en medir el valor real de Copilot. Las nuevas métricas muestran qué ocurre con las recomendaciones de la IA, cómo se adopta cada experiencia y dónde hay lagunas en los datos. Al mismo tiempo, Copilot llega a más herramientas de colaboración y de desarrollo. Para la dirección, esto significa decisiones de inversión mejor fundamentadas.</description>
+      <pubDate>Sun, 15 Nov 2026 07:12:53 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#es/biweekly/decision-makers/16</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #15 — Del 15 de octubre al 31 de octubre de 2026 · Decision-Makers Edition</title>
       <link>https://copilot-bulletins.github.io/#es/biweekly/decision-makers/15</link>
       <description>GitHub Universe 2026 marcó la quincena: Copilot evoluciona hacia un sistema de entrega de software donde los agentes ejecutan y los equipos dirigen. El foco pasa al coste por tarea, la calidad verificable antes del merge y la integración de la IA en la plataforma. Para la dirección, cambian el presupuesto y la medición del valor.</description>

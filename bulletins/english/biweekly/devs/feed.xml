@@ -7,6 +7,13 @@
     <language>english</language>
     <atom:link href="https://copilot-bulletins.github.io/bulletins/english/biweekly/devs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot Bulletin Biweekly #17 — November 1 to November 14, 2026 · Devs Edition</title>
+      <link>https://copilot-bulletins.github.io/#en/biweekly/devs/17</link>
+      <description>Copilot is moving into the tools developers already use rather than asking them to switch. Native integrations reached JetBrains Air and Xcode's built-in assistant, while new frontier and fast models arrived alongside a December retirement list. The practical effect: more control over where you work and which model fits each task.</description>
+      <pubDate>Sun, 15 Nov 2026 07:12:13 +0000</pubDate>
+      <guid isPermaLink="true">https://copilot-bulletins.github.io/#en/biweekly/devs/17</guid>
+    </item>
+    <item>
       <title>Copilot Bulletin Biweekly #16 — October 15 to October 31, 2026 · Devs Edition</title>
       <link>https://copilot-bulletins.github.io/#en/biweekly/devs/16</link>
       <description>Copilot is shifting from a model picker in one editor to a connected agent platform. Sessions now follow you across clients and run in cloud sandboxes, model routing is automated, and agents remember context and act on events. For developers, this means less setup and coordination, and more time reviewing outcomes instead of managing tools.</description>
